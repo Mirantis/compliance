@@ -1,0 +1,22 @@
+documentation_complete: false
+schema_version: 3.1.0
+name: Commercially Supported Docker Engine
+reference:
+  - name: CS Docker Engine Installation Documentation
+    path: https://docs.docker.com/cs-engine/install/
+    type: URL
+  - name: CS Docker Engine Release Notes
+    path: https://docs.docker.com/cs-engine/release-notes/release-notes/
+    type: URL
+  - name: Configuring and Running Docker on Various Distributions
+    path: https://docs.docker.com/engine/admin/
+    type: URL
+  - name: Docker Engine Security
+    path: https://docs.docker.com/engine/security/security/
+    type: URL
+  - name: Configure Docker Engine Logging Drivers
+    path: https://docs.docker.com/engine/admin/logging/overview/
+    type: URL
+  - name: Docker Engine Remote API
+    path: https://docs.docker.com/engine/reference/api/docker_remote_api/
+    type: URL
