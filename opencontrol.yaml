@@ -1,0 +1,10 @@
+schema_version: "1.0.0"
+name: Docker Datacenter
+metadata:
+  description: "Docker Datacenter (DDC) is an integrated solution for developers and IT operations to collaborate as part of the enterprise software supply chain. It is an enterprise-grade secure container orchestration and application management platform. DDC is made up of three core components: Commercially Supported Docker Engine, Docker Trusted Registry and Universal Control Plane."
+  maintainers:
+    - andrew.weiss@docker.com
+components:
+  - ./CSEngine
+  - ./DTR
+  - ./UCP

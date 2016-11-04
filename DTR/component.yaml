@@ -1,0 +1,33 @@
+documentation_complete: false
+name: Docker Trusted Registry
+references:
+  - name: UCP Documentation
+    path: https://docs.docker.com/docker-trusted-registry/
+    type: URL
+satisfies:
+  - control_key: AC-1
+    covered_by: []
+    implementation_statuses:
+      - none
+    narrative:
+      - key: a
+        text: "You can control which users and teams can create and manipulate resources in Docker Trusted Registry. By default, no one can make changes to the cluster. Permissions can be granted and managed to enforce fine-grained access control. Authentication and authorization documentation for the management of users and teams can be found at https://docs.docker.com/docker-trusted-registry/user-management/. The various levels of permissions provided by Docker Trusted Registry can be found at https://docs.docker.com/docker-trusted-registry/user-management/permission-levels/."
+    standard_key: NIST-800-53
+  
+  - control_key: AC-2 (1)
+    covered_by: []
+    implementation_statuses:
+      - none
+    control_origins:
+      - configured by customer
+    narrative: "Docker Trusted Registry is made up of multiple backend services that provide for centralized identity. Descriptions of each of those services can be found at https://docs.docker.com/docker-trusted-registry/architecture/. Documentation for managing users, organizations and teams in Docker Trusted Registry can be found at https://docs.docker.com/docker-trusted-registry/user-management/, https://docs.docker.com/docker-trusted-registry/user-management/create-and-manage-orgs/ and https://docs.docker.com/docker-trusted-registry/user-management/create-and-manage-teams/ respectively."
+  
+  - control_key: AC-2 (2)
+    covered_by: []
+    implementation_statuses:
+      - none
+    control_origins:
+      - configured by customer
+    narrative: "Both Docker Trusted Registry and Universal Control Plane share the same authentication service. This service does not have the ability to automatically remove or disable accounts after a set period of time. However, using Docker Datacenter's centralized LDAP integration capabilities, one can disable user objects in a connected directory service (such as Active Directory). Documentation for configuring LDAP integration in Universal Control Plane can be found at https://docs.docker.com/ucp/configuration/ldap-integration/."
+
+schema_version: 3.1.0
