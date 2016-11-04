@@ -1,7 +1,7 @@
 documentation_complete: false
-schema_version: 3.1.0
+schema_version: 3.0.0
 name: Commercially Supported Docker Engine
-reference:
+references:
   - name: CS Docker Engine Installation Documentation
     path: https://docs.docker.com/cs-engine/install/
     type: URL
@@ -20,3 +20,13 @@ reference:
   - name: Docker Engine Remote API
     path: https://docs.docker.com/engine/reference/api/docker_remote_api/
     type: URL
+satisfies:
+  - control_key: AC-2 (12)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: "CS Docker Engine can be configured to aggregate container and daemon events via a number of logging drivers. Documentation for configuring these drivers can be found at https://docs.docker.com/engine/admin/logging/overview/."  

@@ -1,8 +1,8 @@
 documentation_complete: false
-schema_version: 3.1.0
+schema_version: 3.0.0
 name: Docker Trusted Registry
 references:
-  - name: UCP Documentation
+  - name: Docker Trusted Registry Documentation
     path: https://docs.docker.com/docker-trusted-registry/
     type: URL
 satisfies:
@@ -24,7 +24,8 @@ satisfies:
     control_origins:
       - service provider system specific
       - configured by customer
-    narrative: "Docker Trusted Registry is made up of multiple backend services that provide for centralized identity. Descriptions of each of those services can be found at https://docs.docker.com/docker-trusted-registry/architecture/. Documentation for managing users, organizations and teams in Docker Trusted Registry can be found at https://docs.docker.com/docker-trusted-registry/user-management/, https://docs.docker.com/docker-trusted-registry/user-management/create-and-manage-orgs/ and https://docs.docker.com/docker-trusted-registry/user-management/create-and-manage-teams/ respectively."
+    narrative:
+      - text: "Docker Trusted Registry is made up of multiple backend services that provide for centralized identity. Descriptions of each of those services can be found at https://docs.docker.com/docker-trusted-registry/architecture/. Documentation for managing users, organizations and teams in Docker Trusted Registry can be found at https://docs.docker.com/docker-trusted-registry/user-management/, https://docs.docker.com/docker-trusted-registry/user-management/create-and-manage-orgs/ and https://docs.docker.com/docker-trusted-registry/user-management/create-and-manage-teams/ respectively."
     standard_key: NIST-800-53
   
   - control_key: AC-2 (2)
@@ -33,7 +34,8 @@ satisfies:
       - none
     control_origins:
       - configured by customer
-    narrative: "Both Docker Trusted Registry and Universal Control Plane share the same authentication service. This service does not have the ability to automatically remove or disable accounts after a set period of time. However, using Docker Datacenter's centralized LDAP integration capabilities, one can disable user objects in a connected directory service (such as Active Directory). Documentation for configuring LDAP integration can be found at https://docs.docker.com/ucp/configuration/ldap-integration/."
+    narrative:
+      - text: "Both Docker Trusted Registry and Universal Control Plane share the same authentication service. This service does not have the ability to automatically remove or disable accounts after a set period of time. However, using Docker Datacenter's centralized LDAP integration capabilities, one can disable user objects in a connected directory service (such as Active Directory). Documentation for configuring LDAP integration can be found at https://docs.docker.com/ucp/configuration/ldap-integration/."
     standard_key: NIST-800-53
 
   - control_key: AC-2 (3)
@@ -42,7 +44,8 @@ satisfies:
       - implemented
     control_origins:
       - service provider system specific
-    narrative: "Both Universal Control Plane and Docker Trusted Registry share the same authentication service. This service does not have the ability to automatically remove or disable inactive accounts after a set period of time. However, using Docker Datacenter's LDAP integration capabilities, one can disable user objects in a connected directory service (such as Active Directory). Documentation for configuring LDAP integration can be found at https://docs.docker.com/ucp/configuration/ldap-integration/."
+    narrative:
+      - text: "Both Universal Control Plane and Docker Trusted Registry share the same authentication service. This service does not have the ability to automatically remove or disable inactive accounts after a set period of time. However, using Docker Datacenter's LDAP integration capabilities, one can disable user objects in a connected directory service (such as Active Directory). Documentation for configuring LDAP integration can be found at https://docs.docker.com/ucp/configuration/ldap-integration/."
     standard_key: NIST-800-53
   
   - control_key: AC-2 (4)
@@ -51,7 +54,8 @@ satisfies:
       - implemented
     control_origins:
       - service provider system specific
-    narrative: "Docker Datacenter logs various authentication and authorization events to standard log files. In addition, Docker Trusted Registry can be monitored by following the documentation at https://docs.docker.com/docker-trusted-registry/monitor-troubleshoot/. Automatic notification of specific account management events is not a capability of Docker Datacenter. However, one can configure Universal Control Plane to direct these event logs to a remote logging service such as an Elasticsearch, Logstash and Kibana (ELK) stack and subsequently alert on specific event types. Instructions for configuring this for Universal Control Plane can be found at https://docs.docker.com/ucp/configuration/configure-logs/. Since Docker Trusted Registry user account management shares the same backend service as Universal Control Plane, the previously linked documentation also applies."
+    narrative:
+      - text: "Docker Datacenter logs various authentication and authorization events to standard log files. In addition, Docker Trusted Registry can be monitored by following the documentation at https://docs.docker.com/docker-trusted-registry/monitor-troubleshoot/. Automatic notification of specific account management events is not a capability of Docker Datacenter. However, one can configure Universal Control Plane to direct these event logs to a remote logging service such as an Elasticsearch, Logstash and Kibana (ELK) stack and subsequently alert on specific event types. Instructions for configuring this for Universal Control Plane can be found at https://docs.docker.com/ucp/configuration/configure-logs/. Since Docker Trusted Registry user account management shares the same backend service as Universal Control Plane, the previously linked documentation also applies."
     standard_key: NIST-800-53
 
   - control_key: AC-2 (5)
@@ -60,7 +64,8 @@ satisfies:
       - planned
     control_origins:
       - configured by customer
-    narrative: "Docker Trusted Registry does allow for the configuration of user session timeouts. This capability is planned for a future release of the product."
+    narrative:
+      - text: "Docker Trusted Registry does allow for the configuration of user session timeouts. This capability is planned for a future release of the product."
     standard_key: NIST-800-53
 
   - control_key: AC-2 (7)
@@ -70,8 +75,8 @@ satisfies:
     control_origins:
       - service provider system specific
     narrative:
-      key: a
-      text: "Permission levels for users and teams can be configured in Docker Trusted Registry at https://docs.docker.com/docker-trusted-registry/user-management/permission-levels/."
+      - key: a
+        text: "Permission levels for users and teams can be configured in Docker Trusted Registry at https://docs.docker.com/docker-trusted-registry/user-management/permission-levels/."
     standard_key: NIST-800-53
 
   - control_key: AC-2 (9)
@@ -81,7 +86,8 @@ satisfies:
     control_origins:
       - service provider system specific
       - configured by customer
-    narrative: "Docker Trusted Registry does not allow for authentication of group objects. However, teams and/or groups synchronized via LDAP can be configured to meet this requirement as necessary."
+    narrative:
+      - text: "Docker Trusted Registry does not allow for authentication of group objects. However, teams and/or groups synchronized via LDAP can be configured to meet this requirement as necessary."
     standard_key: NIST-800-53
 
   - control_key: AC-2 (10)
@@ -91,7 +97,8 @@ satisfies:
     control_origins:
       - service provider system specific
       - configured by customer
-    narrative: "Docker Trusted Registry does not allow for authentication of group objects. However, teams and/or groups synchronized via LDAP can be configured at the directory service to meet this requirement as necessary."
+    narrative:
+      - text: "Docker Trusted Registry does not allow for authentication of group objects. However, teams and/or groups synchronized via LDAP can be configured at the directory service to meet this requirement as necessary."
     standard_key: NIST-800-53
 
   - control_key: AC-2 (12)
@@ -101,5 +108,46 @@ satisfies:
     control_origins:
       - service provider system specific
       - configured by customer
-    narrative: "Docker Trusted Registry can be monitored by following the documentation at https://docs.docker.com/docker-trusted-registry/monitor-troubleshoot/. Docker Trusted Registry can be configured to send system account log data to a remote logging service such as an Elasticsearch, Logstash and Kibana (ELK) stack. Instructions for configuring this for Universal Control Plane can be found at https://docs.docker.com/ucp/configuration/configure-logs/. Since Docker Trusted Registry system account management shares the same backend service as Universal Control Plane, the previously linked documentation also applies."
+    narrative:
+      - text: "Docker Trusted Registry can be monitored by following the documentation at https://docs.docker.com/docker-trusted-registry/monitor-troubleshoot/. Docker Trusted Registry can be configured to send system account log data to a remote logging service such as an Elasticsearch, Logstash and Kibana (ELK) stack. Instructions for configuring this for Universal Control Plane can be found at https://docs.docker.com/ucp/configuration/configure-logs/. Since Docker Trusted Registry system account management shares the same backend service as Universal Control Plane, the previously linked documentation also applies."
+    standard_key: NIST-800-53
+
+  - control_key: AC-3
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: "Docker Trusted Registry can be configured to control which users and/or teams have access to specific system resources. Documentation for this can be found at https://docs.docker.com/docker-trusted-registry/user-management/. In addition, the various permission levels that can be assigned are documented at https://docs.docker.com/docker-trusted-registry/user-management/permission-levels/."
+    standard_key: NIST-800-53
+
+  - control_key: AC-4
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: "The Docker Trusted Registry system architecture can be found at https://docs.docker.com/docker-trusted-registry/architecture/. Information specific to container networking within DTR can be found at https://docs.docker.com/docker-trusted-registry/architecture/#networks. The ports used by DTR for communication are documented at https://docs.docker.com/docker-trusted-registry/install/system-requirements/#/ports-used."
+    standard_key: NIST-800-53
+  
+  - control_key: AC-4 (21)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: "The Docker Trusted Registry system architecture that can be referenced for identifying logical and physical information flows in the system can be found at https://docs.docker.com/docker-trusted-registry/architecture/. Information specific to container networking within DTR can be found at https://docs.docker.com/docker-trusted-registry/architecture/#networks. The ports used by DTR for communication are documented at https://docs.docker.com/docker-trusted-registry/install/system-requirements/#/ports-used."
+    standard_key: NIST-800-53
+  
+  - control_key: AC-6 (9)
+    covered_by: []
+    implementation_statuses:
+      - planned
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: "The ability to audit the execution of privileged functions in Docker Trusted Registry is planned for a future release of the product"
     standard_key: NIST-800-53
