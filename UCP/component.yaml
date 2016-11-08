@@ -151,3 +151,120 @@ satisfies:
     narrative:
       - text: "The ability to audit the execution of privileged functions in Universal Control Plane is planned for a future release of the product"
     standard_key: NIST-800-53
+
+  - control_key: AC-6 (10)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - configured by customer
+    narrative:
+      - text: 'Non-privileged users in Universal Control Plane are encompassed by any users that are of the "regular" user type. When you create a new user in Universal Control Plane, that user becomes available in Docker Trusted Registry and vice versa. When you create an administrator user in Docker Trusted Registry, that user is an administrator in Universal Control Plane. "Regular" users can be configured by assigning the appropriate permission levels to those users. Instructions for doing so can be found at https://docs.docker.com/datacenter/ucp/1.1/user-management/permission-levels/.'
+    standard_key: NIST-800-53
+
+  - control_key: AC-7
+    covered_by: []
+    implementation_statuses:
+      - planned
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: "The enforcement of a limit to the number of conesecutive invalid logon attempts by a user during a specified time period is not currently a feature of Universal Control Plane but is planned for a future release."
+      - key: b
+        text: "The ability to automatically lock/disable an account for a specified period of time after a consecutive invalid logon attempt limit is reached is not currently a feature of Universal Control Plane but is planned for a future release."
+    standard_key: NIST-800-53
+
+  - control_key: AC-8
+    covered_by: []
+    implementation_statuses:
+      - planned
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: "The ability to display a system use notification banner to users during the login process is not currently a feature of Universal Control Plane but is planned for a future release."
+    standard_key: NIST-800-53
+
+  - control_key: AC-10
+    covered_by: []
+    implementation_statuses:
+      - planned
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: "The ability to limit the number of concurrent sessions for each account/account type is not currently a feature of Universal Control Plane but is planned for a future release."
+    standard_key: NIST-800-53
+
+  - control_key: AC-11
+    covered_by: []
+    implementation_statuses:
+      - planned
+    control_origins:
+      - service provider system specific
+      - configured by customer
+    narrative:
+      - key: a
+        text: "Per the narrative in AC-2 (5), when support for user session timeouts is introduced in to Universal Control Plane, this control will become implemented."
+      - key: b
+        text: "Per the narrative in AC-2 (5), when support for user session timeouts is introduced in to Universal Control Plane, this control will become implemented."
+    standard_key: NIST-800-53
+
+  - control_key: AC-11 (1)
+    covered_by: []
+    implementation_statuses:
+      - planned
+    control_origins:
+      - service provider system specific
+      - configured by customer
+    narrative:
+      - text: "Per the narrative in AC-2 (5), when support for user session timeouts is introduced in to Universal Control Plane, this control will become implemented."
+    standard_key: NIST-800-53
+
+  - control_key: AC-12
+    covered_by: []
+    implementation_statuses:
+      - planned
+    control_origins:
+      - service provider system specific
+      - configured by customer
+    narrative:
+      - text: "Per the narrative in AC-2 (5), when support for configurable user session timeouts is introduced in to Universal Control Plane, this control will become implemented."
+    standard_key: NIST-800-53
+  
+  - control_key: AC-17 (1)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - configured by customer
+    narrative:
+      - text: "Universal Control Plane logs and controls all local and remote access events. In addition, auditing can be configured on the underlying operating system to meet this control."
+
+  - control_key: AC-17 (2)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: "All remote access sessions to Universal Control Plane are protected with Transport Layer Security (TLS) 1.2. This is included at both the HTTPS application layer for access to the UCP user interface and for command-line based connections to the cluster. In addition to this, all communication to UCP is enforced by way of two-way mutual TLS authentication."
+
+  - control_key: AC-17 (3)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: "A combination of managed load balancers, firewalls and access control lists, and virtual networking resources can be used to ensure traffic destined for Universal Control Plane is routed through managed network access control points."
+
+  - control_key: AC-17 (9)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - configured by customer
+    narrative:
+      - text: "Built-in firewall technology in Universal Control Plane's underlying operating system can be used to force the disconnection of remote connections to the host. In addition, UCP provides the option to pause or drain a node in the cluster, which subsequently stops and/or removes sessions to the node. Individual services and/or applications running on a UCP cluster can also be stopped and/or removed."
