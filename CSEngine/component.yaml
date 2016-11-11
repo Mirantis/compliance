@@ -165,3 +165,38 @@ satisfies:
         text: |
           Using auditd on the Linux operating system supporting CS Docker Engine, the organization can configure audit rules to select which Docker-specific events are to be audited. Refer to the specific Linux distribution in use for instructions on configuring this service.
     standard_key: NIST-800-53
+
+  - control_key: CM-5 (3)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          Before installing CS Docker Engine, ensure that your supporting Linux operating system's packager manager supports package signature verification and that it is enabled. It is also required that you import the Docker public key for CS packages so as to retrieve the validated and signed package from Docker, Inc. Refer to your Linux OS documentation for instructions on completing the above steps.
+
+          In addition, Docker Content Trust is a capability provided by CS Docker Engine that enforces client-side signing and verification of Docker image tags. It provides the ability to use digital signatures for data sent to and received from Docker Trusted Registry and the public Docker Store. These signatures allow client-side verification of the integrity and publisher of specific image tags. When enabling Docker Content Trust in CS Docker Engine (per the instructions at https://docs.docker.com/engine/security/trust/content_trust/), you can enforce the use of signed Docker images.
+    standard_key: NIST-800-53
+
+  - control_key: CM-6 (1)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+         The organization can incorporate the use of an external configuration management system to meet the requirements of this control.
+    standard_key: NIST-800-53
+
+  - control_key: CM-7 (2)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+         In order to restrict which Docker images can be used to deploy applications to CS Docker Engine, the organization must define a list of allowed base Docker images and make them available via Docker Trusted Registry. The organization must also prevent users from being able to pull Docker images from untrusted sources.
+    standard_key: NIST-800-53
