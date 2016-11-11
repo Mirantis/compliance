@@ -29,7 +29,8 @@ satisfies:
       - service provider system specific
     narrative:
       - key: a
-        text: "CS Docker Engine can be configured to aggregate container and daemon events via a number of logging drivers. Documentation for configuring these drivers can be found at https://docs.docker.com/engine/admin/logging/overview/."
+        text: |
+          CS Docker Engine can be configured to aggregate container and daemon events via a number of logging drivers. Documentation for configuring these drivers can be found at https://docs.docker.com/engine/admin/logging/overview/.
 
   - control_key: AC-17 (1)
     covered_by: []
@@ -38,7 +39,8 @@ satisfies:
     control_origins:
       - service provider system specific
     narrative:
-      - text: "CS Docker Engine logs and controls all local and remote access events. In addition, auditing can be configured on the underlying operating system to meet this control."
+      - text: |
+          CS Docker Engine logs and controls all local and remote access events. In addition, auditing can be configured on the underlying operating system to meet this control.
 
   - control_key: AC-17 (2)
     covered_by: []
@@ -47,7 +49,8 @@ satisfies:
     control_origins:
       - service provider system specific
     narrative:
-      - text: "All remote access sessions to CS Docker Engine are protected with Transport Layer Security (TLS) 1.2. In addition to this, all communication to CS Docker Engine is enforced by way of two-way mutual TLS authentication."
+      - text: |
+          All remote access sessions to CS Docker Engine are protected with Transport Layer Security (TLS) 1.2. In addition to this, all communication to CS Docker Engine is enforced by way of two-way mutual TLS authentication.
 
   - control_key: AC-17 (3)
     covered_by: []
@@ -56,7 +59,8 @@ satisfies:
     control_origins:
       - service provider system specific
     narrative:
-      - text: "A combination of managed load balancers, firewalls and access control lists, and virtual networking resources can be used to ensure traffic destined for CS Docker Engine is routed through managed network access control points."
+      - text: |
+          A combination of managed load balancers, firewalls and access control lists, and virtual networking resources can be used to ensure traffic destined for CS Docker Engine is routed through managed network access control points.
 
   - control_key: AC-17 (9)
     covered_by: []
@@ -65,4 +69,71 @@ satisfies:
     control_origins:
       - configured by customer
     narrative:
-      - text: "Built-in firewall technology in CS Docker Engine's underlying operating system can be used to force the disconnection of remote connections to the host. In addition, CS Docker Engine provides the option to pause or drain a node in the cluster, which subsequently stops and/or removes sessions to the node. Individual services and/or applications running on CS Docker Engine can also be stopped and/or removed."
+      - text: |
+          Built-in firewall technology in CS Docker Engine's underlying operating system can be used to force the disconnection of remote connections to the host. In addition, CS Docker Engine provides the option to pause or drain a node in the cluster, which subsequently stops and/or removes sessions to the node. Individual services and/or applications running on CS Docker Engine can also be stopped and/or removed.
+
+  - control_key: AU-2
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: |
+          Both Universal Control Plane and Docker Trusted Registry backend service containers, all of which reside on CS Docker Engine, log all of the event types indicated by this control (as explained by their component narratives). These and other application containers that reside on CS Docker Engine can be configured to log data via an appropriate Docker logging driver. Instructions for configuring logging drivers can be found at https://docs.docker.com/engine/admin/logging/overview/.
+    standard_key: NIST-800-53
+
+  - control_key: AU-8
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - configured by customer
+    narrative:
+      - key: a
+        text: |
+          CS Docker Engine uses the system clock of the underlying operating system on which it runs. This behavior cannot be modified.
+      - key: b
+        text: |
+          The underlying operating system on which CS Docker Engine runs should be configured such that its system clock uses Coordinated Universal Time (UTC) as indicated by this control. Refer to the operating system's instructions for doing so.
+    standard_key: NIST-800-53
+
+  - control_key: AU-8 (1)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: |
+          The underlying operating system on which CS Docker Engine runs should be configured such that its system clock compares itself with an authoritative time source as indicated by this control. This can be accomplished by utilizing the Network Time Protocol (NTP). Refer to the operating system's instructions for doing so.
+      - key: b
+        text: |
+          The underlying operating system on which CS Docker Engine runs should be configured such that its system clock synchronizes itself to an authoritative time source as defined by part (a) of this control any time the time difference exceeds that of the organization-defined time period. This can be accomplished by utilizing the Network Time Protocol (NTP). Refer to the operating system's instructions for doing so.
+    standard_key: NIST-800-53
+
+  - control_key: AU-9
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          On the underlying Linux operating system supporting CS Docker Engine, only root and sudo users and users that have been added to the 'docker' group have the ability to access the logs generated by UCP backend service containers. Should the organization decide to configure CS Docker Engine to use a logging driver other than the default json-file driver, the organization is subsequently responsible for configuring the chosen logging stack per the provisions of this control.
+
+          In addition, for Linux operating systems supporting CS Docker Engine that use the systemd daemon, it is imperative that the Journal is secured per the requirements of this control. The same applies for Linux operating systems supporting CS Docker Engine that instead use upstart.
+    standard_key: NIST-800-53
+
+  - control_key: AU-9 (2)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          CS Docker Engine can be configured to use a logging driver that can subsequently meet the backup requirements of this control. Instructions for doing so can be found at https://docs.docker.com/engine/admin/logging/overview/.
+    standard_key: NIST-800-53
