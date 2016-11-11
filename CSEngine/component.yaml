@@ -137,3 +137,31 @@ satisfies:
       - text: |
           CS Docker Engine can be configured to use a logging driver that can subsequently meet the backup requirements of this control. Instructions for doing so can be found at https://docs.docker.com/engine/admin/logging/overview/.
     standard_key: NIST-800-53
+
+  - control_key: AU-11
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          CS Docker Engine can be configured to use a logging driver that stores data in a location for the duration specified by this control. Instructions for doing so can be found at https://docs.docker.com/engine/admin/logging/overview/.
+    standard_key: NIST-800-53
+
+  - control_key: AU-12
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: |
+          Both Universal Control Plane and Docker Trusted Registry backend service containers, all of which reside on CS Docker Engine, log all of the event types indicated by this AU-2 a. These and other application containers that reside on CS Docker Engine can be configured to log data via an appropriate Docker logging driver. Instructions for configuring logging drivers can be found at https://docs.docker.com/engine/admin/logging/overview/.
+
+          The underlying Linux operating system supporting CS Docker Engine can be configured to audit Docker-specific events with the auditd daemon. Refer to the specific Linux distribution in use for instructions on configuring this service.
+      - key: b
+        text: |
+          Using auditd on the Linux operating system supporting CS Docker Engine, the organization can configure audit rules to select which Docker-specific events are to be audited. Refer to the specific Linux distribution in use for instructions on configuring this service.
+    standard_key: NIST-800-53

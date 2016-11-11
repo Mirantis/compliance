@@ -391,3 +391,31 @@ satisfies:
       - text: |
           Docker Trusted Registry resides as an Application on a Universal Control Plane cluster, and as such, can be configured to send logs to a remote logging stack per the instructions at https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/. This logging stack can subsequently be configured to back up audit records per the schedule defined by this control.
     standard_key: NIST-800-53
+
+  - control_key: AU-11
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          Docker Trusted Registry resides as an Application on a Universal Control Plane cluster, and as such, can be configured to send logs to a remote logging stack per the instructions at https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/. This logging stack can subsequently be configured retain logs for the duration required by this control.
+    standard_key: NIST-800-53
+
+  - control_key: AU-12
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: |
+          All of the event types indicated by AU-2 a. are logged by a combination of the backend services within Universal Control Plane and Docker Trusted Registry. Instructions for viewing this data can be found at https://docs.docker.com/datacenter/dtr/2.0/monitor-troubleshoot/.
+
+          The underlying Linux operating system supporting DTR can be configured to audit Docker-specific events with the auditd daemon. Refer to the specific Linux distribution in use for instructions on configuring this service.
+      - key: b
+        text: |
+          Using auditd on the Linux operating system supporting DTR, the organization can configure audit rules to select which Docker-specific events are to be audited. Refer to the specific Linux distribution in use for instructions on configuring this service.
+    standard_key: NIST-800-53
