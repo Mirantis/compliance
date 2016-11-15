@@ -454,3 +454,125 @@ satisfies:
       - text: |
          The organization can define a list of allowed base Docker images and make them available via Docker Trusted Registry. The organization must also prevent users from being able to pull Docker images from untrusted sources.
     standard_key: NIST-800-53
+
+  - control_key: CM-7 (5)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: |
+         The organization can define a list of allowed base Docker images and make them available via Docker Trusted Registry. The organization must also prevent users from being able to pull Docker images from untrusted sources.
+      - key: b
+        text: |
+         The organization can configure its systems to ensure that only approved Docker images are stored in Docker Trusted Registry. This can be accomplished by using Docker Content Trust to sign Docker images which can subsequently be stored in Docker Trusted Registry
+    standard_key: NIST-800-53
+
+  - control_key: CM-11
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: b
+        text: |
+         The organization can define a list of allowed base Docker images and make them available via Docker Trusted Registry. The organization must also prevent users from being able to pull Docker images from untrusted sources.
+    standard_key: NIST-800-53
+
+  - control_key: IA-2
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+         Docker Trusted Registry and Universal Control Plane share the same backend identity service. DTR can be configured to identify and authenticate users via Universal Control Plane's integrated support for LDAP. Users and groups managed within the organization's LDAP directory service (e.g. Active Directory) can be synchronized to DTR on a regular interval. When a user is removed from the LDAP-backed directory, that user becomes inactive within DTR. In addition, DTR teams can be mapped to groups synchronized via LDAP. When a user is added/removed to/from the LDAP group, that same user is automatically added/removed to/from the DTR team. Instructions for configuring LDAP integration can be found at https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/integrate-with-ldap/.
+    standard_key: NIST-800-53
+
+  - control_key: IA-2 (2)
+    covered_by: []
+    implementation_statuses:
+      - planned
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+         Docker Trusted Registry does not support multifactor authentication. This is planned for a future release of the product.
+    standard_key: NIST-800-53
+
+  - control_key: IA-2 (5)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+         Docker Trusted Registry requires individual users to be authenticated in order to gain access to the system. Any permissions granted to the team(s) that which the user is a member are subsequently applied.
+    standard_key: NIST-800-53
+
+  - control_key: IA-2 (8)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+         Docker Trusted Registry integrates with LDAP for authenticating users to an external directory service. You should configure your external directory service for ensuring that you are protected against replay attacks.
+    standard_key: NIST-800-53
+
+  - control_key: IA-2 (11)
+    covered_by: []
+    implementation_statuses:
+      - planned
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+         Multifactor authentication support is planned for a future release of Docker Trusted Registry. 
+    standard_key: NIST-800-53
+
+  - control_key: IA-2 (12)
+    covered_by: []
+    implementation_statuses:
+      - planned
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+         Security Assertion Markup Language (SAML) support is planned for a future release of Docker Trusted Registry. This, in turn, can enable personal identity verification (PIV)/common access card (CAC) authentication.
+    standard_key: NIST-800-53
+
+  - control_key: IA-3
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+         Docker Trusted Registry replicas reside on Universal Control Plane worker nodes (virtual machines). In order for UCP worker nodes to join a Universal Control Plane cluster, they must be identified and authenticated via a worker token. Additional Docker Trusted Registry replicas can only be added after a UCP administrator user has authenticated in to the UCP cluster and when mutual TLS authentication between the UCP worker and manager nodes has been established. Reference documentation can be found at https://docs.docker.com/datacenter/dtr/2.1/guides/install/#/step-7-join-replicas-to-the-cluster.
+    standard_key: NIST-800-53
+
+  - control_key: IA-4
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: c
+        text: |
+         An external directory service integrated with Docker Trusted Registry via LDAP can be configured to prevent the reuse of user identifiers for a specified period of time. Refer to your directory service's documentation for configuring this.
+      - key: d
+        text: |
+         An external directory service integrated with Docker Trusted Registry via LDAP can be configured to prevent the reuse of user identifiers for a specified period of time. Refer to your directory service's documentation for configuring this.
+      - key: e
+        text: |
+         An external directory service integrated with Docker Trusted Registry via LDAP can be configured to prevent the reuse of user identifiers for a specified period of time. Refer to your directory service's documentation for configuring this.
+    standard_key: NIST-800-53

@@ -200,3 +200,25 @@ satisfies:
       - text: |
          In order to restrict which Docker images can be used to deploy applications to CS Docker Engine, the organization must define a list of allowed base Docker images and make them available via Docker Trusted Registry. The organization must also prevent users from being able to pull Docker images from untrusted sources.
     standard_key: NIST-800-53
+
+  - control_key: CM-7 (2)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+         In order to restrict which Docker images can be used to deploy applications to CS Docker Engine, the organization must define a list of allowed base Docker images and make them available via Docker Trusted Registry. The organization must also prevent users from being able to pull Docker images from untrusted sources.
+    standard_key: NIST-800-53
+
+  - control_key: IA-3
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+         In order for other CS Engine nodes (virtual machines) to be able to join a Universal Control Plane cluster, they must be identified and authenticated via either a manager or worker token.
+    standard_key: NIST-800-53
