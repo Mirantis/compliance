@@ -2,17 +2,32 @@ schema_version: "1.0.0"
 name: Docker Datacenter
 metadata:
   description: |
-    "Docker Datacenter (DDC) is an integrated solution for developers and IT operations to collaborate as part of the enterprise software supply chain. It is an enterprise-grade secure container orchestration and application management platform built and maintained by Docker, Inc. DDC is made up of three core components: Commercially Supported Docker Engine, Docker Trusted Registry and Universal Control Plane.
+    'Docker Datacenter (DDC) is an integrated solution for developers and IT
+    operations to collaborate as part of the enterprise software supply chain.
+    It is an enterprise-grade secure container orchestration and application
+    management platform built and maintained by Docker, Inc. DDC is made up of
+    three core components: Commercially Supported Docker Engine, Docker Trusted
+    Registry and Universal Control Plane.
     
-    For each control origination, the cloud service provider (CSP) is in context to you, the DDC consumer. The customer in this context is any entity outside your organization using your services. Definitions for each of the control originations referenced by the components are as follows:
+    For each control origination, the cloud service provider (CSP) is in context
+    to you, the DDC consumer. The customer in this context is any entity outside
+    your organization using your services. Definitions for each of the control
+    originations referenced by the components are as follows:
 
-    - Service Provider Corporate: A control that orignizations from the service provider corporate network
-    - Service Provider System Specific: A control specific to a particular system at the service provider and the control is not part of the standard corporate controls
-    - Service Provider Hybrid: A control that makes use of both corporate controls and additional controls specific to a particular system at the service provider
-    - Configured by Customer: A control where the customer needs to apply a configuration in order to meet the control requirement
-    - Provided by Customer: A contriol where the customer needs to provide additional hardware or software in order to meet the control requirement
-    - Shared: A control that is managed and implemented partially by the service provider and partially by the customer 
-    "
+    - Service Provider Corporate: A control that orignizations from the service
+    provider corporate network
+    - Service Provider System Specific: A control specific to a particular
+    system at the service provider and the control is not part of the standard
+    corporate controls
+    - Service Provider Hybrid: A control that makes use of both corporate
+    controls and additional controls specific to a particular system at the
+    service provider
+    - Configured by Customer: A control where the customer needs to apply a
+    configuration in order to meet the control requirement
+    - Provided by Customer: A contriol where the customer needs to provide
+    additional hardware or software in order to meet the control requirement
+    - Shared: A control that is managed and implemented partially by the
+    service provider and partially by the customer'
   maintainers:
     - andrew.weiss@docker.com
 components:

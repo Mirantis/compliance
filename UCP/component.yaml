@@ -15,7 +15,15 @@ satisfies:
     narrative:
       - key: a
         text: |
-          You can control which users and teams can create and manipulate resources in Universal Control Plane. By default, no one can make changes to the cluster. Permissions can be granted and managed to enforce fine-grained access control. Authentication and authorization documentation for the management of users and teams can be found at https://docs.docker.com/ucp/user-management/authentication-and-authorization/. The various levels of permissions provided by Universal Control Plane can be found at https://docs.docker.com/ucp/user-management/permission-levels/.
+          You can control which users and teams can create and manipulate
+          resources in Universal Control Plane. By default, no one can make
+          changes to the cluster. Permissions can be granted and managed to
+          enforce fine-grained access control. Authentication and authorization
+          documentation for the management of users and teams can be found at
+          https://docs.docker.com/ucp/user-management/authentication-and-authorization/.
+          The various levels of permissions provided by Universal Control Plane
+          can be found at
+          https://docs.docker.com/ucp/user-management/permission-levels/.
     standard_key: NIST-800-53
   
   - control_key: AC-2 (1)
@@ -27,7 +35,14 @@ satisfies:
       - configured by customer
     narrative:
       - text: |
-          Universal Control Plane is made up of multiple backend services that provide for centralized identity. Descriptions of each of those services can be found at https://docs.docker.com/ucp/architecture/. Documentation for managing users and teams in Universal Control Plane can be found at https://docs.docker.com/ucp/user-management/create-and-manage-users/ and https://docs.docker.com/ucp/user-management/create-and-manage-teams/.
+          Universal Control Plane is made up of multiple backend services that
+          provide for centralized identity. Descriptions of each of those
+          services can be found at https://docs.docker.com/ucp/architecture/.
+          Documentation for managing users and teams in Universal Control Plane
+          can be found at
+          https://docs.docker.com/ucp/user-management/create-and-manage-users/
+          and
+          https://docs.docker.com/ucp/user-management/create-and-manage-teams/.
     standard_key: NIST-800-53
 
   - control_key: AC-2 (2)
@@ -37,7 +52,15 @@ satisfies:
     control_origins:
       - configured by customer
     narrative:
-      - text: "Both Universal Control Plane and Docker Trusted Registry share the same authentication service. This service does not have the ability to automatically remove or disable accounts after a set period of time. However, using Docker Datacenter’s LDAP integration capabilities, one can disable user objects in a connected directory service (such as Active Directory). Documentation for configuring LDAP integration can be found at https://docs.docker.com/ucp/configuration/ldap-integration/."
+      - text: |
+          Both Universal Control Plane and Docker Trusted Registry share the
+          same authentication service. This service does not have the ability to
+          automatically remove or disable accounts after a set period of time.
+          However, using Docker Datacenter’s LDAP integration capabilities, one
+          can disable user objects in a connected directory service (such as
+          Active Directory). Documentation for configuring LDAP integration can
+          be found at
+          https://docs.docker.com/ucp/configuration/ldap-integration/.
     standard_key: NIST-800-53
 
   - control_key: AC-2 (3)
@@ -47,7 +70,15 @@ satisfies:
     control_origins:
       - service provider system specific
     narrative:
-      - text: "Both Universal Control Plane and Docker Trusted Registry share the same authentication service. This service does not have the ability to automatically remove or disable inactive accounts after a set period of time. However, using Docker Datacenter's LDAP integration capabilities, one can disable user objects in a connected directory service (such as Active Directory). Documentation for configuring LDAP integration can be found at https://docs.docker.com/ucp/configuration/ldap-integration/."
+      - text: |
+          Both Universal Control Plane and Docker Trusted Registry share the
+          same authentication service. This service does not have the ability to
+          automatically remove or disable inactive accounts after a set period
+          of time. However, using Docker Datacenter's LDAP integration
+          capabilities, one can disable user objects in a connected directory
+          service (such as Active Directory). Documentation for configuring LDAP
+          integration can be found at
+          https://docs.docker.com/ucp/configuration/ldap-integration/.
     standard_key: NIST-800-53
   
   - control_key: AC-2 (4)
@@ -57,7 +88,18 @@ satisfies:
     control_origins:
       - service provider system specific
     narrative:
-      - text: "Docker Datacenter logs various authentication and authorization events to standard log files. In addition, a Universal Control Plane cluster can be monitored by following the documentation at https://docs.docker.com/ucp/monitor/monitor-ucp/. Automatic notification of specific account management events is not a capability of Docker Datacenter. However, one can configure Universal Control Plane to direct these event logs to a remote logging service such as an Elasticsearch, Logstash and Kibana (ELK) stack and subsequently alert on specific event types. Instructions for configuring this for Universal Control Plane can be found at https://docs.docker.com/ucp/configuration/configure-logs/."
+      - text: |
+          Docker Datacenter logs various authentication and authorization events
+          to standard log files. In addition, a Universal Control Plane cluster
+          can be monitored by following the documentation at
+          https://docs.docker.com/ucp/monitor/monitor-ucp/. Automatic
+          notification of specific account management events is not a capability
+          of Docker Datacenter. However, one can configure Universal Control
+          Plane to direct these event logs to a remote logging service such as
+          an Elasticsearch, Logstash and Kibana (ELK) stack and subsequently
+          alert on specific event types. Instructions for configuring this for
+          Universal Control Plane can be found at
+          https://docs.docker.com/ucp/configuration/configure-logs/.
     standard_key: NIST-800-53
   
   - control_key: AC-2 (5)
@@ -67,7 +109,10 @@ satisfies:
     control_origins:
       - configured by customer
     narrative:
-      - text: "Universal Control Plane does allow for the configuration of user session timeouts. This capability is planned for a future release of the product."
+      - text: |
+          Universal Control Plane does allow for the configuration of user
+          session timeouts. This capability is planned for a future release of
+          the product.
     standard_key: NIST-800-53
   
   - control_key: AC-2 (7)
@@ -78,7 +123,10 @@ satisfies:
       - service provider system specific
     narrative:
       - key: a
-        text: "Permission levels for users and teams can be configured in Universal Control Plane by following the documentation at https://docs.docker.com/ucp/user-management/permission-levels/."
+        text: |
+          Permission levels for users and teams can be configured in Universal
+          Control Plane by following the documentation at
+          https://docs.docker.com/ucp/user-management/permission-levels/.
     standard_key: NIST-800-53
 
   - control_key: AC-2 (9)
@@ -89,7 +137,11 @@ satisfies:
       - service provider system specific
       - configured by customer
     narrative:
-      - text: "Universal Control Plane does not allow for authentication of group objects. However, teams and/or groups synchronized via LDAP can be configured at the directory service to meet this requirement as necessary."
+      - text: |
+          Universal Control Plane does not allow for authentication of group
+          objects. However, teams and/or groups synchronized via LDAP can be
+          configured at the directory service to meet this requirement as
+          necessary.
     standard_key: NIST-800-53
 
   - control_key: AC-2 (10)
@@ -100,7 +152,11 @@ satisfies:
       - service provider system specific
       - configured by customer
     narrative:
-      - text: "Universal Control Plane does not allow for authentication of group objects. However, teams and/or groups synchronized via LDAP can be configured at the directory service to meet this requirement as necessary."
+      - text: |
+          Universal Control Plane does not allow for authentication of group
+          objects. However, teams and/or groups synchronized via LDAP can be
+          configured at the directory service to meet this requirement as
+          necessary.
     standard_key: NIST-800-53
   
   - control_key: AC-2 (12)
@@ -111,7 +167,14 @@ satisfies:
       - service provider system specific
       - configured by customer
     narrative:
-      - text: "Universal Control Plane can be configured to send system account log data to a remote logging service such as an Elasticsearch, Logstash and Kibana (ELK) stack by following the documentation at https://docs.docker.com/ucp/configuration/configure-logs/. In addition, a UCP cluster can be monitored from the web-based user interface per the documentation at https://docs.docker.com/ucp/monitor/monitor-ucp/."
+      - text: |
+          Universal Control Plane can be configured to send system account log
+          data to a remote logging service such as an Elasticsearch, Logstash
+          and Kibana (ELK) stack by following the documentation at
+          https://docs.docker.com/ucp/configuration/configure-logs/. In
+          addition, a UCP cluster can be monitored from the web-based user
+          interface per the documentation at
+          https://docs.docker.com/ucp/monitor/monitor-ucp/.
     standard_key: NIST-800-53
   
   - control_key: AC-3
@@ -121,7 +184,14 @@ satisfies:
     control_origins:
       - service provider system specific
     narrative:
-      - text: "Universal Control Plane can be configured to control which users and/or teams have access to specific system resources. Documentation for this can be found at https://docs.docker.com/ucp/user-management/authentication-and-authorization/. In addition, the various permission levels that can be assigned are documented at https://docs.docker.com/ucp/user-management/permission-levels/."
+      - text: |
+          Universal Control Plane can be configured to control which users
+          and/or teams have access to specific system resources. Documentation
+          for this can be found at
+          https://docs.docker.com/ucp/user-management/authentication-and-authorization/.
+          In addition, the various permission levels that can be assigned are
+          documented at
+          https://docs.docker.com/ucp/user-management/permission-levels/.
     standard_key: NIST-800-53
 
   - control_key: AC-4
@@ -131,7 +201,13 @@ satisfies:
     control_origins:
       - service provider system specific
     narrative:
-      - text: "The Universal Control Plane system architecture can be found at https://docs.docker.com/ucp/architecture/. Information specific to container networking within UCP can be found at https://docs.docker.com/ucp/configuration/multi-host-networking/. The ports used by UCP for communication are documented at https://docs.docker.com/ucp/installation/system-requirements/#/ports-used."
+      - text: |
+          The Universal Control Plane system architecture can be found at
+          https://docs.docker.com/ucp/architecture/. Information specific to
+          container networking within UCP can be found at
+          https://docs.docker.com/ucp/configuration/multi-host-networking/. The
+          ports used by UCP for communication are documented at
+          https://docs.docker.com/ucp/installation/system-requirements/#/ports-used.
     standard_key: NIST-800-53
   
   - control_key: AC-4 (21)
@@ -141,7 +217,14 @@ satisfies:
     control_origins:
       - service provider system specific
     narrative:
-      - text: "The Universal Control Plane system architecture that can be referenced for identifying logical and physical information flows in the system can be found at https://docs.docker.com/ucp/architecture/. Information specific to container networking within UCP can be found at https://docs.docker.com/ucp/configuration/multi-host-networking/. The ports used by UCP for communication are documented at https://docs.docker.com/ucp/installation/system-requirements/#/ports-used."
+      - text: |
+          The Universal Control Plane system architecture that can be referenced
+          for identifying logical and physical information flows in the system
+          can be found at https://docs.docker.com/ucp/architecture/. Information
+          specific to container networking within UCP can be found at
+          https://docs.docker.com/ucp/configuration/multi-host-networking/. The
+          ports used by UCP for communication are documented at
+          https://docs.docker.com/ucp/installation/system-requirements/#/ports-used.
     standard_key: NIST-800-53
   
   - control_key: AC-6 (9)
@@ -151,7 +234,10 @@ satisfies:
     control_origins:
       - service provider system specific
     narrative:
-      - text: "The ability to audit the execution of privileged functions in Universal Control Plane is planned for a future release of the product"
+      - text: |
+          The ability to audit the execution of privileged functions in
+          Universal Control Plane is planned for a future release of the
+          product
     standard_key: NIST-800-53
 
   - control_key: AC-6 (10)
@@ -161,7 +247,16 @@ satisfies:
     control_origins:
       - configured by customer
     narrative:
-      - text: 'Non-privileged users in Universal Control Plane are encompassed by any users that are of the "regular" user type. When you create a new user in Universal Control Plane, that user becomes available in Docker Trusted Registry and vice versa. When you create an administrator user in Docker Trusted Registry, that user is an administrator in Universal Control Plane. "Regular" users can be configured by assigning the appropriate permission levels to those users. Instructions for doing so can be found at https://docs.docker.com/datacenter/ucp/1.1/user-management/permission-levels/.'
+      - text: |
+          'Non-privileged users in Universal Control Plane are encompassed by
+          any users that are of the "regular" user type. When you create a new
+          user in Universal Control Plane, that user becomes available in Docker
+          Trusted Registry and vice versa. When you create an administrator user
+          in Docker Trusted Registry, that user is an administrator in Universal
+          Control Plane. "Regular" users can be configured by assigning the
+          appropriate permission levels to those users. Instructions for doing
+          so can be found at
+          https://docs.docker.com/datacenter/ucp/1.1/user-management/permission-levels/.'
     standard_key: NIST-800-53
 
   - control_key: AC-7
@@ -172,9 +267,17 @@ satisfies:
       - service provider system specific
     narrative:
       - key: a
-        text: "The enforcement of a limit to the number of conesecutive invalid logon attempts by a user during a specified time period is not currently a feature of Universal Control Plane but is planned for a future release."
+        text: |
+            The enforcement of a limit to the number of conesecutive invalid
+            logon attempts by a user during a specified time period is not
+            currently a feature of Universal Control Plane but is planned for a
+            future release.
       - key: b
-        text: "The ability to automatically lock/disable an account for a specified period of time after a consecutive invalid logon attempt limit is reached is not currently a feature of Universal Control Plane but is planned for a future release."
+        text: |
+          The ability to automatically lock/disable an account for a specified
+          period of time after a consecutive invalid logon attempt limit is
+          reached is not currently a feature of Universal Control Plane but is
+          planned for a future release.
     standard_key: NIST-800-53
 
   - control_key: AC-8
@@ -185,7 +288,10 @@ satisfies:
       - service provider system specific
     narrative:
       - key: a
-        text: "The ability to display a system use notification banner to users during the login process is not currently a feature of Universal Control Plane but is planned for a future release."
+        text: |
+          The ability to display a system use notification banner to users
+          during the login process is not currently a feature of Universal
+          Control Plane but is planned for a future release.
     standard_key: NIST-800-53
 
   - control_key: AC-10
@@ -196,7 +302,10 @@ satisfies:
       - service provider system specific
     narrative:
       - key: a
-        text: "The ability to limit the number of concurrent sessions for each account/account type is not currently a feature of Universal Control Plane but is planned for a future release."
+        text: |
+          The ability to limit the number of concurrent sessions for each
+          account/account type is not currently a feature of Universal Control
+          Plane but is planned for a future release.
     standard_key: NIST-800-53
 
   - control_key: AC-11
@@ -208,9 +317,15 @@ satisfies:
       - configured by customer
     narrative:
       - key: a
-        text: "Per the narrative in AC-2 (5), when support for user session timeouts is introduced in to Universal Control Plane, this control will become implemented."
+        text: |
+          Per the narrative in AC-2 (5), when support for user session timeouts
+          is introduced in to Universal Control Plane, this control will become
+          implemented.
       - key: b
-        text: "Per the narrative in AC-2 (5), when support for user session timeouts is introduced in to Universal Control Plane, this control will become implemented."
+        text: |
+          Per the narrative in AC-2 (5), when support for user session timeouts
+          is introduced in to Universal Control Plane, this control will become
+          implemented.
     standard_key: NIST-800-53
 
   - control_key: AC-11 (1)
@@ -221,7 +336,10 @@ satisfies:
       - service provider system specific
       - configured by customer
     narrative:
-      - text: "Per the narrative in AC-2 (5), when support for user session timeouts is introduced in to Universal Control Plane, this control will become implemented."
+      - text: |
+          Per the narrative in AC-2 (5), when support for user session timeouts
+          is introduced in to Universal Control Plane, this control will become
+          implemented.
     standard_key: NIST-800-53
 
   - control_key: AC-12
@@ -232,7 +350,10 @@ satisfies:
       - service provider system specific
       - configured by customer
     narrative:
-      - text: "Per the narrative in AC-2 (5), when support for configurable user session timeouts is introduced in to Universal Control Plane, this control will become implemented."
+      - text: |
+          Per the narrative in AC-2 (5), when support for configurable user
+          session timeouts is introduced in to Universal Control Plane, this
+          control will become implemented.
     standard_key: NIST-800-53
   
   - control_key: AC-17 (1)
@@ -242,7 +363,10 @@ satisfies:
     control_origins:
       - configured by customer
     narrative:
-      - text: "Universal Control Plane logs and controls all local and remote access events. In addition, auditing can be configured on the underlying operating system to meet this control."
+      - text: |
+          Universal Control Plane logs and controls all local and remote access
+          events. In addition, auditing can be configured on the underlying
+          operating system to meet this control.
     standard_key: NIST-800-53
 
   - control_key: AC-17 (2)
@@ -252,7 +376,13 @@ satisfies:
     control_origins:
       - service provider system specific
     narrative:
-      - text: "All remote access sessions to Universal Control Plane are protected with Transport Layer Security (TLS) 1.2. This is included at both the HTTPS application layer for access to the UCP user interface and for command-line based connections to the cluster. In addition to this, all communication to UCP is enforced by way of two-way mutual TLS authentication."
+      - text: |
+          All remote access sessions to Universal Control Plane are protected
+          with Transport Layer Security (TLS) 1.2. This is included at both the
+          HTTPS application layer for access to the UCP user interface and for
+          command-line based connections to the cluster. In addition to this,
+          all communication to UCP is enforced by way of two-way mutual TLS
+          authentication.
     standard_key: NIST-800-53
 
   - control_key: AC-17 (3)
@@ -262,7 +392,11 @@ satisfies:
     control_origins:
       - service provider system specific
     narrative:
-      - text: "A combination of managed load balancers, firewalls and access control lists, and virtual networking resources can be used to ensure traffic destined for Universal Control Plane is routed through managed network access control points."
+      - text: |
+          A combination of managed load balancers, firewalls and access control
+          lists, and virtual networking resources can be used to ensure traffic
+          destined for Universal Control Plane is routed through managed network
+          access control points.
     standard_key: NIST-800-53
 
   - control_key: AC-17 (9)
@@ -273,7 +407,12 @@ satisfies:
       - configured by customer
     narrative:
       - text: |
-          Built-in firewall technology in Universal Control Plane's underlying operating system can be used to force the disconnection of remote connections to the host. In addition, UCP provides the option to pause or drain a node in the cluster, which subsequently stops and/or removes sessions to the node. Individual services and/or applications running on a UCP cluster can also be stopped and/or removed.
+          Built-in firewall technology in Universal Control Plane's underlying
+          operating system can be used to force the disconnection of remote
+          connections to the host. In addition, UCP provides the option to pause
+          or drain a node in the cluster, which subsequently stops and/or
+          removes sessions to the node. Individual services and/or applications
+          running on a UCP cluster can also be stopped and/or removed.
     standard_key: NIST-800-53
 
   - control_key: AU-2
@@ -285,7 +424,12 @@ satisfies:
     narrative:
       - key: a
         text: |
-          All of the event types indicated by this control are logged by the backend ucp-controller service within Universal Control Plane. In addition, each container created on a Universal Control Plane cluster logs event data. UCP logging can be configured by following the instructions at https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/.
+          All of the event types indicated by this control are logged by the
+          backend ucp-controller service within Universal Control Plane. In
+          addition, each container created on a Universal Control Plane cluster
+          logs event data. UCP logging can be configured by following the
+          instructions at
+          https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/.
     standard_key: NIST-800-53
 
   - control_key: AU-3
@@ -296,9 +440,14 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          'Universal Control Plane generates all of the audit record information indicated by this control. A sample audit event has been provided below:
+          'Universal Control Plane generates all of the audit record information
+          indicated by this control. A sample audit event has been provided
+          below:
 
-          {"level":"info","license_key":"123456789123456789123456789","msg":"eNZi:Password based auth suceeded","remote_addr":"192.168.33.1:55905","time":"2016-11-09T22:41:01Z","type":"auth ok","username":"dockeruser"}'
+          {"level":"info","license_key":"123456789123456789123456789","msg":"eNZi:Password
+          based auth
+          suceeded","remote_addr":"192.168.33.1:55905","time":"2016-11-09T22:41:01Z","type":"auth
+          ok","username":"dockeruser"}'
     standard_key: NIST-800-53
 
   - control_key: AU-3 (1)
@@ -309,7 +458,11 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          Universal Control Plane can be configured to log data to a remote logging stack. Instructions for doing so can be found at https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/. The logging stack can subsequently be used to interpolate the information defined by this control from the logged audit records.
+          Universal Control Plane can be configured to log data to a remote
+          logging stack. Instructions for doing so can be found at
+          https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/.
+          The logging stack can subsequently be used to interpolate the
+          information defined by this control from the logged audit records.
     standard_key: NIST-800-53
 
   - control_key: AU-5
@@ -320,7 +473,11 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          Universal Control Plane can be configured to log data to a remote logging stack. Instructions for doing so can be found at https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/. The logging stack can subsequently be configured to alert individuals in the event of log processing failures.
+          Universal Control Plane can be configured to log data to a remote
+          logging stack. Instructions for doing so can be found at
+          https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/.
+          The logging stack can subsequently be configured to alert individuals
+          in the event of log processing failures.
     standard_key: NIST-800-53
 
   - control_key: AU-7
@@ -332,10 +489,16 @@ satisfies:
     narrative:
       - key: a
         text: |
-          Universal Control Plane can be configured to log data to a remote logging stack. Instructions for doing so can be found at https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/. The logging stack can subsequently be used to facilitate the audit reduction and report generation requirements of this control.
+          Universal Control Plane can be configured to log data to a remote
+          logging stack. Instructions for doing so can be found at
+          https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/.
+          The logging stack can subsequently be used to facilitate the audit
+          reduction and report generation requirements of this control.
       - key: b
         text: |
-          The underlying operating system chosen to support Universal Control Plane should be certified to ensure that logs are not altered during generation and transmission to a remote logging stack.
+          The underlying operating system chosen to support Universal Control
+          Plane should be certified to ensure that logs are not altered during
+          generation and transmission to a remote logging stack.
     standard_key: NIST-800-53
 
   - control_key: AU-7 (1)
@@ -346,7 +509,11 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          Universal Control Plane can be configured to log data to a remote logging stack. Instructions for doing so can be found at https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/. The logging stack can subsequently be configured to parse information by organization-defined audit fields.
+          Universal Control Plane can be configured to log data to a remote
+          logging stack. Instructions for doing so can be found at
+          https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/.
+          The logging stack can subsequently be configured to parse information
+          by organization-defined audit fields.
     standard_key: NIST-800-53
 
   - control_key: AU-8
@@ -358,10 +525,14 @@ satisfies:
     narrative:
       - key: a
         text: |
-          Universal Control Plane uses the system clock of the underlying operating system on which it runs. This behavior cannot be modified.
+          Universal Control Plane uses the system clock of the underlying
+          operating system on which it runs. This behavior cannot be modified.
       - key: b
         text: |
-          The underlying operating system on which Universal Control Plane runs should be configured such that its system clock uses Coordinated Universal Time (UTC) as indicated by this control. Refer to the operating system's instructions for doing so.
+          The underlying operating system on which Universal Control Plane runs
+          should be configured such that its system clock uses Coordinated
+          Universal Time (UTC) as indicated by this control. Refer to the
+          operating system's instructions for doing so.
     standard_key: NIST-800-53
 
   - control_key: AU-8 (1)
@@ -373,10 +544,20 @@ satisfies:
     narrative:
       - key: a
         text: |
-          The underlying operating system on which Universal Control Plane runs should be configured such that its system clock compares itself with an authoritative time source as indicated by this control. This can be accomplished by utilizing the Network Time Protocol (NTP). Refer to the operating system's instructions for doing so.
+          The underlying operating system on which Universal Control Plane runs
+          should be configured such that its system clock compares itself with
+          an authoritative time source as indicated by this control. This can be
+          accomplished by utilizing the Network Time Protocol (NTP). Refer to
+          the operating system's instructions for doing so.
       - key: b
         text: |
-          The underlying operating system on which Universal Control Plane runs should be configured such that its system clock synchronizes itself to an authoritative time source as defined by part (a) of this control any time the time difference exceeds that of the organization-defined time period. This can be accomplished by utilizing the Network Time Protocol (NTP). Refer to the operating system's instructions for doing so.
+          The underlying operating system on which Universal Control Plane runs
+          should be configured such that its system clock synchronizes itself to
+          an authoritative time source as defined by part (a) of this control
+          any time the time difference exceeds that of the organization-defined
+          time period. This can be accomplished by utilizing the Network Time
+          Protocol (NTP). Refer to the operating system's instructions for doing
+          so.
     standard_key: NIST-800-53
 
   - control_key: AU-9
@@ -387,7 +568,15 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          By default, Universal Control Plane is configured to use the underlying logging capabilities of CS Docker Engine. As such, on the underlying Linux operating system, only root and sudo users and users that have been added to the 'docker' group have the ability to access the logs generated by UCP backend service containers. In addition, only UCP Administrator users can change the logging endpoint of the system should it be decided that logs be sent to a remote logging stack. In this case, the organization is responsible for configuring the remote logging stack per the provisions of this control.
+          By default, Universal Control Plane is configured to use the
+          underlying logging capabilities of CS Docker Engine. As such, on the
+          underlying Linux operating system, only root and sudo users and users
+          that have been added to the 'docker' group have the ability to access
+          the logs generated by UCP backend service containers. In addition,
+          only UCP Administrator users can change the logging endpoint of the
+          system should it be decided that logs be sent to a remote logging
+          stack. In this case, the organization is responsible for configuring
+          the remote logging stack per the provisions of this control.
     standard_key: NIST-800-53
 
   - control_key: AU-9 (2)
@@ -398,7 +587,11 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          Universal Control Plane can be configured to send logs to a remote logging stack per the instructions at https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/. This logging stack can subsequently be configured to back up audit records per the schedule defined by this control.
+          Universal Control Plane can be configured to send logs to a remote
+          logging stack per the instructions at
+          https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/.
+          This logging stack can subsequently be configured to back up audit
+          records per the schedule defined by this control.
     standard_key: NIST-800-53
 
   - control_key: AU-11
@@ -409,7 +602,11 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          Universal Control Plane can be configured to send logs to a remote logging stack per the instructions at https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/. This logging stack can subsequently be configured retain logs for the duration required by this control.
+          Universal Control Plane can be configured to send logs to a remote
+          logging stack per the instructions at
+          https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/.
+          This logging stack can subsequently be configured retain logs for the
+          duration required by this control.
     standard_key: NIST-800-53
 
   - control_key: AU-12
@@ -421,12 +618,22 @@ satisfies:
     narrative:
       - key: a
         text: |
-          All of the event types indicated by AU-2 a. are logged by the backend ucp-controller service within Universal Control Plane. In addition, each container created on a Universal Control Plane cluster logs event data. UCP logging can be configured by following the instructions at https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/.
+          All of the event types indicated by AU-2 a. are logged by the backend
+          ucp-controller service within Universal Control Plane. In addition,
+          each container created on a Universal Control Plane cluster logs event
+          data. UCP logging can be configured by following the instructions at
+          https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/.
 
-          The underlying Linux operating system supporting UCP can be configured to audit Docker-specific events with the auditd daemon. Refer to the specific Linux distribution in use for instructions on configuring this service.
+          The underlying Linux operating system supporting UCP can be configured
+          to audit Docker-specific events with the auditd daemon. Refer to the
+          specific Linux distribution in use for instructions on configuring
+          this service.
       - key: b
         text: |
-          Using auditd on the Linux operating system supporting UCP, the organization can configure audit rules to select which Docker-specific events are to be audited. Refer to the specific Linux distribution in use for instructions on configuring this service.
+          Using auditd on the Linux operating system supporting UCP, the
+          organization can configure audit rules to select which Docker-specific
+          events are to be audited. Refer to the specific Linux distribution in
+          use for instructions on configuring this service.
     standard_key: NIST-800-53
   
   - control_key: CM-5 (3)
@@ -437,9 +644,18 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          Docker Content Trust is a capability provided by CS Docker Engine that enforces client-side signing and verification of Docker image tags. It provides the ability to use digital signatures for data sent to and received from Docker Trusted Registry and the public Docker Store. These signatures allow client-side verification of the integrity and publisher of specific image tags. All Universal Control Plane Docker images are officially signed and verified by Docker, Inc.
+          Docker Content Trust is a capability provided by CS Docker Engine that
+          enforces client-side signing and verification of Docker image tags. It
+          provides the ability to use digital signatures for data sent to and
+          received from Docker Trusted Registry and the public Docker Store.
+          These signatures allow client-side verification of the integrity and
+          publisher of specific image tags. All Universal Control Plane Docker
+          images are officially signed and verified by Docker, Inc.
 
-          When installing Universal Control Plane, you should enable Docker Content Trust (per the instructions at https://docs.docker.com/engine/security/trust/content_trust/) and subsequently pull the the signed UCP image tag.
+          When installing Universal Control Plane, you should enable Docker
+          Content Trust (per the instructions at
+          https://docs.docker.com/engine/security/trust/content_trust/) and
+          subsequently pull the the signed UCP image tag.
     standard_key: NIST-800-53
 
   - control_key: CM-6 (1)
@@ -450,7 +666,8 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-         The organization can incorporate the use of an external configuration management system to meet the requirements of this control.
+         The organization can incorporate the use of an external configuration
+         management system to meet the requirements of this control.
     standard_key: NIST-800-53
 
   - control_key: CM-7 (2)
@@ -461,7 +678,11 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-         In order to restrict which Docker images can be used to deploy applications to Universal Control Plane, the organization must define a list of allowed base Docker images and make them available via Docker Trusted Registry. The organization must also prevent users from being able to pull Docker images from untrusted sources.
+         In order to restrict which Docker images can be used to deploy
+         applications to Universal Control Plane, the organization must define a
+         list of allowed base Docker images and make them available via Docker
+         Trusted Registry. The organization must also prevent users from being
+         able to pull Docker images from untrusted sources.
     standard_key: NIST-800-53
 
   - control_key: CM-7 (5)
@@ -473,10 +694,20 @@ satisfies:
     narrative:
       - key: a
         text: |
-         In order to restrict which Docker images can be used to deploy applications to Universal Control Plane, the organization must define a list of allowed base Docker images and make them available via Docker Trusted Registry. The organization must also prevent users from being able to pull Docker images from untrusted sources.
+          In order to restrict which Docker images can be used to deploy
+          applications to Universal Control Plane, the organization must define
+          a list of allowed base Docker images and make them available via
+          Docker Trusted Registry. The organization must also prevent users from
+          being able to pull Docker images from untrusted sources.
       - key: b
         text: |
-         The organization can configure its systems to ensure that only approved Docker images stored in Docker Trusted Registry can be run on Universal Control Plane. This can be accomplished by using Docker Content Trust to sign Docker images, and configure UCP to enforce only signed images from specific Teams at runtime. Instructions for doing so can be found at https://docs.docker.com/datacenter/ucp/2.0/guides/content-trust/.
+          The organization can configure its systems to ensure that only
+          approved Docker images stored in Docker Trusted Registry can be run on
+          Universal Control Plane. This can be accomplished by using Docker
+          Content Trust to sign Docker images, and configure UCP to enforce only
+          signed images from specific Teams at runtime. Instructions for doing
+          so can be found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/content-trust/.
     standard_key: NIST-800-53
 
   - control_key: IA-2
@@ -487,7 +718,16 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-         Universal Control Plane can be configured to identify and authenticate users via it's integrated support for LDAP. Users and groups managed within the organization's LDAP directory service (e.g. Active Directory) can be synchronized to UCP on a regular interval. When a user is removed from the LDAP-backed directory, that user becomes inactive within UCP. In addition, UCP teams can be mapped to groups synchronized via LDAP. When a user is added/removed to/from the LDAP group, that same user is automatically added/removed to/from the UCP team. Instructions for configuring LDAP integration can be found at https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/integrate-with-ldap/.
+          Universal Control Plane can be configured to identify and authenticate
+          users via it's integrated support for LDAP. Users and groups managed
+          within the organization's LDAP directory service (e.g. Active
+          Directory) can be synchronized to UCP on a regular interval. When a
+          user is removed from the LDAP-backed directory, that user becomes
+          inactive within UCP. In addition, UCP teams can be mapped to groups
+          synchronized via LDAP. When a user is added/removed to/from the LDAP
+          group, that same user is automatically added/removed to/from the UCP
+          team. Instructions for configuring LDAP integration can be found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/integrate-with-ldap/.
     standard_key: NIST-800-53
 
   - control_key: IA-2 (2)
@@ -498,7 +738,8 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-         Universal Control Plane does not support multifactor authentication. This is planned for a future release of the product.
+          Universal Control Plane does not support multifactor authentication.
+          This is planned for a future release of the product.
     standard_key: NIST-800-53
 
   - control_key: IA-2 (5)
@@ -509,7 +750,9 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-         Universal Control Plane requires individual users to be authenticated in order to gain access to the system. Any permissions granted to the team(s) that which the user is a member are subsequently applied.
+          Universal Control Plane requires individual users to be authenticated
+          in order to gain access to the system. Any permissions granted to the
+          team(s) that which the user is a member are subsequently applied.
     standard_key: NIST-800-53
 
   - control_key: IA-2 (8)
@@ -520,7 +763,10 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-         Universal Control Plane integrates with LDAP for authenticating users to an external directory service. You should configure your external directory service for ensuring that you are protected against replay attacks.
+          Universal Control Plane integrates with LDAP for authenticating users
+          to an external directory service. You should configure your external
+          directory service for ensuring that you are protected against replay
+          attacks.
     standard_key: NIST-800-53
 
   - control_key: IA-2 (11)
@@ -531,7 +777,8 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-         Multifactor authentication support is planned for a future release of Universal Control Plane.
+          Multifactor authentication support is planned for a future release of
+          Universal Control Plane.
     standard_key: NIST-800-53
 
   - control_key: IA-2 (12)
@@ -553,7 +800,10 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-         In order for nodes (virtual machines) to join a Universal Control Plane cluster, they must be identified and authenticated via either a manager or worker token. Reference documentation can be found at https://docs.docker.com/datacenter/ucp/2.0/guides/installation/scale-your-cluster/.
+          In order for nodes (virtual machines) to join a Universal Control
+          Plane cluster, they must be identified and authenticated via either a
+          manager or worker token. Reference documentation can be found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/installation/scale-your-cluster/.
     standard_key: NIST-800-53
 
   - control_key: IA-4
@@ -565,11 +815,20 @@ satisfies:
     narrative:
       - key: c
         text: |
-         An external directory service integrated with Universal Control Plane via LDAP can be configured to prevent the reuse of user identifiers for a specified period of time. Refer to your directory service's documentation for configuring this.
+          An external directory service integrated with Universal Control Plane
+          via LDAP can be configured to prevent the reuse of user identifiers
+          for a specified period of time. Refer to your directory service's
+          documentation for configuring this.
       - key: d
         text: |
-         An external directory service integrated with Universal Control Plane via LDAP can be configured to prevent the reuse of user identifiers for a specified period of time. Refer to your directory service's documentation for configuring this.
+          An external directory service integrated with Universal Control Plane
+          via LDAP can be configured to prevent the reuse of user identifiers
+          for a specified period of time. Refer to your directory service's
+          documentation for configuring this.
       - key: e
         text: |
-         An external directory service integrated with Universal Control Plane via LDAP can be configured to prevent the reuse of user identifiers for a specified period of time. Refer to your directory service's documentation for configuring this.
+          An external directory service integrated with Universal Control Plane
+          via LDAP can be configured to prevent the reuse of user identifiers
+          for a specified period of time. Refer to your directory service's
+          documentation for configuring this.
     standard_key: NIST-800-53
