@@ -5,8 +5,5 @@ WORKDIR /usr/src/ddc-opencontrol
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 ADD https://raw.githubusercontent.com/opencontrol/schemas/master/kwalify/component/v3.1.0.yaml .
-COPY opencontrol.yaml test_component_validity.py /usr/src/ddc-opencontrol/
-COPY CSEngine CSEngine/
-COPY DTR DTR/
-COPY UCP UCP/
+COPY . .
 CMD ["py.test"]

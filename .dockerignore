@@ -1,5 +1,7 @@
-__pycache__/*
-.cache/*
+**/__pycache__
+**/.cache
+**/.git
+.dockerignore
 .gitignore
 circle.yml
 LICENSE
