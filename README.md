@@ -6,3 +6,12 @@ System Security Plan (SSP) Templates for Docker Datacenter that also contain thi
 
 - Microsoft Azure Government (based on [Azure Blueprint](https://blogs.msdn.microsoft.com/azuregov/2016/10/12/azure-blueprint-architecting-secure-solutions-just-got-easier/))
 - AWS GovCloud (coming soon)
+
+## Component Validation
+
+The OpenControl schema is defined by the [Kwalify](http://www.kuwata-lab.com/kwalify/) schema validator and YAML parser. Each Docker Datacenter component definition is tested against this schema using the [PyKwalify](https://github.com/Grokzen/pykwalify) Python port of the Kwalify specification. This repository contains a Dockerfile for running the component tests within a container.
+
+```sh
+docker build -t docker/ddc-opencontrol .
+docker run docker/ddc-opencontrol
+```
