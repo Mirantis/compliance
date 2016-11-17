@@ -1,5 +1,5 @@
 documentation_complete: false
-schema_version: 3.0.0
+schema_version: 3.1.0
 name: Docker Trusted Registry
 references:
   - name: Docker Trusted Registry Documentation
@@ -9,7 +9,7 @@ satisfies:
   - control_key: AC-1
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -29,7 +29,7 @@ satisfies:
   - control_key: AC-2 (1)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
       - configured by customer
@@ -69,7 +69,7 @@ satisfies:
   - control_key: AC-2 (3)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -87,7 +87,7 @@ satisfies:
   - control_key: AC-2 (4)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -124,7 +124,7 @@ satisfies:
   - control_key: AC-2 (7)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -138,7 +138,7 @@ satisfies:
   - control_key: AC-2 (9)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
       - configured by customer
@@ -152,7 +152,7 @@ satisfies:
   - control_key: AC-2 (10)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
       - configured by customer
@@ -167,7 +167,7 @@ satisfies:
   - control_key: AC-2 (12)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
       - configured by customer
@@ -189,7 +189,7 @@ satisfies:
   - control_key: AC-3
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -206,7 +206,7 @@ satisfies:
   - control_key: AC-4
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -223,7 +223,7 @@ satisfies:
   - control_key: AC-4 (21)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -254,7 +254,7 @@ satisfies:
   - control_key: AC-6 (10)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - configured by customer
     narrative:
@@ -329,12 +329,12 @@ satisfies:
         text: |
           Per the narrative in AC-2 (5), when support for user session timeouts
           is introduced in to Docker Trusted Registry, this control will become
-          implemented.
+          complete.
       - key: b
         text: |
           Per the narrative in AC-2 (5), when support for user session timeouts
           is introduced in to Docker Trusted Registry, this control will become
-          implemented.
+          complete.
     standard_key: NIST-800-53
 
   - control_key: AC-11 (1)
@@ -347,7 +347,7 @@ satisfies:
       - text: |
           Per the narrative in AC-2 (5), when support for user session timeouts
           is introduced in to Docker Trusted Registry, this control will become
-          implemented.
+          complete.
     standard_key: NIST-800-53
 
   - control_key: AC-12
@@ -360,13 +360,13 @@ satisfies:
       - text: |
           Per the narrative in AC-2 (5), when support for configurable user
           session timeouts is introduced in to Docker Trusted Registry, this
-          control will become implemented.
+          control will become complete.
     standard_key: NIST-800-53
 
   - control_key: AC-17 (1)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - configured by customer
     narrative:
@@ -374,11 +374,12 @@ satisfies:
           Docker Trusted Registry logs and controls all local and remote access
           events. In addition, auditing can be configured on the underlying
           operating system to meet this control.
+    standard_key: NIST-800-53
 
   - control_key: AC-17 (2)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -394,7 +395,7 @@ satisfies:
   - control_key: AC-17 (3)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -408,7 +409,7 @@ satisfies:
   - control_key: AC-17 (9)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - configured by customer
     narrative:
@@ -423,7 +424,7 @@ satisfies:
   - control_key: AU-2
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -439,7 +440,7 @@ satisfies:
   - control_key: AU-3
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -457,7 +458,7 @@ satisfies:
   - control_key: AU-3 (1)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -474,7 +475,7 @@ satisfies:
   - control_key: AU-5
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -491,7 +492,7 @@ satisfies:
   - control_key: AU-7
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -514,7 +515,7 @@ satisfies:
   - control_key: AU-7 (1)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -531,7 +532,7 @@ satisfies:
   - control_key: AU-8
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - configured by customer
     narrative:
@@ -550,7 +551,7 @@ satisfies:
   - control_key: AU-8 (1)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -575,7 +576,7 @@ satisfies:
   - control_key: AU-9
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -594,7 +595,7 @@ satisfies:
   - control_key: AU-9 (2)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -610,7 +611,7 @@ satisfies:
   - control_key: AU-11
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -626,7 +627,7 @@ satisfies:
   - control_key: AU-12
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -653,7 +654,7 @@ satisfies:
   - control_key: CM-5 (3)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -675,7 +676,7 @@ satisfies:
   - control_key: CM-6 (1)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -687,7 +688,7 @@ satisfies:
   - control_key: CM-7 (2)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -701,7 +702,7 @@ satisfies:
   - control_key: CM-7 (5)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -719,7 +720,7 @@ satisfies:
   - control_key: CM-11
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -734,7 +735,7 @@ satisfies:
   - control_key: IA-2
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -768,7 +769,7 @@ satisfies:
   - control_key: IA-2 (5)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -781,7 +782,7 @@ satisfies:
   - control_key: IA-2 (8)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -821,7 +822,7 @@ satisfies:
   - control_key: IA-3
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -840,7 +841,7 @@ satisfies:
   - control_key: IA-4
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -867,7 +868,7 @@ satisfies:
   - control_key: IA-4 (4)
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
@@ -881,35 +882,66 @@ satisfies:
   - control_key: IA-5
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:
       - key: b
         text: |
-          An external directory service integrated with Docker Trusted Registry via LDAP can be configured to establish initial authenticator content according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+          An external directory service integrated with Docker Trusted Registry
+          via LDAP can be configured to establish initial authenticator content
+          according to the requirements of this control. Refer to your directory
+          service's documentation for configuring this.
       - key: c
         text: |
-          An external directory service integrated with Docker Trusted Registry via LDAP can be configured to enforce strength requirements for authenticators according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+          An external directory service integrated with Docker Trusted Registry
+          via LDAP can be configured to enforce strength requirements for
+          authenticators according to the requirements of this control. Refer to
+          your directory service's documentation for configuring this.
       - key: d
         text: |
-          An external directory service integrated with Docker Trusted Registry via LDAP can be configured to distribute, redistribute, and revoke authenticators according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+          An external directory service integrated with Docker Trusted Registry
+          via LDAP can be configured to distribute, redistribute, and revoke
+          authenticators according to the requirements of this control. Refer to
+          your directory service's documentation for configuring this.
       - key: e
         text: |
-          An external directory service integrated with Docker Trusted Registry via LDAP can be configured to change default authenticator content according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+          An external directory service integrated with Docker Trusted Registry
+          via LDAP can be configured to change default authenticator content
+          according to the requirements of this control. Refer to your directory
+          service's documentation for configuring this.
       - key: f
         text: |
-          An external directory service integrated with Docker Trusted Registry via LDAP can be configured to set minimum and maximum lifetime restrictions and reuse conditions for authenticators according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+          An external directory service integrated with Docker Trusted Registry
+          via LDAP can be configured to set minimum and maximum lifetime
+          restrictions and reuse conditions for authenticators according to the
+          requirements of this control. Refer to your directory service's
+          documentation for configuring this.
       - key: g
         text: |
-          An external directory service integrated with Docker Trusted Registry via LDAP can be configured to refresh authenticators at a regular cadence according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+          An external directory service integrated with Docker Trusted Registry
+          via LDAP can be configured to refresh authenticators at a regular
+          cadence according to the requirements of this control. Refer to your
+          directory service's documentation for configuring this.
       - key: h
         text: |
-          An external directory service integrated with Docker Trusted Registry via LDAP can be configured to protect authenticator content from unauthorized disclosure or modification according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+          An external directory service integrated with Docker Trusted Registry
+          via LDAP can be configured to protect authenticator content from
+          unauthorized disclosure or modification according to the requirements
+          of this control. Refer to your directory service's documentation for
+          configuring this.
       - key: i
         text: |
-          An external directory service integrated with Docker Trusted Registry via LDAP can be configured to implement specific security safeguards to protect authentications according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+          An external directory service integrated with Docker Trusted Registry
+          via LDAP can be configured to implement specific security safeguards
+          to protect authentications according to the requirements of this
+          control. Refer to your directory service's documentation for
+          configuring this.
       - key: j
         text: |
-          An external directory service integrated with Docker Trusted Registry via LDAP can be configured to change authenticators for group or role accounts when membership to those groups or roles changes  according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+          An external directory service integrated with Docker Trusted Registry
+          via LDAP can be configured to change authenticators for group or role
+          accounts when membership to those groups or roles changes  according
+          to the requirements of this control. Refer to your directory service's
+          documentation for configuring this.
     standard_key: NIST-800-53
