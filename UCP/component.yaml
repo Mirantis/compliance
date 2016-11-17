@@ -832,3 +832,53 @@ satisfies:
           for a specified period of time. Refer to your directory service's
           documentation for configuring this.
     standard_key: NIST-800-53
+  
+  - control_key: IA-4 (4)
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          An external directory service integrated with Universal Control Plane
+          via LDAP can be configured to uniquely identify each individual
+          according to the requirements of this control. Refer to your directory
+          service's documentation for configuring this.
+    standard_key: NIST-800-53
+
+  - control_key: IA-5
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: b
+        text: |
+          An external directory service integrated with Universal Control Plane via LDAP can be configured to establish initial authenticator content according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+      - key: c
+        text: |
+          An external directory service integrated with Universal Control Plane via LDAP can be configured to enforce strength requirements for authenticators according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+      - key: d
+        text: |
+          An external directory service integrated with Universal Control Plane via LDAP can be configured to distribute, redistribute, and revoke authenticators according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+      - key: e
+        text: |
+          An external directory service integrated with Universal Control Plane via LDAP can be configured to change default authenticator content according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+      - key: f
+        text: |
+          An external directory service integrated with Universal Control Plane via LDAP can be configured to set minimum and maximum lifetime restrictions and reuse conditions for authenticators according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+      - key: g
+        text: |
+          An external directory service integrated with Universal Control Plane via LDAP can be configured to refresh authenticators at a regular cadence according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+      - key: h
+        text: |
+          An external directory service integrated with Universal Control Plane via LDAP can be configured to protect authenticator content from unauthorized disclosure or modification according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+      - key: i
+        text: |
+          An external directory service integrated with Universal Control Plane via LDAP can be configured to implement specific security safeguards to protect authentications according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+      - key: j
+        text: |
+          An external directory service integrated with Universal Control Plane via LDAP can be configured to change authenticators for group or role accounts when membership to those groups or roles changes  according to the requirements of this control. Refer to your directory service's documentation for configuring this.
+    standard_key: NIST-800-53
