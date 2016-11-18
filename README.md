@@ -1,4 +1,4 @@
-# Docker Datacenter Compliance Controls
+# Docker Datacenter Compliance Controls [![CircleCI](https://circleci.com/gh/docker/ddc-opencontrol/tree/master.svg?style=svg&circle-token=daeaf5acd7ac08000ea727cbf8ec9baa8ded8da4)](https://circleci.com/gh/docker/ddc-opencontrol/tree/master)
 
 **This content is not yet complete.**
 
