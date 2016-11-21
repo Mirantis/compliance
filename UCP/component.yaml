@@ -1163,3 +1163,35 @@ satisfies:
           can be found at
           https://docs.docker.com/datacenter/ucp/2.0/guides/architecture/.
     standard_key: NIST-800-53
+
+  - control_key: SC-23
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          All remote access sessions to Universal Control Plane are protected
+          with Transport Layer Security (TLS) 1.2. This is included at both the
+          HTTPS application layer for access to the UCP user interface and for
+          command-line based connections to the cluster. In addition to this,
+          all communication to UCP is enforced by way of two-way mutual TLS
+          authentication.
+    standard_key: NIST-800-53
+
+  - control_key: SC-28 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          All remote access sessions to Universal Control Plane are protected
+          with Transport Layer Security (TLS) 1.2. This is included at both the
+          HTTPS application layer for access to the UCP user interface and for
+          command-line based connections to the cluster. In addition to this,
+          all communication to UCP is enforced by way of two-way mutual TLS
+          authentication.
+    standard_key: NIST-800-53

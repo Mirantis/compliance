@@ -327,5 +327,86 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          Docker Content Trust gives you the ability to verify both the integrity and the publisher of all the data received from a Docker Trusted Registry over any channel. It allows operations with a remote DTR instance to enforce client-side signing and verification of image tags. It provides for the ability to use digital signatures for data sent to and receive from remote DTR instances. These signatures allow client-side verification of the integrity and publisher of specific image tags.
+          Docker Content Trust gives you the ability to verify both the
+          integrity and the publisher of all the data received from a Docker
+          Trusted Registry over any channel. It allows operations with a remote
+          DTR instance to enforce client-side signing and verification of image
+          tags. It provides for the ability to use digital signatures for data
+          sent to and receive from remote DTR instances. These signatures allow
+          client-side verification of the integrity and publisher of specific
+          image tags.
+    standard_key: NIST-800-53
+
+  - control_key: SC-12 (2)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'CS Docker Engine can be installed on the following operating systems:
+          CentOS 7.1+, Red Hat Enterprise Linux 7.0+, Ubuntu 14.04 LTS+, and
+          SUSE Linux Enterprise 12+. In order to meet the requirements of this
+          control, reference the chosen operating system's documentation to
+          ensure it is configured in FIPS mode.'
+    standard_key: NIST-800-53
+
+  - control_key: SC-13
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'CS Docker Engine can be installed on the following operating systems:
+          CentOS 7.1+, Red Hat Enterprise Linux 7.0+, Ubuntu 14.04 LTS+, and
+          SUSE Linux Enterprise 12+. In order to meet the requirements of this
+          control, reference the chosen operating system's documentation to
+          ensure it is configured in FIPS mode.'
+    standard_key: NIST-800-53
+
+  - control_key: SC-23
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          All remote access sessions to CS Docker Engine are protected with
+          Transport Layer Security (TLS) 1.2. In addition to this, all
+          communication to and between CS Docker Engines is enforced by way of
+          two-way mutual TLS authentication.
+    standard_key: NIST-800-53
+
+  - control_key: SC-28 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          All remote access sessions to CS Docker Engine are protected with
+          Transport Layer Security (TLS) 1.2. In addition to this, all
+          communication to and between CS Docker Engines is enforced by way of
+          two-way mutual TLS authentication.
+    standard_key: NIST-800-53
+
+  - control_key: SI-16
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - configured by customer
+    narrative:
+      - text: |
+          'CS Docker Engine can be installed on the following operating systems:
+          CentOS 7.1+, Red Hat Enterprise Linux 7.0+, Ubuntu 14.04 LTS+, and
+          SUSE Linux Enterprise 12+. In order to meet the requirements of this
+          control, reference the chosen operating system's security
+          documentation for information regarding the protection of memory from
+          unauthorized code execution.'
     standard_key: NIST-800-53
