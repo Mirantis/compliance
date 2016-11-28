@@ -1,0 +1,17 @@
+schema_version: "1.0.0"
+name: Docker Datacenter Compliance
+metadata:
+  description: Docker Datacenter on X Compliance Template
+  maintainers:
+    - andrew.weiss@docker.com
+components:
+  - ../../CSEngine
+  - ../../DTR
+  - ../../UCP
+dependencies:
+  standards:
+    - url: https://github.com/opencontrol/NIST-800-53-Standards
+      revision: master
+  certifications:
+    - url: https://github.com/opencontrol/FedRAMP-Certifications
+      revision: master
