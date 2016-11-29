@@ -316,7 +316,8 @@ satisfies:
       - text: |
           In order for other CS Engine nodes (virtual machines) to be able to
           join a Universal Control Plane cluster, they must be identified and
-          authenticated via either a manager or worker token.
+          authenticated via either a manager or worker token. Use of the token
+          includes trust on first use mutual TLS.
     standard_key: NIST-800-53
 
   - control_key: SA-10 (1)
