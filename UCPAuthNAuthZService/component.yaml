@@ -15,9 +15,9 @@ satisfies:
     narrative:
       - key: a
         text: |
-          You can control which users and teams can create and manipulate Docker
-          Datacenter resources. By default, no one can make changes to the
-          cluster. Permissions can be granted and managed to enforce
+          'You can control which users and teams can create and manipulate
+          Docker Datacenter resources. By default, no one can make changes to
+          the cluster. Permissions can be granted and managed to enforce
           fine-grained access control. Authentication and authorization
           documentation for the management of users and teams can be found at
           https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/ and
@@ -26,7 +26,7 @@ satisfies:
           found at
           https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/permission-levels/
           and at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/.
+          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/.'
     standard_key: NIST-800-53
 
   - control_key: AC-2
@@ -38,7 +38,213 @@ satisfies:
       - configured by customer
     narrative:
       - text: |
-          Multiple backend services provide for centralized identity.
+          'Multiple backend services provide for centralized identity.
           Descriptions of each of these services can be found at
-          https://docs.docker.com/datacenter/ucp/2.0/guides/architecture/.
+          https://docs.docker.com/datacenter/ucp/2.0/guides/architecture/.'
+    standard_key: NIST-800-53
+
+  - control_key: AC-2 (2)
+    covered_by: []
+    implementation_statuses:
+      - none
+    control_origins:
+      - configured by customer
+    narrative:
+      - text: |
+          'Using Docker Datacenter’s LDAP integration capabilities, one can
+          disable user objects in a connected directory service (such as Active
+          Directory). Documentation for configuring LDAP integration can be
+          found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/integrate-with-ldap/.'
+    standard_key: NIST-800-53
+
+  - control_key: AC-2 (3)
+    covered_by: []
+    implementation_statuses:
+      - none
+    control_origins:
+      - configured by customer
+    narrative:
+      - text: |
+          'Using Docker Datacenter’s LDAP integration capabilities, one can
+          disable user objects in a connected directory service (such as Active
+          Directory). Documentation for configuring LDAP integration can be
+          found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/integrate-with-ldap/.'
+    standard_key: NIST-800-53
+
+  - control_key: AC-2 (4)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'Docker Datacenter logs various authentication and authorization
+          events to standard log files. These logs can be monitored by following
+          the documentation at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/monitor/. One can
+          configure Docker Datacenter to direct these event logs to a remote
+          logging service such as an Elasticsearch, Logstash and Kibana (ELK)
+          stack and subsequently alert on specific event types. Instructions for
+          configuring this can be found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/. When integrating Docker Datacenter with LDAP, one can refer the the directory service's logging mechanisms for auditing the events defined by this control.'
+    standard_key: NIST-800-53
+
+  - control_key: AC-2 (7)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: |
+          'Users are shared across Docker Datacenter. Administrator users have
+          permissions to: manage other Docker Datacenter users , manage Docker
+          Trusted Registry repositories and settings, and manage the whole
+          Universal Control Plane cluster.'
+    standard_key: NIST-800-53
+  
+  - control_key: AC-2 (9)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+      - configured by customer
+    narrative:
+      - text: |
+          'Users and/or groups synchronized to Docker Datacenter via LDAP can be
+          configured at the directory service to meet this requirement as
+          necessary.'
+    standard_key: NIST-800-53
+  
+  - control_key: AC-2 (10)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+      - configured by customer
+    narrative:
+      - text: |
+          'Users and/or groups synchronized to Docker Datacenter via LDAP can be
+          configured at the directory service to meet this requirement as
+          necessary.'
+    standard_key: NIST-800-53
+  
+  - control_key: AC-2 (12)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+      - configured by customer
+    narrative:
+      - text: |
+          'When Docker Datacenter is configured for LDAP integration, one can
+          refer to the directory service's existing monitoring tools to meet the
+          requirements defined by this control.'
+    standard_key: NIST-800-53
+
+  - control_key: AC-3
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'You can control which users and teams can create and manipulate
+          Docker Datacenter resources. By default, no one can make changes to
+          the cluster. Permissions can be granted and managed to enforce
+          fine-grained access control. Authentication and authorization
+          documentation for the management of users and teams can be found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/ and
+          at https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/.
+          The various levels of permissions provided by Docker Datacenter can be
+          found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/permission-levels/
+          and at
+          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/.'
+    standard_key: NIST-800-53
+
+  - control_key: AC-6 (9)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'Docker Datacenter logs privileged user events to standard log files. These logs can be monitored by following
+          the documentation at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/monitor/. One can
+          configure Docker Datacenter to direct these event logs to a remote
+          logging service such as an Elasticsearch, Logstash and Kibana (ELK)
+          stack and subsequently alert on specific event types. Instructions for
+          configuring this can be found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/.
+          When integrating Docker Datacenter with LDAP, one can refer the the
+          directory service's logging mechanisms for auditing the events defined
+          by this control.'
+    standard_key: NIST-800-53
+
+  - control_key: AC-6 (10)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'You can control which users and teams can create and manipulate
+          Docker Datacenter resources. By default, no one can make changes to
+          the cluster. Permissions can be granted and managed to enforce
+          fine-grained access control. Authentication and authorization
+          documentation for the management of users and teams can be found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/ and
+          at https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/.
+          The various levels of permissions provided by Docker Datacenter can be
+          found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/permission-levels/
+          and at
+          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/.'
+    standard_key: NIST-800-53
+  
+  - control_key: AC-7
+    covered_by: []
+    implementation_statuses:
+      - implemented
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: |
+          'When Docker Datacenter is integrated to a directory service via LDAP,
+          one can reference the functionality of the directory service to
+          configure the enforcement of a limit to the number of conesecutive
+          invalid logon attempts by a user during a specified time period.'
+      - key: b
+        text: |
+          'When Docker Datacenter is integrated to a directory service via LDAP,
+          one can reference the functionality of the directory service to
+          configure he ability to automatically lock/disable an account for a
+          specified period of time after a consecutive invalid logon attempt
+          limit is reached.'
+    standard_key: NIST-800-53
+  
+  - control_key: AC-17 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - configured by customer
+    narrative:
+      - text: |
+          'Docker Datacenter logs and controls all local and remote access
+          events. In addition, auditing can be configured on the underlying
+          operating system to meet this control.'
     standard_key: NIST-800-53

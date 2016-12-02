@@ -30,10 +30,10 @@ satisfies:
     narrative:
       - key: a
         text: |
-          CS Docker Engine can be configured to aggregate container and daemon
+          'CS Docker Engine can be configured to aggregate container and daemon
           events via a number of logging drivers. Documentation for configuring
           these drivers can be found at
-          https://docs.docker.com/engine/admin/logging/overview/.
+          https://docs.docker.com/engine/admin/logging/overview/.'
     standard_key: NIST-800-53
 
   - control_key: AC-17 (1)
