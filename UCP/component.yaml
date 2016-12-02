@@ -5,27 +5,7 @@ references:
   - name: UCP Documentation
     path: https://docs.docker.com/ucp/overview/
     type: URL
-satisfies:
-  - control_key: AC-1
-    covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
-    narrative:
-      - key: a
-        text: |
-          You can control which users and teams can create and manipulate
-          resources in Universal Control Plane. By default, no one can make
-          changes to the cluster. Permissions can be granted and managed to
-          enforce fine-grained access control. Authentication and authorization
-          documentation for the management of users and teams can be found at
-          https://docs.docker.com/ucp/user-management/authentication-and-authorization/.
-          The various levels of permissions provided by Universal Control Plane
-          can be found at
-          https://docs.docker.com/ucp/user-management/permission-levels/.
-    standard_key: NIST-800-53
-  
+satisfies:  
   - control_key: AC-2 (1)
     covered_by: []
     implementation_statuses:
@@ -35,14 +15,11 @@ satisfies:
       - configured by customer
     narrative:
       - text: |
-          Universal Control Plane is made up of multiple backend services that
-          provide for centralized identity. Descriptions of each of those
-          services can be found at https://docs.docker.com/ucp/architecture/.
           Documentation for managing users and teams in Universal Control Plane
           can be found at
-          https://docs.docker.com/ucp/user-management/create-and-manage-users/
+          https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/create-and-manage-users/
           and
-          https://docs.docker.com/ucp/user-management/create-and-manage-teams/.
+          https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/create-and-manage-teams/.
     standard_key: NIST-800-53
 
   - control_key: AC-2 (2)

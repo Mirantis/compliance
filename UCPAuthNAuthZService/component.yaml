@@ -1,0 +1,44 @@
+documentation_complete: false
+schema_version: 3.1.0
+name: Universal Control Plane Authentication and Authorization Service
+references:
+  - name: UCP Documentation
+    path: https://docs.docker.com/ucp/overview/
+    type: URL
+satisfies:
+  - control_key: AC-1
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: |
+          You can control which users and teams can create and manipulate Docker
+          Datacenter resources. By default, no one can make changes to the
+          cluster. Permissions can be granted and managed to enforce
+          fine-grained access control. Authentication and authorization
+          documentation for the management of users and teams can be found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/ and
+          at https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/.
+          The various levels of permissions provided by Docker Datacenter can be
+          found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/permission-levels/
+          and at
+          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/.
+    standard_key: NIST-800-53
+
+  - control_key: AC-2
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+      - configured by customer
+    narrative:
+      - text: |
+          Multiple backend services provide for centralized identity.
+          Descriptions of each of these services can be found at
+          https://docs.docker.com/datacenter/ucp/2.0/guides/architecture/.
+    standard_key: NIST-800-53

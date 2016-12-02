@@ -13,11 +13,14 @@ System Security Plan (SSP) Templates for Docker Datacenter that also contain thi
 
 ## Usage
 
-The control guidance for Docker Datacenter is separated in to three, distinct components:
+The control guidance for Docker Datacenter is separated in to four, distinct components:
 
-- Commercially Supported (CS) Docker Engine: `CSEngine/`
-- Docker Trusted Registry (DTR): `DTR/`
-- Universal Control Plane (UCP): `UCP/`
+- Commercially Supported (CS) Docker Engine: [`CSEngine/`](https://github.com/docker/ddc-opencontrol/tree/master/CSEngine)
+- Docker Trusted Registry (DTR): [`DTR/`](https://github.com/docker/ddc-opencontrol/tree/master/DTR)
+- Universal Control Plane (UCP): [`UCP/`](https://github.com/docker/ddc-opencontrol/tree/master/UCP)
+- Universal Control Plane Authentication and Authorization Service: [`UCPAuthNAuthZService/`](https://github.com/docker/ddc-opencontrol/tree/master/UCPAuthNAuthZService)
+
+> Both the UCP and DTR components leverage the UCP Authentication and Authorization Service component for Docker Datacenter authentication and authorization.
 
 A `component.yaml` file resides in each component's subdirectory. Updates to the security narratives and content are made to these `component.yaml` files.
 

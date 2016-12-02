@@ -5,27 +5,7 @@ references:
   - name: Docker Trusted Registry Documentation
     path: https://docs.docker.com/docker-trusted-registry/
     type: URL
-satisfies:
-  - control_key: AC-1
-    covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
-    narrative:
-      - key: a
-        text: |
-          You can control which users and teams can create and manipulate
-          resources in Docker Trusted Registry. By default, no one can make
-          changes to the cluster. Permissions can be granted and managed to
-          enforce fine-grained access control. Authentication and authorization
-          documentation for the management of users and teams can be found at
-          https://docs.docker.com/docker-trusted-registry/user-management/. The
-          various levels of permissions provided by Docker Trusted Registry can
-          be found at
-          https://docs.docker.com/docker-trusted-registry/user-management/permission-levels/.
-    standard_key: NIST-800-53
-  
+satisfies: 
   - control_key: AC-2 (1)
     covered_by: []
     implementation_statuses:
@@ -35,17 +15,9 @@ satisfies:
       - configured by customer
     narrative:
       - text: |
-          Docker Trusted Registry is made up of multiple backend services that
-          provide for centralized identity. Descriptions of each of those
-          services can be found at
-          https://docs.docker.com/docker-trusted-registry/architecture/.
           Documentation for managing users, organizations and teams in Docker
           Trusted Registry can be found at
-          https://docs.docker.com/docker-trusted-registry/user-management/,
-          https://docs.docker.com/docker-trusted-registry/user-management/create-and-manage-orgs/
-          and
-          https://docs.docker.com/docker-trusted-registry/user-management/create-and-manage-teams/
-          respectively.
+          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/create-and-manage-users/, at https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/create-and-manage-orgs/, and at https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/create-and-manage-teams/ respectively.
     standard_key: NIST-800-53
   
   - control_key: AC-2 (2)
