@@ -93,12 +93,12 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          All remote access sessions to Docker Trusted Registry are protected
+          'All remote access sessions to Docker Trusted Registry are protected
           with Transport Layer Security (TLS) 1.2. This is included at both the
           HTTPS application layer for access to the DTR user interface and for
           command-line based connections to the registry. In addition to this,
           all communication to DTR is enforced by way of two-way mutual TLS
-          authentication.
+          authentication.'
     standard_key: NIST-800-53
   
   - control_key: AC-17 (3)
@@ -109,10 +109,10 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          A combination of managed load balancers, firewalls and access control
+          'A combination of managed load balancers, firewalls and access control
           lists, and virtual networking resources can be used to ensure traffic
-          destined for Docker Trusted Registry is routed through managed network
-          access control points.
+          destined for Docker Trusted Registry replicas is routed through
+          managed network access control points.'
     standard_key: NIST-800-53
 
   - control_key: AC-17 (9)
@@ -123,11 +123,11 @@ satisfies:
       - configured by customer
     narrative:
       - text: |
-          Built-in firewall technology in Docker Trusted Registry's underlying
+          'Built-in firewall technology in Docker Trusted Registry's underlying
           operating system can be used to force the disconnection of remote
           connections to the host. In addition, UCP slave nodes running Docker
           Trusted Registry replicas can be paused or drained, which subsequently
-          stops sessions to the DTR replica.
+          stops sessions to the DTR replica.'
     standard_key: NIST-800-53
 
   - control_key: AU-2
@@ -139,11 +139,11 @@ satisfies:
     narrative:
       - key: a
         text: |
-          All of the event types indicated by this control are logged by a
+          'All of the event types indicated by this control are logged by a
           combination of the backend ucp-controller service within Universal
           Control Plane and the backend services that make up Docker Trusted
           Registry. Instructions for viewing this data can be found at
-          https://docs.docker.com/datacenter/dtr/2.0/monitor-troubleshoot/.
+          https://docs.docker.com/datacenter/dtr/2.1/guides/monitor-troubleshoot/.'
     standard_key: NIST-800-53
 
   - control_key: AU-3
@@ -154,7 +154,7 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          'Universal Control Plane generates all of the audit record information
+          'Docker Trusted Registry generates all of the audit record information
           indicated by this control. A sample audit event has been provided
           below:
 

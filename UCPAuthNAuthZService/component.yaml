@@ -179,8 +179,8 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          'Docker Datacenter logs privileged user events to standard log files. These logs can be monitored by following
-          the documentation at
+          'Docker Datacenter logs privileged user events to standard log files.
+          These logs can be monitored by following the documentation at
           https://docs.docker.com/datacenter/ucp/2.0/guides/monitor/. One can
           configure Docker Datacenter to direct these event logs to a remote
           logging service such as an Elasticsearch, Logstash and Kibana (ELK)
@@ -217,7 +217,7 @@ satisfies:
   - control_key: AC-7
     covered_by: []
     implementation_statuses:
-      - implemented
+      - complete
     control_origins:
       - service provider system specific
     narrative:

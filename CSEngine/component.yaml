@@ -44,9 +44,9 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          CS Docker Engine logs and controls all local and remote access events.
-          In addition, auditing can be configured on the underlying operating
-          system to meet this control.
+          'CS Docker Engine logs and controls all local and remote access
+          events. In addition, auditing can be configured on the underlying
+          operating system to meet this control.'
     standard_key: NIST-800-53
 
   - control_key: AC-17 (2)
@@ -57,10 +57,10 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          All remote access sessions to CS Docker Engine are protected with
+          'All remote access sessions to CS Docker Engine are protected with
           Transport Layer Security (TLS) 1.2. In addition to this, all
           communication to CS Docker Engine is enforced by way of two-way mutual
-          TLS authentication.
+          TLS authentication.'
     standard_key: NIST-800-53
 
   - control_key: AC-17 (3)
@@ -71,10 +71,10 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          A combination of managed load balancers, firewalls and access control
+          'A combination of managed load balancers, firewalls and access control
           lists, and virtual networking resources can be used to ensure traffic
           destined for CS Docker Engine is routed through managed network access
-          control points.
+          control points.'
     standard_key: NIST-800-53
 
   - control_key: AC-17 (9)
@@ -85,13 +85,13 @@ satisfies:
       - configured by customer
     narrative:
       - text: |
-          Built-in firewall technology in CS Docker Engine's underlying
+          'Built-in firewall technology in CS Docker Engine's underlying
           operating system can be used to force the disconnection of remote
           connections to the host. In addition, CS Docker Engine provides the
           option to pause or drain a node in the cluster, which subsequently
           stops and/or removes sessions to the node. Individual services and/or
           applications running on CS Docker Engine can also be stopped and/or
-          removed.
+          removed.'
     standard_key: NIST-800-53
 
   - control_key: AU-2
@@ -103,14 +103,14 @@ satisfies:
     narrative:
       - key: a
         text: |
-          Both Universal Control Plane and Docker Trusted Registry backend
+          'Both Universal Control Plane and Docker Trusted Registry backend
           service containers, all of which reside on CS Docker Engine, log all
           of the event types indicated by this control (as explained by their
           component narratives). These and other application containers that
           reside on CS Docker Engine can be configured to log data via an
           appropriate Docker logging driver. Instructions for configuring
           logging drivers can be found at
-          https://docs.docker.com/engine/admin/logging/overview/.
+          https://docs.docker.com/engine/admin/logging/overview/.'
     standard_key: NIST-800-53
 
   - control_key: AU-8

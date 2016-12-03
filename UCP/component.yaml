@@ -95,12 +95,12 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          All remote access sessions to Universal Control Plane are protected
+          'All remote access sessions to Universal Control Plane are protected
           with Transport Layer Security (TLS) 1.2. This is included at both the
           HTTPS application layer for access to the UCP user interface and for
           command-line based connections to the cluster. In addition to this,
           all communication to UCP is enforced by way of two-way mutual TLS
-          authentication.
+          authentication.'
     standard_key: NIST-800-53
 
   - control_key: AC-17 (3)
@@ -111,10 +111,10 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          A combination of managed load balancers, firewalls and access control
+          'A combination of managed load balancers, firewalls and access control
           lists, and virtual networking resources can be used to ensure traffic
-          destined for Universal Control Plane is routed through managed network
-          access control points.
+          destined for Universal Control Plane managers and worker nodes is
+          routed through managed network access control points.'
     standard_key: NIST-800-53
 
   - control_key: AC-17 (9)
@@ -125,12 +125,12 @@ satisfies:
       - configured by customer
     narrative:
       - text: |
-          Built-in firewall technology in Universal Control Plane's underlying
+          'Built-in firewall technology in Universal Control Plane's underlying
           operating system can be used to force the disconnection of remote
           connections to the host. In addition, UCP provides the option to pause
           or drain a node in the cluster, which subsequently stops and/or
           removes sessions to the node. Individual services and/or applications
-          running on a UCP cluster can also be stopped and/or removed.
+          running on a UCP cluster can also be stopped and/or removed.'
     standard_key: NIST-800-53
 
   - control_key: AU-2
@@ -142,12 +142,12 @@ satisfies:
     narrative:
       - key: a
         text: |
-          All of the event types indicated by this control are logged by the
+          'All of the event types indicated by this control are logged by the
           backend ucp-controller service within Universal Control Plane. In
           addition, each container created on a Universal Control Plane cluster
           logs event data. UCP logging can be configured by following the
           instructions at
-          https://docs.docker.com/datacenter/ucp/1.1/configuration/configure-logs/.
+          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/.'
     standard_key: NIST-800-53
 
   - control_key: AU-3
