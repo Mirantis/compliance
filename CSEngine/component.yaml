@@ -113,6 +113,93 @@ satisfies:
           https://docs.docker.com/engine/admin/logging/overview/.'
     standard_key: NIST-800-53
 
+  - control_key: AU-3
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'Both Universal Control Plane and Docker Trusted Registry are pre-configured to take advantage of CS Docker Engine''s built-in logging mechanisms. Further configuration of CS Docker Engine logging can be done by refering to the guidance at https://docs.docker.com/engine/admin/logging/overview/. A sample audit event recorded by CS Docker Engine has been provided below:
+
+          {"level":"info","license_key":"123456789123456789123456789","msg":"eNZi:Password
+          based auth
+          suceeded","remote_addr":"192.168.33.1:55905","time":"2016-11-09T22:41:01Z","type":"auth
+          ok","username":"dockeruser"}'
+    standard_key: NIST-800-53
+  
+  - control_key: AU-3 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'CS Docker Engine can be configured with various logging drivers to
+          send audit events to an external logging stack. Instructions for doing
+          so can be found at
+          https://docs.docker.com/engine/admin/logging/overview/. The logging
+          stack can subsequently be used to interpolate the information defined
+          by this control from the logged audit records.'
+    standard_key: NIST-800-53
+
+  - control_key: AU-5
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'CS Docker Engine can be configured with various logging drivers to
+          send audit events to an external logging stack. Instructions for doing
+          so can be found at
+          https://docs.docker.com/engine/admin/logging/overview/. The logging
+          stack can subsequently be used to interpolate the information defined
+          by this control. The logging stack can subsequently be configured to
+          alert on any audit processing failures.'
+    standard_key: NIST-800-53
+
+  - control_key: AU-7
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: a
+        text: |
+          'CS Docker Engine can be configured with various logging drivers to
+          send audit events to an external logging stack. Instructions for doing
+          so can be found at
+          https://docs.docker.com/engine/admin/logging/overview/. The logging
+          stack can subsequently be used to facilitate the audit reduction and
+          report generation requirements of this control.'
+      - key: b
+        text: |
+          'The underlying operating system chosen to support CS Docker Engine
+          should be certified to ensure that logs are not altered during
+          generation and transmission to a remote logging stack.'
+    standard_key: NIST-800-53
+  
+  - control_key: AU-7 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'CS Docker Engine can be configured with various logging drivers to
+          send audit events to an external logging stack. Instructions for doing
+          so can be found at
+          https://docs.docker.com/engine/admin/logging/overview/. The logging
+          stack can subsequently be configured to parse information by
+          organization-defined audit fields.'
+    standard_key: NIST-800-53
+
   - control_key: AU-8
     covered_by: []
     implementation_statuses:
@@ -122,14 +209,14 @@ satisfies:
     narrative:
       - key: a
         text: |
-          CS Docker Engine uses the system clock of the underlying operating
-          system on which it runs. This behavior cannot be modified.
+          'CS Docker Engine uses the system clock of the underlying operating
+          system on which it runs. This behavior cannot be modified.'
       - key: b
         text: |
-          The underlying operating system on which CS Docker Engine runs should
+          'The underlying operating system on which CS Docker Engine runs should
           be configured such that its system clock uses Coordinated Universal
           Time (UTC) as indicated by this control. Refer to the operating
-          system's instructions for doing so.
+          system's instructions for doing so.'
     standard_key: NIST-800-53
 
   - control_key: AU-8 (1)
@@ -141,20 +228,20 @@ satisfies:
     narrative:
       - key: a
         text: |
-          The underlying operating system on which CS Docker Engine runs should
+          'The underlying operating system on which CS Docker Engine runs should
           be configured such that its system clock compares itself with an
           authoritative time source as indicated by this control. This can be
           accomplished by utilizing the Network Time Protocol (NTP). Refer to
-          the operating system's instructions for doing so.
+          the operating system's instructions for doing so.'
       - key: b
         text: |
-          The underlying operating system on which CS Docker Engine runs should
+          'The underlying operating system on which CS Docker Engine runs should
           be configured such that its system clock synchronizes itself to an
           authoritative time source as defined by part (a) of this control any
           time the time difference exceeds that of the organization-defined time
           period. This can be accomplished by utilizing the Network Time
           Protocol (NTP). Refer to the operating system's instructions for doing
-          so.
+          so.'
     standard_key: NIST-800-53
 
   - control_key: AU-9
@@ -165,20 +252,21 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          On the underlying Linux operating system supporting CS Docker Engine,
+          'On the underlying Linux operating system supporting CS Docker Engine,
           only root and sudo users and users that have been added to the
-          'docker' group have the ability to access the logs generated by UCP
+          "docker" group have the ability to access the logs generated by UCP
           backend service containers. Should the organization decide to
           configure CS Docker Engine to use a logging driver other than the
           default json-file driver, the organization is subsequently responsible
           for configuring the chosen logging stack per the provisions of this
-          control.
+          control. Instructions for configuring an altnernate logging driver can
+          be found at https://docs.docker.com/engine/admin/logging/overview/.
 
           In addition, for Linux operating systems supporting CS Docker Engine
           that use the systemd daemon, it is imperative that the Journal is
           secured per the requirements of this control. The same applies for
           Linux operating systems supporting CS Docker Engine that instead use
-          upstart.
+          upstart.'
     standard_key: NIST-800-53
 
   - control_key: AU-9 (2)
@@ -189,10 +277,10 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          CS Docker Engine can be configured to use a logging driver that can
+          'CS Docker Engine can be configured to use a logging driver that can
           subsequently meet the backup requirements of this control.
           Instructions for doing so can be found at
-          https://docs.docker.com/engine/admin/logging/overview/.
+          https://docs.docker.com/engine/admin/logging/overview/.'
     standard_key: NIST-800-53
 
   - control_key: AU-11
@@ -203,10 +291,12 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          CS Docker Engine can be configured to use a logging driver that stores
-          data in a location for the duration specified by this control.
-          Instructions for doing so can be found at
-          https://docs.docker.com/engine/admin/logging/overview/.
+          'The organization will be responsible for meeting the requirements of
+          this control. To assist with these requirements, CS Docker Engine can
+          be configured to use a logging driver that stores data in a location
+          for the duration specified by this control. Instructions for doing so
+          can be found at
+          https://docs.docker.com/engine/admin/logging/overview/.'
     standard_key: NIST-800-53
 
   - control_key: AU-12
@@ -218,7 +308,7 @@ satisfies:
     narrative:
       - key: a
         text: |
-          Both Universal Control Plane and Docker Trusted Registry backend
+          'Both Universal Control Plane and Docker Trusted Registry backend
           service containers, all of which reside on CS Docker Engine, log all
           of the event types indicated by this AU-2 a. These and other
           application containers that reside on CS Docker Engine can be
@@ -229,13 +319,13 @@ satisfies:
           The underlying Linux operating system supporting CS Docker Engine can
           be configured to audit Docker-specific events with the auditd daemon.
           Refer to the specific Linux distribution in use for instructions on
-          configuring this service.
+          configuring this service.'
       - key: b
         text: |
-          Using auditd on the Linux operating system supporting CS Docker
+          'Using auditd on the Linux operating system supporting CS Docker
           Engine, the organization can configure audit rules to select which
           Docker-specific events are to be audited. Refer to the specific Linux
-          distribution in use for instructions on configuring this service.
+          distribution in use for instructions on configuring this service.'
     standard_key: NIST-800-53
 
   - control_key: CM-5 (3)
@@ -246,8 +336,8 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          Before installing CS Docker Engine, ensure that your supporting Linux
-          operating system's packager manager supports package signature
+          'Before installing CS Docker Engine, ensure that your supporting Linux
+          operating system''s packager manager supports package signature
           verification and that it is enabled. It is also required that you
           import the Docker public key for CS packages so as to retrieve the
           validated and signed package from Docker, Inc. Refer to your Linux OS
@@ -261,7 +351,7 @@ satisfies:
           of the integrity and publisher of specific image tags. When enabling
           Docker Content Trust in CS Docker Engine (per the instructions at
           https://docs.docker.com/engine/security/trust/content_trust/), you can
-          enforce the use of signed Docker images.
+          enforce the use of signed Docker images.'
     standard_key: NIST-800-53
 
   - control_key: CM-6 (1)
@@ -272,8 +362,10 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          The organization can incorporate the use of an external configuration
-          management system to meet the requirements of this control.
+          'The organization is responsible for meeting the requirements of this
+          control. To assist with these requirements, the organization can
+          incorporate the use of an external configuration management system to
+          meet the requirements of this control.'
     standard_key: NIST-800-53
 
   - control_key: CM-7 (2)
@@ -284,14 +376,14 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          In order to restrict which Docker images can be used to deploy
+          'In order to restrict which Docker images can be used to deploy
           applications to CS Docker Engine, the organization must define a list
           of allowed base Docker images and make them available via Docker
           Trusted Registry. The organization must also prevent users from being
-          able to pull Docker images from untrusted sources.
+          able to pull Docker images from untrusted sources.'
     standard_key: NIST-800-53
 
-  - control_key: CM-7 (2)
+  - control_key: CM-7 (5)
     covered_by: []
     implementation_statuses:
       - complete
@@ -299,11 +391,13 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          In order to restrict which Docker images can be used to deploy
-          applications to CS Docker Engine, the organization must define a list
-          of allowed base Docker images and make them available via Docker
-          Trusted Registry. The organization must also prevent users from being
-          able to pull Docker images from untrusted sources.
+          'The organization is responsible for meeting the requirements of this
+          control. To assist with these requirements and in order to restrict
+          which Docker images can be used to deploy applications to CS Docker
+          Engine, the organization must define a list of allowed base Docker
+          images and make them available via Docker Trusted Registry. The
+          organization must also prevent users from being able to pull Docker
+          images from untrusted sources.'
     standard_key: NIST-800-53
 
   - control_key: IA-3
@@ -314,10 +408,10 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          In order for other CS Engine nodes (virtual machines) to be able to
-          join a Universal Control Plane cluster, they must be identified and
+          'In order for other CS Engine nodes to be able to join a cluster
+          managed by Universal Control Plane, they must be identified and
           authenticated via either a manager or worker token. Use of the token
-          includes trust on first use mutual TLS.
+          includes trust on first use mutual TLS.'
     standard_key: NIST-800-53
 
   - control_key: SA-10 (1)
@@ -328,14 +422,14 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          Docker Content Trust gives you the ability to verify both the
+          'Docker Content Trust gives you the ability to verify both the
           integrity and the publisher of all the data received from a Docker
           Trusted Registry over any channel. It allows operations with a remote
           DTR instance to enforce client-side signing and verification of image
           tags. It provides for the ability to use digital signatures for data
           sent to and receive from remote DTR instances. These signatures allow
           client-side verification of the integrity and publisher of specific
-          image tags.
+          image tags.'
     standard_key: NIST-800-53
 
   - control_key: SC-12 (2)
@@ -376,10 +470,10 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          All remote access sessions to CS Docker Engine are protected with
-          Transport Layer Security (TLS) 1.2. In addition to this, all
-          communication to and between CS Docker Engines is enforced by way of
-          two-way mutual TLS authentication.
+          'All remote access sessions to CS Docker Engine are protected with
+          Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
+          addition to this, all communication to and between CS Docker Engines
+          is enforced by way of two-way mutual TLS authentication.'
     standard_key: NIST-800-53
 
   - control_key: SC-28 (1)
@@ -390,10 +484,10 @@ satisfies:
       - service provider system specific
     narrative:
       - text: |
-          All remote access sessions to CS Docker Engine are protected with
-          Transport Layer Security (TLS) 1.2. In addition to this, all
-          communication to and between CS Docker Engines is enforced by way of
-          two-way mutual TLS authentication.
+          'All remote access sessions to CS Docker Engine are protected with
+          Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
+          addition to this, all communication to and between CS Docker Engines
+          is enforced by way of two-way mutual TLS authentication.'
     standard_key: NIST-800-53
 
   - control_key: SI-16
