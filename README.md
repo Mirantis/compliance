@@ -4,23 +4,27 @@
 
 Contained within this repository is compliance information for Docker Datacenter as it pertains to NIST-800-53 Rev 4 security controls and the FedRAMP Moderate baseline. This data adheres to the [OpenControl](http://open-control.org/) schema for building compliance documentation and can be used as part of your own ATO review process.
 
-> This content is provided for informational purposes only and has not been vetted by any third-party security assessors. You are solely responsible for developing, implementing, and managing your applications and/or subscriptions running on your own platform in compliance with applicable laws, regulations, and contractual obligations. The documentation is provided "as-is" and without any warranty of any kind, whether in express, implied or statutory, and Docker, Inc expressly disclaims all warranties or mechantability fitness for a particular purpose, or non-infringement.
+> This content is provided for informational purposes only and has not been vetted by any third-party security assessors. You are solely responsible for developing, implementing, and managing your applications and/or subscriptions running on your own platform in compliance with applicable laws, regulations, and contractual obligations. The documentation is provided "as-is" and without any warranty of any kind, whether in express, implied or statutory, and Docker, Inc expressly disclaims all warranties or merchantability fitness for a particular purpose, or non-infringement.
 
-System Security Plan (SSP) Templates for Docker Datacenter that also contain this content as it applies to a specific cloud provider can be obtained by contacting [compliance@docker.com](mailto:compliance@docker.com). Templates are available for the following providers:
+System Security Plan (SSP) Templates for Docker Datacenter that also contain this content as it applies to a specific cloud provider can be obtained by contacting [compliance@docker.com](mailto:compliance@docker.com). Docker Datacenter SSP template guidance availability is contained in the following table:
 
-- Microsoft Azure Government (based on [Azure Blueprint](https://blogs.msdn.microsoft.com/azuregov/2016/10/12/azure-blueprint-architecting-secure-solutions-just-got-easier/))
-- AWS GovCloud (coming soon)
+|Provider|Format|Status|
+|--------|------|------|
+|Microsoft Azure Government|[Azure Blueprint](https://blogs.msdn.microsoft.com/azuregov/2016/10/12/azure-blueprint-architecting-secure-solutions-just-got-easier/) (.docx)|Available|
+|AWS GovCloud|Security Controls Matrix (.xlsx)|Coming soon|
 
 ## Usage
 
-The control guidance for Docker Datacenter is separated in to four, distinct components:
+The control guidance for Docker Datacenter is separated in to the following components:
 
-- Commercially Supported (CS) Docker Engine: [`CSEngine/`](https://github.com/docker/ddc-opencontrol/tree/master/CSEngine)
-- Docker Trusted Registry (DTR): [`DTR/`](https://github.com/docker/ddc-opencontrol/tree/master/DTR)
-- Universal Control Plane (UCP): [`UCP/`](https://github.com/docker/ddc-opencontrol/tree/master/UCP)
-- Universal Control Plane Authentication and Authorization Service: [`UCPAuthNAuthZService/`](https://github.com/docker/ddc-opencontrol/tree/master/UCPAuthNAuthZService)
+|Component Name|Folder|Version|
+|--------------|------|-------|
+|Commercially Supported (CS) Docker Engine|[`CSEngine/`](https://github.com/docker/ddc-opencontrol/tree/master/CSEngine)|1.12.3-cs4|
+|Docker Trusted Registry (DTR)|[`DTR/`](https://github.com/docker/ddc-opencontrol/tree/master/DTR)|2.1.1|
+|Universal Control Plane (UCP)|[`UCP/`](https://github.com/docker/ddc-opencontrol/tree/master/UCP)|2.0.1|
+|Universal Control Plane Authentication and Authorization Service|[`UCPAuthNAuthZService/`](https://github.com/docker/ddc-opencontrol/tree/master/UCPAuthNAuthZService)|2.0.1|
 
-> Both the UCP and DTR components leverage the UCP Authentication and Authorization Service component for Docker Datacenter authentication and authorization.
+> Both the UCP and DTR components leverage the UCP Authentication and Authorization Service component for authentication and authorization across an entire Docker Datacenter cluster.
 
 A `component.yaml` file resides in each component's subdirectory. Updates to the security narratives and content are made to these `component.yaml` files.
 
@@ -28,7 +32,7 @@ In order to generate the documentation appropriate to your system, refer to the 
 
 ## Developing
 
-Refer to the [Contributing Guide](https://github.com/docker/ddc-opencontrol/blob/master/CONTRIBUTING.md) for instructions on developing against this project.
+Refer to the [Contributing Guide](https://github.com/docker/ddc-opencontrol/blob/master/CONTRIBUTING.md) for instructions on contributing to this project.
 
 ### Component Validation
 
