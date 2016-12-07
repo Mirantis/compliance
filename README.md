@@ -1,4 +1,4 @@
-# Docker Datacenter Compliance Controls [![CircleCI](https://circleci.com/gh/docker/ddc-opencontrol/tree/master.svg?style=svg&circle-token=daeaf5acd7ac08000ea727cbf8ec9baa8ded8da4)](https://circleci.com/gh/docker/ddc-opencontrol/tree/master) [![codecov](https://codecov.io/gh/docker/ddc-opencontrol/branch/nlp/graph/badge.svg?token=WiRPQcno3c)](https://codecov.io/gh/docker/ddc-opencontrol)
+# Docker Datacenter Compliance Controls [![CircleCI](https://circleci.com/gh/docker/ddc-opencontrol/tree/master.svg?style=svg&circle-token=daeaf5acd7ac08000ea727cbf8ec9baa8ded8da4)](https://circleci.com/gh/docker/ddc-opencontrol/tree/master) [![codecov](https://codecov.io/gh/docker/ddc-opencontrol/branch/master/graph/badge.svg?token=WiRPQcno3c)](https://codecov.io/gh/docker/ddc-opencontrol)
 
 
 **This content is not yet complete.**
