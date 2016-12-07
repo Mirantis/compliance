@@ -5,7 +5,14 @@ machine:
 dependencies:
   override:
     - docker build --rm=false -t docker/ddc-opencontrol .
+    - cp -r DTR nlp/ && cp -r CSEngine nlp && cp -r UCP nlp/
+    - docker build --rm=false -t docker/ddc-opencontrol-nlp nlp/
+    - rm -rf nlp/DTR && rm -rf nlp/CSEngine && rm -rf nlp/UCP
 
 test:
   override:
     - docker run docker/ddc-opencontrol
+    - docker run -v "$(pwd)":/root -e "TEXT_ANALYTICS_API_KEY=$TEXT_ANALYTICS_API_KEY" docker/ddc-opencontrol-nlp /bin/bash -c "./go.test.sh; cp coverage.txt /root"
+    - docker run -e "TEXT_ANALYTICS_API_KEY=$TEXT_ANALYTICS_API_KEY" docker/ddc-opencontrol-nlp
+  post:
+    - bash <(curl -s https://codecov.io/bash)

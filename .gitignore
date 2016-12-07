@@ -120,6 +120,7 @@ _book
 !.vscode/launch.json
 
 ### OpenControl ###
+
 schemas/
 opencontrols
 exports/
@@ -156,4 +157,7 @@ _testmain.go
 
 # external packages folder
 vendor/*/
->>>>>>> 282559e... update README and gitignore
+
+nlp/DTR/
+nlp/CSEngine/
+nlp/UCP/
