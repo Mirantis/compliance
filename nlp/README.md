@@ -1,7 +1,5 @@
 # Text Analysis Tool for DDC OpenControl
 
-**This content is not yet complete.**
-
 The NLP tool can be used to validate that the Docker Datacenter component narratives adhere to the NIST 800-53 security control specifications.
 
 ## Usage
