@@ -624,7 +624,7 @@ satisfies:
   - control_key: RA-5 (3)
     covered_by: []
     implementation_statuses:
-      - planned
+      - complete
     control_origins:
       - service provider system specific
     narrative:
