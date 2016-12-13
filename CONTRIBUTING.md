@@ -1,7 +1,5 @@
 # Contributing to ddc-opencontrol
 
-**This content is not yet complete.**
-
 By licensing this project under the CC0 Public Domain, we've made it easy to make contributions.
 
 ## Reporting issues
