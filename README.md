@@ -6,10 +6,10 @@ Contained within this repository is compliance information for Docker Datacenter
 
 System Security Plan (SSP) Templates for Docker Datacenter that also contain this content as it applies to a specific cloud provider can be obtained by contacting [compliance@docker.com](mailto:compliance@docker.com). Docker Datacenter SSP template guidance availability is contained in the following table:
 
-|Provider|Format|Status|
-|--------|------|------|
-|Microsoft Azure Government|[Azure Blueprint](https://blogs.msdn.microsoft.com/azuregov/2016/10/12/azure-blueprint-architecting-secure-solutions-just-got-easier/) (.docx)|Available|
-|AWS GovCloud|AWS MRE|Coming soon|
+|Provider|Format|Baselines|Status|
+|--------|------|---------|------|
+|[Microsoft Azure Government](https://azure.microsoft.com/en-us/overview/clouds/government/)|[Azure Blueprint](https://blogs.msdn.microsoft.com/azuregov/2016/10/12/azure-blueprint-architecting-secure-solutions-just-got-easier/) (.docx)|Moderate|Available|
+|[AWS GovCloud](https://aws.amazon.com/govcloud-us/)|AWS MRE|Moderate|Coming soon|
 
 ## Usage
 
