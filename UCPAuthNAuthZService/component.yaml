@@ -89,7 +89,10 @@ satisfies:
           logging service such as an Elasticsearch, Logstash and Kibana (ELK)
           stack and subsequently alert on specific event types. Instructions for
           configuring this can be found at
-          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/. When integrating Docker Datacenter with LDAP, one can refer the the directory service's logging mechanisms for auditing the events defined by this control.'
+          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/.
+          When integrating Docker Datacenter with LDAP, one can refer the the
+          directory service's logging mechanisms for auditing the events defined
+          by this control.'
     standard_key: NIST-800-53
 
   - control_key: AC-2 (7)
