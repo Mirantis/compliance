@@ -34,7 +34,9 @@ satisfies:
     narrative:
       - key: a
         text: |
-          'The permission levels assignable to users and teams managed by Docker Trusted Registry are documented at https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/'.
+          'The permission levels assignable to users and teams managed by Docker
+          Trusted Registry are documented at
+          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/'.
     standard_key: NIST-800-53
 
   - control_key: AC-2 (12)
