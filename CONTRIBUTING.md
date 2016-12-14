@@ -10,4 +10,4 @@ Instead, this project should be used to report issues specific to wording in the
 
 ## Submitting pull requests
 
-To keep things simple, we're encouraging folks to adopt the forking workflow. Pull requests should be submitted on a separate branch from your own fork of the repository. Any updates and commentary should be clear and concise. If you're looking to make changes to the `component.yaml` files, please try to limit each narrative's text block to a length of 80 characters. There are various tools and editor extensions that can help automate this. 
+To keep things simple, we're encouraging folks to adopt the forking workflow. Pull requests should be submitted on a separate branch from your own fork of the repository. Any updates and commentary should be clear and concise. If you're looking to make changes to the `component.yaml` files, please try to limit each narrative's text block line length to 80 characters. There are various tools and editor extensions that can help automate this. 
