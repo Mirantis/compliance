@@ -1,7 +1,7 @@
 schema_version: "1.0.0"
 name: Docker Datacenter Compliance
 metadata:
-  description: Docker Datacenter on X Compliance Template
+  description: Docker Enterprise Edition Advanced Compliance Template
   maintainers:
     - andrew.weiss@docker.com
 dependencies:

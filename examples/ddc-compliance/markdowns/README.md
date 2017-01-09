@@ -1,3 +1,3 @@
-# Docker Datacenter SSP Sample
+# Docker Enterprise Edition Advanced SSP Sample
 
-This is a sample generated SSP that includes Docker Datacenter
+This is a sample generated SSP that includes Docker Enterprise Edition Advanced
