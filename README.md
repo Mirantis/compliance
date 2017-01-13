@@ -1,6 +1,6 @@
 # Docker Datacenter Compliance Controls [![CircleCI](https://circleci.com/gh/docker/ddc-opencontrol/tree/master.svg?style=svg&circle-token=daeaf5acd7ac08000ea727cbf8ec9baa8ded8da4)](https://circleci.com/gh/docker/ddc-opencontrol/tree/master) [![codecov](https://codecov.io/gh/docker/ddc-opencontrol/branch/master/graph/badge.svg?token=WiRPQcno3c)](https://codecov.io/gh/docker/ddc-opencontrol)
 
-Contained within this repository is compliance information for Docker Datacenter as it pertains to NIST-800-53 Rev 4 security controls and the FedRAMP Moderate baseline. This data adheres to the [OpenControl](http://open-control.org/) schema for building compliance documentation and can be used as part of your own ATO review process.
+Contained within this repository is compliance information for Docker Datacenter as it pertains to NIST-800-53 Rev 4 security controls and the FedRAMP Moderate baseline. This data adheres to the [OpenControl](http://open-control.org/) schema for building compliance documentation and can be used as part of your own ATO review process. The documentation generated from this content can be used to ATO Docker Datacenter in both on-premises/private cloud infrastructure and in public cloud providers.
 
 > This content is provided for informational purposes only and has not been vetted by any third-party security assessors. You are solely responsible for developing, implementing, and managing your applications and/or subscriptions running on your own platform in compliance with applicable laws, regulations, and contractual obligations. The documentation is provided "as-is" and without any warranty of any kind, whether express, implied or statutory, and Docker, Inc. expressly disclaims all warranties for non-infringement, merchantability or fitness for a particular purpose.
 
@@ -9,7 +9,7 @@ System Security Plan (SSP) Templates for Docker Datacenter that also contain thi
 |Provider|Format|Baselines|Status|
 |--------|------|---------|------|
 |[Microsoft Azure Government](https://azure.microsoft.com/en-us/overview/clouds/government/)|[Azure Blueprint](https://blogs.msdn.microsoft.com/azuregov/2016/10/12/azure-blueprint-architecting-secure-solutions-just-got-easier/) (.docx)|Moderate|Available|
-|[AWS GovCloud](https://aws.amazon.com/govcloud-us/)|AWS MRE|Moderate|Coming soon|
+|[AWS GovCloud](https://aws.amazon.com/govcloud-us/)|TBD|Moderate|Coming soon|
 
 ## Usage
 
