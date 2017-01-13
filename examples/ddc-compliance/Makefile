@@ -1,3 +1,5 @@
+.PHONY: opencontrols exports
+
 default: serve
 
 clean:
@@ -9,5 +11,5 @@ serve: exports
 exports: opencontrols
 	compliance-masonry docs gitbook FedRAMP-moderate
 
-opencontrols:
+opencontrols: clean
 	compliance-masonry get
