@@ -1,5 +1,5 @@
 documentation_complete: false
-schema_version: 3.1.0
+schema_version: 3.0.0
 name: Universal Control Plane Authentication and Authorization Service
 references:
   - name: UCP Documentation
