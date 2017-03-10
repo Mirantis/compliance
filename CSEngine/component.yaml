@@ -24,9 +24,7 @@ satisfies:
   - control_key: AC-2 (12)
     covered_by: []
     implementation_status: complete
-      
-    control_origin:
-      
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
