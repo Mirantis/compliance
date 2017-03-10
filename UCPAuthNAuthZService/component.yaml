@@ -9,7 +9,7 @@ satisfies:
   - control_key: AC-1
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - key: a
         text: |
@@ -30,7 +30,7 @@ satisfies:
   - control_key: AC-2
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'Multiple backend services provide for centralized identity.
@@ -54,7 +54,7 @@ satisfies:
   - control_key: AC-2 (3)
     covered_by: []
     implementation_status: complete
-    control_origin: configured by customer
+    control_origin: "configured by customer"
     narrative:
       - text: |
           'Using Docker Datacenter’s LDAP integration capabilities, one can
@@ -67,7 +67,7 @@ satisfies:
   - control_key: AC-2 (4)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'Docker Datacenter logs various authentication and authorization
@@ -87,7 +87,7 @@ satisfies:
   - control_key: AC-2 (7)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - key: a
         text: |
@@ -100,7 +100,7 @@ satisfies:
   - control_key: AC-2 (9)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'Users and/or groups synchronized to Docker Datacenter via LDAP can be
@@ -111,7 +111,7 @@ satisfies:
   - control_key: AC-2 (10)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'Users and/or groups synchronized to Docker Datacenter via LDAP can be
@@ -122,7 +122,7 @@ satisfies:
   - control_key: AC-2 (12)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'When Docker Datacenter is configured for LDAP integration, one can
@@ -133,7 +133,7 @@ satisfies:
   - control_key: AC-3
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'You can control which users and teams can create and manipulate
@@ -153,7 +153,7 @@ satisfies:
   - control_key: AC-6 (9)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'Docker Datacenter logs privileged user events to standard log files.
@@ -172,7 +172,7 @@ satisfies:
   - control_key: AC-6 (10)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'You can control which users and teams can create and manipulate
@@ -192,7 +192,7 @@ satisfies:
   - control_key: AC-7
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - key: a
         text: |
@@ -212,7 +212,7 @@ satisfies:
   - control_key: AC-17 (1)
     covered_by: []
     implementation_status: complete
-    control_origin: configured by customer
+    control_origin: "configured by customer"
     narrative:
       - text: |
           'Docker Datacenter logs and controls all local and remote access
@@ -223,7 +223,7 @@ satisfies:
   - control_key: AU-3
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'Docker Datacenter generates all of the audit record information
@@ -239,7 +239,7 @@ satisfies:
   - control_key: IA-2
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'Docker Datacenter can be configured to identify and authenticate
@@ -257,7 +257,7 @@ satisfies:
   - control_key: IA-2 (5)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -270,7 +270,7 @@ satisfies:
   - control_key: IA-2 (8)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'Docker Datacenter integrates with LDAP for authenticating users to an
@@ -282,7 +282,7 @@ satisfies:
   - control_key: IA-4
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - key: c
         text: |
@@ -313,7 +313,7 @@ satisfies:
   - control_key: IA-4 (4)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -327,7 +327,7 @@ satisfies:
   - control_key: IA-5
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - key: b
         text: |
@@ -409,7 +409,7 @@ satisfies:
   - control_key: IA-5 (1)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - key: a
         text: |
@@ -466,7 +466,7 @@ satisfies:
   - control_key: IA-5 (4)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -480,7 +480,7 @@ satisfies:
   - control_key: IA-5 (6)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -493,7 +493,7 @@ satisfies:
   - control_key: IA-8 (2)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'An external directory service integrated with Docker Datacenter via
@@ -505,7 +505,7 @@ satisfies:
   - control_key: IA-8 (3)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -519,7 +519,7 @@ satisfies:
   - control_key: IA-8 (4)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this

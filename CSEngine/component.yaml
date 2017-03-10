@@ -24,7 +24,7 @@ satisfies:
   - control_key: AC-2 (12)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - key: a
         text: |
@@ -37,7 +37,7 @@ satisfies:
   - control_key: AC-17 (1)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'CS Docker Engine logs and controls all local and remote access
@@ -48,7 +48,7 @@ satisfies:
   - control_key: AC-17 (2)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'All remote access sessions to CS Docker Engine are protected with
@@ -60,7 +60,7 @@ satisfies:
   - control_key: AC-17 (3)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'A combination of managed load balancers, firewalls and access control
@@ -87,7 +87,7 @@ satisfies:
   - control_key: AU-2
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - key: a
         text: |
@@ -104,7 +104,7 @@ satisfies:
   - control_key: AU-3
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'Both Universal Control Plane and Docker Trusted Registry are pre-configured to take advantage of CS Docker Engine''s built-in logging mechanisms. Further configuration of CS Docker Engine logging can be done by refering to the guidance at https://docs.docker.com/engine/admin/logging/overview/. A sample audit event recorded by CS Docker Engine has been provided below:
@@ -118,7 +118,7 @@ satisfies:
   - control_key: AU-3 (1)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'CS Docker Engine can be configured with various logging drivers to
@@ -132,7 +132,7 @@ satisfies:
   - control_key: AU-5
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'CS Docker Engine can be configured with various logging drivers to
@@ -147,7 +147,7 @@ satisfies:
   - control_key: AU-7
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - key: a
         text: |
@@ -167,7 +167,7 @@ satisfies:
   - control_key: AU-7 (1)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'CS Docker Engine can be configured with various logging drivers to
@@ -198,7 +198,7 @@ satisfies:
   - control_key: AU-8 (1)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - key: a
         text: |
@@ -221,7 +221,7 @@ satisfies:
   - control_key: AU-9
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'On the underlying Linux operating system supporting CS Docker Engine,
@@ -244,7 +244,7 @@ satisfies:
   - control_key: AU-9 (2)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'CS Docker Engine can be configured to use a logging driver that can
@@ -256,7 +256,7 @@ satisfies:
   - control_key: AU-11
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'The organization will be responsible for meeting the requirements of
@@ -270,7 +270,7 @@ satisfies:
   - control_key: AU-12
     covered_by: []
     implementation_status: complete    
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - key: a
         text: |
@@ -297,7 +297,7 @@ satisfies:
   - control_key: CM-5 (3)
     covered_by: []
     implementation_status: complete      
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'Before installing CS Docker Engine, ensure that your supporting Linux
@@ -321,7 +321,7 @@ satisfies:
   - control_key: CM-6 (1)
     covered_by: []
     implementation_status: complete      
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -333,7 +333,7 @@ satisfies:
   - control_key: CM-7 (2)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'In order to restrict which Docker images can be used to deploy
@@ -346,7 +346,7 @@ satisfies:
   - control_key: CM-7 (5)
     covered_by: []
     implementation_status: complete      
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -361,7 +361,7 @@ satisfies:
   - control_key: IA-3
     covered_by: []
     implementation_status: complete  
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'In order for other CS Engine nodes to be able to join a cluster
@@ -373,7 +373,7 @@ satisfies:
   - control_key: SA-10 (1)
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'Docker Content Trust gives you the ability to verify both the
@@ -389,7 +389,7 @@ satisfies:
   - control_key: SC-12 (2)
     covered_by: []
     implementation_status: complete      
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'CS Docker Engine can be installed on the following operating systems:
@@ -402,7 +402,7 @@ satisfies:
   - control_key: SC-13
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'CS Docker Engine can be installed on the following operating systems:
@@ -415,7 +415,7 @@ satisfies:
   - control_key: SC-23
     covered_by: []
     implementation_status: complete
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'All remote access sessions to CS Docker Engine are protected with
@@ -427,7 +427,7 @@ satisfies:
   - control_key: SC-28 (1)
     covered_by: []
     implementation_status: complete 
-    control_origin: service provider system specific
+    control_origin: "service provider system specific"
     narrative:
       - text: |
           'All remote access sessions to CS Docker Engine are protected with
