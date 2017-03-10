@@ -8,11 +8,8 @@ references:
 satisfies: 
   - control_key: AC-2 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
-      - configured by customer
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Documentation for managing users, organizations and teams in Docker
@@ -27,10 +24,8 @@ satisfies:
 
   - control_key: AC-2 (7)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -41,9 +36,8 @@ satisfies:
 
   - control_key: AC-2 (12)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
+    implementation_status: complete
+    control_origin:
       - service provider system specific
       - configured by customer
     narrative:
@@ -55,10 +49,8 @@ satisfies:
 
   - control_key: AC-4
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The Docker Trusted Registry system architecture can be found at
@@ -72,10 +64,8 @@ satisfies:
   
   - control_key: AC-4 (21)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The Docker Trusted Registry system architecture can be found at
@@ -89,10 +79,8 @@ satisfies:
 
   - control_key: AC-17 (2)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete      
+    control_origin: service provider system specific
     narrative:
       - text: |
           'All remote access sessions to Docker Trusted Registry are protected
@@ -105,10 +93,8 @@ satisfies:
   
   - control_key: AC-17 (3)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete   
+    control_origin: service provider system specific
     narrative:
       - text: |
           'A combination of managed load balancers, firewalls and access control
@@ -119,10 +105,8 @@ satisfies:
 
   - control_key: AC-17 (9)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - configured by customer
+    implementation_status: complete
+    control_origin: configured by customer
     narrative:
       - text: |
           'Built-in firewall technology in Docker Trusted Registry's underlying
@@ -134,10 +118,8 @@ satisfies:
 
   - control_key: AU-2
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete    
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -150,10 +132,8 @@ satisfies:
 
   - control_key: AU-3
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete  
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Docker Trusted Registry generates all of the audit record information
@@ -168,10 +148,8 @@ satisfies:
   
   - control_key: AU-3 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -185,10 +163,8 @@ satisfies:
 
   - control_key: AU-5
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -202,10 +178,8 @@ satisfies:
 
   - control_key: AU-7
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -225,10 +199,8 @@ satisfies:
   
   - control_key: AU-7 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -242,10 +214,8 @@ satisfies:
 
   - control_key: AU-8
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - configured by customer
+    implementation_status: complete
+    control_origin: configured by customer
     narrative:
       - key: a
         text: |
@@ -261,10 +231,8 @@ satisfies:
 
   - control_key: AU-8 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -286,10 +254,8 @@ satisfies:
 
   - control_key: AU-9
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'By default, Docker Trusted Registry is configured to use the
@@ -305,10 +271,8 @@ satisfies:
 
   - control_key: AU-9 (2)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Docker Trusted Registry resides as an Application on a Universal
@@ -321,10 +285,8 @@ satisfies:
 
   - control_key: AU-11
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The organization will be responsible for meeting the requirements of
@@ -339,10 +301,8 @@ satisfies:
 
   - control_key: AU-12
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -366,10 +326,8 @@ satisfies:
 
   - control_key: CM-5 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete  
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Role-based access control can be configured within Docker Trusted
@@ -381,10 +339,8 @@ satisfies:
 
   - control_key: CM-5 (3)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Docker Content Trust is a capability provided by CS Docker Engine
@@ -406,10 +362,8 @@ satisfies:
 
   - control_key: CM-6 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -420,10 +374,8 @@ satisfies:
 
   - control_key: CM-7 (2)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The organization can define a list of allowed base Docker images and
@@ -434,10 +386,8 @@ satisfies:
 
   - control_key: CM-7 (5)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -458,10 +408,8 @@ satisfies:
 
   - control_key: CM-11
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: b
         text: |
@@ -474,10 +422,8 @@ satisfies:
   
   - control_key: CP-10 (2)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
          'Docker Trusted Registry maintains its cluster state via an internal
@@ -488,10 +434,8 @@ satisfies:
 
   - control_key: IA-2 (5)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -503,10 +447,8 @@ satisfies:
 
   - control_key: IA-3
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Docker Trusted Registry replicas reside on Universal Control Plane
@@ -522,10 +464,8 @@ satisfies:
 
   - control_key: IA-5 (2)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -572,10 +512,8 @@ satisfies:
 
   - control_key: IA-6
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Docker Trusted Registry obscures all feedback of authentication
@@ -585,10 +523,8 @@ satisfies:
 
   - control_key: IA-7
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'All access to Docker Trusted Registry is protected with Transport
@@ -599,10 +535,8 @@ satisfies:
 
   - control_key: IA-8
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete  
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Users managed by Docker Trusted Registry can be grouped per the
@@ -612,10 +546,8 @@ satisfies:
 
   - control_key: RA-5 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The Docker Security Scanning tool allows for the scanning of Docker
@@ -625,10 +557,8 @@ satisfies:
 
   - control_key: RA-5 (3)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The Docker Security Scanning tool allows for the scanning of Docker
@@ -638,10 +568,8 @@ satisfies:
 
   - control_key: SA-10 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Docker Content Trust gives you the ability to verify both the
@@ -657,10 +585,8 @@ satisfies:
   
   - control_key: SC-2
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Docker Trusted Registry is made up of a number of backend services
@@ -673,10 +599,8 @@ satisfies:
 
   - control_key: SC-23
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'All remote access sessions to Docker Trusted Registry are protected
@@ -689,10 +613,8 @@ satisfies:
 
   - control_key: SC-28 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'All remote access sessions to Docker Trusted Registry are protected

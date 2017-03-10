@@ -8,11 +8,8 @@ references:
 satisfies:  
   - control_key: AC-2 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
-      - configured by customer
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Documentation for managing users and teams in Universal Control Plane
@@ -24,10 +21,8 @@ satisfies:
   
   - control_key: AC-2 (7)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -37,11 +32,8 @@ satisfies:
   
   - control_key: AC-2 (12)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
-      - configured by customer
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Universal Control Plane can be configured to send system account log
@@ -55,10 +47,8 @@ satisfies:
 
   - control_key: AC-4
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The Universal Control Plane system architecture can be found at
@@ -72,10 +62,8 @@ satisfies:
   
   - control_key: AC-4 (21)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The Universal Control Plane system architecture can be found at
@@ -89,10 +77,8 @@ satisfies:
 
   - control_key: AC-17 (2)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'All remote access sessions to Universal Control Plane are protected
@@ -105,10 +91,8 @@ satisfies:
 
   - control_key: AC-17 (3)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'A combination of managed load balancers, firewalls and access control
@@ -119,10 +103,8 @@ satisfies:
 
   - control_key: AC-17 (9)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - configured by customer
+    implementation_status: complete
+    control_origin: configured by customer
     narrative:
       - text: |
           'Built-in firewall technology in Universal Control Plane's underlying
@@ -135,10 +117,8 @@ satisfies:
 
   - control_key: AU-2
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -152,10 +132,8 @@ satisfies:
 
   - control_key: AU-3
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Universal Control Plane generates all of the audit record information
@@ -170,10 +148,8 @@ satisfies:
 
   - control_key: AU-3 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -185,10 +161,8 @@ satisfies:
 
   - control_key: AU-5
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -200,10 +174,8 @@ satisfies:
 
   - control_key: AU-7
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -221,10 +193,8 @@ satisfies:
 
   - control_key: AU-7 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -236,10 +206,8 @@ satisfies:
 
   - control_key: AU-8
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - configured by customer
+    implementation_status: complete
+    control_origin: configured by customer
     narrative:
       - key: a
         text: |
@@ -255,10 +223,8 @@ satisfies:
 
   - control_key: AU-8 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -280,10 +246,8 @@ satisfies:
 
   - control_key: AU-9
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'By default, Universal Control Plane is configured to use the
@@ -299,10 +263,8 @@ satisfies:
 
   - control_key: AU-9 (2)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Universal Control Plane can be configured to send logs to a remote
@@ -314,10 +276,8 @@ satisfies:
 
   - control_key: AU-11
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The organization will be responsible for meeting the requirements of
@@ -331,10 +291,8 @@ satisfies:
 
   - control_key: AU-12
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -358,10 +316,8 @@ satisfies:
   
   - control_key: CM-5 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Role-based access control can be configured within Universal Control
@@ -373,10 +329,8 @@ satisfies:
   
   - control_key: CM-5 (3)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Docker Content Trust is a capability provided by CS Docker Engine
@@ -395,10 +349,8 @@ satisfies:
 
   - control_key: CM-6 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
          'The organization is responsible for meeting the requirements of this
@@ -409,10 +361,8 @@ satisfies:
 
   - control_key: CM-7 (2)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
          'In order to restrict which Docker images can be used to deploy
@@ -424,10 +374,8 @@ satisfies:
 
   - control_key: CM-7 (5)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -452,10 +400,8 @@ satisfies:
 
   - control_key: CP-10 (2)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
          'Universal Control Plane maintains its cluster state via an internal
@@ -466,10 +412,8 @@ satisfies:
 
   - control_key: IA-2 (5)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -481,10 +425,8 @@ satisfies:
 
   - control_key: IA-3
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'In order for nodes to join a Universal Control Plane cluster, they
@@ -495,10 +437,8 @@ satisfies:
 
   - control_key: IA-5 (2)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - key: a
         text: |
@@ -535,10 +475,8 @@ satisfies:
 
   - control_key: IA-6
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Universal Control Plane obscures all feedback of authentication
@@ -548,10 +486,8 @@ satisfies:
 
   - control_key: IA-7
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'All access to Universal Control Plane is protected with Transport
@@ -562,10 +498,8 @@ satisfies:
 
   - control_key: IA-8
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Users managed by Universal Control Plane can be grouped per the
@@ -575,10 +509,8 @@ satisfies:
 
   - control_key: SA-10 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -597,10 +529,8 @@ satisfies:
 
   - control_key: SC-2
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'Universal Control Plane is made up of a number of backend services
@@ -613,10 +543,8 @@ satisfies:
 
   - control_key: SC-23
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'All remote access sessions to Universal Control Plane are protected
@@ -629,10 +557,8 @@ satisfies:
 
   - control_key: SC-28 (1)
     covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
+    implementation_status: complete
+    control_origin: service provider system specific
     narrative:
       - text: |
           'All remote access sessions to Universal Control Plane are protected
