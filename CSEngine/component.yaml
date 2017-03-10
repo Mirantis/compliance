@@ -221,8 +221,7 @@ satisfies:
   - control_key: AU-9
     covered_by: []
     implementation_status: complete
-    control_origin:
-      - service provider system specific
+    control_origin: service provider system specific
     narrative:
       - text: |
           'On the underlying Linux operating system supporting CS Docker Engine,
