@@ -41,7 +41,7 @@ satisfies:
   - control_key: AC-2 (2)
     covered_by: []
     implementation_status: complete
-    control_origin: configured by customer
+    control_origin: "configured by customer"
     narrative:
       - text: |
           'Using Docker Datacenter’s LDAP integration capabilities, one can
