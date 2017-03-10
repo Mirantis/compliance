@@ -104,7 +104,7 @@ satisfies:
   - control_key: AC-17 (9)
     covered_by: []
     implementation_status: complete
-    control_origin: configured by customer
+    control_origin: "configured by customer"
     narrative:
       - text: |
           'Built-in firewall technology in Docker Trusted Registry's underlying
