@@ -72,7 +72,7 @@ satisfies:
   - control_key: AC-17 (9)
     covered_by: []
     implementation_status: complete
-    control_origin: configured by customer
+    control_origin: "configured by customer"
     narrative:
       - text: |
           'Built-in firewall technology in CS Docker Engine's underlying
@@ -181,7 +181,7 @@ satisfies:
   - control_key: AU-8
     covered_by: []
     implementation_status: complete
-    control_origin: configured by customer
+    control_origin: "configured by customer"
     narrative:
       - key: a
         text: |
@@ -439,7 +439,7 @@ satisfies:
   - control_key: SI-16
     covered_by: []
     implementation_status: complete 
-    control_origin: configured by customer
+    control_origin: "configured by customer"
     narrative:
       - text: |
           'CS Docker Engine can be installed on the following operating systems:
