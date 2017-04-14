@@ -24,22 +24,22 @@
 			"checksumSHA1": "Oae/AzW8+W/lPdL6smTcgyhncrc=",
 			"origin": "github.com/opencontrol/compliance-masonry/vendor/github.com/blang/semver",
 			"path": "github.com/blang/semver",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "3Ra7UCyzXJhmzgdjWLmdvdMnrCM=",
 			"origin": "github.com/opencontrol/compliance-masonry/vendor/github.com/codegangsta/cli",
 			"path": "github.com/codegangsta/cli",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "uQTh8ywqf2HliNDbxefLtuu/0Ks=",
 			"origin": "github.com/opencontrol/compliance-masonry/vendor/github.com/go-forks/fsnotify",
 			"path": "github.com/go-forks/fsnotify",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "Ws2ljgpeN1KOb3np3u/18pPjZvo=",
@@ -111,29 +111,29 @@
 			"checksumSHA1": "pLMph+sHfAp9wUQeT1IwrBT8kQY=",
 			"origin": "github.com/opencontrol/compliance-masonry/vendor/github.com/go-utils/ufs",
 			"path": "github.com/go-utils/ufs",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "6XZy+YcZi0I9fp3qUXfZ0fGQZQI=",
 			"origin": "github.com/opencontrol/compliance-masonry/vendor/github.com/go-utils/ugo",
 			"path": "github.com/go-utils/ugo",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "Flb+2gW2tEgjaM/3DIWjVjfK5x8=",
 			"origin": "github.com/opencontrol/compliance-masonry/vendor/github.com/go-utils/uslice",
 			"path": "github.com/go-utils/uslice",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "sQYP+CNq31TpOh5z45HGyWxthAI=",
 			"origin": "github.com/opencontrol/compliance-masonry/vendor/github.com/go-utils/ustr",
 			"path": "github.com/go-utils/ustr",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "urY45++NYCue4nh4k8OjUFnIGfU=",
@@ -336,80 +336,80 @@
 		{
 			"checksumSHA1": "/K5NFKpyDbQCCUonfV86CJxixEU=",
 			"path": "github.com/opencontrol/compliance-masonry/lib",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "fy9mSALoDQJTpxUgG64srBRCz08=",
 			"path": "github.com/opencontrol/compliance-masonry/lib/certifications",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "GG/ovRZsPNce+riP1hg4KRkwVQk=",
 			"path": "github.com/opencontrol/compliance-masonry/lib/certifications/versions/1_0_0",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "T589a4LpbCg4qgflEZya8glkV5M=",
 			"path": "github.com/opencontrol/compliance-masonry/lib/common",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "NQB+wlvIHq7H1p74tRzIhTj2VBY=",
 			"path": "github.com/opencontrol/compliance-masonry/lib/components",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "h0zigaALHPj4uQox/Q9TqwpTMO8=",
 			"path": "github.com/opencontrol/compliance-masonry/lib/components/versions/2_0_0",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "kmQKNBgCpn2yLrR1LmSlYu0N59U=",
 			"path": "github.com/opencontrol/compliance-masonry/lib/components/versions/3_0_0",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "UZCOJsD4CGuT8B1LvJTInHWm0sk=",
 			"path": "github.com/opencontrol/compliance-masonry/lib/components/versions/3_1_0",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "mnQccsKwM6J1J8deUFUDabQQ1iY=",
 			"path": "github.com/opencontrol/compliance-masonry/lib/result",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "e9SL+ojUTHUwy4Ad7E16QwgXZhQ=",
 			"path": "github.com/opencontrol/compliance-masonry/lib/standards",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "lrOCPY3Z+ms9yGwRvKxWVB2gdEc=",
 			"path": "github.com/opencontrol/compliance-masonry/lib/standards/versions/1_0_0",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "Vg1JP1X3LbUe/RtGoxpUIFTFsBI=",
 			"path": "github.com/opencontrol/compliance-masonry/tools/constants",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "Q78Ss6P8PRW7/WmdG/R1nTOm1aI=",
 			"path": "github.com/opencontrol/compliance-masonry/tools/fs",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "zmC8/3V4ls53DJlNTKDZwPSC/dA=",
@@ -436,6 +436,12 @@
 			"revisionTime": "2016-11-15T21:05:04Z"
 		},
 		{
+			"checksumSHA1": "uTQtOqR0ePMMcvuvAIksiIZxhqU=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "d75a52659825e75fff6158388dddc6a5b04f9ba5",
+			"revisionTime": "2016-12-14T18:38:57Z"
+		},
+		{
 			"checksumSHA1": "ziMb9+ANGRJSSIuxYdRbA+cDRBQ=",
 			"path": "golang.org/x/text/transform",
 			"revision": "a263ba8db058568bb9beba166777d9c9dbe75d68",
@@ -457,8 +463,8 @@
 			"checksumSHA1": "NGg7/qIJVUfXi7xnEyyDLocdi6Y=",
 			"origin": "github.com/opencontrol/compliance-masonry/vendor/gopkg.in/fatih/set.v0",
 			"path": "gopkg.in/fatih/set.v0",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		},
 		{
 			"checksumSHA1": "12GqsW8PiRPnezDDy0v4brZrndM=",
@@ -470,8 +476,8 @@
 			"checksumSHA1": "xRKxbmjgtGOLl2cHeVgr35ONhVg=",
 			"origin": "github.com/opencontrol/compliance-masonry/vendor/vbom.ml/util/sortorder",
 			"path": "vbom.ml/util/sortorder",
-			"revision": "30c1ee2cf0c01cfb3a533726d434ed6c9acd3671",
-			"revisionTime": "2016-10-20T13:05:41Z"
+			"revision": "84971d9f2097096a4240e233fe6162045fee4871",
+			"revisionTime": "2017-02-06T14:46:43Z"
 		}
 	],
 	"rootPath": "github.com/docker/compliance/nlp"
