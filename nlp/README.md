@@ -7,8 +7,8 @@ The NLP tool can be used to validate that the Docker Datacenter component narrat
 The application is packaged using the included Dockerfile. In order to run the tool, the `TEXT_ANALYTICS_API_KEY` environment variable must be set with your own Cognitive Services Text Analytics API key. The commands below can be used to build the image and run the tool:
 
 ```sh
-docker build -t docker/ddc-opencontrol-nlp .
-docker run -e "TEXT_ANALYTICS_API_KEY=$TEXT_ANALYTICS_API_KEY" docker/ddc-opencontrol-nlp
+docker build -t docker/compliance-nlp .
+docker run -e "TEXT_ANALYTICS_API_KEY=$TEXT_ANALYTICS_API_KEY" docker/compliance-nlp
 ```
 
 ## Developing

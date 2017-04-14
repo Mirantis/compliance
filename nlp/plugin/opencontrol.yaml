@@ -10,5 +10,5 @@ dependencies:
     - url: https://github.com/opencontrol/FedRAMP-Certifications
       revision: master
   systems:
-    - url: https://github.com/docker/ddc-opencontrol
+    - url: https://github.com/docker/compliance
       revision: master

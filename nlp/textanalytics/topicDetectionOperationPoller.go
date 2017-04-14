@@ -6,8 +6,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/docker/ddc-opencontrol/nlp/textanalytics/client/operations"
-	"github.com/docker/ddc-opencontrol/nlp/textanalytics/models"
+	"github.com/docker/compliance/nlp/textanalytics/client/operations"
+	"github.com/docker/compliance/nlp/textanalytics/models"
 )
 
 var (

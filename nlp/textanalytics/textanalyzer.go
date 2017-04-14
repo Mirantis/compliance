@@ -5,10 +5,10 @@ import (
 
 	"math"
 
-	textAnalyticsClient "github.com/docker/ddc-opencontrol/nlp/textanalytics/client"
-	"github.com/docker/ddc-opencontrol/nlp/textanalytics/client/operations"
-	"github.com/docker/ddc-opencontrol/nlp/textanalytics/models"
-	"github.com/docker/ddc-opencontrol/nlp/types"
+	textAnalyticsClient "github.com/docker/compliance/nlp/textanalytics/client"
+	"github.com/docker/compliance/nlp/textanalytics/client/operations"
+	"github.com/docker/compliance/nlp/textanalytics/models"
+	"github.com/docker/compliance/nlp/types"
 	uuid "github.com/satori/go.uuid"
 )
 

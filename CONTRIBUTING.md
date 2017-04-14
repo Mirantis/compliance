@@ -1,4 +1,4 @@
-# Contributing to ddc-opencontrol
+# Contributing to OpenControl-formatted controls
 
 By licensing this project under the CC0 Public Domain, we've made it easy to make contributions.
 

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/ddc-opencontrol/nlp/types"
+	"github.com/docker/compliance/nlp/types"
 	"github.com/mitchellh/mapstructure"
 	uuid "github.com/satori/go.uuid"
 	"gopkg.in/yaml.v2"

@@ -1,8 +1,8 @@
 package parser_test
 
 import (
-	. "github.com/docker/ddc-opencontrol/nlp/parser"
-	. "github.com/docker/ddc-opencontrol/nlp/types"
+	. "github.com/docker/compliance/nlp/parser"
+	. "github.com/docker/compliance/nlp/types"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

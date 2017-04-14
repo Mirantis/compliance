@@ -11,7 +11,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	"github.com/docker/ddc-opencontrol/nlp/textanalytics/models"
+	"github.com/docker/compliance/nlp/textanalytics/models"
 )
 
 // KeyPhrasesReader is a Reader for the KeyPhrases structure.

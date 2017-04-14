@@ -8,8 +8,8 @@ import (
 
 	"sort"
 
-	"github.com/docker/ddc-opencontrol/nlp/parser"
-	"github.com/docker/ddc-opencontrol/nlp/textanalytics"
+	"github.com/docker/compliance/nlp/parser"
+	"github.com/docker/compliance/nlp/textanalytics"
 )
 
 var (

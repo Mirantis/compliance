@@ -9,7 +9,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	"github.com/docker/ddc-opencontrol/nlp/textanalytics/client/operations"
+	"github.com/docker/compliance/nlp/textanalytics/client/operations"
 )
 
 // Default text analytics HTTP client.

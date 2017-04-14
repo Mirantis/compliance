@@ -2,7 +2,7 @@ default: run
 
 clean:
 	rm -rf DTR/ CSEngine/ UCP/
-	docker rmi -f docker/ddc-opencontrol-nlp
+	docker rmi -f docker/compliance-nlp
 
 vendor:
 	govendor add +external
@@ -13,8 +13,8 @@ test: vendor
 
 build: test
 	cp -r ../DTR . && cp -r ../CSEngine . && cp -r ../UCP .
-	docker build -t docker/ddc-opencontrol-nlp .
+	docker build -t docker/compliance-nlp .
 	rm -rf DTR/ CSEngine/ UCP/
 
 run: build
-	docker run --rm -e "TEXT_ANALYTICS_API_KEY=$$TEXT_ANALYTICS_API_KEY" docker/ddc-opencontrol-nlp
+	docker run --rm -e "TEXT_ANALYTICS_API_KEY=$$TEXT_ANALYTICS_API_KEY" docker/compliance-nlp
