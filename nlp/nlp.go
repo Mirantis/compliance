@@ -26,7 +26,7 @@ func main() {
 	}
 
 	log.Println("Parsing components")
-	components, err := parser.ParseComponents("DTR", "CSEngine", "UCP")
+	components, err := parser.ParseComponents("DTR", "DockerEE", "UCP", "DSS", "eNZi")
 	if err != nil {
 		log.Fatalf("Error parsing components: %+v", err)
 	}
