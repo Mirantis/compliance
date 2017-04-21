@@ -1,15 +1,17 @@
-# Docker Datacenter Compliance Controls [![CircleCI](https://circleci.com/gh/docker/compliance/tree/master.svg?style=svg&circle-token=daeaf5acd7ac08000ea727cbf8ec9baa8ded8da4)](https://circleci.com/gh/docker/compliance/tree/master) [![codecov](https://codecov.io/gh/docker/compliance/branch/master/graph/badge.svg?token=WiRPQcno3c)](https://codecov.io/gh/docker/compliance)
+# Docker Enterprise Edition Compliance Controls [![CircleCI](https://circleci.com/gh/docker/compliance/tree/master.svg?style=svg&circle-token=daeaf5acd7ac08000ea727cbf8ec9baa8ded8da4)](https://circleci.com/gh/docker/compliance/tree/master) [![codecov](https://codecov.io/gh/docker/compliance/branch/master/graph/badge.svg?token=WiRPQcno3c)](https://codecov.io/gh/docker/compliance)
 
-This repository contains compliance information for [Docker Enterprise Edition (EE) Advanced](https://www.docker.com/enterprise-edition) as it pertains to NIST-800-53 Rev 4 security controls at the [FedRAMP](https://www.fedramp.gov/) Moderate and High baselines. This data adheres to the [OpenControl](http://open-control.org/) schema for building compliance documentation and can be used as part of your own authority to operate (ATO) review process. The documentation generated from this content can be used to authorize Docker Enterprise Edition in both on-premises/private cloud infrastructure and in public cloud providers.
+This repository contains compliance information for [Docker Enterprise Edition (EE)](https://www.docker.com/enterprise-edition) at the Basic, Standard and Advanced tiers as it pertains to NIST-800-53 Rev 4 security controls at the [FedRAMP](https://www.fedramp.gov/) Moderate and High baselines. This data adheres to the [OpenControl](http://open-control.org/) schema for building compliance documentation and can be used as part of your own authority to operate (ATO) review process. The documentation generated from this content can be used to assist your organization in authorizing Docker Enterprise Edition in both on-premises/private cloud infrastructure and in public cloud providers.
 
 > This content is provided for informational purposes only and has not been vetted by any third-party security assessors. You are solely responsible for developing, implementing, and managing your applications and/or subscriptions running on your own platform in compliance with applicable laws, regulations, and contractual obligations. The documentation is provided "as-is" and without any warranty of any kind, whether express, implied or statutory, and Docker, Inc. expressly disclaims all warranties for non-infringement, merchantability or fitness for a particular purpose.
 
-Pre-built System Security Plan (SSP) templates for authorizing Docker Enterprise Edition on various FedRAMP P-ATO'd cloud providers, as indicated in the table below, can be obtained by contacting [compliance@docker.com](mailto:compliance@docker.com). Note that even if a pre-built template for Docker EE is not available for your chosen cloud provider, you can still use the OpenControl-formatted content in this repository to generate your own SSP templates. Much of the content in this repository is identical to that which is provided in the pre-built templates.
+Docker also provides pre-built System Security Plan (SSP) templates for authorizing Docker Enterprise Edition on various FedRAMP P-ATO'd IaaS providers, as indicated in the table below. These can be obtained by contacting [compliance@docker.com](mailto:compliance@docker.com). These templates are **not** the offial cloud providers' SSP templates but rather show both the controls inherited from that IaaS provider's P-ATO and the controls applicable to Docker Enterprise Edition. When conducting an ATO, it is still your responsibility to request the provider's official SSP package as appropriate and conduct your own security analysis.
 
 |Provider|Format|Baselines|Status|
 |--------|------|---------|------|
 |[Microsoft Azure Government](https://azure.microsoft.com/en-us/overview/clouds/government/)|[Azure Blueprint](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-plan-compliance) (.docx)|Moderate<br>High<br>DoD L4<br>DoD L5|Available<br>Coming Soon<br>Coming Soon<br>Coming Soon|
 |[AWS GovCloud](https://aws.amazon.com/govcloud-us/)|TBD|Moderate|Coming soon|
+
+Note that even if a pre-built template for Docker EE is not available for your chosen cloud provider, you can still use the OpenControl-formatted content in this repository to generate your own SSP templates. Much of the content in this repository is identical to that which is provided in the pre-built templates.
 
 ## Usage
 
@@ -20,21 +22,23 @@ docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance
 docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry docs gitbook FedRAMP-moderate
 ```
 
- Refer to the Compliance Masonry [usage instructions](https://github.com/opencontrol/compliance-masonry/blob/master/docs/usage.md) for more info on the various CLI options. The `examples/ddc-compliance` directory contains an example use of this tooling.
+ Refer to the Compliance Masonry [usage instructions](https://github.com/opencontrol/compliance-masonry/blob/master/docs/usage.md) for more info on the various CLI options. The `examples/DockerEE-compliance` directory contains an example use of this tooling.
 
 Docker Enterprise Edition Advanced at the versions specified in the table below is required in order to meet all of the applicable security controls included in this repository. The control guidance for Docker Enterprise Edition is separated in to the following components:
 
 |Component Name|Folder|Version|
 |--------------|------|-------|
-|Docker EE Engine|[`DockerEE/`](https://github.com/docker/compliance/tree/master/DockerEE)|17.03.0-ee-1|
-|Docker Trusted Registry (DTR)|[`DTR/`](https://github.com/docker/compliance/tree/master/DTR)|2.2.x|
-|Docker Security Scanning (DSS)|[`DSS/`](https://github.com/docker/compliance/tree/master/DSS)|2.2.x|
-|Universal Control Plane (UCP)|[`UCP/`](https://github.com/docker/compliance/tree/master/UCP)|2.1.x|
-|Authentication and Authorization Service (eNZi)|[`eNZi/`](https://github.com/docker/compliance/tree/master/eNZi)|2.1.x|
+|Docker EE Engine|[`DockerEE/`](https://github.com/docker/compliance/tree/master/DockerEE)|17.03.0-ee|
+|Docker Trusted Registry (DTR)|[`DTR/`](https://github.com/docker/compliance/tree/master/DTR)|2.2|
+|Docker Security Scanning (DSS)|[`DSS/`](https://github.com/docker/compliance/tree/master/DSS)|2.2|
+|Universal Control Plane (UCP)|[`UCP/`](https://github.com/docker/compliance/tree/master/UCP)|2.1|
+|Authentication and Authorization Service (eNZi)|[`eNZi/`](https://github.com/docker/compliance/tree/master/eNZi)|2.1|
 
-> Both the UCP and DTR components leverage the eNZi authentication and authorization service component for authentication and authorization across an entire Docker Enterprise Edition Advanced cluster.
+> Both the UCP and DTR components leverage the eNZi authentication and authorization service component for authentication and authorization across an entire Docker Enterprise Edition cluster at the Standard and Advanced tiers.
 
 A `component.yaml` file resides in each component's subdirectory. Updates to the security narratives and content are made to these `component.yaml` files.
+
+Bear in mind that you'll also need to include your own `component.yaml` files that aren't covered by the functionality of Docker Enterprise Edition and that reflect your organization's adherence to the appropriate controls. Typically these are organized in separate component directories for each control familiy (e.g. `AC_Policy/`, `MA_POLICY/`, etc). An example of this can be found at [https://github.com/18F/cg-compliance](https://github.com/18F/cg-compliance).
 
 ## Developing
 
@@ -42,7 +46,7 @@ Refer to the [Contributing Guide](https://github.com/docker/compliance/blob/mast
 
 ### Component Validation
 
-The OpenControl schema is defined by the [Kwalify](http://www.kuwata-lab.com/kwalify/) schema validator and YAML parser. Each Docker Enterprise Edition Advanced component definition is tested against this schema using the [PyKwalify](https://github.com/Grokzen/pykwalify) Python port of the Kwalify specification. The Dockerfile in the root of the repository is used only by CircleCI for running the component tests within a container.
+The OpenControl schema is defined by the [Kwalify](http://www.kuwata-lab.com/kwalify/) schema validator and YAML parser. Each component definition in the Docker Enterprise Edition Advanced tier is tested against this schema using the [PyKwalify](https://github.com/Grokzen/pykwalify) Python port of the Kwalify specification. The Dockerfile in the root of this repository is used only by CircleCI for running the component tests within a container.
 
 ### Natural Language Processing [Experimental]
 
