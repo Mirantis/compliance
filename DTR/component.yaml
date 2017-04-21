@@ -1,6 +1,6 @@
 documentation_complete: false
-schema_version: 3.0.0
-name: Docker Trusted Registry
+schema_version: 3.1.0
+name: Docker Trusted Registry (DTR)
 references:
   - name: Docker Trusted Registry Documentation
     path: https://docs.docker.com/docker-trusted-registry/
@@ -12,14 +12,12 @@ satisfies:
     control_origin: "service provider system specific"
     narrative:
       - text: |
-          'Documentation for managing users, organizations and teams in Docker
-          Trusted Registry can be found at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/create-and-manage-users/,
-          at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/create-and-manage-orgs/,
-          and at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/create-and-manage-teams/
-          respectively.'
+          'To assist the organization in meeting the requirements of this
+          control, supporting documentation for managing users and teams can
+          found at the following resources:
+
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/create-and-manage-users/
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/create-and-manage-teams/'
     standard_key: NIST-800-53
 
   - control_key: AC-2 (7)
@@ -29,9 +27,11 @@ satisfies:
     narrative:
       - key: a
         text: |
-          'The permission levels assignable to users and teams managed by Docker
-          Trusted Registry are documented at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/'.
+          'To assist the organization in meeting the requirements of this
+          control, supporting documentation can be found at the following
+          resources:
+
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/'
     standard_key: NIST-800-53
 
   - control_key: AC-2 (12)
@@ -40,9 +40,31 @@ satisfies:
     control_origin: "service provider system specific"
     narrative:
       - text: |
-          'Docker Trusted Registry can be monitored by following the
-          documentation at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/monitor-troubleshoot/.'
+          'To assist the organization in meeting the requirements of this
+          control, supporting documentation can be found at the following
+          resources:
+
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/monitor-and-troubleshoot/
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/'
+    standard_key: NIST-800-53
+  
+  - control_key: AC-3
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'One can control which users and teams can create and manipulate
+          Docker Trusted Registry resources. By default, no one can make changes
+          to the cluster. Permissions can be granted and managed to enforce
+          fine-grained access control. Supporting documentation can be found at
+          the following resources:
+
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC'
     standard_key: NIST-800-53
 
   - control_key: AC-4
@@ -51,13 +73,31 @@ satisfies:
     control_origin: "service provider system specific"
     narrative:
       - text: |
-          'The Docker Trusted Registry system architecture can be found at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/architecture/.
-          Information specific to container networking within DTR can be found
-          at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/architecture/#/networks.
-          The ports used by DTR for communication are documented at
-          https://docs.docker.com/datacenter/dtr/2.0/install/system-requirements/#/ports-used.'
+          'Supporting documentation to configure Docker Trusted Registry to meet
+          the requirements of this control can be found at the following
+          resources:
+
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/install/system-requirements/#/ports-used
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations'
+    standard_key: NIST-800-53
+
+  - control_key: AC-4 (8)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+      - configured by customer
+    narrative:
+      - text: |
+          'Supporting documentation to configure Docker Trusted Registry to meet
+          the requirements of this control can be found at the following
+          resources:
+
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/install/system-requirements/#/ports-used
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations'
     standard_key: NIST-800-53
   
   - control_key: AC-4 (21)
@@ -66,13 +106,33 @@ satisfies:
     control_origin: "service provider system specific"
     narrative:
       - text: |
-          'The Docker Trusted Registry system architecture can be found at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/architecture/.
-          Information specific to container networking within DTR can be found
-          at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/architecture/#/networks.
-          The ports used by DTR for communication are documented at
-          https://docs.docker.com/datacenter/dtr/2.0/install/system-requirements/#/ports-used.'
+          'Supporting documentation to configure Docker Trusted Registry to meet
+          the requirements of this control can be found at the following
+          resources:
+
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/install/system-requirements/#/ports-used
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations'
+    standard_key: NIST-800-53
+
+  - control_key: AC-5
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can control which users and teams can create and
+          manipulate Docker Trusted Registry resources. By default, no one can
+          make changes to the cluster. Permissions can be granted and managed to
+          enforce fine-grained access control. Supporting documentation can be
+          found at the following resources:
+
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC'
     standard_key: NIST-800-53
 
   - control_key: AC-17 (2)
@@ -124,8 +184,9 @@ satisfies:
           'All of the event types indicated by this control are logged by a
           combination of the backend ucp-controller service within Universal
           Control Plane and the backend services that make up Docker Trusted
-          Registry. Instructions for viewing this data can be found at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/monitor-troubleshoot/.'
+          Registry. Additional documentation can be found at the following resource:
+
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/monitor-and-troubleshoot/'
     standard_key: NIST-800-53
 
   - control_key: AU-3
@@ -152,11 +213,30 @@ satisfies:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
           logging stack, which in turn, sends the Docker Trusted Registry
-          backend container audit records to the remote logging stack.
-          Instructions for doing so can be found at
-          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/.
-          The logging stack can subsequently be used to interpolate the
-          information defined by this control from the logged audit records.'
+          backend container audit records to the remote logging stack. The
+          logging stack can subsequently be used to interpolate the information
+          defined by this control from the logged audit records. Additional
+          information can be found at the following resource:
+          
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+    standard_key: NIST-800-53
+
+  - control_key: AU-3 (2)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'Universal Control Plane can be configured to log data to a remote
+          logging stack, which in turn, sends the Docker Trusted Registry
+          backend container audit records to the remote logging stack. The
+          logging stack can subsequently be used to interpolate the information
+          defined by this control from the logged audit records. Additional
+          information can be found at the following resource:
+          
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
     standard_key: NIST-800-53
 
   - control_key: AU-5
@@ -167,11 +247,66 @@ satisfies:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
           logging stack, which in turn, sends the Docker Trusted Registry
-          backend container audit records to the remote logging stack.
-          Instructions for doing so can be found at
-          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/.
-          The logging stack can subsequently be configured to alert individuals
-          in the event of log processing failures.'
+          backend container audit records to the remote logging stack. The
+          logging stack can subsequently be configured to alert individuals in
+          the event of log processing failures. Additional information can be
+          found at the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+    standard_key: NIST-800-53
+
+  - control_key: AU-5 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'Universal Control Plane can be configured to log data to a remote
+          logging stack, which in turn, sends the Docker Trusted Registry
+          backend container audit records to the remote logging stack. The
+          logging stack can subsequently be configured to warn the organization
+          when the allocated log storage is full. Additional information can be
+          found at the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+    standard_key: NIST-800-53
+
+  - control_key: AU-5 (2)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'Universal Control Plane can be configured to log data to a remote
+          logging stack, which in turn, sends the Docker Trusted Registry
+          backend container audit records to the remote logging stack. The
+          logging stack can subsequently be configured to warn the organization
+          when audit log failures occur. Additional information can be found at
+          the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+    standard_key: NIST-800-53
+
+  - control_key: AU-6 (4)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'Universal Control Plane can be configured to log data to a remote
+          logging stack, which in turn, sends the Docker Trusted Registry
+          backend container audit records to the remote logging stack. The
+          organization can subsequently centrally review and analyze all of the
+          Docker EE audit records. Additional information can be found at the
+          following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
     standard_key: NIST-800-53
 
   - control_key: AU-7
@@ -183,11 +318,12 @@ satisfies:
         text: |
           'Universal Control Plane can be configured to log data to a remote
           logging stack, which in turn, sends the Docker Trusted Registry
-          backend container audit records to the remote logging stack.
-          Instructions for doing so can be found at
-          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/.
-          The logging stack can subsequently be used to facilitate the audit
-          reduction and report generation requirements of this control.'
+          backend container audit records to the remote logging stack. The
+          logging stack can subsequently be used to facilitate the audit
+          reduction and report generation requirements of this control.
+          Additional information can be found at the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
       - key: b
         text: |
           'The underlying operating system chosen to support Docker Trusted
@@ -203,11 +339,12 @@ satisfies:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
           logging stack, which in turn, sends the Docker Trusted Registry
-          backend container audit records to the remote logging stack.
-          Instructions for doing so can be found at
-          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/.
-          The logging stack can subsequently be configured to parse information
-          by organization-defined audit fields.'
+          backend container audit records to the remote logging stack. The
+          logging stack can subsequently be configured to parse information by
+          organization-defined audit fields. Additional information can be found
+          at the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
     standard_key: NIST-800-53
 
   - control_key: AU-8
@@ -257,14 +394,15 @@ satisfies:
     narrative:
       - text: |
           'By default, Docker Trusted Registry is configured to use the
-          underlying logging capabilities of CS Docker Engine. As such, on the
-          underlying Linux operating system, only root and sudo users and users
-          that have been added to the 'docker' group have the ability to access
-          the logs generated by UCP backend service containers. In addition,
-          only UCP Administrator users can change the logging endpoint of the
-          system should it be decided that logs be sent to a remote logging
-          stack. In this case, the organization is responsible for configuring
-          the remote logging stack per the provisions of this control.'
+          underlying logging capabilities of Docker Enterprise Edition. As such,
+          on the underlying Linux operating system, only root and sudo users and
+          users that have been added to the 'docker' group have the ability to
+          access the logs generated by UCP backend service containers. In
+          addition, only UCP Administrator users can change the logging endpoint
+          of the system should it be decided that logs be sent to a remote
+          logging stack. In this case, the organization is responsible for
+          configuring the remote logging stack per the provisions of this
+          control.'
     standard_key: NIST-800-53
 
   - control_key: AU-9 (2)
@@ -274,11 +412,33 @@ satisfies:
     narrative:
       - text: |
           'Docker Trusted Registry resides as an Application on a Universal
-          Control Plane cluster, and as such, can be configured to send logs to
-          a remote logging stack per the instructions at
-          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/.
-          This logging stack can subsequently be configured to back up audit
+          Control Plane cluster, acan be configured to send logs to a remote
+          logging stack. Additional information can be found at the following
+          resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
+
+          The logging stack can subsequently be configured to back up audit
           records per the schedule defined by this control.'
+    standard_key: NIST-800-53
+
+  - control_key: AU-9 (3)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'Docker Trusted Registry resides as an Application on a Universal
+          Control Plane cluster, acan be configured to send logs to a remote
+          logging stack. Additional information can be found at the following
+          resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
+
+          The logging stack can subsequently be configured to meet the
+          encryption mechanisms required by this control.'
     standard_key: NIST-800-53
 
   - control_key: AU-11
@@ -291,10 +451,13 @@ satisfies:
           this control. To assist with these requirements, Docker Trusted
           Registry resides as an Application on a Universal Control Plane
           cluster, and as such, can be configured to send logs to a remote
-          logging stack per the instructions at
-          https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/.
-          This logging stack can subsequently be configured retain logs for the
-          duration required by this control.'
+          logging stack. Additional information can be found at the following
+          resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
+
+          This logging stack can subsequently be configured to retain logs for
+          the duration required by this control.'
     standard_key: NIST-800-53
 
   - control_key: AU-12
@@ -306,9 +469,10 @@ satisfies:
         text: |
           'All of the event types indicated by AU-2 a. are logged by a
           combination of the backend services within Universal Control Plane and
-          Docker Trusted Registry. Instructions for viewing this data can be
-          found at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/monitor-troubleshoot/.
+          Docker Trusted Registry. Additional information can be found at the
+          following resources:
+
+          - https://docs.docker.com/datacenter/dtr/2.1/guides/monitor-troubleshoot/
 
           The underlying Linux operating system supporting DTR can be configured
           to audit Docker-specific events with the auditd daemon. Refer to the
@@ -322,6 +486,45 @@ satisfies:
           use for instructions on configuring this service.'
     standard_key: NIST-800-53
 
+  - control_key: AU-12 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'Docker Trusted Registry resides as an Application on a Universal
+          Control Plane cluster, and as such, can be configured to send logs to
+          a remote logging stack. Additional information can be found at the
+          following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
+
+          This logging stack can subsequently be used to compile audit records
+          in to a system-wide audit trail that is time-correlated per the
+          requirements of this control.'
+    standard_key: NIST-800-53
+
+  - control_key: AU-12 (3)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'Docker Trusted Registry resides as an Application on a Universal
+          Control Plane cluster, and as such, can be configured to send logs to
+          a remote logging stack. Additional information can be found at the
+          following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
+
+          This logging stack can subsequently be used to meet the requirements
+          of this control.'
+    standard_key: NIST-800-53
+
   - control_key: CM-5 (1)
     covered_by: []
     implementation_status: complete  
@@ -329,10 +532,12 @@ satisfies:
     narrative:
       - text: |
           'Role-based access control can be configured within Docker Trusted
-          Registry to meet the requirements of this control. Refer to the
-          documentation at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/ and
-          https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/.'
+          Registry to meet the requirements of this control. Additional
+          information can be found at the following resources:
+
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/
+          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC'
     standard_key: NIST-800-53
 
   - control_key: CM-5 (3)
@@ -341,21 +546,21 @@ satisfies:
     control_origin: "service provider system specific"
     narrative:
       - text: |
-          'Docker Content Trust is a capability provided by CS Docker Engine
-          that enforces client-side signing and verification of Docker image
-          tags. It provides the ability to use digital signatures for data sent
-          to and received from Docker Trusted Registry and the public Docker
-          Store. These signatures allow client-side verification of the
+          'Docker Content Trust is a capability provided by Docker Enterprise
+          Edition that enforces client-side signing and verification of Docker
+          image tags. It provides the ability to use digital signatures for data
+          sent to and received from Docker Trusted Registry and the public
+          Docker Store. These signatures allow client-side verification of the
           integrity and publisher of specific image tags. All Docker Trusted
           Registry Docker images are officially signed and verified by Docker,
           Inc.
 
           When installing Docker Trusted Registry, you should enable Docker
-          Content Trust (per the instructions at
-          https://docs.docker.com/engine/security/trust/content_trust/) and
-          subsequently pull the the signed DTR image tag. Trusted repositories
-          can also be managed by following the guidance at
-          https://docs.docker.com/datacenter/ucp/2.0/guides/content-trust/manage-trusted-repositories/.'
+          Content Trust and subsequently pull the the signed DTR image tag.
+          Additional information can be found at teh following resources:
+
+          - https://docs.docker.com/engine/security/trust/content_trust/
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/manage-trusted-repositories/'
     standard_key: NIST-800-53
 
   - control_key: CM-6 (1)
@@ -414,7 +619,23 @@ satisfies:
           'The organization is responsible for meeting the requirements of this
           control. To assist with these requirements, the organization can
           define a list of allowed base Docker images and make them available
-          via Docker Trusted Registry. The organization must also prevent users
+          via Docker Trusted Registry. The organization can also prevent users
+          from being able to pull Docker images from untrusted sources.'
+    standard_key: NIST-800-53
+
+  - control_key: CM-11 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - key: b
+        text: |
+          'The organization is responsible for meeting the requirements of this
+          control. To assist with these requirements, the organization can
+          define a list of allowed base Docker images and make them available
+          via Docker Trusted Registry. The organization can also prevent users
           from being able to pull Docker images from untrusted sources.'
     standard_key: NIST-800-53
   
@@ -426,8 +647,11 @@ satisfies:
       - text: |
          'Docker Trusted Registry maintains its cluster state via an internal
          key-value store. This, and other DTR transactions can be backed up and
-         recovered by following the instructions at
-         https://docs.docker.com/datacenter/dtr/2.1/guides/high-availability/backups-and-disaster-recovery/.'
+         recovered. Additional information can be found at the following
+         resources:
+
+         - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/backups-and-disaster-recovery/
+         - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#DTR_Backup'
     standard_key: NIST-800-53
 
   - control_key: IA-2 (5)
@@ -590,9 +814,11 @@ satisfies:
           'Docker Trusted Registry is made up of a number of backend services
           that provide for both user functionality (including user interface
           services) and system management functionality. Each of these services
-          operates independently of one another. A description of these services
-          can be found at
-          https://docs.docker.com/datacenter/dtr/2.1/guides/architecture/.'
+          operates independently of one another. Additional information can be
+          found at the following resources:
+
+          - https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/
+          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Docker_Trusted_Registry'
     standard_key: NIST-800-53
 
   - control_key: SC-23
@@ -622,3 +848,18 @@ satisfies:
           In addition to this, all communication to DTR is enforced by way of
           two-way mutual TLS authentication.'
     standard_key: NIST-800-53
+
+  - control_key: SI-11
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider system specific
+    narrative:
+      - text: |
+          'All error messages generated via the configured logging mechanism of
+          Docker Trusted Registry are displayed such that they meet the
+          requirements of this control. Only users that are authorized the
+          appropriate level of access can view these error messages.'
+    standard_key: NIST-800-53
+

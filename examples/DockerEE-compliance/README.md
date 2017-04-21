@@ -1,6 +1,6 @@
-# DDC Compliance Documentation Sample
+# Docker Enterprise Edition Compliance Documentation Sample
 
-Included is a sample `opencontrol.yaml` file that imports the DDC components and supports the generation of FedRAMP Moderate compliance documentation.
+Included is a sample `opencontrol.yaml` file that imports the Docker EE components and supports the generation of FedRAMP Moderate compliance documentation.
 
 The steps below can be used to import the OpenControl dependencies and serve a GitBook. Both the compliance-masonry and gitbook-cli tools should be installed.
 

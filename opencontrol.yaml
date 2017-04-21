@@ -2,17 +2,20 @@ schema_version: "1.0.0"
 name: Docker Datacenter
 metadata:
   description: |
-    'Docker Datacenter (DDC) is an integrated solution for developers and IT
+    'Docker Enterprise Edition is an integrated solution for developers and IT
     operations to collaborate as part of the enterprise software supply chain.
     It is an enterprise-grade secure container orchestration and application
-    management platform built and maintained by Docker, Inc. DDC is made up of
-    three core components: Commercially Supported Docker Engine, Docker Trusted
-    Registry and Universal Control Plane.
+    management platform built and maintained by Docker, Inc. Docker Enterprise
+    Edition (Advanced) is made up of five core components: Docker Enterprise
+    Edition Engine, Docker Trusted Registry (DTR), Universal Control Plane
+    (UCP), integrated authentication and authorization service (eNZi) and Docker
+    Security Scanning (DSS).
     
     For each control origination, the cloud service provider (CSP) is in context
-    to you, the DDC consumer. The customer in this context is any entity outside
-    your organization using your services. Definitions for each of the control
-    originations referenced by the components are as follows:
+    to you, the Docker Enteprise Edition consumer. The customer in this context
+    is any entity outside your organization using your services. Definitions for
+    each of the control originations referenced by the components are as
+    follows:
 
     - Service Provider Corporate: A control that orignizations from the service
     provider corporate network
@@ -31,7 +34,9 @@ metadata:
   maintainers:
     - andrew.weiss@docker.com
 components:
-  - ./CSEngine
+  - ./DockerEE
+  - ./DSS
   - ./DTR
+  - ./eNZi
   - ./UCP
-  - ./UCPAuthNAuthZService
+  
