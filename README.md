@@ -15,7 +15,7 @@ Note that even if a pre-built template for Docker EE is not available for your c
 
 ## Usage
 
-In order to generate the documentation appropriate to your system, you can either download and install the [Compliance Masonry](https://github.com/opencontrol/compliance-masonry/) command-line tool on to your local workstation or run the official [Compliance Masonry Docker image](https://store.docker.com/community/images/opencontrolorg/compliance-masonry) from the root of this repository as follows:
+In order to generate the documentation appropriate to your system, you can either download and install the [Compliance Masonry](https://github.com/opencontrol/compliance-masonry/) command-line tool on to your local workstation or run the official [Compliance Masonry Docker image](https://store.docker.com/community/images/opencontrolorg/compliance-masonry) at the root of the `examples/DockerEE-comppliance` directory as follows:
 
 ```sh
 docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get
