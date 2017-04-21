@@ -6,10 +6,10 @@ clean:
 	rm -rf exports/ opencontrols/
 
 serve: exports
-	cd exports && gitbook --gitbook 2.6.7 serve
+	docker run --rm -it -p 4000:4000 -v `PWD`/exports:/srv/gitbook fellah/gitbook:2.6.7
 
 exports: opencontrols
-	compliance-masonry docs gitbook FedRAMP-moderate
+	docker run --rm -v `PWD`:/opencontrol -w /opencontrol opencontrolorg/compliance-masonry docs gitbook FedRAMP-moderate
 
 opencontrols: clean
-	compliance-masonry get
+	docker run --rm -v `PWD`:/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get
