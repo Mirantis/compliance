@@ -15,7 +15,7 @@ Note that even if a pre-built template for Docker EE is not available for your c
 
 ## Usage
 
-In order to generate the documentation appropriate to your system, you can either download and install the [Compliance Masonry](https://github.com/opencontrol/compliance-masonry/) command-line tool on to your local workstation or run the official [Compliance Masonry Docker image](https://store.docker.com/community/images/opencontrolorg/compliance-masonry) as follows:
+In order to generate the documentation appropriate to your system, you can either download and install the [Compliance Masonry](https://github.com/opencontrol/compliance-masonry/) command-line tool on to your local workstation or run the official [Compliance Masonry Docker image](https://store.docker.com/community/images/opencontrolorg/compliance-masonry) from the root of this repository as follows:
 
 ```sh
 docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get
@@ -24,7 +24,7 @@ docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance
 
  Refer to the Compliance Masonry [usage instructions](https://github.com/opencontrol/compliance-masonry/blob/master/docs/usage.md) for more info on the various CLI options. The `examples/DockerEE-compliance` directory contains an example use of this tooling.
 
-Docker Enterprise Edition Advanced at the versions specified in the table below is required in order to meet all of the applicable security controls included in this repository. The control guidance for Docker Enterprise Edition is separated in to the following components:
+In order to meet all of the applicable security controls included in this repository, you must have Docker Enterprise Edition at the Advanced tier and at the versions specified in the table below. The control guidance is separated in to the following components:
 
 |Component Name|Folder|Version|
 |--------------|------|-------|
@@ -36,7 +36,7 @@ Docker Enterprise Edition Advanced at the versions specified in the table below 
 
 > Both the UCP and DTR components leverage the eNZi authentication and authorization service component for authentication and authorization across an entire Docker Enterprise Edition cluster at the Standard and Advanced tiers.
 
-A `component.yaml` file resides in each component's subdirectory. Updates to the security narratives and content are made to these `component.yaml` files.
+Each component is associated with a single `component.yaml` file. These files container the actual security narratives.
 
 Bear in mind that you'll also need to include your own `component.yaml` files that aren't covered by the functionality of Docker Enterprise Edition and that reflect your organization's adherence to the appropriate controls. Typically these are organized in separate component directories for each control familiy (e.g. `AC_Policy/`, `MA_POLICY/`, etc). An example of this can be found at [https://github.com/18F/cg-compliance](https://github.com/18F/cg-compliance).
 
