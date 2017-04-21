@@ -22,7 +22,7 @@ docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance
 docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry docs gitbook FedRAMP-moderate
 ```
 
- Refer to the Compliance Masonry [usage instructions](https://github.com/opencontrol/compliance-masonry/blob/master/docs/usage.md) for more info on the various CLI options. The `examples/DockerEE-compliance` directory contains an example use of this tooling.
+ Refer to the Compliance Masonry [usage instructions](https://github.com/opencontrol/compliance-masonry/blob/master/docs/usage.md) for more info on the various CLI options. The [`examples/DockerEE-compliance`](https://github.com/docker/compliance/tree/master/examples/DockerEE-compliance) directory contains an example use of this tooling.
 
 In order to meet all of the applicable security controls included in this repository, you must have Docker Enterprise Edition at the Advanced tier and at the versions specified in the table below. The control guidance is separated in to the following components:
 
