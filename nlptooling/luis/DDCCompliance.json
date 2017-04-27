@@ -1,0 +1,1292 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "DDCCompliance",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "DoesSatisfyControl"
+    },
+    {
+      "name": "Help"
+    },
+    {
+      "name": "HowDoesSatisfyControl"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "WhichControls"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Control"
+    },
+    {
+      "name": "Product"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [
+    {
+      "name": "control",
+      "mode": true,
+      "words": "AC - 1,CA - 2,AC10,AC - 10,CA - 4,RA - 5 ( 1 )",
+      "activated": true
+    },
+    {
+      "name": "product",
+      "mode": true,
+      "words": "docker,docker datacenter,docker trusted registry,universal control plane,DTR,UCP,DDC",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "what is the name of the ddc product?",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 6,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "hey there",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "testing",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": ":stuck_out_tongue:",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "does docker datacenter satisfy control ac-3",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "does docker datacenter satisfy control ac-11",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "how does docker trusted registry satisfy control ac-13",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 4
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "does cs engine meet the requirements of ca-4",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "does cs engine satisfy control ca-6?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "how does docker datacenter satisfy control ca-9?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "does universal control plane meet the requirements of control ir-4?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 9,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "does docker trusted registry meet the requirements of ir-10?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "does docker datacenter meet the requirements of ir-9?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "how does cs engine meet the requirements of control ir-3?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 9,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "does cs engine meet the requirements of control ir-6?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "does cs engine meet the requirements of control ir-5?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "how does cs engine meet the requirements of ir-4?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "does ucp satisfy ca-1?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "does dtr satisfy control ca-9?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "does ddc satisfy control ca-9?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "does dtr meet the requirements for ra-1?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "does cs engine meet the requirements for ra-1?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "does ddc meet the requirements for ra-5?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "does dtr meet the requirements for control ac-10?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "does ddc satisfy ra-6?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "does dtr satisfy control cm-9?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "does docker datacenter meet the requirements for control ac-12?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "does ddc satisfy control ra-5 (1)?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 4,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "does dtr meet the requirements for control cp-9 (1)?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "does cs engine satisfy cp10 (2)?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 4,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "does ddc meet the requirements for control cp-3?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "does ucp satisfy cp-6 (1)?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 3,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "does ucp meet the requirements for cm-10 (1)?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "does dtr meet the requirements for cm-10?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "does ucp meet the requirements for cm-11?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "does ucp meet the requirements for control cm-10?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "does ddc meet the requirements of control ac-10?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "does ucp meet the requirements for ac-12 (1)?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "does cs engine satisfy ac-10?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "@ddccompliancebot does ddc satisfy control ac-12?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "does dtr satisfy control ac-12?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "does ddc satisfy control ra-6?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "does dtr satisfy control ac-9?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "does ddc satisfy control ac-9?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "does ucp satisfy control ac-10?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "does control ac-11 apply to dtr?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 7,
+          "endPos": 7
+        },
+        {
+          "entity": "Control",
+          "startPos": 2,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "does dtr meet the requirements of control ac-9?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "does ucp meet the requirements of ac-11?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "does dtr meet the requirements of control ac-9? user",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "does dtr satisfy control au-2?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "@ddc-compliance-bot does ucp meet the requirements of control au-3?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 7,
+          "endPos": 7
+        },
+        {
+          "entity": "Control",
+          "startPos": 13,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "does engine satisfy au-10?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Control",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "do dtr and ucp satisfy control cm-10?",
+      "intent": "DoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 1,
+          "endPos": 1
+        },
+        {
+          "entity": "Product",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "how does cs engine satisfy control ac-2?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "how does ucp satisfy control ra-3?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "how does dtr meet the requirements of ra-1?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "how does ddc meet the requirements for ra-3?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "how does docker datacenter meet the requirements for ca - 5?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "how does ddc satisfy control ra-6?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "how does ucp satisfy control cm-10?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "how does ddc satisfy control ac-9?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "how does docker datacenter meet the requirements for control ra-1?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 9,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "how does docker datacenter meet the requirements of control cp-4 (1)?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 9,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "how does cs engine satisfy control cp10 (2)?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "how does docker datacenter meet the requirements for control ac-10?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 9,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "how does ucp meet the requirements for ac-10 (2)?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "how does docker datacenter satisfy control cm-10?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "Control",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "how does dtr satisfy control ac-11?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "how does engine meet the requirements of cm-10?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 2
+        },
+        {
+          "entity": "Control",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "how do docker trusted registry and ucp meet the requirements of control au-10?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 4
+        },
+        {
+          "entity": "Product",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "Control",
+          "startPos": 12,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "how do cs engine and dtr meet the requirements for control cm-10?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "Product",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "Control",
+          "startPos": 11,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "how do universal control plane and dtr satisfy au-9?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 4
+        },
+        {
+          "entity": "Product",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "Control",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "how do engine and universal control plane meet the requirements of au-9?",
+      "intent": "HowDoesSatisfyControl",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 2,
+          "endPos": 2
+        },
+        {
+          "entity": "Product",
+          "startPos": 4,
+          "endPos": 6
+        },
+        {
+          "entity": "Control",
+          "startPos": 11,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "which controls does ddc satisfy?",
+      "intent": "WhichControls",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "which controls does ucp satisfy?",
+      "intent": "WhichControls",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "what controls does dtr satisfy?",
+      "intent": "WhichControls",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "which controls does docker trusted registry satisfy?",
+      "intent": "WhichControls",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "which controls does dtr satisfy",
+      "intent": "WhichControls",
+      "entities": [
+        {
+          "entity": "Product",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what can i say?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "how do i use this bot?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what are the available options?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i need help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i need hlep",
+      "intent": "Help",
+      "entities": []
+    }
+  ]
+}
