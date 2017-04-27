@@ -9,13 +9,13 @@ dependencies:
 
 test:
   override:
-    - docker run docker/compliance-opencontrol
-    - cd nlptooling/nlputil
-    - docker run --rm -v "$(pwd)":/go/src/github.com/docker/compliance/nlptooling/nlputil -e TEXT_ANALYTICS_API_KEY --entrypoint '/bin/bash' docker/compliance-nlputil "./go.test.sh"
-    - cp coverage.txt $HOME/compliance
-    - cd $HOME/compliance/examples/DockerEE-compliance
-    - rm -rf exports/ opencontrols/
-    - docker run --rm -v "$(pwd)":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get
-    - docker run --rm -v "$(pwd)":/DockerEE-compliance -w /DockerEE-compliance -e TEXT_ANALYTICS_API_KEY docker/compliance-nlputil analyze keyphrases
+    - docker run docker/compliance-opencontrol && \
+      cd nlptooling/nlputil && \
+      docker run --rm -v "$(pwd)":/go/src/github.com/docker/compliance/nlptooling/nlputil -e TEXT_ANALYTICS_API_KEY --entrypoint '/bin/bash' docker/compliance-nlputil "./go.test.sh" && \
+      cp coverage.txt $HOME/compliance && \
+      cd $HOME/compliance/examples/DockerEE-compliance && \
+      rm -rf exports/ opencontrols/ && \
+      docker run --rm -v "$(pwd)":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get && \
+      docker run --rm -v "$(pwd)":/DockerEE-compliance -w /DockerEE-compliance -e TEXT_ANALYTICS_API_KEY docker/compliance-nlputil analyze keyphrases
   post:
     - bash <(curl -s https://codecov.io/bash)
