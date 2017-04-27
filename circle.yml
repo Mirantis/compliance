@@ -11,6 +11,6 @@ test:
   override:
     - docker run docker/compliance-opencontrol
     - docker run -v "$(pwd)":/coverage -w /coverage -e TEXT_ANALYTICS_API_KEY --entrypoint '' docker/compliance-nlputil /bin/bash -c "./go.test.sh; cp coverage.txt ."
-    - docker run -v "$(pwd)/examples/DockerEE-compliance:/DockerEE-compliance -w /DockerEE-compliance -e TEXT_ANALYTICS_API_KEY docker/compliance-nlputil analyze keyphrases
+    - docker run -v "$(pwd)/examples/DockerEE-compliance":/DockerEE-compliance -w /DockerEE-compliance -e TEXT_ANALYTICS_API_KEY docker/compliance-nlputil analyze keyphrases
   post:
     - bash <(curl -s https://codecov.io/bash)
