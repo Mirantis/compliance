@@ -5,13 +5,13 @@ machine:
 dependencies:
   override:
     - docker build --rm=false -t docker/compliance-opencontrol .
-    - docker build --rm=false -t docker/compliance-nlputil nlptooling/nlputil
+    - docker build --rm=false -t docker/compliance-nlputil nlp/nlputil
 
 test:
   override:
     - docker run docker/compliance-opencontrol
     - docker run -v "$(pwd)":/go/src/github.com/docker/compliance/nlptooling/nlputil -e TEXT_ANALYTICS_API_KEY --entrypoint '/bin/bash' docker/compliance-nlputil "./go.test.sh":
-        pwd: nlptooling/nlputil
+        pwd: nlp/nlputil
     - rm -rf exports/ opencontrols/:
         pwd: examples/opencontrol/DockerEE-compliance
     - docker run -v "$(pwd)":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get:
