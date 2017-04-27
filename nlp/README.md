@@ -2,13 +2,13 @@
 
 > All tooling in this project is currently experimental and subject to change.
 
-This repository contains various tools that utilize natural language processing services provided by [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services) to enhance the Docker Enterprise Edition security and compliance story.  The tooling currently only integrates with the NIST-800-53 OpenControl-formatted content in the root of this repo.
+This directory contains various tools that utilize natural language processing services provided by [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services) to enhance the Docker Enterprise Edition security and compliance story.  The tooling currently only integrates with the NIST-800-53 OpenControl-formatted content in the root of this repo.
 
 ## nlputil
 
 nlputil is a command-line utility written in Go that executes various analytics operations against the NIST-800-53 compliance documentation for Docker EE. We use this tool to validate that the Docker Enterprise Edition component narratives adhere to the NIST 800-53 security control specifications.
 
-The application is contained within the [`nlputil/`](https://github.com/docker/compliance/tree/master/nlptooling/nlputil) folder and packaged using the included Dockerfile. In order to run the tool, you must provide your own Cognitive Services Text Analytics API key. This can be done via an environment variable or command-line flag passed to the container. We run this tool as part of the CircleCI test phase.
+The application is contained within the [`nlputil/`](https://github.com/docker/compliance/tree/master/nlp/nlputil) folder and packaged using the included Dockerfile. In order to run the tool, you must provide your own Cognitive Services Text Analytics API key. This can be done via an environment variable or command-line flag passed to the container. We run this tool as part of the CircleCI test phase.
 
 ### Key Phrase Extraction
 
@@ -49,7 +49,7 @@ Use "nlputil [command] --help" for more information about a command.
 
 ## Compliance Bot
 
-The compliance bot is a question and answer chat bot built on the [Microsoft Bot Framework](https://dev.botframework.com/) and the [Language Understanding Intelligent Service](https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis). The source is housed in the [`bot/`](https://github.com/docker/compliance/tree/master/nlptooling/bot) directory and the [`luis/`](https://github.com/docker/compliance/tree/master/nlptooling/luis) folder contains the LUIS app JSON file used to train the language model.
+The compliance bot is a question and answer chat bot built on the [Microsoft Bot Framework](https://dev.botframework.com/) and the [Language Understanding Intelligent Service](https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis). The source is housed in the [`bot/`](https://github.com/docker/compliance/tree/master/nlp/bot) directory and the [`luis/`](https://github.com/docker/compliance/tree/master/nlp/luis) folder contains the LUIS app JSON file used to train the language model.
 
 The compliance bot is built with [Node.js v6.9.4 LTS](https://nodejs.org/en/) using the Microsoft Bot Framework [Node.js SDK](https://github.com/Microsoft/BotBuilder) and packaged for both Docker and [Azure Functions](https://azure.microsoft.com/en-us/services/functions/). 
 
