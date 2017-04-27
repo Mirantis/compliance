@@ -14,6 +14,7 @@ test:
     - docker run -v "$(pwd)":/go/src/github.com/docker/compliance/nlptooling/nlputil -e TEXT_ANALYTICS_API_KEY --entrypoint '' docker/compliance-nlputil /bin/bash -c "./go.test.sh"
     - cp coverage.txt ../../
     - cd ../../examples/DockerEE-compliance
+    - make opencontrols
     - docker run -v "$(pwd)":/DockerEE-compliance -w /DockerEE-compliance -e TEXT_ANALYTICS_API_KEY docker/compliance-nlputil analyze keyphrases
   post:
     - bash <(curl -s https://codecov.io/bash)
