@@ -1,0 +1,36 @@
+
+mode: atomic
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:23.59,25.2 1 1
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:29.76,31.2 1 3
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:33.65,38.16 4 4
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:41.2,44.16 3 3
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:48.2,48.20 1 3
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:52.2,52.56 1 3
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:56.2,57.29 2 3
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:69.2,69.31 1 2
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:38.16,40.3 1 1
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:44.16,46.3 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:48.20,50.3 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:52.56,54.3 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:57.29,59.18 1 659
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:59.18,61.69 2 657
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:65.4,66.44 2 656
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:61.69,63.5 1 1
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:73.65,78.37 4 2
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:92.2,92.29 1 2
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:112.2,112.24 1 2
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:78.37,79.110 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:79.110,80.18 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:83.4,83.50 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:86.4,86.14 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:80.18,82.5 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:83.50,85.5 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:87.18,89.4 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:92.29,94.17 2 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:98.3,99.58 2 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:103.3,103.47 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:109.3,109.45 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:94.17,96.4 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:99.58,101.4 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:103.47,104.37 1 0
+github.com/docker/compliance/nlptooling/nlputil/parser/parser.go:104.37,106.5 1 0
