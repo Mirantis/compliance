@@ -12,9 +12,9 @@ test: vendor
 	go test -v -race `go list ./... | grep -v /vendor/`
 
 build: test
-	cp -r ../DTR . && cp -r ../CSEngine . && cp -r ../UCP .
+	cp -r ../DTR . && cp -r ../DockerEE . && cp -r ../DSS . && cp -r ../eNZi . && cp -r ../UCP .
 	docker build -t docker/compliance-nlp .
-	rm -rf DTR/ CSEngine/ UCP/
+	rm -rf DTR/ DockerEE/ UCP/ DSS/ eNZi/ UCP/
 
 run: build
 	docker run --rm -e "TEXT_ANALYTICS_API_KEY=$$TEXT_ANALYTICS_API_KEY" docker/compliance-nlp
