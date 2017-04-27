@@ -10,15 +10,15 @@ dependencies:
 test:
   override:
     - docker run docker/compliance-opencontrol
-    - docker run --rm -v "$(pwd)":/go/src/github.com/docker/compliance/nlptooling/nlputil -e TEXT_ANALYTICS_API_KEY --entrypoint '/bin/bash' docker/compliance-nlputil "./go.test.sh":
+    - docker run -v "$(pwd)":/go/src/github.com/docker/compliance/nlptooling/nlputil -e TEXT_ANALYTICS_API_KEY --entrypoint '/bin/bash' docker/compliance-nlputil "./go.test.sh":
         pwd: nlptooling/nlputil
     - cp coverage.txt $HOME/compliance:
         pwd: nlptooling/nlputil
     - rm -rf exports/ opencontrols/:
         pwd: $HOME/compliance/examples/DockerEE-compliance
-    - docker run --rm -v "$(pwd)":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get:
+    - docker run -v "$(pwd)":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get:
         pwd: $HOME/compliance/examples/DockerEE-compliance
-    - docker run --rm -v "$(pwd)":/DockerEE-compliance -w /DockerEE-compliance -e TEXT_ANALYTICS_API_KEY docker/compliance-nlputil analyze keyphrases:
+    - docker run -v "$(pwd)":/DockerEE-compliance -w /DockerEE-compliance -e TEXT_ANALYTICS_API_KEY docker/compliance-nlputil analyze keyphrases:
         pwd: $HOME/compliance/examples/DockerEE-compliance
 
   post:
