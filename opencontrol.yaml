@@ -34,9 +34,9 @@ metadata:
   maintainers:
     - andrew.weiss@docker.com
 components:
-  - ./DockerEE
-  - ./DSS
-  - ./DTR
-  - ./eNZi
-  - ./UCP
+  - ./opencontrol/components/DockerEE
+  - ./opencontrol/components/DSS
+  - ./opencontrol/components/DTR
+  - ./opencontrol/components/eNZi
+  - ./opencontrol/components/UCP
   

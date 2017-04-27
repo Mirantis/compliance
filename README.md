@@ -15,24 +15,24 @@ Note that even if a pre-built template for Docker EE is not available for your c
 
 ## Usage
 
-In order to generate the documentation appropriate to your system, you can either download and install the [Compliance Masonry](https://github.com/opencontrol/compliance-masonry/) command-line tool on to your local workstation or run the official [Compliance Masonry Docker image](https://store.docker.com/community/images/opencontrolorg/compliance-masonry) at the root of the `examples/DockerEE-comppliance` directory as follows:
+In order to generate the documentation appropriate to your system, you can either download and install the [Compliance Masonry](https://github.com/opencontrol/compliance-masonry/) command-line tool on to your local workstation or run the official [Compliance Masonry Docker image](https://store.docker.com/community/images/opencontrolorg/compliance-masonry) at the root of the `examples/opencontrol/DockerEE-comppliance` directory as follows:
 
 ```sh
 docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get
 docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry docs gitbook FedRAMP-moderate
 ```
 
- Refer to the Compliance Masonry [usage instructions](https://github.com/opencontrol/compliance-masonry/blob/master/docs/usage.md) for more info on the various CLI options. The [`examples/DockerEE-compliance`](https://github.com/docker/compliance/tree/master/examples/DockerEE-compliance) directory contains an example use of this tooling.
+ Refer to the Compliance Masonry [usage instructions](https://github.com/opencontrol/compliance-masonry/blob/master/docs/usage.md) for more info on the various CLI options. The [`examples/DockerEE-compliance`](https://github.com/docker/compliance/tree/master/examples/opencontrol/DockerEE-compliance) directory contains an example use of this tooling.
 
 In order to meet all of the applicable security controls included in this repository, you must have Docker Enterprise Edition at the Advanced tier and at the versions specified in the table below. The control guidance is separated in to the following components:
 
 |Component Name|Folder|Version|
 |--------------|------|-------|
-|Docker EE Engine|[`DockerEE/`](https://github.com/docker/compliance/tree/master/DockerEE)|17.03.0-ee|
-|Docker Trusted Registry (DTR)|[`DTR/`](https://github.com/docker/compliance/tree/master/DTR)|2.2|
-|Docker Security Scanning (DSS)|[`DSS/`](https://github.com/docker/compliance/tree/master/DSS)|2.2|
-|Universal Control Plane (UCP)|[`UCP/`](https://github.com/docker/compliance/tree/master/UCP)|2.1|
-|Authentication and Authorization Service (eNZi)|[`eNZi/`](https://github.com/docker/compliance/tree/master/eNZi)|2.1|
+|Docker EE Engine|[`opencontrol/components/DockerEE/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DockerEE)|17.03.0-ee|
+|Docker Trusted Registry (DTR)|[`opencontrol/components/DTR/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DTR)|2.2|
+|Docker Security Scanning (DSS)|[`opencontrol/components/DSS/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DSS)|2.2|
+|Universal Control Plane (UCP)|[`opencontrol/components/UCP/`](https://github.com/docker/compliance/tree/master/opencontrol/components/UCP)|2.1|
+|Authentication and Authorization Service (eNZi)|[`opencontrol/components/eNZi/`](https://github.com/docker/compliance/tree/master/opencontrol/components/eNZi)|2.1|
 
 > Both the UCP and DTR components leverage the eNZi authentication and authorization service component for authentication and authorization across an entire Docker Enterprise Edition cluster at the Standard and Advanced tiers.
 
