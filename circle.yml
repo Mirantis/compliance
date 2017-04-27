@@ -11,10 +11,9 @@ test:
   override:
     - docker run docker/compliance-opencontrol
     - cd nlptooling/nlputil
-    - docker run -v "$(pwd)":/go/src/github.com/docker/compliance/nlptooling/nlputil -e TEXT_ANALYTICS_API_KEY --entrypoint '' docker/compliance-nlputil bash -c "./go.test.sh"
-    - $(pwd)
-    - cp coverage.txt ../../
-    - cd ../../examples/DockerEE-compliance
+    - docker run -v "$(pwd)":/go/src/github.com/docker/compliance/nlptooling/nlputil -e TEXT_ANALYTICS_API_KEY --entrypoint "" docker/compliance-nlputil bash -c "./go.test.sh"
+    - cp coverage.txt $HOME/compliance
+    - cd $HOME/compliance/examples/DockerEE-compliance
     - make opencontrols
     - docker run -v "$(pwd)":/DockerEE-compliance -w /DockerEE-compliance -e TEXT_ANALYTICS_API_KEY docker/compliance-nlputil analyze keyphrases
   post:
