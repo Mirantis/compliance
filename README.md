@@ -36,9 +36,9 @@ In order to meet all of the applicable security controls included in this reposi
 
 > Both the UCP and DTR components leverage the eNZi authentication and authorization service component for authentication and authorization across an entire Docker Enterprise Edition cluster at the Standard and Advanced tiers.
 
-Each component is associated with a single `component.yaml` file. These files container the actual security narratives.
+Each component is associated with a single `component.yaml` file which contain the actual security narratives.
 
-Bear in mind that you'll also need to include your own `component.yaml` files that aren't covered by the functionality of Docker Enterprise Edition and that reflect your organization's adherence to the appropriate controls. Typically these are organized in separate component directories for each control familiy (e.g. `AC_Policy/`, `MA_POLICY/`, etc). Refer to the [`examples/opencontrol/DockerEE-Moderate-ATO`](https://github.com/docker/compliance/tree/master/examples/opencontrol/DockerEE-Moderate-ATO) directory as an example of this.
+Bear in mind that you'll also need to include your own `component.yaml` files that reflect your organization's adherence to the appropriate controls and that which aren't covered by the functionality of Docker Enterprise Edition. Typically these are organized in separate component directories for each control familiy (e.g. `AC_Policy/`, `MA_POLICY/`, etc). Refer to the [`examples/opencontrol/DockerEE-Moderate-ATO`](https://github.com/docker/compliance/tree/master/examples/opencontrol/DockerEE-Moderate-ATO) directory for an example of this.
 
 ## Developing
 
