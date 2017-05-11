@@ -1,6 +1,6 @@
 # Docker Enterprise Edition Compliance Documentation Sample
 
-Included is a sample `opencontrol.yaml` file that imports the Docker EE components and supports the generation of FedRAMP Moderate compliance documentation.
+Included is a sample `opencontrol.yaml` file that imports the Docker EE components and generates compliance documentation for a Moderate ATO. You can use this as a starting point for your own ATO efforts and simply fill in the blanks in the component files in the `policies/` directory to reflect your organization's own policies and procedures.
 
 The steps below can be used to import the OpenControl dependencies and serve a GitBook. Ensure that Docker is installed on your local workstation. Run the following commands from the root of the `examples/DockerEE-compliance` directory.
 

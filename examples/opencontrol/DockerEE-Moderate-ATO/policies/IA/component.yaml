@@ -1,0 +1,214 @@
+schema_version: 3.1.0
+name: Identification and Authentication Policy for [Agency_Here]
+satisfies:
+  - control_key: IA-1
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - key: a
+        text: |
+          [Agency's control implementation here]
+      - key: b
+        text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-2
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-2 (1)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-2 (2)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-2 (5)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-2 (3)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-2 (8)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-2 (11)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-2 (12)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-3
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-4
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-4 (4)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-5
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-5 (1)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-5 (2)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-5 (3)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-5 (4)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-5 (6)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-5 (7)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-5 (11)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-7
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-8
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-8 (1)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-8 (2)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-8 (3)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
+
+  - control_key: IA-8 (4)
+    covered_by: []
+    implementation_status: none
+    narrative:
+      - text: |
+          [Agency's control implementation here]
+    standard_key: NIST-800-53
