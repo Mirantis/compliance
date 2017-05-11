@@ -1,0 +1,34 @@
+schema_version: "1.0.0"
+name: Moderate SSP for Docker Enterprise Edition Deployment ATO
+metadata:
+  description: Moderate SSP for Docker Enterprise Edition Deployment ATO
+  maintainers:
+    - securitylead@agency.gov
+components:
+  - ./policies/AC
+  - ./policies/AT
+  - ./policies/AU
+  - ./policies/CA
+  - ./policies/CM
+  - ./policies/CP
+  - ./policies/IA
+  - ./policies/IR
+  - ./policies/MA
+  - ./policies/MP
+  - ./policies/PE
+  - ./policies/PL
+  - ./policies/PS
+  - ./policies/RA
+  - ./policies/SA
+  - ./policies/SC
+  - ./policies/SI
+dependencies:
+  standards:
+    - url: https://github.com/opencontrol/NIST-800-53-Standards
+      revision: master
+  certifications:
+    - url: https://github.com/opencontrol/FedRAMP-Certifications
+      revision: master
+  systems:
+    - url: https://github.com/docker/compliance
+      revision: master
