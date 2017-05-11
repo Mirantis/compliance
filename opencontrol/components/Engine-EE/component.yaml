@@ -1,8 +1,8 @@
 documentation_complete: false
 schema_version: 3.1.0
-name: Docker Enterprise Edition (Engine)
+name: Docker Enterprise Edition Engine
 references:
-  - name: Docker Enterprise Edition (Engine) Installation Documentation
+  - name: Docker Enterprise Edition Engine Installation Documentation
     path: https://docs.docker.com/engine/installation/
     type: URL
   - name: Docker Engine Release Notes

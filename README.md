@@ -28,7 +28,7 @@ In order to meet all of the applicable security controls included in this reposi
 
 |Component Name|Folder|Version|
 |--------------|------|-------|
-|Docker EE Engine|[`opencontrol/components/DockerEE/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DockerEE)|17.03.0-ee|
+|Docker EE Engine|[`opencontrol/components/Engine-EE/`](https://github.com/docker/compliance/tree/master/opencontrol/components/Engine-EE)|17.03.0-ee|
 |Docker Trusted Registry (DTR)|[`opencontrol/components/DTR/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DTR)|2.2|
 |Docker Security Scanning (DSS)|[`opencontrol/components/DSS/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DSS)|2.2|
 |Universal Control Plane (UCP)|[`opencontrol/components/UCP/`](https://github.com/docker/compliance/tree/master/opencontrol/components/UCP)|2.1|

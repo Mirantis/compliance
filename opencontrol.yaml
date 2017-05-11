@@ -13,7 +13,7 @@ metadata:
   maintainers:
     - andrew.weiss@docker.com
 components:
-  - ./opencontrol/components/DockerEE
+  - ./opencontrol/components/Engine-EE
   - ./opencontrol/components/DSS
   - ./opencontrol/components/DTR
   - ./opencontrol/components/eNZi
