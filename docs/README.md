@@ -1,0 +1,1 @@
+The content in this folder is used to update the compliance documentation on docs.docker.com.
