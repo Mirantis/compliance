@@ -57,30 +57,6 @@ The organization:
 
 
 **Responsible role(s)** - Organization
-## PL-2 (1) Concept Of Operations
-
-**Description:**
-
-[Withdrawn: Incorporated into PL-7].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## PL-2 (2) Functional Architecture
-
-**Description:**
-
-[Withdrawn: Incorporated into PL-8].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## PL-2 (3) Plan / Coordinate With Other Organizational Entities
 
 **Description:**

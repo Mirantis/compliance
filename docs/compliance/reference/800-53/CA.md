@@ -246,18 +246,6 @@ The organization employs assessors or assessment teams with [Assignment: organiz
 
 
 **Responsible role(s)** - Organization
-## CA-7 (2) Types Of Assessments
-
-**Description:**
-
-[Withdrawn: Incorporated into CA-2].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## CA-7 (3) Trend Analyses
 
 **Description:**

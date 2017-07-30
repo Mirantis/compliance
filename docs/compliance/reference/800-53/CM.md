@@ -144,30 +144,6 @@ The organization retains [Assignment: organization-defined previous versions of 
 </tr>
 </table>
 
-## CM-2 (4) Unauthorized Software
-
-**Description:**
-
-[Withdrawn: Incorporated into CM-7].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## CM-2 (5) Authorized Software
-
-**Description:**
-
-[Withdrawn: Incorporated into CM-7].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## CM-2 (6) Development And Test Environments
 
 **Description:**
@@ -519,18 +495,6 @@ The organization limits privileges to change software resident within software l
 
 
 **Responsible role(s)** - Organization
-## CM-5 (7) Automatic Implementation Of Security Safeguards
-
-**Description:**
-
-[Withdrawn: Incorporated into SI-7].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## CM-6 Configuration Settings
 
 **Description:**
@@ -587,30 +551,6 @@ The organization employs automated mechanisms to centrally manage, apply, and ve
 **Description:**
 
 The organization employs [Assignment: organization-defined security safeguards] to respond to unauthorized changes to [Assignment: organization-defined configuration settings].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## CM-6 (3) Unauthorized Change Detection
-
-**Description:**
-
-[Withdrawn: Incorporated into SI-7].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## CM-6 (4) Conformance Demonstration
-
-**Description:**
-
-[Withdrawn: Incorporated into CM-4].
 <ol type="a">
 </ol>
 

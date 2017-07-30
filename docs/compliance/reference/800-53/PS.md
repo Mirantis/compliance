@@ -175,18 +175,6 @@ The organization:
 
 
 **Responsible role(s)** - Organization
-## PS-6 (1) Information Requiring Special Protection
-
-**Description:**
-
-[Withdrawn: Incorporated into PS-3].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## PS-6 (2) Classified Information Requiring Special Protection
 
 **Description:**

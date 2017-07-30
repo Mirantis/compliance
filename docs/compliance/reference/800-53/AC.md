@@ -463,18 +463,6 @@ The information system enforces approved authorizations for logical access to in
 </tr>
 </table>
 
-## AC-3 (1) Restricted Access To Privileged Functions
-
-**Description:**
-
-[Withdrawn: Incorporated into AC-6].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## AC-3 (2) Dual Authorization
 
 **Description:**
@@ -532,18 +520,6 @@ The information system enforces [Assignment: organization-defined discretionary 
 **Description:**
 
 The information system prevents access to [Assignment: organization-defined security-relevant information] except during secure, non-operable system states.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## AC-3 (6) Protection Of User And System Information
-
-**Description:**
-
-[Withdrawn: Incorporated into MP-4 and SC-28].
 <ol type="a">
 </ol>
 
@@ -832,18 +808,6 @@ The information system, when transferring information between different security
 **Description:**
 
 The information system, when transferring information between different security domains, examines the information for the presence of [Assignment: organized-defined unsanctioned information] and prohibits the transfer of such information in accordance with the [Assignment: organization-defined security policy].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## AC-4 (16) Information Transfers On Interconnected Systems
-
-**Description:**
-
-[Withdrawn: Incorporated into AC-4].
 <ol type="a">
 </ol>
 
@@ -1179,18 +1143,6 @@ The information system:
 </tr>
 </table>
 
-## AC-7 (1) Automatic Account Lock
-
-**Description:**
-
-[Withdrawn: Incorporated into AC-7].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## AC-7 (2) Purge / Wipe Mobile Device
 
 **Description:**
@@ -1428,18 +1380,6 @@ The organization:
 <ol type="a">
 <li>Identifies [Assignment: organization-defined user actions] that can be performed on the information system without identification or authentication consistent with organizational missions/business functions; and</li>
 <li>Documents and provides supporting rationale in the security plan for the information system, user actions not requiring identification or authentication.</li>
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## AC-14 (1) Necessary Uses
-
-**Description:**
-
-[Withdrawn: Incorporated into AC-14].
-<ol type="a">
 </ol>
 
 **Control Information:**
@@ -1710,47 +1650,11 @@ The organization:
 
 
 **Responsible role(s)** - Organization
-## AC-17 (5) Monitoring For Unauthorized Connections
-
-**Description:**
-
-[Withdrawn: Incorporated into SI-4].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## AC-17 (6) Protection Of Information
 
 **Description:**
 
 The organization ensures that users protect information about remote access mechanisms from unauthorized use and disclosure.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## AC-17 (7) Additional Protection For Security Function Access
-
-**Description:**
-
-[Withdrawn: Incorporated into AC-3 (10)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## AC-17 (8) Disable Nonsecure Network Protocols
-
-**Description:**
-
-[Withdrawn: Incorporated into CM-7].
 <ol type="a">
 </ol>
 
@@ -1819,18 +1723,6 @@ The information system protects wireless access to the system using authenticati
 
 
 **Responsible role(s)** - Organization
-## AC-18 (2) Monitoring Unauthorized Connections
-
-**Description:**
-
-[Withdrawn: Incorporated into SI-4].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## AC-18 (3) Disable Wireless Networking
 
 **Description:**
@@ -1875,42 +1767,6 @@ The organization:
 <ol type="a">
 <li>Establishes usage restrictions, configuration requirements, connection requirements, and implementation guidance for organization-controlled mobile devices; and</li>
 <li>Authorizes the connection of mobile devices to organizational information systems.</li>
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## AC-19 (1) Use Of  Writable / Portable Storage Devices
-
-**Description:**
-
-[Withdrawn: Incorporated into MP-7].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## AC-19 (2) Use Of Personally Owned Portable Storage Devices
-
-**Description:**
-
-[Withdrawn: Incorporated into MP-7].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## AC-19 (3) Use Of Portable Storage Devices With No Identifiable Owner
-
-**Description:**
-
-[Withdrawn: Incorporated into MP-7].
-<ol type="a">
 </ol>
 
 **Control Information:**

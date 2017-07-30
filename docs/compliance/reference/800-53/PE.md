@@ -329,18 +329,6 @@ The organization employs automated mechanisms to facilitate the maintenance and 
 
 
 **Responsible role(s)** - Organization
-## PE-8 (2) Physical Access Records
-
-**Description:**
-
-[Withdrawn: Incorporated into PE-2].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## PE-9 Power Equipment And Cabling
 
 **Description:**
@@ -386,18 +374,6 @@ The organization:
 <li>Provides the capability of shutting off power to the information system or individual system components in emergency situations;</li>
 <li>Places emergency shutoff switches or devices in [Assignment: organization-defined location by information system or system component] to facilitate safe and easy access for personnel; and</li>
 <li>Protects emergency power shutoff capability from unauthorized activation.</li>
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## PE-10 (1) Accidental / Unauthorized Activation
-
-**Description:**
-
-[Withdrawn: Incorporated into PE-10].
-<ol type="a">
 </ol>
 
 **Control Information:**

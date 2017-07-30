@@ -46,18 +46,6 @@ The organization:
 
 
 **Responsible role(s)** - Organization
-## MA-2 (1) Record Content
-
-**Description:**
-
-[Withdrawn: Incorporated into MA-2].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## MA-2 (2) Automated Maintenance Activities
 
 **Description:**

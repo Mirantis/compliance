@@ -369,18 +369,6 @@ The organization prepares the alternate processing site so that the site is read
 
 
 **Responsible role(s)** - Organization
-## CP-7 (5) Equivalent Information Security Safeguards
-
-**Description:**
-
-[Withdrawn: Incorporated into CP-7].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## CP-7 (6) Inability To Return To Primary Site
 
 **Description:**
@@ -522,18 +510,6 @@ The organization stores backup copies of [Assignment: organization-defined criti
 
 
 **Responsible role(s)** - Organization
-## CP-9 (4) Protection From Unauthorized Modification
-
-**Description:**
-
-[Withdrawn: Incorporated into CP-9].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## CP-9 (5) Transfer To Alternate Storage Site
 
 **Description:**
@@ -582,18 +558,6 @@ The organization provides for the recovery and reconstitution of the information
 
 
 **Responsible role(s)** - Organization
-## CP-10 (1) Contingency Plan Testing
-
-**Description:**
-
-[Withdrawn: Incorporated into CP-4].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## CP-10 (2) Transaction Recovery
 
 **Description:**
@@ -624,35 +588,11 @@ The information system implements transaction recovery for systems that are tran
 </tr>
 </table>
 
-## CP-10 (3) Compensating Security Controls
-
-**Description:**
-
-[Withdrawn: Addressed through tailoring procedures].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## CP-10 (4) Restore Within Time Period
 
 **Description:**
 
 The organization provides the capability to restore information system components within [Assignment: organization-defined restoration time-periods] from configuration-controlled and integrity-protected information representing a known, operational state for the components.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## CP-10 (5) Failover Capability
-
-**Description:**
-
-[Withdrawn: Incorporated into SI-13].
 <ol type="a">
 </ol>
 

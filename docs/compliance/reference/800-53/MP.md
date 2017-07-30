@@ -40,30 +40,6 @@ The organization restricts access to [Assignment: organization-defined types of 
 
 
 **Responsible role(s)** - Organization
-## MP-2 (1) Automated Restricted Access
-
-**Description:**
-
-[Withdrawn: Incorporated into MP-4 (2)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## MP-2 (2) Cryptographic Protection
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-28 (1)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## MP-3 Media Marking
 
 **Description:**
@@ -92,18 +68,6 @@ The organization:
 
 
 **Responsible role(s)** - Organization
-## MP-4 (1) Cryptographic Protection
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-28 (1)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## MP-4 (2) Automated Restricted Access
 
 **Description:**
@@ -126,30 +90,6 @@ The organization:
 <li>Maintains accountability for information system media during transport outside of controlled areas;</li>
 <li>Documents activities associated with the transport of information system media; and</li>
 <li>Restricts the activities associated with the transport of information system media to authorized personnel.</li>
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## MP-5 (1) Protection Outside Of Controlled Areas
-
-**Description:**
-
-[Withdrawn: Incorporated into MP-5].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## MP-5 (2) Documentation Of Activities
-
-**Description:**
-
-[Withdrawn: Incorporated into MP-5].
-<ol type="a">
 </ol>
 
 **Control Information:**
@@ -223,42 +163,6 @@ The organization tests sanitization equipment and procedures [Assignment: organi
 **Description:**
 
 The organization applies nondestructive sanitization techniques to portable storage devices prior to connecting such devices to the information system under the following circumstances: [Assignment: organization-defined circumstances requiring sanitization of portable storage devices].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## MP-6 (4) Controlled Unclassified Information
-
-**Description:**
-
-[Withdrawn: Incorporated into MP-6].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## MP-6 (5) Classified Information
-
-**Description:**
-
-[Withdrawn: Incorporated into MP-6].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## MP-6 (6) Media Destruction
-
-**Description:**
-
-[Withdrawn: Incorporated into MP-6].
 <ol type="a">
 </ol>
 

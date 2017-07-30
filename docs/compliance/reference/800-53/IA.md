@@ -305,18 +305,6 @@ The information system authenticates [Assignment: organization-defined specific 
 
 
 **Responsible role(s)** - Organization
-## IA-3 (2) Cryptographic Bidirectional Network Authentication
-
-**Description:**
-
-[Withdrawn: Incorporated into IA-3 (1)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## IA-3 (3) Dynamic Address Allocation
 
 **Description:**

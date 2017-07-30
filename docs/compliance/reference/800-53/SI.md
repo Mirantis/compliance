@@ -82,18 +82,6 @@ The organization:
 
 
 **Responsible role(s)** - Organization
-## SI-2 (4) Automated Patch Management Tools
-
-**Description:**
-
-[Withdrawn: Incorporated into SI-2].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## SI-2 (5) Automatic Software / Firmware Updates
 
 **Description:**
@@ -176,35 +164,11 @@ The information system automatically updates malicious code protection mechanism
 </tr>
 </table>
 
-## SI-3 (3) Non-Privileged Users
-
-**Description:**
-
-[Withdrawn: Incorporated into AC-6 (10)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## SI-3 (4) Updates Only By Privileged Users
 
 **Description:**
 
 The information system updates malicious code protection mechanisms only when directed by a privileged user.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SI-3 (5) Portable Storage Devices
-
-**Description:**
-
-[Withdrawn: Incorporated into MP-7].
 <ol type="a">
 </ol>
 
@@ -365,35 +329,11 @@ The information system alerts [Assignment: organization-defined personnel or rol
 
 
 **Responsible role(s)** - Organization
-## SI-4 (6) Restrict Non-Privileged Users
-
-**Description:**
-
-[Withdrawn: Incorporated into AC-6 (10)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## SI-4 (7) Automated Response To Suspicious Events
 
 **Description:**
 
 The information system notifies [Assignment: organization-defined incident response personnel (identified by name and/or by role)] of detected suspicious events and takes [Assignment: organization-defined least-disruptive actions to terminate suspicious events].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SI-4 (8) Protection Of Monitoring Information
-
-**Description:**
-
-[Withdrawn: Incorporated into SI-4].
 <ol type="a">
 </ol>
 
@@ -640,18 +580,6 @@ The information system:
 
 
 **Responsible role(s)** - Organization
-## SI-6 (1) Notification Of Failed Security Tests
-
-**Description:**
-
-[Withdrawn: Incorporated into SI-6].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## SI-6 (2) Automation Support For Distributed Testing
 
 **Description:**
@@ -717,18 +645,6 @@ The organization employs automated tools that provide notification to [Assignmen
 **Description:**
 
 The organization employs centrally managed integrity verification tools.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SI-7 (4) Tamper-Evident Packaging
-
-**Description:**
-
-[Withdrawn: Incorporated into SA-12].
 <ol type="a">
 </ol>
 
@@ -1075,18 +991,6 @@ The organization:
 **Description:**
 
 The organization takes information system components out of service by transferring component responsibilities to substitute components no later than [Assignment: organization-defined fraction or percentage] of mean time to failure.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SI-13 (2) Time Limit On Process Execution Without Supervision
-
-**Description:**
-
-[Withdrawn: Incorporated into SI-7 (16)].
 <ol type="a">
 </ol>
 

@@ -230,35 +230,11 @@ The organization employs automated mechanisms to compare the results of vulnerab
 </tr>
 </table>
 
-## RA-5 (7) Automated Detection And Notification Of Unauthorized Components
-
-**Description:**
-
-[Withdrawn: Incorporated into CM-8].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## RA-5 (8) Review Historic Audit Logs
 
 **Description:**
 
 The organization reviews historic audit logs to determine if a vulnerability identified in the information system has been previously exploited.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## RA-5 (9) Penetration Testing And Analyses
-
-**Description:**
-
-[Withdrawn: Incorporated into CA-8].
 <ol type="a">
 </ol>
 

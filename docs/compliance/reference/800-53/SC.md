@@ -154,18 +154,6 @@ The information system prevents unauthorized and unintended information transfer
 
 
 **Responsible role(s)** - Organization
-## SC-4 (1) Security Levels
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-4].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## SC-4 (2) Periods Processing
 
 **Description:**
@@ -255,30 +243,6 @@ The information system:
 
 
 **Responsible role(s)** - Organization
-## SC-7 (1) Physically Separated Subnetworks
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-7].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SC-7 (2) Public Access
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-7].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## SC-7 (3) Access Points
 
 **Description:**
@@ -313,18 +277,6 @@ The organization:
 **Description:**
 
 The information system at managed interfaces denies network communications traffic by default and allows network communications traffic by exception (i.e., deny all, permit by exception).
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SC-7 (6) Response To Recognized Failures
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-7 (18)].
 <ol type="a">
 </ol>
 
@@ -708,30 +660,6 @@ The organization produces, controls, and distributes asymmetric cryptographic ke
 
 
 **Responsible role(s)** - Organization
-## SC-12 (4) Pki Certificates
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-12].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SC-12 (5) Pki Certificates / Hardware Tokens
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-12].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## SC-13 Cryptographic Protection
 
 **Description:**
@@ -757,54 +685,6 @@ The information system implements [Assignment: organization-defined cryptographi
 </tr>
 </table>
 
-## SC-13 (1) Fips-Validated Cryptography
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-13].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SC-13 (2) Nsa-Approved Cryptography
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-13].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SC-13 (3) Individuals Without Formal Access  Approvals
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-13].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SC-13 (4) Digital Signatures
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-13].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## SC-15 Collaborative Computing Devices
 
 **Description:**
@@ -824,18 +704,6 @@ The information system:
 **Description:**
 
 The information system provides physical disconnect of collaborative computing devices in a manner that supports ease of use.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SC-15 (2) Blocking Inbound / Outbound Communications Traffic
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-7].
 <ol type="a">
 </ol>
 
@@ -1006,18 +874,6 @@ The information system:
 
 
 **Responsible role(s)** - Organization
-## SC-20 (1) Child Subspaces
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-20].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## SC-20 (2) Data Origin / Integrity
 
 **Description:**
@@ -1035,18 +891,6 @@ The information system provides data origin and integrity protection artifacts f
 **Description:**
 
 The information system requests and performs data origin authentication and data integrity verification on the name/address resolution responses the system receives from authoritative sources.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SC-21 (1) Data Origin / Integrity
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-21].
 <ol type="a">
 </ol>
 
@@ -1126,35 +970,11 @@ The information system invalidates session identifiers upon user logout or other
 </tr>
 </table>
 
-## SC-23 (2) User-Initiated Logouts / Message Displays
-
-**Description:**
-
-[Withdrawn: Incorporated into AC-12 (1)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## SC-23 (3) Unique Session Identifiers With Randomization
 
 **Description:**
 
 The information system generates a unique session identifier for each session with [Assignment: organization-defined randomness requirements] and recognizes only session identifiers that are system-generated.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SC-23 (4) Unique Session Identifiers With Randomization
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-23 (3)].
 <ol type="a">
 </ol>
 
@@ -1203,18 +1023,6 @@ The organization employs [Assignment: organization-defined information system co
 **Description:**
 
 The information system includes components specifically designed to be the target of malicious attacks for the purpose of detecting, deflecting, and analyzing such attacks.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SC-26 (1) Detection Of Malicious Code
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-35].
 <ol type="a">
 </ol>
 
@@ -1335,18 +1143,6 @@ The organization employs virtualization techniques to support the deployment of 
 **Description:**
 
 The organization employs [Assignment: organization-defined concealment and misdirection techniques] for [Assignment: organization-defined information systems] at [Assignment: organization-defined time periods] to confuse and mislead adversaries.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SC-30 (1) Virtualization Techniques
-
-**Description:**
-
-[Withdrawn: Incorporated into SC-29 (1)].
 <ol type="a">
 </ol>
 

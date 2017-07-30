@@ -114,18 +114,6 @@ The organization requires the developer of the information system, system compon
 
 
 **Responsible role(s)** - Organization
-## SA-4 (4) Assignment Of Components To Systems
-
-**Description:**
-
-[Withdrawn: Incorporated into CM-8 (9)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## SA-4 (5) System / Component / Service Configurations
 
 **Description:**
@@ -227,66 +215,6 @@ The organization:
 <li>Documents attempts to obtain information system, system component, or information system service documentation when such documentation is either unavailable or nonexistent and takes [Assignment: organization-defined actions] in response;</li>
 <li>Protects documentation as required, in accordance with the risk management strategy; and</li>
 <li>Distributes documentation to [Assignment: organization-defined personnel or roles].</li>
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SA-5 (1) Functional Properties Of Security Controls
-
-**Description:**
-
-[Withdrawn: Incorporated into SA-4 (1)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SA-5 (2) Security-Relevant External System Interfaces
-
-**Description:**
-
-[Withdrawn: Incorporated into SA-4 (2)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SA-5 (3) High-Level Design
-
-**Description:**
-
-[Withdrawn: Incorporated into SA-4 (2)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SA-5 (4) Low-Level Design
-
-**Description:**
-
-[Withdrawn: Incorporated into SA-4 (2)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SA-5 (5) Source Code
-
-**Description:**
-
-[Withdrawn: Incorporated into SA-4 (2)].
-<ol type="a">
 </ol>
 
 **Control Information:**
@@ -645,47 +573,11 @@ The organization conducts a supplier review prior to entering into a contractual
 
 
 **Responsible role(s)** - Organization
-## SA-12 (3) Trusted Shipping And Warehousing
-
-**Description:**
-
-[Withdrawn: Incorporated into SA-12 (1)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SA-12 (4) Diversity Of Suppliers
-
-**Description:**
-
-[Withdrawn: Incorporated into SA-12 (13)].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## SA-12 (5) Limitation Of Harm
 
 **Description:**
 
 The organization employs [Assignment: organization-defined security safeguards] to limit harm from potential adversaries identifying and targeting the organizational supply chain.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SA-12 (6) Minimizing Procurement Time
-
-**Description:**
-
-[Withdrawn: Incorporated into SA-12 (1)].
 <ol type="a">
 </ol>
 
@@ -820,18 +712,6 @@ The organization:
 **Description:**
 
 The organization identifies critical information system components and functions by performing a criticality analysis for [Assignment: organization-defined information systems, information system components, or information system services] at [Assignment: organization-defined decision points in the system development life cycle].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## SA-14 (1) Critical Components With  No Viable Alternative Sourcing
-
-**Description:**
-
-[Withdrawn: Incorporated into SA-20].
 <ol type="a">
 </ol>
 

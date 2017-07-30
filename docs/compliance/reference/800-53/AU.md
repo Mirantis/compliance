@@ -67,47 +67,11 @@ The organization:
 </tr>
 </table>
 
-## AU-2 (1) Compilation Of Audit Records From Multiple Sources
-
-**Description:**
-
-[Withdrawn: Incorporated into AU-12].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## AU-2 (2) Selection Of Audit Events By Component
-
-**Description:**
-
-[Withdrawn: Incorporated into AU-12].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
 ## AU-2 (3) Reviews And Updates
 
 **Description:**
 
 The organization reviews and updates the audited events [Assignment: organization-defined frequency].
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## AU-2 (4) Privileged Functions
-
-**Description:**
-
-[Withdrawn: Incorporated into AC-6 (9)].
 <ol type="a">
 </ol>
 
@@ -399,18 +363,6 @@ The organization:
 **Description:**
 
 The organization employs automated mechanisms to integrate audit review, analysis, and reporting processes to support organizational processes for investigation and response to suspicious activities.
-<ol type="a">
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## AU-6 (2) Automated Security Alerts
-
-**Description:**
-
-[Withdrawn: Incorporated into SI-4].
 <ol type="a">
 </ol>
 
@@ -928,18 +880,6 @@ The information system:
 <ol type="a">
 <li>Validates the binding of the information reviewer identity to the information at the transfer or release points prior to release/transfer between [Assignment: organization-defined security domains]; and</li>
 <li>Performs [Assignment: organization-defined actions] in the event of a validation error.</li>
-</ol>
-
-**Control Information:**
-
-
-**Responsible role(s)** - Organization
-## AU-10 (5) Digital Signatures
-
-**Description:**
-
-[Withdrawn: Incorporated into SI-7].
-<ol type="a">
 </ol>
 
 **Control Information:**
