@@ -1,0 +1,24 @@
+version: 1.0.{build}
+branches:
+  only:
+  - master
+clone_folder: c:\gopath\src\github.com\opencontrol\compliance-masonry
+environment:
+  GOPATH: c:\gopath
+install:
+- cmd: >-
+    echo %GOPATH%
+
+    go version
+
+    go env
+
+    go get github.com/golang/dep/cmd/dep github.com/Masterminds/glide
+
+    set PATH=%PATH%;%GOPATH%\bin
+
+    dep ensure
+build_script:
+- cmd: go build
+test_script:
+- cmd: FOR /F %%A IN ('glide novendor') DO go test -v %%A || exit /b 1
