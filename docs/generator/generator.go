@@ -19,6 +19,8 @@ import (
 const componentPath = "./components"
 const xmlStandardPath = "./data/800-53-controls.xml"
 const tmplPath = "./tmpl/80053.test.tmpl"
+
+// Mount point within container
 const markdownOutputPath = "./800-53"
 
 func doesExist(path string) bool {

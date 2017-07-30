@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>A security planning policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the security planning policy and associated security planning controls; and</li>    
+<li>A security planning policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the security planning policy and associated security planning controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>Security planning policy [Assignment: organization-defined frequency]; and</li>    
-<li>Security planning procedures [Assignment: organization-defined frequency].</li>    
+<li>Security planning policy [Assignment: organization-defined frequency]; and</li>
+<li>Security planning procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
@@ -37,15 +37,15 @@ The organization:
 <li>Develops a security plan for the information system that:</li>
 
 <ol type="1">
-<li>Is consistent with the organization�s enterprise architecture;</li>    
-<li>Explicitly defines the authorization boundary for the system;</li>    
-<li>Describes the operational context of the information system in terms of missions and business processes;</li>    
-<li>Provides the security categorization of the information system including supporting rationale;</li>    
-<li>Describes the operational environment for the information system and relationships with or connections to other information systems;</li>    
-<li>Provides an overview of the security requirements for the system;</li>    
-<li>Identifies any relevant overlays, if applicable;</li>    
-<li>Describes the security controls in place or planned for meeting those requirements including a rationale for the tailoring decisions; and</li>    
-<li>Is reviewed and approved by the authorizing official or designated representative prior to plan implementation;</li>    
+<li>Is consistent with the organization�s enterprise architecture;</li>
+<li>Explicitly defines the authorization boundary for the system;</li>
+<li>Describes the operational context of the information system in terms of missions and business processes;</li>
+<li>Provides the security categorization of the information system including supporting rationale;</li>
+<li>Describes the operational environment for the information system and relationships with or connections to other information systems;</li>
+<li>Provides an overview of the security requirements for the system;</li>
+<li>Identifies any relevant overlays, if applicable;</li>
+<li>Describes the security controls in place or planned for meeting those requirements including a rationale for the tailoring decisions; and</li>
+<li>Is reviewed and approved by the authorizing official or designated representative prior to plan implementation;</li>
 </ol>
 <li>Distributes copies of the security plan and communicates subsequent changes to the plan to [Assignment: organization-defined personnel or roles];</li>
 <li>Reviews the security plan for the information system [Assignment: organization-defined frequency];</li>
@@ -120,9 +120,9 @@ The organization:
 <li>Develops an information security architecture for the information system that:</li>
 
 <ol type="1">
-<li>Describes the overall philosophy, requirements, and approach to be taken with regard to protecting the confidentiality, integrity, and availability of organizational information;</li>    
-<li>Describes how the information security architecture is integrated into and supports the enterprise architecture; and</li>    
-<li>Describes any information security assumptions about, and dependencies on, external services;</li>    
+<li>Describes the overall philosophy, requirements, and approach to be taken with regard to protecting the confidentiality, integrity, and availability of organizational information;</li>
+<li>Describes how the information security architecture is integrated into and supports the enterprise architecture; and</li>
+<li>Describes any information security assumptions about, and dependencies on, external services;</li>
 </ol>
 <li>Reviews and updates the information security architecture [Assignment: organization-defined frequency] to reflect updates in the enterprise architecture; and</li>
 <li>Ensures that planned information security architecture changes are reflected in the security plan, the security Concept of Operations (CONOPS), and organizational procurements/acquisitions.</li>

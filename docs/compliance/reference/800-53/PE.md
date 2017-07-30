@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>A physical and environmental protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the physical and environmental protection policy and associated physical and environmental protection controls; and</li>    
+<li>A physical and environmental protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the physical and environmental protection policy and associated physical and environmental protection controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>Physical and environmental protection  policy [Assignment: organization-defined frequency]; and</li>    
-<li>Physical and environmental protection procedures [Assignment: organization-defined frequency].</li>    
+<li>Physical and environmental protection  policy [Assignment: organization-defined frequency]; and</li>
+<li>Physical and environmental protection procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
@@ -89,8 +89,8 @@ The organization:
 <li>Enforces physical access authorizations at [Assignment: organization-defined entry/exit points to the facility where the information system resides] by;</li>
 
 <ol type="1">
-<li>Verifying individual access authorizations before granting access to the facility; and</li>    
-<li>Controlling ingress/egress to the facility using [Selection (one or more): [Assignment: organization-defined physical access control systems/devices]; guards];</li>    
+<li>Verifying individual access authorizations before granting access to the facility; and</li>
+<li>Controlling ingress/egress to the facility using [Selection (one or more): [Assignment: organization-defined physical access control systems/devices]; guards];</li>
 </ol>
 <li>Maintains physical access audit logs for [Assignment: organization-defined entry/exit points];</li>
 <li>Provides [Assignment: organization-defined security safeguards] to control access to areas within the facility officially designated as publicly accessible;</li>

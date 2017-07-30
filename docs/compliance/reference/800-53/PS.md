@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>A personnel security policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the personnel security policy and associated personnel security controls; and</li>    
+<li>A personnel security policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the personnel security policy and associated personnel security controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>Personnel security policy [Assignment: organization-defined frequency]; and</li>    
-<li>Personnel security procedures [Assignment: organization-defined frequency].</li>    
+<li>Personnel security policy [Assignment: organization-defined frequency]; and</li>
+<li>Personnel security procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
@@ -166,8 +166,8 @@ The organization:
 <li>Ensures that individuals requiring access to organizational information and information systems:</li>
 
 <ol type="1">
-<li>Sign appropriate access agreements prior to being granted access; and</li>    
-<li>Re-sign access agreements to maintain access to organizational information systems when access agreements have been updated or [Assignment: organization-defined frequency].</li>    
+<li>Sign appropriate access agreements prior to being granted access; and</li>
+<li>Re-sign access agreements to maintain access to organizational information systems when access agreements have been updated or [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 

@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>A security assessment and authorization policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the security assessment and authorization policy and associated security assessment and authorization controls; and</li>    
+<li>A security assessment and authorization policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the security assessment and authorization policy and associated security assessment and authorization controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>Security assessment and authorization policy [Assignment: organization-defined frequency]; and</li>    
-<li>Security assessment and authorization procedures [Assignment: organization-defined frequency].</li>    
+<li>Security assessment and authorization policy [Assignment: organization-defined frequency]; and</li>
+<li>Security assessment and authorization procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
@@ -37,9 +37,9 @@ The organization:
 <li>Develops a security assessment plan that describes the scope of the assessment including:</li>
 
 <ol type="1">
-<li>Security controls and control enhancements under assessment;</li>    
-<li>Assessment procedures to be used to determine security control effectiveness; and</li>    
-<li>Assessment environment, assessment team, and assessment roles and responsibilities;</li>    
+<li>Security controls and control enhancements under assessment;</li>
+<li>Assessment procedures to be used to determine security control effectiveness; and</li>
+<li>Assessment environment, assessment team, and assessment roles and responsibilities;</li>
 </ol>
 <li>Assesses the security controls in the information system and its environment of operation [Assignment: organization-defined frequency] to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting established security requirements;</li>
 <li>Produces a security assessment report that documents the results of the assessment; and</li>

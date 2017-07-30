@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>A configuration management policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the configuration management policy and associated configuration management controls; and</li>    
+<li>A configuration management policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the configuration management policy and associated configuration management controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>Configuration management policy [Assignment: organization-defined frequency]; and</li>    
-<li>Configuration management procedures [Assignment: organization-defined frequency].</li>    
+<li>Configuration management policy [Assignment: organization-defined frequency]; and</li>
+<li>Configuration management procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
@@ -695,10 +695,10 @@ The organization:
 <li>Develops and documents an inventory of information system components that:</li>
 
 <ol type="1">
-<li>Accurately reflects the current information system;</li>    
-<li>Includes all components within the authorization boundary of the information system;</li>    
-<li>Is at the level of granularity deemed necessary for tracking and reporting; and</li>    
-<li>Includes [Assignment: organization-defined information deemed necessary to achieve effective information system component accountability]; and</li>    
+<li>Accurately reflects the current information system;</li>
+<li>Includes all components within the authorization boundary of the information system;</li>
+<li>Is at the level of granularity deemed necessary for tracking and reporting; and</li>
+<li>Includes [Assignment: organization-defined information deemed necessary to achieve effective information system component accountability]; and</li>
 </ol>
 <li>Reviews and updates the information system component inventory [Assignment: organization-defined frequency].</li>
 </ol>

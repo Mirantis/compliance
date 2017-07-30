@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>A system and information integrity policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the system and information integrity policy and associated system and information integrity controls; and</li>    
+<li>A system and information integrity policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the system and information integrity policy and associated system and information integrity controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>System and information integrity policy [Assignment: organization-defined frequency]; and</li>    
-<li>System and information integrity procedures [Assignment: organization-defined frequency].</li>    
+<li>System and information integrity policy [Assignment: organization-defined frequency]; and</li>
+<li>System and information integrity procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
@@ -117,8 +117,8 @@ The organization:
 <li>Configures malicious code protection mechanisms to:</li>
 
 <ol type="1">
-<li>Perform periodic scans of the information system [Assignment: organization-defined frequency] and real-time scans of files from external sources at [Selection (one or more); endpoint; network entry/exit points] as the files are downloaded, opened, or executed in accordance with organizational security policy; and</li>    
-<li>[Selection (one or more): block malicious code; quarantine malicious code;  send alert to administrator; [Assignment: organization-defined action]] in response to malicious code detection; and</li>    
+<li>Perform periodic scans of the information system [Assignment: organization-defined frequency] and real-time scans of files from external sources at [Selection (one or more); endpoint; network entry/exit points] as the files are downloaded, opened, or executed in accordance with organizational security policy; and</li>
+<li>[Selection (one or more): block malicious code; quarantine malicious code;  send alert to administrator; [Assignment: organization-defined action]] in response to malicious code detection; and</li>
 </ol>
 <li>Addresses the receipt of false positives during malicious code detection and eradication and the resulting potential impact on the availability of the information system.</li>
 </ol>
@@ -249,15 +249,15 @@ The organization:
 <li>Monitors the information system to detect:</li>
 
 <ol type="1">
-<li>Attacks and indicators of potential attacks in accordance with [Assignment: organization-defined monitoring objectives]; and</li>    
-<li>Unauthorized local, network, and remote connections;</li>    
+<li>Attacks and indicators of potential attacks in accordance with [Assignment: organization-defined monitoring objectives]; and</li>
+<li>Unauthorized local, network, and remote connections;</li>
 </ol>
 <li>Identifies unauthorized use of the information system through [Assignment: organization-defined techniques and methods];</li>
 <li>Deploys monitoring devices:</li>
 
 <ol type="1">
-<li>Strategically within the information system to collect organization-determined essential information; and</li>    
-<li>At ad hoc locations within the system to track specific types of transactions of interest to the organization;</li>    
+<li>Strategically within the information system to collect organization-determined essential information; and</li>
+<li>At ad hoc locations within the system to track specific types of transactions of interest to the organization;</li>
 </ol>
 <li>Protects information obtained from intrusion-monitoring tools from unauthorized access, modification, and deletion;</li>
 <li>Heightens the level of information system monitoring activity whenever there is an indication of increased risk to organizational operations and assets, individuals, other organizations, or the Nation based on law enforcement information, intelligence information, or other credible sources of information;</li>

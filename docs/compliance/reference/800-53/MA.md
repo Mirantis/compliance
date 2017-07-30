@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>A system maintenance policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the system maintenance policy and associated system maintenance controls; and</li>    
+<li>A system maintenance policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the system maintenance policy and associated system maintenance controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>System maintenance policy [Assignment: organization-defined frequency]; and</li>    
-<li>System maintenance procedures [Assignment: organization-defined frequency].</li>    
+<li>System maintenance policy [Assignment: organization-defined frequency]; and</li>
+<li>System maintenance procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
@@ -191,8 +191,8 @@ The organization protects nonlocal maintenance sessions by:
 <li>Separating the maintenance sessions from other network sessions with the information system by either:</li>
 
 <ol type="1">
-<li>Physically separated communications paths; or</li>    
-<li>Logically separated communications paths based upon encryption.</li>    
+<li>Physically separated communications paths; or</li>
+<li>Logically separated communications paths based upon encryption.</li>
 </ol>
 </ol>
 
@@ -262,8 +262,8 @@ The organization:
 <li>Implements procedures for the use of maintenance personnel that lack appropriate security clearances or are not U.S. citizens, that include the following requirements:</li>
 
 <ol type="1">
-<li>Maintenance personnel who do not have needed access authorizations, clearances, or formal access approvals are escorted and supervised during the performance of maintenance and diagnostic activities on the information system by approved organizational personnel who are fully cleared, have appropriate access authorizations, and are technically qualified;</li>    
-<li>Prior to initiating maintenance or diagnostic activities by personnel who do not have needed access authorizations, clearances or formal access approvals, all volatile information storage components within the information system are sanitized and all nonvolatile storage media are removed or physically disconnected from the system and secured; and</li>    
+<li>Maintenance personnel who do not have needed access authorizations, clearances, or formal access approvals are escorted and supervised during the performance of maintenance and diagnostic activities on the information system by approved organizational personnel who are fully cleared, have appropriate access authorizations, and are technically qualified;</li>
+<li>Prior to initiating maintenance or diagnostic activities by personnel who do not have needed access authorizations, clearances or formal access approvals, all volatile information storage components within the information system are sanitized and all nonvolatile storage media are removed or physically disconnected from the system and secured; and</li>
 </ol>
 <li>Develops and implements alternate security safeguards in the event an information system component cannot be sanitized, removed, or disconnected from the system.</li>
 </ol>

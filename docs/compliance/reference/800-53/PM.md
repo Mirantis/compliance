@@ -13,10 +13,10 @@ The organization:
 <li>Develops and disseminates an organization-wide information security program plan that:</li>
 
 <ol type="1">
-<li>Provides an overview of the requirements for the security program and a description of the security program management controls and common controls in place or planned for meeting those requirements;</li>    
-<li>Includes the identification and assignment of roles, responsibilities, management commitment, coordination among organizational entities, and compliance;</li>    
-<li>Reflects coordination among organizational entities responsible for the different aspects of information security (i.e., technical, physical, personnel, cyber-physical); and</li>    
-<li>Is approved by a senior official with responsibility and accountability for the risk being incurred to organizational operations (including mission, functions, image, and reputation), organizational assets, individuals, other organizations, and the Nation;</li>    
+<li>Provides an overview of the requirements for the security program and a description of the security program management controls and common controls in place or planned for meeting those requirements;</li>
+<li>Includes the identification and assignment of roles, responsibilities, management commitment, coordination among organizational entities, and compliance;</li>
+<li>Reflects coordination among organizational entities responsible for the different aspects of information security (i.e., technical, physical, personnel, cyber-physical); and</li>
+<li>Is approved by a senior official with responsibility and accountability for the risk being incurred to organizational operations (including mission, functions, image, and reputation), organizational assets, individuals, other organizations, and the Nation;</li>
 </ol>
 <li>Reviews the organization-wide information security program plan [Assignment: organization-defined frequency];</li>
 <li>Updates the plan to address organizational changes and problems identified during plan implementation or security control assessments; and</li>
@@ -63,9 +63,9 @@ The organization:
 <li>Implements a process for ensuring that plans of action and milestones for the security program and associated organizational information systems:</li>
 
 <ol type="1">
-<li>Are developed and maintained;</li>    
-<li>Document the remedial information security actions to adequately respond to risk to organizational operations and assets, individuals, other organizations, and the Nation; and</li>    
-<li>Are reported in accordance with OMB FISMA reporting requirements.</li>    
+<li>Are developed and maintained;</li>
+<li>Document the remedial information security actions to adequately respond to risk to organizational operations and assets, individuals, other organizations, and the Nation; and</li>
+<li>Are reported in accordance with OMB FISMA reporting requirements.</li>
 </ol>
 <li>Reviews plans of action and milestones for consistency with the organizational risk management strategy and organization-wide priorities for risk response actions.</li>
 </ol>
@@ -199,8 +199,8 @@ The organization:
 <li>Implements a process for ensuring that organizational plans for conducting security testing, training, and monitoring activities associated with organizational information systems:</li>
 
 <ol type="1">
-<li>Are developed and maintained; and</li>    
-<li>Continue to be executed in a timely manner;</li>    
+<li>Are developed and maintained; and</li>
+<li>Continue to be executed in a timely manner;</li>
 </ol>
 <li>Reviews testing, training, and monitoring plans for consistency with the organizational risk management strategy and organization-wide priorities for risk response actions.</li>
 </ol>

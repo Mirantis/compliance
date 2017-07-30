@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>A contingency planning policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the contingency planning policy and associated contingency planning controls; and</li>    
+<li>A contingency planning policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the contingency planning policy and associated contingency planning controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>Contingency planning policy [Assignment: organization-defined frequency]; and</li>    
-<li>Contingency planning procedures [Assignment: organization-defined frequency].</li>    
+<li>Contingency planning policy [Assignment: organization-defined frequency]; and</li>
+<li>Contingency planning procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
@@ -37,12 +37,12 @@ The organization:
 <li>Develops a contingency plan for the information system that:</li>
 
 <ol type="1">
-<li>Identifies essential missions and business functions and associated contingency requirements;</li>    
-<li>Provides recovery objectives, restoration priorities, and metrics;</li>    
-<li>Addresses contingency roles, responsibilities, assigned individuals with contact information;</li>    
-<li>Addresses maintaining essential missions and business functions despite an information system disruption, compromise, or failure;</li>    
-<li>Addresses eventual, full information system restoration without deterioration of the security safeguards originally planned and implemented; and</li>    
-<li>Is reviewed and approved by [Assignment: organization-defined personnel or roles];</li>    
+<li>Identifies essential missions and business functions and associated contingency requirements;</li>
+<li>Provides recovery objectives, restoration priorities, and metrics;</li>
+<li>Addresses contingency roles, responsibilities, assigned individuals with contact information;</li>
+<li>Addresses maintaining essential missions and business functions despite an information system disruption, compromise, or failure;</li>
+<li>Addresses eventual, full information system restoration without deterioration of the security safeguards originally planned and implemented; and</li>
+<li>Is reviewed and approved by [Assignment: organization-defined personnel or roles];</li>
 </ol>
 <li>Distributes copies of the contingency plan to [Assignment: organization-defined key contingency personnel (identified by name and/or by role) and organizational elements];</li>
 <li>Coordinates contingency planning activities with incident handling activities;</li>

@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>A risk assessment policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the risk assessment policy and associated risk assessment controls; and</li>    
+<li>A risk assessment policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the risk assessment policy and associated risk assessment controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>Risk assessment policy [Assignment: organization-defined frequency]; and</li>    
-<li>Risk assessment procedures [Assignment: organization-defined frequency].</li>    
+<li>Risk assessment policy [Assignment: organization-defined frequency]; and</li>
+<li>Risk assessment procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
@@ -70,9 +70,9 @@ The organization:
 <li>Employs vulnerability scanning tools and techniques that facilitate interoperability among tools and automate parts of the vulnerability management process by using standards for:</li>
 
 <ol type="1">
-<li>Enumerating platforms, software flaws, and improper configurations;</li>    
-<li>Formatting checklists and test procedures; and</li>    
-<li>Measuring vulnerability impact;</li>    
+<li>Enumerating platforms, software flaws, and improper configurations;</li>
+<li>Formatting checklists and test procedures; and</li>
+<li>Measuring vulnerability impact;</li>
 </ol>
 <li>Analyzes vulnerability scan reports and results from security control assessments;</li>
 <li>Remediates legitimate vulnerabilities [Assignment: organization-defined response times] in accordance with an organizational assessment of risk; and</li>

@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>An access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the access control policy and associated access controls; and</li>    
+<li>An access control policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the access control policy and associated access controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>Access control policy [Assignment: organization-defined frequency]; and</li>    
-<li>Access control procedures [Assignment: organization-defined frequency].</li>    
+<li>Access control policy [Assignment: organization-defined frequency]; and</li>
+<li>Access control procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
@@ -57,16 +57,16 @@ The organization:
 <li>Notifies account managers:</li>
 
 <ol type="1">
-<li>When accounts are no longer required;</li>    
-<li>When users are terminated or transferred; and</li>    
-<li>When individual information system usage or need-to-know changes;</li>    
+<li>When accounts are no longer required;</li>
+<li>When users are terminated or transferred; and</li>
+<li>When individual information system usage or need-to-know changes;</li>
 </ol>
 <li>Authorizes access to the information system based on:</li>
 
 <ol type="1">
-<li>A valid access authorization;</li>    
-<li>Intended system usage; and</li>    
-<li>Other attributes as required by the organization or associated missions/business functions;</li>    
+<li>A valid access authorization;</li>
+<li>Intended system usage; and</li>
+<li>Other attributes as required by the organization or associated missions/business functions;</li>
 </ol>
 <li>Reviews accounts for compliance with account management requirements [Assignment: organization-defined frequency]; and</li>
 <li>Establishes a process for reissuing shared/group account credentials (if deployed) when individuals are removed from the group.</li>
@@ -485,11 +485,11 @@ The information system enforces [Assignment: organization-defined mandatory acce
 <li>Specifies that a subject that has been granted access to information is constrained from doing any of the following;</li>
 
 <ol type="1">
-<li>Passing the information to unauthorized subjects or objects;</li>    
-<li>Granting its privileges to other subjects;</li>    
-<li>Changing one or more security attributes on subjects, objects, the information system, or information system components;</li>    
-<li>Choosing the security attributes and attribute values to be associated with newly created or modified objects; or</li>    
-<li>Changing the rules governing access control; and</li>    
+<li>Passing the information to unauthorized subjects or objects;</li>
+<li>Granting its privileges to other subjects;</li>
+<li>Changing one or more security attributes on subjects, objects, the information system, or information system components;</li>
+<li>Choosing the security attributes and attribute values to be associated with newly created or modified objects; or</li>
+<li>Changing the rules governing access control; and</li>
 </ol>
 <li>Specifies that [Assignment: organization-defined subjects] may explicitly be granted [Assignment: organization-defined privileges (i.e., they are trusted subjects)] such that they are not limited by some or all of the above constraints.</li>
 </ol>
@@ -1164,18 +1164,18 @@ The information system:
 <li>Displays to users [Assignment: organization-defined system use notification message or banner] before granting access to the system that provides privacy and security notices consistent with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance and states that:</li>
 
 <ol type="1">
-<li>Users are accessing a U.S. Government information system;</li>    
-<li>Information system usage may be monitored, recorded, and subject to audit;</li>    
-<li>Unauthorized use of the information system is prohibited and subject to criminal and civil penalties; and</li>    
-<li>Use of the information system indicates consent to monitoring and recording;</li>    
+<li>Users are accessing a U.S. Government information system;</li>
+<li>Information system usage may be monitored, recorded, and subject to audit;</li>
+<li>Unauthorized use of the information system is prohibited and subject to criminal and civil penalties; and</li>
+<li>Use of the information system indicates consent to monitoring and recording;</li>
 </ol>
 <li>Retains the notification message or banner on the screen until users acknowledge the usage conditions and take explicit actions to log on to or further access the information system; and</li>
 <li>For publicly accessible systems:</li>
 
 <ol type="1">
-<li>Displays system use information [Assignment: organization-defined conditions], before granting further access;</li>    
-<li>Displays references, if any, to monitoring, recording, or auditing that are consistent with privacy accommodations for such systems that generally prohibit those activities; and</li>    
-<li>Includes a description of the authorized uses of the system.</li>    
+<li>Displays system use information [Assignment: organization-defined conditions], before granting further access;</li>
+<li>Displays references, if any, to monitoring, recording, or auditing that are consistent with privacy accommodations for such systems that generally prohibit those activities; and</li>
+<li>Includes a description of the authorized uses of the system.</li>
 </ol>
 </ol>
 
@@ -1783,10 +1783,10 @@ The organization:
 <li>Enforces the following restrictions on individuals permitted by the authorizing official to use unclassified mobile devices in facilities containing information systems processing, storing, or transmitting classified information:</li>
 
 <ol type="1">
-<li>Connection of unclassified mobile devices to classified information systems is prohibited;</li>    
-<li>Connection of unclassified mobile devices to unclassified information systems requires approval from the authorizing official;</li>    
-<li>Use of internal or external modems or wireless interfaces within the unclassified mobile devices is prohibited; and</li>    
-<li>Unclassified mobile devices and the information stored on those devices are subject to random reviews and inspections by [Assignment: organization-defined security officials], and if classified information is found, the incident handling policy is followed.</li>    
+<li>Connection of unclassified mobile devices to classified information systems is prohibited;</li>
+<li>Connection of unclassified mobile devices to unclassified information systems requires approval from the authorizing official;</li>
+<li>Use of internal or external modems or wireless interfaces within the unclassified mobile devices is prohibited; and</li>
+<li>Unclassified mobile devices and the information stored on those devices are subject to random reviews and inspections by [Assignment: organization-defined security officials], and if classified information is found, the incident handling policy is followed.</li>
 </ol>
 <li>Restricts the connection of classified mobile devices to classified information systems in accordance with [Assignment: organization-defined security policies].</li>
 </ol>

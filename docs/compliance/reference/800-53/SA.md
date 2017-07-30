@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>A system and services acquisition policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the system and services acquisition policy and associated system and services acquisition controls; and</li>    
+<li>A system and services acquisition policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the system and services acquisition policy and associated system and services acquisition controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>System and services acquisition policy [Assignment: organization-defined frequency]; and</li>    
-<li>System and services acquisition procedures [Assignment: organization-defined frequency].</li>    
+<li>System and services acquisition policy [Assignment: organization-defined frequency]; and</li>
+<li>System and services acquisition procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
@@ -201,16 +201,16 @@ The organization:
 <li>Obtains administrator documentation for the information system, system component, or information system service that describes:</li>
 
 <ol type="1">
-<li>Secure configuration, installation, and operation of the system, component, or service;</li>    
-<li>Effective use and maintenance of security functions/mechanisms; and</li>    
-<li>Known vulnerabilities regarding configuration and use of administrative (i.e., privileged) functions;</li>    
+<li>Secure configuration, installation, and operation of the system, component, or service;</li>
+<li>Effective use and maintenance of security functions/mechanisms; and</li>
+<li>Known vulnerabilities regarding configuration and use of administrative (i.e., privileged) functions;</li>
 </ol>
 <li>Obtains user documentation for the information system, system component, or information system service that describes:</li>
 
 <ol type="1">
-<li>User-accessible security functions/mechanisms and how to effectively use those security functions/mechanisms;</li>    
-<li>Methods for user interaction, which enables individuals to use the system, component, or service in a more secure manner; and</li>    
-<li>User responsibilities in maintaining the security of the system, component, or service;</li>    
+<li>User-accessible security functions/mechanisms and how to effectively use those security functions/mechanisms;</li>
+<li>Methods for user interaction, which enables individuals to use the system, component, or service in a more secure manner; and</li>
+<li>User responsibilities in maintaining the security of the system, component, or service;</li>
 </ol>
 <li>Documents attempts to obtain information system, system component, or information system service documentation when such documentation is either unavailable or nonexistent and takes [Assignment: organization-defined actions] in response;</li>
 <li>Protects documentation as required, in accordance with the risk management strategy; and</li>
@@ -728,10 +728,10 @@ The organization:
 <li>Requires the developer of the information system, system component, or information system service to follow a documented development process that:</li>
 
 <ol type="1">
-<li>Explicitly addresses security requirements;</li>    
-<li>Identifies the standards and tools used in the development process;</li>    
-<li>Documents the specific tool options and tool configurations used in the development process; and</li>    
-<li>Documents, manages, and ensures the integrity of changes to the process and/or tools used in development; and</li>    
+<li>Explicitly addresses security requirements;</li>
+<li>Identifies the standards and tools used in the development process;</li>
+<li>Documents the specific tool options and tool configurations used in the development process; and</li>
+<li>Documents, manages, and ensures the integrity of changes to the process and/or tools used in development; and</li>
 </ol>
 <li>Reviews the development process, standards, tools, and tool options/configurations [Assignment: organization-defined frequency] to determine if the process, standards, tools, and tool options/configurations selected and employed can satisfy [Assignment: organization-defined security requirements].</li>
 </ol>

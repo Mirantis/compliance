@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>An incident response policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the incident response policy and associated incident response controls; and</li>    
+<li>An incident response policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the incident response policy and associated incident response controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>Incident response policy [Assignment: organization-defined frequency]; and</li>    
-<li>Incident response procedures [Assignment: organization-defined frequency].</li>    
+<li>Incident response policy [Assignment: organization-defined frequency]; and</li>
+<li>Incident response procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
@@ -359,14 +359,14 @@ The organization:
 <li>Develops an incident response plan that:</li>
 
 <ol type="1">
-<li>Provides the organization with a roadmap for implementing its incident response capability;</li>    
-<li>Describes the structure and organization of the incident response capability;</li>    
-<li>Provides a high-level approach for how the incident response capability fits into the overall organization;</li>    
-<li>Meets the unique requirements of the organization, which relate to mission, size, structure, and functions;</li>    
-<li>Defines reportable incidents;</li>    
-<li>Provides metrics for measuring the incident response capability within the organization;</li>    
-<li>Defines the resources and management support needed to effectively maintain and mature an incident response capability; and</li>    
-<li>Is reviewed and approved by [Assignment: organization-defined personnel or roles];</li>    
+<li>Provides the organization with a roadmap for implementing its incident response capability;</li>
+<li>Describes the structure and organization of the incident response capability;</li>
+<li>Provides a high-level approach for how the incident response capability fits into the overall organization;</li>
+<li>Meets the unique requirements of the organization, which relate to mission, size, structure, and functions;</li>
+<li>Defines reportable incidents;</li>
+<li>Provides metrics for measuring the incident response capability within the organization;</li>
+<li>Defines the resources and management support needed to effectively maintain and mature an incident response capability; and</li>
+<li>Is reviewed and approved by [Assignment: organization-defined personnel or roles];</li>
 </ol>
 <li>Distributes copies of the incident response plan to [Assignment: organization-defined incident response personnel (identified by name and/or by role) and organizational elements];</li>
 <li>Reviews the incident response plan [Assignment: organization-defined frequency];</li>

@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>An identification and authentication policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the identification and authentication policy and associated identification and authentication controls; and</li>    
+<li>An identification and authentication policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the identification and authentication policy and associated identification and authentication controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>Identification and authentication policy [Assignment: organization-defined frequency]; and</li>    
-<li>Identification and authentication procedures [Assignment: organization-defined frequency].</li>    
+<li>Identification and authentication policy [Assignment: organization-defined frequency]; and</li>
+<li>Identification and authentication procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 

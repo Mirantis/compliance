@@ -13,14 +13,14 @@ The organization:
 <li>Develops, documents, and disseminates to [Assignment: organization-defined personnel or roles]:</li>
 
 <ol type="1">
-<li>A media protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>    
-<li>Procedures to facilitate the implementation of the media protection policy and associated media protection controls; and</li>    
+<li>A media protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and</li>
+<li>Procedures to facilitate the implementation of the media protection policy and associated media protection controls; and</li>
 </ol>
 <li>Reviews and updates the current:</li>
 
 <ol type="1">
-<li>Media protection policy [Assignment: organization-defined frequency]; and</li>    
-<li>Media protection procedures [Assignment: organization-defined frequency].</li>    
+<li>Media protection policy [Assignment: organization-defined frequency]; and</li>
+<li>Media protection procedures [Assignment: organization-defined frequency].</li>
 </ol>
 </ol>
 
