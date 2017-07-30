@@ -80,9 +80,63 @@ func parseStandard(standardFilePath string) (XMLStandard, error) {
 	return standard, nil
 }
 
-func generateMarkdownFiles(standard XMLStandard, components []cmcommon.Component) error {
-	var families []string
+func iterateControls(family string, familyTitle string, controls []XMLControl, components []cmcommon.Component) ([]MarkdownTemplateControl, string) {
+	var markdownTemplateControls []MarkdownTemplateControl
+	var abbrev string
 
+	for _, control := range controls {
+		if control.Family == family && len(control.Withdrawn.IncorporatedInto) <= 0 {
+			if abbrev == "" {
+				abbrev = strings.Split(control.Number, "-")[0]
+			}
+
+			markdownTemplateControl := MarkdownTemplateControl{
+				Family:               familyTitle,
+				Number:               control.Number,
+				Title:                strings.Title(strings.ToLower(control.Title)),
+				Statements:           control.Statements,
+				IsControlEnhancement: false,
+			}
+
+			for _, component := range components {
+				satisfies := component.GetAllSatisfies()
+				for _, satisfy := range satisfies {
+					if satisfy.GetControlKey() == control.Number {
+						markdownTemplateControl.Components = append(markdownTemplateControl.Components, MarkdownTemplateComponent{
+							Name: component.GetName(),
+							ImplementationStatuses: satisfy.GetImplementationStatuses(),
+							ControlOrigins:         satisfy.GetControlOrigins()},
+						)
+
+						break
+					}
+				}
+			}
+
+			markdownTemplateControls = append(markdownTemplateControls, markdownTemplateControl)
+
+			xmlControlEnhancements := make([]XMLControl, len(control.ControlEnhancements))
+			for i, enhancement := range control.ControlEnhancements {
+				xmlControlEnhancements[i] = XMLControl{
+					Family:         family,
+					Number:         enhancement.Number,
+					Title:          enhancement.Title,
+					BaselineImpact: enhancement.BaselineImpact,
+					Withdrawn:      enhancement.Withdrawn,
+					Statements:     enhancement.Statements,
+				}
+			}
+			markdownTemplateControlEnhancements, _ := iterateControls(family, familyTitle, xmlControlEnhancements, components)
+			markdownTemplateControls = append(markdownTemplateControls, markdownTemplateControlEnhancements...)
+		}
+	}
+
+	return markdownTemplateControls, abbrev
+}
+
+func generateMarkdownFiles(standard XMLStandard, components []cmcommon.Component) error {
+	// Get families
+	var families []string
 	var currentFamily string
 	for _, control := range standard.Controls {
 		if currentFamily != control.Family {
@@ -91,74 +145,11 @@ func generateMarkdownFiles(standard XMLStandard, components []cmcommon.Component
 		}
 	}
 
+	// Generate markdown for each family
 	for _, family := range families {
-		var markdownTemplateControls []MarkdownTemplateControl
-		var abbrev string
 		familyTitle := strings.Title(strings.ToLower(family))
 
-		for _, control := range standard.Controls {
-			if control.Family == family && len(control.Withdrawn.IncorporatedInto) <= 0 {
-				if abbrev == "" {
-					abbrev = strings.Split(control.Number, "-")[0]
-				}
-
-				markdownTemplateControl := MarkdownTemplateControl{
-					Family:               familyTitle,
-					Number:               control.Number,
-					Title:                strings.Title(strings.ToLower(control.Title)),
-					Statements:           control.Statements,
-					IsControlEnhancement: false,
-				}
-
-				for _, component := range components {
-					satisfies := component.GetAllSatisfies()
-					for _, satisfy := range satisfies {
-						if satisfy.GetControlKey() == control.Number {
-							markdownTemplateControl.Components = append(markdownTemplateControl.Components, MarkdownTemplateComponent{
-								Name: component.GetName(),
-								ImplementationStatuses: satisfy.GetImplementationStatuses(),
-								ControlOrigins:         satisfy.GetControlOrigins()},
-							)
-
-							break
-						}
-					}
-				}
-
-				markdownTemplateControls = append(markdownTemplateControls, markdownTemplateControl)
-
-				// Could clean this up with generic function so as not to duplicate
-				for _, enhancement := range control.ControlEnhancements {
-					if len(control.Withdrawn.IncorporatedInto) <= 0 {
-						markdownTemplateControlEnhancement := MarkdownTemplateControl{
-							Family:               familyTitle,
-							Number:               enhancement.Number,
-							Title:                strings.Title(strings.ToLower(enhancement.Title)),
-							Statements:           enhancement.Statements,
-							IsControlEnhancement: false,
-						}
-
-						for _, component := range components {
-							satisfies := component.GetAllSatisfies()
-							for _, satisfy := range satisfies {
-								if satisfy.GetControlKey() == enhancement.Number {
-									markdownTemplateControlEnhancement.Components = append(markdownTemplateControlEnhancement.Components, MarkdownTemplateComponent{
-										Name: component.GetName(),
-										ImplementationStatuses: satisfy.GetImplementationStatuses(),
-										ControlOrigins:         satisfy.GetControlOrigins()},
-									)
-
-									break
-								}
-							}
-						}
-
-						markdownTemplateControls = append(markdownTemplateControls, markdownTemplateControlEnhancement)
-					}
-				}
-			}
-		}
-
+		markdownTemplateControls, abbrev := iterateControls(family, familyTitle, standard.Controls, components)
 		markdownTemplateMap := map[string][]MarkdownTemplateControl{
 			familyTitle: markdownTemplateControls,
 		}

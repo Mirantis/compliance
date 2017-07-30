@@ -10,7 +10,7 @@ type XMLStandard struct {
 type XMLControl struct {
 	Family               string                    `xml:"family"`
 	Number               string                    `xml:"number"`
-	Title                string                    `yaml:"name" xml:"title"`
+	Title                string                    `xml:"title"`
 	Priority             string                    `xml:"priority"`
 	BaselineImpact       []string                  `xml:"baseline-impact"`
 	Statements           []XMLStatement            `xml:"statement"`
