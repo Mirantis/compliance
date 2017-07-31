@@ -26,8 +26,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## RA-2 Security Categorization
 
 **Description:**
@@ -41,8 +41,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## RA-3 Risk Assessment
 
 **Description:**
@@ -58,8 +58,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## RA-5 Vulnerability Scanning
 
 **Description:**
@@ -81,15 +81,13 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## RA-5 (1) Update Tool Capability
+
+### RA-5 (1) Update Tool Capability
 
 **Description:**
 
 The organization employs vulnerability scanning tools that include the capability to readily update the information system vulnerabilities to be scanned.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -113,13 +111,33 @@ The organization employs vulnerability scanning tools that include the capabilit
 </tr>
 </table>
 
-## RA-5 (2) Update By Frequency / Prior To New Scan / When Identified
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0inqis000atr6dg">DSS</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0inqis000atr6e0">DTR</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0inqis000atr6dg" class="tab-pane fade in active">
+To assist the orgnization in meeting the requirements of this control, the Docker Security Scanning (DSS) component of Docker Trusted Registry
+(DTR) that is included with the Docker Enterprise Edition Advanced
+tier can be used to scan Docker images for vulnerabilities against
+known vulnerability databases. Scans can be triggered either manually
+or when Docker images are pushed to DTR.
+</div>
+<div id="b5vaf0inqis000atr6e0" class="tab-pane fade">
+The Docker Security Scanning tool allows for the scanning of Docker
+images in Docker Trusted Registry against the Common Vulnerabilities
+and Exposures (CVE) dictionary.
+</div>
+</div>
+
+### RA-5 (2) Update By Frequency / Prior To New Scan / When Identified
 
 **Description:**
 
 The organization updates the information system vulnerabilities scanned [Selection (one or more): [Assignment: organization-defined frequency]; prior to a new scan; when new vulnerabilities are identified and reported].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -138,13 +156,32 @@ The organization updates the information system vulnerabilities scanned [Selecti
 </tr>
 </table>
 
-## RA-5 (3) Breadth / Depth Of Coverage
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0inqis000atr6eg">DSS</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0inqis000atr6eg" class="tab-pane fade in active">
+To assist the orgnization in meeting the requirements of this
+control, the Docker Security Scanning component of Docker Trusted
+Registry (DTR) that is included with the Docker Enterprise Edition
+Advanced tier compiles a bill of materials (BOM) for each Docker image
+that it scans. DSS is also synchronized to an aggregate listing of
+known vulnerabilities that is compiled from both the MITRE and NVD CVE
+databases. Additional information can be found at the following resources:
+
+- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/configure/set-up-vulnerability-scans/
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Image_Scanning
+</div>
+</div>
+
+### RA-5 (3) Breadth / Depth Of Coverage
 
 **Description:**
 
 The organization employs vulnerability scanning procedures that can identify the breadth and depth of coverage (i.e., information system components scanned and vulnerabilities checked).
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -168,25 +205,43 @@ The organization employs vulnerability scanning procedures that can identify the
 </tr>
 </table>
 
-## RA-5 (4) Discoverable Information
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0inqis000atr6f0">DSS</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0inqis000atr6fg">DTR</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0inqis000atr6f0" class="tab-pane fade in active">
+To assist the orgnization in meeting the requirements of this
+control, the Docker Security Scanning component of Docker Trusted
+Registry (DTR) that is included with the Docker Enterprise Edition
+Advanced tier identifies vulnerabilities in a Docker image and marks
+them against predefined criticality levels; critical major and minor.
+</div>
+<div id="b5vaf0inqis000atr6fg" class="tab-pane fade">
+The Docker Security Scanning tool allows for the scanning of Docker
+images in Docker Trusted Registry against the Common Vulnerabilities
+and Exposures (CVE).&#39; dictionary
+</div>
+</div>
+
+### RA-5 (4) Discoverable Information
 
 **Description:**
 
 The organization determines what information about the information system is discoverable by adversaries and subsequently takes [Assignment: organization-defined corrective actions].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## RA-5 (5) Privileged Access
+
+### RA-5 (5) Privileged Access
 
 **Description:**
 
 The information system implements privileged access authorization to [Assignment: organization-identified information system components] for selected [Assignment: organization-defined vulnerability scanning activities].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -205,13 +260,25 @@ The information system implements privileged access authorization to [Assignment
 </tr>
 </table>
 
-## RA-5 (6) Automated Trend Analyses
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0inqis000atr6g0">DSS</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0inqis000atr6g0" class="tab-pane fade in active">
+Only the appropriate users that the organization has provided Docker
+Trusted Registry access to are able to view and interpret
+vulnerability scan results.
+</div>
+</div>
+
+### RA-5 (6) Automated Trend Analyses
 
 **Description:**
 
 The organization employs automated mechanisms to compare the results of vulnerability scans over time to determine trends in information system vulnerabilities.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -230,39 +297,49 @@ The organization employs automated mechanisms to compare the results of vulnerab
 </tr>
 </table>
 
-## RA-5 (8) Review Historic Audit Logs
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0inqis000atr6gg">DSS</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0inqis000atr6gg" class="tab-pane fade in active">
+For each Docker image pushed to Docker Trusted Registry at a given
+time, Docker Security Scaninng retains a list of vulnerabilities
+detected. The DTR API can be queried to retrieve the vulnerability
+scan results over a period of time for a given Docker image such that
+the results can be compared per the requirements of this control.
+</div>
+</div>
+
+### RA-5 (8) Review Historic Audit Logs
 
 **Description:**
 
 The organization reviews historic audit logs to determine if a vulnerability identified in the information system has been previously exploited.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## RA-5 (10) Correlate Scanning Information
+
+### RA-5 (10) Correlate Scanning Information
 
 **Description:**
 
 The organization correlates the output from vulnerability scanning tools to determine the presence of multi-vulnerability/multi-hop attack vectors.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## RA-6 Technical Surveillance Countermeasures Survey
 
 **Description:**
 
 The organization employs a technical surveillance countermeasures survey at [Assignment: organization-defined locations] [Selection (one or more): [Assignment: organization-defined frequency]; [Assignment: organization-defined events or indicators occur]].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+

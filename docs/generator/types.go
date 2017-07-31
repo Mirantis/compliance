@@ -67,7 +67,9 @@ type MarkdownTemplateControl struct {
 
 // MarkdownTemplateComponent defines the markdown template file component type
 type MarkdownTemplateComponent struct {
+	ID                     string
 	Name                   string
 	ImplementationStatuses []string
 	ControlOrigins         []string
+	Narratives             []string
 }

@@ -26,20 +26,18 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## MP-2 Media Access
 
 **Description:**
 
 The organization restricts access to [Assignment: organization-defined types of digital and/or non-digital media] to [Assignment: organization-defined personnel or roles].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## MP-3 Media Marking
 
 **Description:**
@@ -52,8 +50,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## MP-4 Media Storage
 
 **Description:**
@@ -66,20 +64,18 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-4 (2) Automated Restricted Access
+
+### MP-4 (2) Automated Restricted Access
 
 **Description:**
 
 The organization employs automated mechanisms to restrict access to media storage areas and to audit access attempts and access granted.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## MP-5 Media Transport
 
 **Description:**
@@ -94,32 +90,28 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-5 (3) Custodians
+
+### MP-5 (3) Custodians
 
 **Description:**
 
 The organization employs an identified custodian during transport of information system media outside of controlled areas.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-5 (4) Cryptographic Protection
+
+### MP-5 (4) Cryptographic Protection
 
 **Description:**
 
 The information system implements cryptographic mechanisms to protect the confidentiality and integrity of information stored on digital media during transport outside of controlled areas.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## MP-6 Media Sanitization
 
 **Description:**
@@ -132,104 +124,88 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-6 (1) Review / Approve / Track / Document / Verify
+
+### MP-6 (1) Review / Approve / Track / Document / Verify
 
 **Description:**
 
 The organization reviews, approves, tracks, documents, and verifies media sanitization and disposal actions.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-6 (2) Equipment Testing
+
+### MP-6 (2) Equipment Testing
 
 **Description:**
 
 The organization tests sanitization equipment and procedures [Assignment: organization-defined frequency] to verify that the intended sanitization is being achieved.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-6 (3) Nondestructive Techniques
+
+### MP-6 (3) Nondestructive Techniques
 
 **Description:**
 
 The organization applies nondestructive sanitization techniques to portable storage devices prior to connecting such devices to the information system under the following circumstances: [Assignment: organization-defined circumstances requiring sanitization of portable storage devices].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-6 (7) Dual Authorization
+
+### MP-6 (7) Dual Authorization
 
 **Description:**
 
 The organization enforces dual authorization for the sanitization of [Assignment: organization-defined information system media].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-6 (8) Remote Purging / Wiping Of Information
+
+### MP-6 (8) Remote Purging / Wiping Of Information
 
 **Description:**
 
 The organization provides the capability to purge/wipe information from [Assignment: organization-defined information systems, system components, or devices] either remotely or under the following conditions: [Assignment: organization-defined conditions].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## MP-7 Media Use
 
 **Description:**
 
 The organization [Selection: restricts; prohibits] the use of [Assignment: organization-defined types of information system media] on [Assignment: organization-defined information systems or system components] using [Assignment: organization-defined security safeguards].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-7 (1) Prohibit Use Without Owner
+
+### MP-7 (1) Prohibit Use Without Owner
 
 **Description:**
 
 The organization prohibits the use of portable storage devices in organizational information systems when such devices have no identifiable owner.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-7 (2) Prohibit Use Of Sanitization-Resistant Media
+
+### MP-7 (2) Prohibit Use Of Sanitization-Resistant Media
 
 **Description:**
 
 The organization prohibits the use of sanitization-resistant media in organizational information systems.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## MP-8 Media Downgrading
 
 **Description:**
@@ -244,53 +220,45 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-8 (1) Documentation Of Process
+
+### MP-8 (1) Documentation Of Process
 
 **Description:**
 
 The organization documents information system media downgrading actions.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-8 (2) Equipment Testing
+
+### MP-8 (2) Equipment Testing
 
 **Description:**
 
 The organization employs [Assignment: organization-defined tests] of downgrading equipment and procedures to verify correct performance [Assignment: organization-defined frequency].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-8 (3) Controlled Unclassified Information
+
+### MP-8 (3) Controlled Unclassified Information
 
 **Description:**
 
 The organization downgrades information system media containing [Assignment: organization-defined Controlled Unclassified Information (CUI)] prior to public release in accordance with applicable federal and organizational standards and policies.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MP-8 (4) Classified Information
+
+### MP-8 (4) Classified Information
 
 **Description:**
 
 The organization downgrades information system media containing classified information prior to release to individuals without required access authorizations in accordance with NSA standards and policies.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+

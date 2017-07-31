@@ -44,6 +44,12 @@
   revision = "cafffbccc21846dc4e1da4bbd893039b93f6d78a"
 
 [[projects]]
+  name = "github.com/rs/xid"
+  packages = ["."]
+  revision = "02dd45c33376f85d1064355dc790dcc4850596b1"
+  version = "v1.1"
+
+[[projects]]
   name = "gopkg.in/fatih/set.v0"
   packages = ["."]
   revision = "57907de300222151a123d29255ed17f5ed43fad3"
@@ -58,6 +64,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "12a56b6783ddf76dcb9d04f7f57314b14202bc126e1738939abbc458f9f7dd60"
+  inputs-digest = "d5a1e08624a1411558fb50d6da5182fd29c9c49cdbc251250cc6424bd0693061"
   solver-name = "gps-cdcl"
   solver-version = 1

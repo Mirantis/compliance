@@ -1,6 +1,6 @@
 .PHONY: vendor
 
-default: run
+default: generate
 
 vendor:
 	cd generator; \
@@ -17,4 +17,11 @@ build:
 
 run: build
 	docker run -it --rm -v "$$PWD/compliance/reference/800-53":/800-53 docker/compliance-doc-generator:latest
+	rm -rf generator/components
+
+generate: run
+	cp -r compliance $$HOME/Development/docker.github.io/
+
+clean:
+	docker rmi -f docker/compliance-doc-generator:latest
 	rm -rf generator/components

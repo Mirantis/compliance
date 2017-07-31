@@ -26,8 +26,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CA-2 Security Assessments
 
 **Description:**
@@ -48,44 +48,38 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-2 (1) Independent Assessors
+
+### CA-2 (1) Independent Assessors
 
 **Description:**
 
 The organization employs assessors or assessment teams with [Assignment: organization-defined level of independence] to conduct security control assessments.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-2 (2) Specialized Assessments
+
+### CA-2 (2) Specialized Assessments
 
 **Description:**
 
 The organization includes as part of security control assessments, [Assignment: organization-defined frequency], [Selection: announced; unannounced], [Selection (one or more): in-depth monitoring; vulnerability scanning; malicious user testing; insider threat assessment; performance/load testing; [Assignment: organization-defined other forms of security assessment]].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-2 (3) External Organizations
+
+### CA-2 (3) External Organizations
 
 **Description:**
 
 The organization accepts the results of an assessment of [Assignment: organization-defined information system] performed by [Assignment: organization-defined external organization] when the assessment meets [Assignment: organization-defined requirements].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CA-3 System Interconnections
 
 **Description:**
@@ -99,68 +93,58 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-3 (1) Unclassified National Security System Connections
+
+### CA-3 (1) Unclassified National Security System Connections
 
 **Description:**
 
 The organization prohibits the direct connection of an [Assignment: organization-defined unclassified, national security system] to an external network without the use of [Assignment: organization-defined boundary protection device].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-3 (2) Classified National Security System Connections
+
+### CA-3 (2) Classified National Security System Connections
 
 **Description:**
 
 The organization prohibits the direct connection of a classified, national security system to an external network without the use of [Assignment: organization-defined boundary protection device].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-3 (3) Unclassified Non-National Security System Connections
+
+### CA-3 (3) Unclassified Non-National Security System Connections
 
 **Description:**
 
 The organization prohibits the direct connection of an [Assignment: organization-defined unclassified, non-national security system] to an external network without the use of [Assignment; organization-defined boundary protection device].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-3 (4) Connections To Public Networks
+
+### CA-3 (4) Connections To Public Networks
 
 **Description:**
 
 The organization prohibits the direct connection of an [Assignment: organization-defined information system] to a public network.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-3 (5) Restrictions On External System Connections
+
+### CA-3 (5) Restrictions On External System Connections
 
 **Description:**
 
 The organization employs [Selection: allow-all, deny-by-exception; deny-all, permit-by-exception] policy for allowing [Assignment: organization-defined information systems] to connect to external information systems.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CA-5 Plan Of Action And Milestones
 
 **Description:**
@@ -173,20 +157,18 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-5 (1) Automation Support For Accuracy / Currency
+
+### CA-5 (1) Automation Support For Accuracy / Currency
 
 **Description:**
 
 The organization employs automated mechanisms to help ensure that the plan of action and milestones for the information system is accurate, up to date, and readily available.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CA-6 Security Authorization
 
 **Description:**
@@ -200,8 +182,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CA-7 Continuous Monitoring
 
 **Description:**
@@ -234,66 +216,76 @@ The organization develops a continuous monitoring strategy and implements a cont
 </tr>
 </table>
 
-## CA-7 (1) Independent Assessment
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf02nqis000atr5h0">Engine</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf02nqis000atr5h0" class="tab-pane fade in active">
+The CIS Docker Benchmark can be used as a baseline for securing Docker
+Enterprise Edition and for helping the organization meet the
+continuous monitoring requirements of this control. Additional
+information can be found at the following resources:
+
+- https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+- http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+
+</div>
+</div>
+
+### CA-7 (1) Independent Assessment
 
 **Description:**
 
 The organization employs assessors or assessment teams with [Assignment: organization-defined level of independence] to monitor the security controls in the information system on an ongoing basis.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-7 (3) Trend Analyses
+
+### CA-7 (3) Trend Analyses
 
 **Description:**
 
 The organization employs trend analyses to determine if security control implementations, the frequency of continuous monitoring activities, and/or the types of activities used in the continuous monitoring process need to be modified based on empirical data.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CA-8 Penetration Testing
 
 **Description:**
 
 The organization conducts penetration testing [Assignment: organization-defined frequency] on [Assignment: organization-defined information systems or system components].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-8 (1) Independent Penetration Agent Or Team
+
+### CA-8 (1) Independent Penetration Agent Or Team
 
 **Description:**
 
 The organization employs an independent penetration agent or penetration team to perform penetration testing on the information system or system components.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-8 (2) Red Team Exercises
+
+### CA-8 (2) Red Team Exercises
 
 **Description:**
 
 The organization employs [Assignment: organization-defined red team exercises] to simulate attempts by adversaries to compromise organizational information systems in accordance with [Assignment: organization-defined rules of engagement].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CA-9 Internal System Connections
 
 **Description:**
@@ -306,17 +298,15 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CA-9 (1) Security Compliance Checks
+
+### CA-9 (1) Security Compliance Checks
 
 **Description:**
 
 The information system performs security compliance checks on constituent system components prior to the establishment of the internal connection.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+

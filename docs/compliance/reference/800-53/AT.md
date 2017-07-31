@@ -26,8 +26,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## AT-2 Security Awareness Training
 
 **Description:**
@@ -41,32 +41,28 @@ The organization provides basic security awareness training to information syste
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## AT-2 (1) Practical Exercises
+
+### AT-2 (1) Practical Exercises
 
 **Description:**
 
 The organization includes practical exercises in security awareness training that simulate actual cyber attacks.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## AT-2 (2) Insider Threat
+
+### AT-2 (2) Insider Threat
 
 **Description:**
 
 The organization includes security awareness training on recognizing and reporting potential indicators of insider threat.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## AT-3 Role-Based Security Training
 
 **Description:**
@@ -80,56 +76,48 @@ The organization provides role-based security training to personnel with assigne
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## AT-3 (1) Environmental Controls
+
+### AT-3 (1) Environmental Controls
 
 **Description:**
 
 The organization provides [Assignment: organization-defined personnel or roles] with initial and [Assignment: organization-defined frequency] training in the employment and operation of environmental controls.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## AT-3 (2) Physical Security Controls
+
+### AT-3 (2) Physical Security Controls
 
 **Description:**
 
 The organization provides [Assignment: organization-defined personnel or roles] with initial and [Assignment: organization-defined frequency] training in the employment and operation of physical security controls.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## AT-3 (3) Practical Exercises
+
+### AT-3 (3) Practical Exercises
 
 **Description:**
 
 The organization includes practical exercises in security training that reinforce training objectives.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## AT-3 (4) Suspicious Communications And Anomalous System Behavior
+
+### AT-3 (4) Suspicious Communications And Anomalous System Behavior
 
 **Description:**
 
 The organization provides training to its personnel on [Assignment: organization-defined indicators of malicious code] to recognize suspicious communications and anomalous behavior in organizational information systems.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## AT-4 Security Training Records
 
 **Description:**
@@ -142,5 +130,5 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+

@@ -41,13 +41,31 @@ The organization:
 </tr>
 </table>
 
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5hg">Engine</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5hg" class="tab-pane fade in active">
+The CIS Docker Benchmark can be used as a baseline for securing Docker
+Enterprise Edition and for helping the organization meet the
+configurmation management requirements of this control. Additional
+information can be found at the following resources:
+
+- https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+- http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+
+</div>
+</div>
+
 ## CM-2 Baseline Configuration
 
 **Description:**
 
 The organization develops, documents, and maintains under configuration control, a current baseline configuration of the information system.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -66,7 +84,27 @@ The organization develops, documents, and maintains under configuration control,
 </tr>
 </table>
 
-## CM-2 (1) Reviews And Updates
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5i0">Engine</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5i0" class="tab-pane fade in active">
+The CIS Docker Benchmark can be used as a baseline for securing Docker
+Enterprise Edition and for helping the organization meet the
+configurmation management requirements of this control. Additional
+information can be found at the following resources:
+
+- https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+- http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+
+</div>
+</div>
+
+### CM-2 (1) Reviews And Updates
 
 **Description:**
 
@@ -94,13 +132,31 @@ The organization reviews and updates the baseline configuration of the informati
 </tr>
 </table>
 
-## CM-2 (2) Automation Support For Accuracy / Currency
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5ig">Engine</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5ig" class="tab-pane fade in active">
+The CIS Docker Benchmark can be used as a baseline for securing Docker
+Enterprise Edition and for helping the organization meet the
+configurmation management requirements of this control. Additional
+information can be found at the following resources:
+
+- https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+- http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+
+</div>
+</div>
+
+### CM-2 (2) Automation Support For Accuracy / Currency
 
 **Description:**
 
 The organization employs automated mechanisms to maintain an up-to-date, complete, accurate, and readily available baseline configuration of the information system.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -119,13 +175,36 @@ The organization employs automated mechanisms to maintain an up-to-date, complet
 </tr>
 </table>
 
-## CM-2 (3) Retention Of Previous Configurations
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5j0">Engine</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5j0" class="tab-pane fade in active">
+The CIS Docker Benchmark can be used as a baseline for securing Docker
+Enterprise Edition and for helping the organization meet the
+configurmation management requirements of this control. CIS regularly
+updates their benchmark to reflect the latest updates in the stable
+release of Docker Engine. Various configuration management tools such
+as Inspec (http://inspec.io/) can be used to audit Docker Enterprise
+Edition system configuration to ensure that the secure baseline
+configurations have been applied in an automated fashion. Additional
+information can be found at the following resources:
+
+- https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+- http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+
+</div>
+</div>
+
+### CM-2 (3) Retention Of Previous Configurations
 
 **Description:**
 
 The organization retains [Assignment: organization-defined previous versions of baseline configurations of the information system] to support rollback.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -144,19 +223,43 @@ The organization retains [Assignment: organization-defined previous versions of 
 </tr>
 </table>
 
-## CM-2 (6) Development And Test Environments
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5jg">Engine</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5jg" class="tab-pane fade in active">
+The CIS Docker Benchmark can be used as a baseline for securing
+Docker Enterprise Edition and for helping the organization meet the
+configurmation management requirements of this control. CIS regularly
+updates their benchmark to reflect the latest updates in the stable
+release of Docker Engine. Various configuration management tools such
+as Inspec (http://inspec.io/) can be used to audit Docker Enterprise
+Edition system configuration to ensure that the secure baseline
+configurations have been applied in an automated fashion and can be
+rolled back as required by this control. Additional information can be
+found at the following resources:
+
+- https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+- http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+
+</div>
+</div>
+
+### CM-2 (6) Development And Test Environments
 
 **Description:**
 
 The organization maintains a baseline configuration for information system development and test environments that is managed separately from the operational baseline configuration.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-2 (7) Configure Systems, Components, Or Devices For High-Risk Areas
+
+### CM-2 (7) Configure Systems, Components, Or Devices For High-Risk Areas
 
 **Description:**
 
@@ -168,8 +271,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CM-3 Configuration Change Control
 
 **Description:**
@@ -202,7 +305,27 @@ The organization:
 </tr>
 </table>
 
-## CM-3 (1) Automated Document / Notification / Prohibition Of Changes
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5k0">Engine</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5k0" class="tab-pane fade in active">
+The CIS Docker Benchmark can be used as a baseline for securing
+Docker Enterprise Edition and for helping the organization meet the
+configurmation management change control requirements of this control.
+Additional information can be found at the following resources:
+
+- https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+- http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+
+</div>
+</div>
+
+### CM-3 (1) Automated Document / Notification / Prohibition Of Changes
 
 **Description:**
 
@@ -233,13 +356,35 @@ The organization employs automated mechanisms to:
 </tr>
 </table>
 
-## CM-3 (2) Test / Validate / Document Changes
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5kg">Engine</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5kg" class="tab-pane fade in active">
+The CIS Docker Benchmark can be used as a baseline for securing
+Docker Enterprise Edition and for helping the organization meet the
+configurmation management change control requirements of this control.
+Various configuration management tools such as Inspec
+(http://inspec.io/) can be used to audit Docker Enterprise Edition
+system configuration to ensure that the secure baseline configurations
+have been applied in an automated fashion. Additional information can
+be found at the following resources:
+
+- https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+- http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+
+</div>
+</div>
+
+### CM-3 (2) Test / Validate / Document Changes
 
 **Description:**
 
 The organization tests, validates, and documents changes to the information system before implementing the changes on the operational system.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -258,49 +403,65 @@ The organization tests, validates, and documents changes to the information syst
 </tr>
 </table>
 
-## CM-3 (3) Automated Change Implementation
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5l0">Engine</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5l0" class="tab-pane fade in active">
+The CIS Docker Benchmark can be used as a baseline for securing
+Docker Enterprise Edition and for helping the organization meet the
+configurmation management change control requirements of this control.
+Various configuration management tools such as Inspec
+(http://inspec.io/) can be used to audit Docker Enterprise Edition
+system configuration to ensure that the secure baseline configurations
+have been applied in an automated fashion. Additional information can
+be found at the following resources:
+
+- https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+- http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+
+</div>
+</div>
+
+### CM-3 (3) Automated Change Implementation
 
 **Description:**
 
 The organization employs automated mechanisms to implement changes to the current information system baseline and deploys the updated baseline across the installed base.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-3 (4) Security Representative
+
+### CM-3 (4) Security Representative
 
 **Description:**
 
 The organization requires an information security representative to be a member of the [Assignment: organization-defined configuration change control element].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-3 (5) Automated Security Response
+
+### CM-3 (5) Automated Security Response
 
 **Description:**
 
 The information system implements [Assignment: organization-defined security responses] automatically if baseline configurations are changed in an unauthorized manner.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-3 (6) Cryptography Management
+
+### CM-3 (6) Cryptography Management
 
 **Description:**
 
 The organization ensures that cryptographic mechanisms used to provide [Assignment: organization-defined security safeguards] are under configuration management.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -318,62 +479,72 @@ The organization ensures that cryptographic mechanisms used to provide [Assignme
 <td>service provider system specific<br/></td>
 </tr>
 </table>
+
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5lg">Engine</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5lg" class="tab-pane fade in active">
+The CIS Docker Benchmark can be used as a baseline for securing
+Docker Enterprise Edition and for helping the organization meet the
+cryptography management requirements of this control. Additional
+information can be found at the following resources:
+
+- https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+- http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+
+</div>
+</div>
 
 ## CM-4 Security Impact Analysis
 
 **Description:**
 
 The organization analyzes changes to the information system to determine potential security impacts prior to change implementation.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-4 (1) Separate Test Environments
+
+### CM-4 (1) Separate Test Environments
 
 **Description:**
 
 The organization analyzes changes to the information system in a separate test environment before implementation in an operational environment, looking for security impacts due to flaws, weaknesses, incompatibility, or intentional malice.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-4 (2) Verification Of Security Functions
+
+### CM-4 (2) Verification Of Security Functions
 
 **Description:**
 
 The organization, after the information system is changed, checks the security functions to verify that the functions are implemented correctly, operating as intended, and producing the desired outcome with regard to meeting the security requirements for the system.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CM-5 Access Restrictions For Change
 
 **Description:**
 
 The organization defines, documents, approves, and enforces physical and logical access restrictions associated with changes to the information system.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-5 (1) Automated Access Enforcement / Auditing
+
+### CM-5 (1) Automated Access Enforcement / Auditing
 
 **Description:**
 
 The information system enforces access restrictions and supports auditing of the enforcement actions.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -397,13 +568,40 @@ The information system enforces access restrictions and supports auditing of the
 </tr>
 </table>
 
-## CM-5 (2) Review System Changes
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5m0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5mg">UCP</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5m0" class="tab-pane fade in active">
+Role-based access control can be configured within Docker Trusted
+Registry to meet the requirements of this control. Additional
+information can be found at the following resources:
+
+- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/
+- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC
+</div>
+<div id="b5vaf0anqis000atr5mg" class="tab-pane fade">
+Role-based access control can be configured within Universal Control
+Plane to meet the requirements of this control. Additional information
+can be found at the following resources:
+
+- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/
+- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#RBAC
+</div>
+</div>
+
+### CM-5 (2) Review System Changes
 
 **Description:**
 
 The organization reviews information system changes [Assignment: organization-defined frequency] and [Assignment: organization-defined circumstances] to determine whether unauthorized changes have occurred.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -422,13 +620,31 @@ The organization reviews information system changes [Assignment: organization-de
 </tr>
 </table>
 
-## CM-5 (3) Signed Components
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5n0">Engine</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5n0" class="tab-pane fade in active">
+The CIS Docker Benchmark can be used as a baseline for securing
+Docker Enterprise Edition and for helping the organization meet the
+system change requirements of this control. Additional information can
+be found at the following resources:
+
+- https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+- http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+
+</div>
+</div>
+
+### CM-5 (3) Signed Components
 
 **Description:**
 
 The information system prevents the installation of [Assignment: organization-defined software and firmware components] without verification that the component has been digitally signed using a certificate that is recognized and approved by the organization.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -457,19 +673,84 @@ The information system prevents the installation of [Assignment: organization-de
 </tr>
 </table>
 
-## CM-5 (4) Dual Authorization
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5ng">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5o0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5og">UCP</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5ng" class="tab-pane fade in active">
+Docker Content Trust is a capability provided by Docker Enterprise
+Edition that enforces client-side signing and verification of Docker
+image tags. It provides the ability to use digital signatures for data
+sent to and received from Docker Trusted Registry and the public
+Docker Store. These signatures allow client-side verification of the
+integrity and publisher of specific image tags. All Docker Trusted
+Registry Docker images are officially signed and verified by Docker,
+Inc.
+
+When installing Docker Trusted Registry, you should enable Docker
+Content Trust and subsequently pull the the signed DTR image tag.
+Additional information can be found at teh following resources:
+
+- https://docs.docker.com/engine/security/trust/content_trust/
+- https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/manage-trusted-repositories/
+</div>
+<div id="b5vaf0anqis000atr5o0" class="tab-pane fade">
+Before installing Docker Enterprise Edition, ensure that your
+supporting Linux operating system&#39;s packager manager supports package
+signature verification and that it is enabled. It is also required
+that you import the Docker public key for CS packages so as to
+retrieve the validated and signed package from Docker, Inc. Refer to
+your Linux OS documentation for instructions on completing the above
+steps.
+
+In addition, Docker Content Trust is a capability provided by CS
+Docker Engine that enforces client-side signing and verification of
+Docker image tags. It provides the ability to use digital signatures
+for data sent to and received from Docker Trusted Registry and the
+public Docker Store. These signatures allow client-side verification
+of the integrity and publisher of specific image tags. When enabling
+Docker Content Trust in Docker Enterprise Edition you can enforce the
+use of signed Docker images. Additional information can be found at
+the following resources:
+
+- https://docs.docker.com/engine/security/trust/content_trust/
+
+</div>
+<div id="b5vaf0anqis000atr5og" class="tab-pane fade">
+Docker Content Trust is a capability provided by Docker Enterprise Edition
+that enforces client-side signing and verification of Docker image
+tags. It provides the ability to use digital signatures for data sent
+to and received from Docker Trusted Registry and the public Docker
+Store. These signatures allow client-side verification of the
+integrity and publisher of specific image tags. All Universal Control
+Plane Docker images are officially signed and verified by Docker, Inc.
+
+When configuring Universal Control Plane, you should enforce
+applications to only use Docker images signed by trusted UCP users
+within your organization. Additional information can be found at the following resources:
+
+- https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/
+- https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/manage-trusted-repositories/
+- https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/continuous-integration/
+</div>
+</div>
+
+### CM-5 (4) Dual Authorization
 
 **Description:**
 
 The organization enforces dual authorization for implementing changes to [Assignment: organization-defined information system components and system-level information].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-5 (5) Limit Production / Operational Privileges
+
+### CM-5 (5) Limit Production / Operational Privileges
 
 **Description:**
 
@@ -481,20 +762,18 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-5 (6) Limit Library Privileges
+
+### CM-5 (6) Limit Library Privileges
 
 **Description:**
 
 The organization limits privileges to change software resident within software libraries.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CM-6 Configuration Settings
 
 **Description:**
@@ -509,15 +788,13 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-6 (1) Automated Central Management / Application / Verification
+
+### CM-6 (1) Automated Central Management / Application / Verification
 
 **Description:**
 
 The organization employs automated mechanisms to centrally manage, apply, and verify configuration settings for [Assignment: organization-defined information system components].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -546,18 +823,46 @@ The organization employs automated mechanisms to centrally manage, apply, and ve
 </tr>
 </table>
 
-## CM-6 (2) Respond To Unauthorized Changes
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5p0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5pg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5q0">UCP</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5p0" class="tab-pane fade in active">
+The organization is responsible for meeting the requirements of this
+control. To assist with these requirements, the organization can
+incorporate the use of an external configuration management system to
+meet the requirements of this control.
+</div>
+<div id="b5vaf0anqis000atr5pg" class="tab-pane fade">
+The organization is responsible for meeting the requirements of this
+control. The organization can incorporate the use of an external
+configuration management system to meet the requirements of this
+control.
+
+</div>
+<div id="b5vaf0anqis000atr5q0" class="tab-pane fade">
+The organization is responsible for meeting the requirements of this
+ control. To assist with these requirements, the organization can
+ incorporate the use of an external configuration management system to
+ meet the requirements of this control.
+</div>
+</div>
+
+### CM-6 (2) Respond To Unauthorized Changes
 
 **Description:**
 
 The organization employs [Assignment: organization-defined security safeguards] to respond to unauthorized changes to [Assignment: organization-defined configuration settings].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CM-7 Least Functionality
 
 **Description:**
@@ -570,9 +875,9 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-7 (1) Periodic Review
+
+### CM-7 (1) Periodic Review
 
 **Description:**
 
@@ -584,15 +889,13 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-7 (2) Prevent Program Execution
+
+### CM-7 (2) Prevent Program Execution
 
 **Description:**
 
 The information system prevents program execution in accordance with [Selection (one or more): [Assignment: organization-defined policies regarding software program usage and restrictions]; rules authorizing the terms and conditions of software program usage].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -621,19 +924,49 @@ The information system prevents program execution in accordance with [Selection 
 </tr>
 </table>
 
-## CM-7 (3) Registration Compliance
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5qg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5r0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5rg">UCP</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5qg" class="tab-pane fade in active">
+The organization can define a list of allowed base Docker images and
+make them available via Docker Trusted Registry. The organization can
+also prevent users from being able to pull Docker images from
+untrusted sources.
+</div>
+<div id="b5vaf0anqis000atr5r0" class="tab-pane fade">
+In order to restrict which Docker images can be used to deploy
+applications to Docker Enterprise Edition, the organization must define a list
+of allowed base Docker images and make them available via Docker
+Trusted Registry. The organization must also prevent users from being
+able to pull Docker images from untrusted sources.
+
+</div>
+<div id="b5vaf0anqis000atr5rg" class="tab-pane fade">
+In order to restrict which Docker images can be used to deploy
+applications to Universal Control Plane, the organization must define a
+list of allowed base Docker images and make them available via Docker
+Trusted Registry. The organization must also prevent users from being
+able to pull Docker images from untrusted sources.
+</div>
+</div>
+
+### CM-7 (3) Registration Compliance
 
 **Description:**
 
 The organization ensures compliance with [Assignment: organization-defined registration requirements for functions, ports, protocols, and services].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-7 (4) Unauthorized Software / Blacklisting
+
+### CM-7 (4) Unauthorized Software / Blacklisting
 
 **Description:**
 
@@ -646,9 +979,9 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-7 (5) Authorized Software / Whitelisting
+
+### CM-7 (5) Authorized Software / Whitelisting
 
 **Description:**
 
@@ -686,6 +1019,57 @@ The organization:
 </tr>
 </table>
 
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5s0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5sg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5t0">UCP</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5s0" class="tab-pane fade in active">
+The organization is responsible for meeting the requirements of this
+control. To assist with these requirements, the organization can
+define a list of allowed base Docker images and make them available
+via Docker Trusted Registry. The organization must also prevent users
+from being able to pull Docker images from untrusted sources.The organization is responsible for meeting the requirements of this
+control. To assist with these requirements, the organization can
+configure its systems to ensure that only approved Docker images are
+stored in Docker Trusted Registry. This can be accomplished by using
+Docker Content Trust to sign Docker images which can subsequently be
+stored in Docker Trusted Registry.
+</div>
+<div id="b5vaf0anqis000atr5sg" class="tab-pane fade">
+The organization is responsible for meeting the requirements of this
+control. To assist with these requirements and in order to restrict
+which Docker images can be used to deploy applications to CS Docker
+Engine, the organization must define a list of allowed base Docker
+images and make them available via Docker Trusted Registry. The
+organization must also prevent users from being able to pull Docker
+images from untrusted sources.
+
+</div>
+<div id="b5vaf0anqis000atr5t0" class="tab-pane fade">
+The organization is responsible for meeting the requirements of this
+control. To assist with these requirements and in order to restrict
+which Docker images can be used to deploy applications to Universal
+Control Plane, the organization must define a list of allowed base
+Docker images and make them available via Docker Trusted Registry. The
+organization must also prevent users from being able to pull Docker
+images from untrusted sources.The organization is responsible for meeting the requirements of this
+control. To assist with these requirements, the organization can
+configure its systems to ensure that only approved Docker images
+stored in Docker Trusted Registry can be run on Universal Control
+Plane. This can be accomplished by using Docker Content Trust to sign
+Docker images, and configure UCP to enforce only signed images from
+specific Teams at runtime. Additional information can be found at the
+following resources:
+
+- https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/
+</div>
+</div>
+
 ## CM-8 Information System Component Inventory
 
 **Description:**
@@ -705,33 +1089,29 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-8 (1) Updates During Installations / Removals
+
+### CM-8 (1) Updates During Installations / Removals
 
 **Description:**
 
 The organization updates the inventory of information system components as an integral part of component installations, removals, and information system updates.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-8 (2) Automated Maintenance
+
+### CM-8 (2) Automated Maintenance
 
 **Description:**
 
 The organization employs automated mechanisms to help maintain an up-to-date, complete, accurate, and readily available inventory of information system components.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-8 (3) Automated Unauthorized Component Detection
+
+### CM-8 (3) Automated Unauthorized Component Detection
 
 **Description:**
 
@@ -743,69 +1123,59 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-8 (4) Accountability Information
+
+### CM-8 (4) Accountability Information
 
 **Description:**
 
 The organization includes in the information system component inventory information, a means for identifying by [Selection (one or more): name; position; role], individuals responsible/accountable for administering those components.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-8 (5) No Duplicate Accounting Of Components
+
+### CM-8 (5) No Duplicate Accounting Of Components
 
 **Description:**
 
 The organization verifies that all components within the authorization boundary of the information system are not duplicated in other information system component inventories.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-8 (6) Assessed Configurations / Approved Deviations
+
+### CM-8 (6) Assessed Configurations / Approved Deviations
 
 **Description:**
 
 The organization includes assessed component configurations and any approved deviations to current deployed configurations in the information system component inventory.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-8 (7) Centralized Repository
+
+### CM-8 (7) Centralized Repository
 
 **Description:**
 
 The organization provides a centralized repository for the inventory of information system components.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-8 (8) Automated Location Tracking
+
+### CM-8 (8) Automated Location Tracking
 
 **Description:**
 
 The organization employs automated mechanisms to support tracking of information system components by geographic location.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-8 (9) Assignment Of Components To Systems
+
+### CM-8 (9) Assignment Of Components To Systems
 
 **Description:**
 
@@ -817,8 +1187,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CM-9 Configuration Management Plan
 
 **Description:**
@@ -848,18 +1218,36 @@ The organization develops, documents, and implements a configuration management 
 </tr>
 </table>
 
-## CM-9 (1) Assignment Of Responsibility
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5tg">Engine</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5tg" class="tab-pane fade in active">
+The CIS Docker Benchmark can be used as a baseline for securing
+Docker Enterprise Edition and for helping the organization meet the
+configuration management plan requirements of this control. Additional
+information can be found at the following resources:
+
+- https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+- http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
+- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+
+</div>
+</div>
+
+### CM-9 (1) Assignment Of Responsibility
 
 **Description:**
 
 The organization assigns responsibility for developing the configuration management process to organizational personnel that are not directly involved in information system development.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CM-10 Software Usage Restrictions
 
 **Description:**
@@ -873,20 +1261,18 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## CM-10 (1) Open Source Software
+
+### CM-10 (1) Open Source Software
 
 **Description:**
 
 The organization establishes the following restrictions on the use of open source software: [Assignment: organization-defined restrictions].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## CM-11 User-Installed Software
 
 **Description:**
@@ -915,13 +1301,27 @@ The organization:
 </tr>
 </table>
 
-## CM-11 (1) Alerts For Unauthorized Installations
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5u0">DTR</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5u0" class="tab-pane fade in active">
+The organization is responsible for meeting the requirements of this
+control. To assist with these requirements, the organization can
+define a list of allowed base Docker images and make them available
+via Docker Trusted Registry. The organization can also prevent users
+from being able to pull Docker images from untrusted sources.
+</div>
+</div>
+
+### CM-11 (1) Alerts For Unauthorized Installations
 
 **Description:**
 
 The information system alerts [Assignment: organization-defined personnel or roles] when the unauthorized installation of software is detected.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -940,15 +1340,29 @@ The information system alerts [Assignment: organization-defined personnel or rol
 </tr>
 </table>
 
-## CM-11 (2) Prohibit Installation Without Privileged Status
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5ug">DTR</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0anqis000atr5ug" class="tab-pane fade in active">
+The organization is responsible for meeting the requirements of this
+control. To assist with these requirements, the organization can
+define a list of allowed base Docker images and make them available
+via Docker Trusted Registry. The organization can also prevent users
+from being able to pull Docker images from untrusted sources.
+</div>
+</div>
+
+### CM-11 (2) Prohibit Installation Without Privileged Status
 
 **Description:**
 
 The information system prohibits user installation of software without explicit privileged status.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+

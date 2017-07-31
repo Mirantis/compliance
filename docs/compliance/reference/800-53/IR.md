@@ -26,8 +26,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## IR-2 Incident Response Training
 
 **Description:**
@@ -41,68 +41,58 @@ The organization provides incident response training to information system users
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-2 (1) Simulated Events
+
+### IR-2 (1) Simulated Events
 
 **Description:**
 
 The organization incorporates simulated events into incident response training to facilitate effective response by personnel in crisis situations.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-2 (2) Automated Training Environments
+
+### IR-2 (2) Automated Training Environments
 
 **Description:**
 
 The organization employs automated mechanisms to provide a more thorough and realistic incident response training environment.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## IR-3 Incident Response Testing
 
 **Description:**
 
 The organization tests the incident response capability for the information system [Assignment: organization-defined frequency] using [Assignment: organization-defined tests] to determine the incident response effectiveness and documents the results.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-3 (1) Automated Testing
+
+### IR-3 (1) Automated Testing
 
 **Description:**
 
 The organization employs automated mechanisms to more thoroughly and effectively test the incident response capability.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-3 (2) Coordination With Related Plans
+
+### IR-3 (2) Coordination With Related Plans
 
 **Description:**
 
 The organization coordinates incident response testing with organizational elements responsible for related plans.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## IR-4 Incident Handling
 
 **Description:**
@@ -116,152 +106,128 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-4 (1) Automated Incident Handling Processes
+
+### IR-4 (1) Automated Incident Handling Processes
 
 **Description:**
 
 The organization employs automated mechanisms to support the incident handling process.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-4 (2) Dynamic Reconfiguration
+
+### IR-4 (2) Dynamic Reconfiguration
 
 **Description:**
 
 The organization includes dynamic reconfiguration of [Assignment: organization-defined information system components] as part of the incident response capability.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-4 (3) Continuity Of Operations
+
+### IR-4 (3) Continuity Of Operations
 
 **Description:**
 
 The organization identifies [Assignment: organization-defined classes of incidents] and [Assignment: organization-defined actions to take in response to classes of incidents] to ensure continuation of organizational missions and business functions.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-4 (4) Information Correlation
+
+### IR-4 (4) Information Correlation
 
 **Description:**
 
 The organization correlates incident information and individual incident responses to achieve an organization-wide perspective on incident awareness and response.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-4 (5) Automatic Disabling Of Information System
+
+### IR-4 (5) Automatic Disabling Of Information System
 
 **Description:**
 
 The organization implements a configurable capability to automatically disable the information system if [Assignment: organization-defined security violations] are detected.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-4 (6) Insider Threats - Specific Capabilities
+
+### IR-4 (6) Insider Threats - Specific Capabilities
 
 **Description:**
 
 The organization implements incident handling capability for insider threats.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-4 (7) Insider Threats - Intra-Organization Coordination
+
+### IR-4 (7) Insider Threats - Intra-Organization Coordination
 
 **Description:**
 
 The organization coordinates incident handling capability for insider threats across [Assignment: organization-defined components or elements of the organization].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-4 (8) Correlation With External Organizations
+
+### IR-4 (8) Correlation With External Organizations
 
 **Description:**
 
 The organization coordinates with [Assignment: organization-defined external organizations] to correlate and share [Assignment: organization-defined incident information] to achieve a cross-organization perspective on incident awareness and more effective incident responses.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-4 (9) Dynamic Response Capability
+
+### IR-4 (9) Dynamic Response Capability
 
 **Description:**
 
 The organization employs [Assignment: organization-defined dynamic response capabilities] to effectively respond to security incidents.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-4 (10) Supply Chain Coordination
+
+### IR-4 (10) Supply Chain Coordination
 
 **Description:**
 
 The organization coordinates incident handling activities involving supply chain events with other organizations involved in the supply chain.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## IR-5 Incident Monitoring
 
 **Description:**
 
 The organization tracks and documents information system security incidents.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-5 (1) Automated Tracking / Data Collection / Analysis
+
+### IR-5 (1) Automated Tracking / Data Collection / Analysis
 
 **Description:**
 
 The organization employs automated mechanisms to assist in the tracking of security incidents and in the collection and analysis of incident information.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## IR-6 Incident Reporting
 
 **Description:**
@@ -274,69 +240,59 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-6 (1) Automated Reporting
+
+### IR-6 (1) Automated Reporting
 
 **Description:**
 
 The organization employs automated mechanisms to assist in the reporting of security incidents.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-6 (2) Vulnerabilities Related To Incidents
+
+### IR-6 (2) Vulnerabilities Related To Incidents
 
 **Description:**
 
 The organization reports information system vulnerabilities associated with reported security incidents to [Assignment: organization-defined personnel or roles].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-6 (3) Coordination With Supply Chain
+
+### IR-6 (3) Coordination With Supply Chain
 
 **Description:**
 
 The organization provides security incident information to other organizations involved in the supply chain for information systems or information system components related to the incident.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## IR-7 Incident Response Assistance
 
 **Description:**
 
 The organization provides an incident response support resource, integral to the organizational incident response capability that offers advice and assistance to users of the information system for the handling and reporting of security incidents.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-7 (1) Automation Support For Availability Of Information / Support
+
+### IR-7 (1) Automation Support For Availability Of Information / Support
 
 **Description:**
 
 The organization employs automated mechanisms to increase the availability of incident response-related information and support.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-7 (2) Coordination With External Providers
+
+### IR-7 (2) Coordination With External Providers
 
 **Description:**
 
@@ -348,8 +304,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## IR-8 Incident Response Plan
 
 **Description:**
@@ -377,8 +333,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## IR-9 Information Spillage Response
 
 **Description:**
@@ -395,65 +351,55 @@ The organization responds to information spills by:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-9 (1) Responsible Personnel
+
+### IR-9 (1) Responsible Personnel
 
 **Description:**
 
 The organization assigns [Assignment: organization-defined personnel or roles] with responsibility for responding to information spills.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-9 (2) Training
+
+### IR-9 (2) Training
 
 **Description:**
 
 The organization provides information spillage response training [Assignment: organization-defined frequency].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-9 (3) Post-Spill Operations
+
+### IR-9 (3) Post-Spill Operations
 
 **Description:**
 
 The organization implements [Assignment: organization-defined procedures] to ensure that organizational personnel impacted by information spills can continue to carry out assigned tasks while contaminated systems are undergoing corrective actions.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## IR-9 (4) Exposure To Unauthorized Personnel
+
+### IR-9 (4) Exposure To Unauthorized Personnel
 
 **Description:**
 
 The organization employs [Assignment: organization-defined security safeguards] for personnel exposed to information not within assigned access authorizations.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## IR-10 Integrated Information Security Analysis Team
 
 **Description:**
 
 The organization establishes an integrated team of forensic/malicious code analysts, tool developers, and real-time operations personnel.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+

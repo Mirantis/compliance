@@ -25,20 +25,18 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-2 Senior Information Security Officer
 
 **Description:**
 
 The organization appoints a senior information security officer with the mission and resources to coordinate, develop, implement, and maintain an organization-wide information security program.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-3 Information Security Resources
 
 **Description:**
@@ -52,8 +50,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-4 Plan Of Action And Milestones Process
 
 **Description:**
@@ -72,56 +70,48 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-5 Information System Inventory
 
 **Description:**
 
 The organization develops and maintains an inventory of its information systems.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-6 Information Security Measures Of Performance
 
 **Description:**
 
 The organization develops, monitors, and reports on the results of information security measures of performance.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-7 Enterprise Architecture
 
 **Description:**
 
 The organization develops an enterprise architecture with consideration for information security and the resulting risk to organizational operations, organizational assets, individuals, other organizations, and the Nation.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-8 Critical Infrastructure Plan
 
 **Description:**
 
 The organization addresses information security issues in the development, documentation, and updating of a critical infrastructure and key resources protection plan.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-9 Risk Management Strategy
 
 **Description:**
@@ -135,8 +125,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-10 Security Authorization Process
 
 **Description:**
@@ -150,8 +140,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-11 Mission/Business Process Definition
 
 **Description:**
@@ -164,32 +154,28 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-12 Insider Threat Program
 
 **Description:**
 
 The organization implements an insider threat program that includes a cross-discipline insider threat incident handling team.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-13 Information Security Workforce
 
 **Description:**
 
 The organization establishes an information security workforce development and improvement program.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-14 Testing, Training, And Monitoring
 
 **Description:**
@@ -207,8 +193,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-15 Contacts With Security Groups And Associations
 
 **Description:**
@@ -222,17 +208,15 @@ The organization establishes and institutionalizes contact with selected groups 
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PM-16 Threat Awareness Program
 
 **Description:**
 
 The organization implements a threat awareness program that includes a cross-organization information-sharing capability.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+

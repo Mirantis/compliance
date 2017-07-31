@@ -26,8 +26,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PS-2 Position Risk Designation
 
 **Description:**
@@ -41,8 +41,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PS-3 Personnel Screening
 
 **Description:**
@@ -55,33 +55,29 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## PS-3 (1) Classified Information
+
+### PS-3 (1) Classified Information
 
 **Description:**
 
 The organization ensures that individuals accessing an information system processing, storing, or transmitting classified information are cleared and indoctrinated to the highest classification level of the information to which they have access on the system.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## PS-3 (2) Formal Indoctrination
+
+### PS-3 (2) Formal Indoctrination
 
 **Description:**
 
 The organization ensures that individuals accessing an information system processing, storing, or transmitting types of classified information which require formal indoctrination, are formally indoctrinated for all of the relevant types of information to which they have access on the system.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## PS-3 (3) Information With Special Protection Measures
+
+### PS-3 (3) Information With Special Protection Measures
 
 **Description:**
 
@@ -93,8 +89,8 @@ The organization ensures that individuals accessing an information system proces
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PS-4 Personnel Termination
 
 **Description:**
@@ -111,9 +107,9 @@ The organization, upon termination of individual employment:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## PS-4 (1) Post-Employment Requirements
+
+### PS-4 (1) Post-Employment Requirements
 
 **Description:**
 
@@ -125,20 +121,18 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## PS-4 (2) Automated Notification
+
+### PS-4 (2) Automated Notification
 
 **Description:**
 
 The organization employs automated mechanisms to notify [Assignment: organization-defined personnel or roles] upon termination of an individual.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PS-5 Personnel Transfer
 
 **Description:**
@@ -153,8 +147,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PS-6 Access Agreements
 
 **Description:**
@@ -173,9 +167,9 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## PS-6 (2) Classified Information Requiring Special Protection
+
+### PS-6 (2) Classified Information Requiring Special Protection
 
 **Description:**
 
@@ -188,9 +182,9 @@ The organization ensures that access to classified information requiring special
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## PS-6 (3) Post-Employment Requirements
+
+### PS-6 (3) Post-Employment Requirements
 
 **Description:**
 
@@ -202,8 +196,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PS-7 Third-Party Personnel Security
 
 **Description:**
@@ -219,8 +213,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PS-8 Personnel Sanctions
 
 **Description:**
@@ -233,5 +227,5 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+

@@ -26,8 +26,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## MA-2 Controlled Maintenance
 
 **Description:**
@@ -44,9 +44,9 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-2 (2) Automated Maintenance Activities
+
+### MA-2 (2) Automated Maintenance Activities
 
 **Description:**
 
@@ -58,45 +58,39 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## MA-3 Maintenance Tools
 
 **Description:**
 
 The organization approves, controls, and monitors information system maintenance tools.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-3 (1) Inspect Tools
+
+### MA-3 (1) Inspect Tools
 
 **Description:**
 
 The organization inspects the maintenance tools carried into a facility by maintenance personnel for improper or unauthorized modifications.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-3 (2) Inspect Media
+
+### MA-3 (2) Inspect Media
 
 **Description:**
 
 The organization checks media containing diagnostic and test programs for malicious code before the media are used in the information system.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-3 (3) Prevent Unauthorized Removal
+
+### MA-3 (3) Prevent Unauthorized Removal
 
 **Description:**
 
@@ -110,20 +104,18 @@ The organization prevents the unauthorized removal of maintenance equipment cont
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-3 (4) Restricted Tool Use
+
+### MA-3 (4) Restricted Tool Use
 
 **Description:**
 
 The information system restricts the use of maintenance tools to authorized personnel only.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## MA-4 Nonlocal Maintenance
 
 **Description:**
@@ -139,9 +131,9 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-4 (1) Auditing And Review
+
+### MA-4 (1) Auditing And Review
 
 **Description:**
 
@@ -153,21 +145,19 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-4 (2) Document Nonlocal Maintenance
+
+### MA-4 (2) Document Nonlocal Maintenance
 
 **Description:**
 
 The organization documents in the security plan for the information system, the policies and procedures for the establishment and use of nonlocal maintenance and diagnostic connections.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-4 (3) Comparable Security / Sanitization
+
+### MA-4 (3) Comparable Security / Sanitization
 
 **Description:**
 
@@ -179,9 +169,9 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-4 (4) Authentication / Separation Of Maintenance Sessions
+
+### MA-4 (4) Authentication / Separation Of Maintenance Sessions
 
 **Description:**
 
@@ -198,9 +188,9 @@ The organization protects nonlocal maintenance sessions by:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-4 (5) Approvals And Notifications
+
+### MA-4 (5) Approvals And Notifications
 
 **Description:**
 
@@ -212,32 +202,28 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-4 (6) Cryptographic Protection
+
+### MA-4 (6) Cryptographic Protection
 
 **Description:**
 
 The information system implements cryptographic mechanisms to protect the integrity and confidentiality of nonlocal maintenance and diagnostic communications.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-4 (7) Remote Disconnect Verification
+
+### MA-4 (7) Remote Disconnect Verification
 
 **Description:**
 
 The information system implements remote disconnect verification at the termination of nonlocal maintenance and diagnostic sessions.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## MA-5 Maintenance Personnel
 
 **Description:**
@@ -251,9 +237,9 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-5 (1) Individuals Without Appropriate Access
+
+### MA-5 (1) Individuals Without Appropriate Access
 
 **Description:**
 
@@ -270,33 +256,29 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-5 (2) Security Clearances For Classified Systems
+
+### MA-5 (2) Security Clearances For Classified Systems
 
 **Description:**
 
 The organization ensures that personnel performing maintenance and diagnostic activities on an information system processing, storing, or transmitting classified information possess security clearances and formal access approvals for at least the highest classification level and for all compartments of information on the system.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-5 (3) Citizenship Requirements For Classified Systems
+
+### MA-5 (3) Citizenship Requirements For Classified Systems
 
 **Description:**
 
 The organization ensures that personnel performing maintenance and diagnostic activities on an information system processing, storing, or transmitting classified information are U.S. citizens.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-5 (4) Foreign Nationals
+
+### MA-5 (4) Foreign Nationals
 
 **Description:**
 
@@ -308,65 +290,55 @@ The organization ensures that:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-5 (5) Nonsystem-Related Maintenance
+
+### MA-5 (5) Nonsystem-Related Maintenance
 
 **Description:**
 
 The organization ensures that non-escorted personnel performing maintenance activities not directly associated with the information system but in the physical proximity of the system, have required access authorizations.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## MA-6 Timely Maintenance
 
 **Description:**
 
 The organization obtains maintenance support and/or spare parts for [Assignment: organization-defined information system components] within [Assignment: organization-defined time period] of failure.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-6 (1) Preventive Maintenance
+
+### MA-6 (1) Preventive Maintenance
 
 **Description:**
 
 The organization performs preventive maintenance on [Assignment: organization-defined information system components] at [Assignment: organization-defined time intervals].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-6 (2) Predictive Maintenance
+
+### MA-6 (2) Predictive Maintenance
 
 **Description:**
 
 The organization performs predictive maintenance on [Assignment: organization-defined information system components] at [Assignment: organization-defined time intervals].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## MA-6 (3) Automated Support For Predictive Maintenance
+
+### MA-6 (3) Automated Support For Predictive Maintenance
 
 **Description:**
 
 The organization employs automated mechanisms to transfer predictive maintenance data to a computerized maintenance management system.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+

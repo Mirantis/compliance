@@ -26,8 +26,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PL-2 System Security Plan
 
 **Description:**
@@ -55,20 +55,18 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## PL-2 (3) Plan / Coordinate With Other Organizational Entities
+
+### PL-2 (3) Plan / Coordinate With Other Organizational Entities
 
 **Description:**
 
 The organization plans and coordinates security-related activities affecting the information system with [Assignment: organization-defined individuals or groups] before conducting such activities in order to reduce the impact on other organizational entities.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PL-4 Rules Of Behavior
 
 **Description:**
@@ -83,20 +81,18 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## PL-4 (1) Social Media And Networking Restrictions
+
+### PL-4 (1) Social Media And Networking Restrictions
 
 **Description:**
 
 The organization includes in the rules of behavior, explicit restrictions on the use of social media/networking sites and posting organizational information on public websites.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PL-7 Security Concept Of Operations
 
 **Description:**
@@ -109,8 +105,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PL-8 Information Security Architecture
 
 **Description:**
@@ -130,9 +126,9 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## PL-8 (1) Defense-In-Depth
+
+### PL-8 (1) Defense-In-Depth
 
 **Description:**
 
@@ -144,29 +140,25 @@ The organization designs its security architecture using a defense-in-depth appr
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## PL-8 (2) Supplier Diversity
+
+### PL-8 (2) Supplier Diversity
 
 **Description:**
 
 The organization requires that [Assignment: organization-defined security safeguards] allocated to [Assignment: organization-defined locations and architectural layers] are obtained from different suppliers.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## PL-9 Central Management
 
 **Description:**
 
 The organization centrally manages [Assignment: organization-defined security controls and related processes].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+

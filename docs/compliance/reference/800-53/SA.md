@@ -26,8 +26,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-2 Allocation Of Resources
 
 **Description:**
@@ -41,8 +41,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-3 System Development Life Cycle
 
 **Description:**
@@ -57,8 +57,8 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-4 Acquisition Process
 
 **Description:**
@@ -76,45 +76,39 @@ The organization includes the following requirements, descriptions, and criteria
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-4 (1) Functional Properties Of Security Controls
+
+### SA-4 (1) Functional Properties Of Security Controls
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to provide a description of the functional properties of the security controls to be employed.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-4 (2) Design / Implementation Information For Security Controls
+
+### SA-4 (2) Design / Implementation Information For Security Controls
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to provide design and implementation information for the security controls to be employed that includes: [Selection (one or more): security-relevant external system interfaces; high-level design; low-level design; source code or hardware schematics; [Assignment: organization-defined design/implementation information]] at [Assignment: organization-defined level of detail].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-4 (3) Development Methods / Techniques / Practices
+
+### SA-4 (3) Development Methods / Techniques / Practices
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to demonstrate the use of a system development life cycle that includes [Assignment: organization-defined state-of-the-practice system/security engineering methods, software development methods, testing/evaluation/validation techniques, and quality control processes].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-4 (5) System / Component / Service Configurations
+
+### SA-4 (5) System / Component / Service Configurations
 
 **Description:**
 
@@ -126,9 +120,9 @@ The organization requires the developer of the information system, system compon
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-4 (6) Use Of Information Assurance Products
+
+### SA-4 (6) Use Of Information Assurance Products
 
 **Description:**
 
@@ -140,9 +134,9 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-4 (7) Niap-Approved  Protection Profiles
+
+### SA-4 (7) Niap-Approved  Protection Profiles
 
 **Description:**
 
@@ -154,44 +148,38 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-4 (8) Continuous Monitoring Plan
+
+### SA-4 (8) Continuous Monitoring Plan
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to produce a plan for the continuous monitoring of security control effectiveness that contains [Assignment: organization-defined level of detail].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-4 (9) Functions / Ports / Protocols / Services In Use
+
+### SA-4 (9) Functions / Ports / Protocols / Services In Use
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to identify early in the system development life cycle, the functions, ports, protocols, and services intended for organizational use.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-4 (10) Use Of Approved Piv Products
+
+### SA-4 (10) Use Of Approved Piv Products
 
 **Description:**
 
 The organization employs only information technology products on the FIPS 201-approved products list for Personal Identity Verification (PIV) capability implemented within organizational information systems.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-5 Information System Documentation
 
 **Description:**
@@ -219,20 +207,18 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-8 Security Engineering Principles
 
 **Description:**
 
 The organization applies information system security engineering principles in the specification, design, development, implementation, and modification of the information system.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-9 External Information System Services
 
 **Description:**
@@ -246,9 +232,9 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-9 (1) Risk Assessments / Organizational Approvals
+
+### SA-9 (1) Risk Assessments / Organizational Approvals
 
 **Description:**
 
@@ -260,56 +246,48 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-9 (2) Identification Of Functions / Ports / Protocols / Services
+
+### SA-9 (2) Identification Of Functions / Ports / Protocols / Services
 
 **Description:**
 
 The organization requires providers of [Assignment: organization-defined external information system services] to identify the functions, ports, protocols, and other services required for the use of such services.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-9 (3) Establish / Maintain Trust Relationship With Providers
+
+### SA-9 (3) Establish / Maintain Trust Relationship With Providers
 
 **Description:**
 
 The organization establishes, documents, and maintains trust relationships with external service providers based on [Assignment: organization-defined security requirements, properties, factors, or conditions defining acceptable trust relationships].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-9 (4) Consistent Interests Of Consumers And Providers
+
+### SA-9 (4) Consistent Interests Of Consumers And Providers
 
 **Description:**
 
 The organization employs [Assignment: organization-defined security safeguards] to ensure that the interests of [Assignment: organization-defined external service providers] are consistent with and reflect organizational interests.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-9 (5) Processing, Storage, And Service Location
+
+### SA-9 (5) Processing, Storage, And Service Location
 
 **Description:**
 
 The organization restricts the location of [Selection (one or more): information processing; information/data; information system services] to [Assignment: organization-defined locations] based on [Assignment: organization-defined requirements or conditions].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-10 Developer Configuration Management
 
 **Description:**
@@ -325,15 +303,13 @@ The organization requires the developer of the information system, system compon
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-10 (1) Software / Firmware Integrity Verification
+
+### SA-10 (1) Software / Firmware Integrity Verification
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to enable integrity verification of software and firmware components.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
@@ -362,66 +338,104 @@ The organization requires the developer of the information system, system compon
 </tr>
 </table>
 
-## SA-10 (2) Alternative Configuration Management Processes
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+<li class="active"><a data-toggle="tab" data-target="#b5vaf0inqis000atr6h0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0inqis000atr6hg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vaf0inqis000atr6i0">UCP</a></li>
+</ul>
+
+<div class="tab-content">
+<div id="b5vaf0inqis000atr6h0" class="tab-pane fade in active">
+Docker Content Trust gives you the ability to verify both the
+integrity and the publisher of all the data received from a Docker
+Trusted Registry over any channel. It allows operations with a remote
+DTR instance to enforce client-side signing and verification of image
+tags. It provides for the ability to use digital signatures for data
+sent to and receive from remote DTR instances. These signatures allow
+client-side verification of the integrity and publisher of specific
+image tags. Docker Trusted Registry includes an integrated imaging
+signing service.
+</div>
+<div id="b5vaf0inqis000atr6hg" class="tab-pane fade">
+Docker Content Trust gives you the ability to verify both the
+integrity and the publisher of all the data received from a Docker
+Trusted Registry over any channel. It allows operations with a remote
+DTR instance to enforce client-side signing and verification of image
+tags. It provides for the ability to use digital signatures for data
+sent to and receive from remote DTR instances. These signatures allow
+client-side verification of the integrity and publisher of specific
+image tags.
+
+</div>
+<div id="b5vaf0inqis000atr6i0" class="tab-pane fade">
+The organization is responsible for meeting the requirements of this
+control. To assist with these requirements, Docker Content Trust gives
+you the ability to verify both the integrity and the publisher of all
+the data received from a Docker Trusted Registry over any channel. It
+allows operations with a remote DTR instance to enforce client-side
+signing and verification of image tags. It provides for the ability to
+use digital signatures for data sent to and receive from remote DTR
+instances. These signatures allow client-side verification of the
+integrity and publisher of specific image tags. Universal Control
+Plane can be configured to only run trusted and signed images.
+Additional information can be found at the following resources:
+
+- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/run-only-the-images-you-trust/
+</div>
+</div>
+
+### SA-10 (2) Alternative Configuration Management Processes
 
 **Description:**
 
 The organization provides an alternate configuration management process using organizational personnel in the absence of a dedicated developer configuration management team.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-10 (3) Hardware Integrity Verification
+
+### SA-10 (3) Hardware Integrity Verification
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to enable integrity verification of hardware components.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-10 (4) Trusted Generation
+
+### SA-10 (4) Trusted Generation
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to employ tools for comparing newly generated versions of security-relevant hardware descriptions and software/firmware source and object code with previous versions.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-10 (5) Mapping Integrity For Version Control
+
+### SA-10 (5) Mapping Integrity For Version Control
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to maintain the integrity of the mapping between the  master build data (hardware drawings and software/firmware code) describing the current version of security-relevant hardware, software, and firmware and the on-site master copy of the data for the current version.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-10 (6) Trusted Distribution
+
+### SA-10 (6) Trusted Distribution
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to execute procedures for ensuring that security-relevant hardware, software, and firmware updates distributed to the organization are exactly as specified by the master copies.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-11 Developer Security Testing And Evaluation
 
 **Description:**
@@ -437,33 +451,29 @@ The organization requires the developer of the information system, system compon
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-11 (1) Static Code Analysis
+
+### SA-11 (1) Static Code Analysis
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to employ static code analysis tools to identify common flaws and document the results of the analysis.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-11 (2) Threat And Vulnerability Analyses
+
+### SA-11 (2) Threat And Vulnerability Analyses
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to perform threat and vulnerability analyses and subsequent testing/evaluation of the as-built system, component, or service.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-11 (3) Independent Verification Of Assessment Plans / Evidence
+
+### SA-11 (3) Independent Verification Of Assessment Plans / Evidence
 
 **Description:**
 
@@ -475,224 +485,188 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-11 (4) Manual Code Reviews
+
+### SA-11 (4) Manual Code Reviews
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to perform a manual code review of [Assignment: organization-defined specific code] using [Assignment: organization-defined processes, procedures, and/or techniques].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-11 (5) Penetration Testing
+
+### SA-11 (5) Penetration Testing
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to perform penetration testing at [Assignment: organization-defined breadth/depth] and with [Assignment: organization-defined constraints].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-11 (6) Attack Surface Reviews
+
+### SA-11 (6) Attack Surface Reviews
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to perform attack surface reviews.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-11 (7) Verify Scope Of Testing / Evaluation
+
+### SA-11 (7) Verify Scope Of Testing / Evaluation
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to verify that the scope of security testing/evaluation provides complete coverage of required security controls at [Assignment: organization-defined depth of testing/evaluation].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-11 (8) Dynamic Code Analysis
+
+### SA-11 (8) Dynamic Code Analysis
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to employ dynamic code analysis tools to identify common flaws and document the results of the analysis.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-12 Supply Chain Protection
 
 **Description:**
 
 The organization protects against supply chain threats to the information system, system component, or information system service by employing [Assignment: organization-defined security safeguards] as part of a comprehensive, defense-in-breadth information security strategy.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-12 (1) Acquisition Strategies / Tools / Methods
+
+### SA-12 (1) Acquisition Strategies / Tools / Methods
 
 **Description:**
 
 The organization employs [Assignment: organization-defined tailored acquisition strategies, contract tools, and procurement methods] for the purchase of the information system, system component, or information system service from suppliers.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-12 (2) Supplier Reviews
+
+### SA-12 (2) Supplier Reviews
 
 **Description:**
 
 The organization conducts a supplier review prior to entering into a contractual agreement to acquire the information system, system component, or information system service.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-12 (5) Limitation Of Harm
+
+### SA-12 (5) Limitation Of Harm
 
 **Description:**
 
 The organization employs [Assignment: organization-defined security safeguards] to limit harm from potential adversaries identifying and targeting the organizational supply chain.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-12 (7) Assessments Prior To Selection / Acceptance / Update
+
+### SA-12 (7) Assessments Prior To Selection / Acceptance / Update
 
 **Description:**
 
 The organization conducts an assessment of the information system, system component, or information system service prior to selection, acceptance, or update.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-12 (8) Use Of All-Source Intelligence
+
+### SA-12 (8) Use Of All-Source Intelligence
 
 **Description:**
 
 The organization uses all-source intelligence analysis of suppliers and potential suppliers of the information system, system component, or information system service.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-12 (9) Operations Security
+
+### SA-12 (9) Operations Security
 
 **Description:**
 
 The organization employs [Assignment: organization-defined Operations Security (OPSEC) safeguards] in accordance with classification guides to protect supply chain-related information for the information system, system component, or information system service.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-12 (10) Validate As Genuine And Not Altered
+
+### SA-12 (10) Validate As Genuine And Not Altered
 
 **Description:**
 
 The organization employs [Assignment: organization-defined security safeguards] to validate that the information system or system component received is genuine and has not been altered.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-12 (11) Penetration Testing / Analysis Of Elements, Processes, And Actors
+
+### SA-12 (11) Penetration Testing / Analysis Of Elements, Processes, And Actors
 
 **Description:**
 
 The organization employs [Selection (one or more): organizational analysis, independent third-party analysis, organizational penetration testing, independent third-party penetration testing] of [Assignment: organization-defined supply chain elements, processes, and actors] associated with the information system, system component, or information system service.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-12 (12) Inter-Organizational Agreements
+
+### SA-12 (12) Inter-Organizational Agreements
 
 **Description:**
 
 The organization establishes inter-organizational agreements and procedures with entities involved in the supply chain for the information system, system component, or information system service.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-12 (13) Critical Information System Components
+
+### SA-12 (13) Critical Information System Components
 
 **Description:**
 
 The organization employs [Assignment: organization-defined security safeguards] to ensure an adequate supply of [Assignment: organization-defined critical information system components].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-12 (14) Identity And Traceability
+
+### SA-12 (14) Identity And Traceability
 
 **Description:**
 
 The organization establishes and retains unique identification of [Assignment: organization-defined supply chain elements, processes, and actors] for the information system, system component, or information system service.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-12 (15) Processes To Address Weaknesses Or Deficiencies
+
+### SA-12 (15) Processes To Address Weaknesses Or Deficiencies
 
 **Description:**
 
 The organization establishes a process to address weaknesses or deficiencies in supply chain elements identified during independent or organizational assessments of such elements.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-13 Trustworthiness
 
 **Description:**
@@ -705,20 +679,18 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-14 Criticality Analysis
 
 **Description:**
 
 The organization identifies critical information system components and functions by performing a criticality analysis for [Assignment: organization-defined information systems, information system components, or information system services] at [Assignment: organization-defined decision points in the system development life cycle].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-15 Development Process, Standards, And Tools
 
 **Description:**
@@ -738,9 +710,9 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-15 (1) Quality Metrics
+
+### SA-15 (1) Quality Metrics
 
 **Description:**
 
@@ -752,33 +724,29 @@ The organization requires the developer of the information system, system compon
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-15 (2) Security Tracking Tools
+
+### SA-15 (2) Security Tracking Tools
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to select and employ a security tracking tool for use during the development process.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-15 (3) Criticality Analysis
+
+### SA-15 (3) Criticality Analysis
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to perform a criticality analysis at [Assignment: organization-defined breadth/depth] and at [Assignment: organization-defined decision points in the system development life cycle].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-15 (4) Threat Modeling / Vulnerability Analysis
+
+### SA-15 (4) Threat Modeling / Vulnerability Analysis
 
 **Description:**
 
@@ -791,33 +759,29 @@ The organization requires that developers perform threat modeling and a vulnerab
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-15 (5) Attack Surface Reduction
+
+### SA-15 (5) Attack Surface Reduction
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to reduce attack surfaces to [Assignment: organization-defined thresholds].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-15 (6) Continuous Improvement
+
+### SA-15 (6) Continuous Improvement
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to implement an explicit process to continuously improve the development process.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-15 (7) Automated Vulnerability Analysis
+
+### SA-15 (7) Automated Vulnerability Analysis
 
 **Description:**
 
@@ -831,68 +795,58 @@ The organization requires the developer of the information system, system compon
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-15 (8) Reuse Of Threat / Vulnerability Information
+
+### SA-15 (8) Reuse Of Threat / Vulnerability Information
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to use threat modeling and vulnerability analyses from similar systems, components, or services to inform the current development process.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-15 (9) Use Of Live Data
+
+### SA-15 (9) Use Of Live Data
 
 **Description:**
 
 The organization approves, documents, and controls the use of live data in development and test environments for the information system, system component, or information system service.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-15 (10) Incident Response Plan
+
+### SA-15 (10) Incident Response Plan
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to provide an incident response plan.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-15 (11) Archive Information System / Component
+
+### SA-15 (11) Archive Information System / Component
 
 **Description:**
 
 The organization requires the developer of the information system or system component to archive the system or component to be released or delivered together with the corresponding evidence supporting the final security review.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-16 Developer-Provided Training
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to provide [Assignment: organization-defined training] on the correct use and operation of the implemented security functions, controls, and/or mechanisms.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-17 Developer Security Architecture And Design
 
 **Description:**
@@ -906,9 +860,9 @@ The organization requires the developer of the information system, system compon
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-17 (1) Formal Policy Model
+
+### SA-17 (1) Formal Policy Model
 
 **Description:**
 
@@ -920,9 +874,9 @@ The organization requires the developer of the information system, system compon
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-17 (2) Security-Relevant Components
+
+### SA-17 (2) Security-Relevant Components
 
 **Description:**
 
@@ -934,9 +888,9 @@ The organization requires the developer of the information system, system compon
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-17 (3) Formal Correspondence
+
+### SA-17 (3) Formal Correspondence
 
 **Description:**
 
@@ -951,9 +905,9 @@ The organization requires the developer of the information system, system compon
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-17 (4) Informal Correspondence
+
+### SA-17 (4) Informal Correspondence
 
 **Description:**
 
@@ -968,9 +922,9 @@ The organization requires the developer of the information system, system compon
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-17 (5) Conceptually Simple Design
+
+### SA-17 (5) Conceptually Simple Design
 
 **Description:**
 
@@ -982,68 +936,58 @@ The organization requires the developer of the information system, system compon
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-17 (6) Structure For Testing
+
+### SA-17 (6) Structure For Testing
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to structure security-relevant hardware, software, and firmware to facilitate testing.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-17 (7) Structure For Least Privilege
+
+### SA-17 (7) Structure For Least Privilege
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service to structure security-relevant hardware, software, and firmware to facilitate controlling access with least privilege.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-18 Tamper Resistance And Detection
 
 **Description:**
 
 The organization implements a tamper protection program for the information system, system component, or information system service.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-18 (1) Multiple Phases Of Sdlc
+
+### SA-18 (1) Multiple Phases Of Sdlc
 
 **Description:**
 
 The organization employs anti-tamper technologies and techniques during multiple phases in the system development life cycle including design, development, integration, operations, and maintenance.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-18 (2) Inspection Of Information Systems, Components, Or Devices
+
+### SA-18 (2) Inspection Of Information Systems, Components, Or Devices
 
 **Description:**
 
 The organization inspects [Assignment: organization-defined information systems, system components, or devices] [Selection (one or more): at random; at [Assignment: organization-defined frequency], upon [Assignment: organization-defined indications of need for inspection]] to detect tampering.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-19 Component Authenticity
 
 **Description:**
@@ -1056,68 +1000,58 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-19 (1) Anti-Counterfeit Training
+
+### SA-19 (1) Anti-Counterfeit Training
 
 **Description:**
 
 The organization trains [Assignment: organization-defined personnel or roles] to detect counterfeit information system components (including hardware, software, and firmware).
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-19 (2) Configuration Control For Component Service / Repair
+
+### SA-19 (2) Configuration Control For Component Service / Repair
 
 **Description:**
 
 The organization maintains configuration control over [Assignment: organization-defined information system components] awaiting service/repair and serviced/repaired components awaiting return to service.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-19 (3) Component Disposal
+
+### SA-19 (3) Component Disposal
 
 **Description:**
 
 The organization disposes of information system components using [Assignment: organization-defined techniques and methods].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-19 (4) Anti-Counterfeit Scanning
+
+### SA-19 (4) Anti-Counterfeit Scanning
 
 **Description:**
 
 The organization scans for counterfeit information system components [Assignment: organization-defined frequency].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-20 Customized Development Of Critical Components
 
 **Description:**
 
 The organization re-implements or custom develops [Assignment: organization-defined critical information system components].
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-21 Developer Screening
 
 **Description:**
@@ -1130,20 +1064,18 @@ The organization requires that the developer of [Assignment: organization-define
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-21 (1) Validation Of Screening
+
+### SA-21 (1) Validation Of Screening
 
 **Description:**
 
 The organization requires the developer of the information system, system component, or information system service take [Assignment: organization-defined actions] to ensure that the required access authorizations and screening criteria are satisfied.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+
 ## SA-22 Unsupported System Components
 
 **Description:**
@@ -1156,17 +1088,15 @@ The organization:
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
-## SA-22 (1) Alternative Sources For Continued Support
+
+### SA-22 (1) Alternative Sources For Continued Support
 
 **Description:**
 
 The organization provides [Selection (one or more): in-house support; [Assignment: organization-defined support from external providers]] for unsupported information system components.
-<ol type="a">
-</ol>
 
 **Control Information:**
 
-
 **Responsible role(s)** - Organization
+

@@ -14,11 +14,12 @@ import (
 
 	cmcommon "github.com/opencontrol/compliance-masonry/lib/common"
 	cmcomponents "github.com/opencontrol/compliance-masonry/lib/components"
+	"github.com/rs/xid"
 )
 
 const componentPath = "./components"
 const xmlStandardPath = "./data/800-53-controls.xml"
-const tmplPath = "./tmpl/80053.test.tmpl"
+const tmplPath = "./tmpl/80053.tmpl"
 
 // Mount point within container
 const markdownOutputPath = "./800-53"
@@ -84,7 +85,7 @@ func parseStandard(data []byte) (XMLStandard, error) {
 
 // iterateControls recursively iterates over NIST 800-53 controls and
 // identifies matching component narratives
-func iterateControls(family string, familyTitle string, controls []XMLControl, components []cmcommon.Component) ([]MarkdownTemplateControl, string) {
+func iterateControls(family string, familyTitle string, controls []XMLControl, isControlEnhancement bool, components []cmcommon.Component) ([]MarkdownTemplateControl, string) {
 	var markdownTemplateControls []MarkdownTemplateControl
 	var abbrev string
 
@@ -100,7 +101,7 @@ func iterateControls(family string, familyTitle string, controls []XMLControl, c
 				Number:               control.Number,
 				Title:                strings.Title(strings.ToLower(control.Title)),
 				Statements:           control.Statements,
-				IsControlEnhancement: false,
+				IsControlEnhancement: isControlEnhancement,
 			}
 
 			// Identify matching component narratives
@@ -108,11 +109,25 @@ func iterateControls(family string, familyTitle string, controls []XMLControl, c
 				satisfies := component.GetAllSatisfies()
 				for _, satisfy := range satisfies {
 					if satisfy.GetControlKey() == control.Number {
+						id := xid.New()
+
+						narratives := make([]string, len(satisfy.GetNarratives()))
+						for _, narrative := range satisfy.GetNarratives() {
+							narrativeText := narrative.GetText()
+							if strings.Index(narrativeText, "'") == 0 {
+								narrativeText = narrativeText[1 : len(narrativeText)-2]
+								narrativeText = strings.Replace(narrativeText, "''", "'", -1)
+							}
+							narratives = append(narratives, narrativeText)
+						}
+
 						markdownTemplateControl.Components = append(markdownTemplateControl.Components, MarkdownTemplateComponent{
+							ID:   id.String(),
 							Name: component.GetName(),
 							ImplementationStatuses: satisfy.GetImplementationStatuses(),
-							ControlOrigins:         satisfy.GetControlOrigins()},
-						)
+							ControlOrigins:         satisfy.GetControlOrigins(),
+							Narratives:             narratives,
+						})
 
 						break
 					}
@@ -133,7 +148,7 @@ func iterateControls(family string, familyTitle string, controls []XMLControl, c
 					Statements:     enhancement.Statements,
 				}
 			}
-			markdownTemplateControlEnhancements, _ := iterateControls(family, familyTitle, xmlControlEnhancements, components)
+			markdownTemplateControlEnhancements, _ := iterateControls(family, familyTitle, xmlControlEnhancements, true, components)
 			markdownTemplateControls = append(markdownTemplateControls, markdownTemplateControlEnhancements...)
 		}
 	}
@@ -157,7 +172,7 @@ func generateMarkdownFiles(standard XMLStandard, components []cmcommon.Component
 	for _, family := range families {
 		familyTitle := strings.Title(strings.ToLower(family))
 
-		markdownTemplateControls, abbrev := iterateControls(family, familyTitle, standard.Controls, components)
+		markdownTemplateControls, abbrev := iterateControls(family, familyTitle, standard.Controls, false, components)
 		markdownTemplateMap := map[string][]MarkdownTemplateControl{
 			familyTitle: markdownTemplateControls,
 		}
@@ -181,6 +196,7 @@ func generateMarkdownFiles(standard XMLStandard, components []cmcommon.Component
 	return nil
 }
 
+// readFile returns file contents
 func readFile(filePath string) ([]byte, error) {
 	data, err := ioutil.ReadFile(filePath)
 	if err != nil {
