@@ -21,11 +21,8 @@ satisfies:
           managed to enforce fine-grained access control. Supporting
           documentation can found at the following resources:
           
-          UCP:
           - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/
           - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
-          
-          DTR:
           - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/
           - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/
     standard_key: NIST-800-53

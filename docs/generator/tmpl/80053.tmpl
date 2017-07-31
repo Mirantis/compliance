@@ -1,0 +1,106 @@
+{{range $family, $controls := . -}}
+---
+title: "{{ $family }}"
+description: "{{ $family }} reference"
+keywords: "standards, compliance, security, 800-53, {{ $family }}"
+---
+
+<!---
+This file is maintained within the docker/compliance GitHub
+repository at https://github.com/docker/compliance/. Make all
+pull requests against that repo. If you see this file in
+another repository, consider it read-only there, as it will
+periodically be overwritten by the definitive file. Pull
+requests which include edits to this file in other repositories
+will be rejected.
+-->
+
+{{- range $controls -}}
+{{if .IsControlEnhancement -}}
+### {{ .Number }} {{ .Title }}
+{{else -}}
+## {{ .Number }} {{ .Title }}
+{{end}}
+**Description:**
+
+{{range .Statements -}}
+{{ .Description }}
+{{$length := len .Statements}}{{if gt $length 1 -}}
+<ol type="a">
+{{range .Statements -}}
+<li>{{ .Description }}</li>
+{{if .Statements}}
+<ol type="1">
+{{range .Statements -}}
+<li>{{ .Description }}</li>
+{{end -}}
+</ol>
+{{end -}}
+{{end -}}
+</ol>
+{{end}}
+{{end -}}
+**Control Information:**
+
+{{if .Components -}}
+
+**Responsible role(s)** - Docker system
+
+<table>
+<tr>
+<th>Component</th>
+<th>Implementation Status(es)</th>
+<th>Control Origin(s)</th>
+</tr>
+{{range $component := .Components -}}
+<tr>
+<td>{{ $component.Name }}</td>
+<td>{{range $component.ImplementationStatuses}}{{ . }}<br/>{{end}}</td>
+<td>{{range $component.ControlOrigins}}{{ . }}<br/>{{end}}</td>
+</tr>
+{{end -}}
+</table>
+
+**Implemenation Details:**
+
+<ul class="nav nav-tabs">
+{{range $i, $component := .Components -}}
+{{if eq $component.Name "Docker Enterprise Edition Engine" -}}
+<li{{if eq $i 0}} class="active"{{end}}><a data-toggle="tab" data-target="#{{ $component.ID }}">Engine</a></li>
+{{else if eq $component.Name "Docker Security Scanning (DSS)" -}}
+<li{{if eq $i 0}} class="active"{{end}}><a data-toggle="tab" data-target="#{{ $component.ID }}">DSS</a></li>
+{{else if eq $component.Name "Docker Trusted Registry (DTR)" -}}
+<li{{if eq $i 0}} class="active"{{end}}><a data-toggle="tab" data-target="#{{ $component.ID }}">DTR</a></li>
+{{else if eq $component.Name "Authentication and Authorization Service (eNZi)" -}}
+<li{{if eq $i 0}} class="active"{{end}}><a data-toggle="tab" data-target="#{{ $component.ID }}">eNZi</a></li>
+{{else if eq $component.Name "Universal Control Plane (UCP)" -}}
+<li{{if eq $i 0}} class="active"{{end}}><a data-toggle="tab" data-target="#{{ $component.ID }}">UCP</a></li>
+{{end -}}
+{{end -}}
+</ul>
+
+<div class="tab-content">
+{{range $i, $component := .Components -}}
+{{if eq $i 0 -}}
+<div id="{{ $component.ID }}" class="tab-pane fade in active">
+{{else -}}
+<div id="{{ $component.ID }}" class="tab-pane fade">
+{{end -}}
+{{range $component.Narratives -}}
+{{ . -}}
+{{end -}}
+{{if $component.NarrativeLinks}}
+<ul>
+{{range $component.NarrativeLinks -}}
+<li><a href="{{ . }}">{{ . }}</a></li>
+{{end -}}
+{{end}}
+</ul>
+</div>
+{{end -}}
+</div>
+{{else -}}
+**Responsible role(s)** - Organization
+{{end}}
+{{end -}}
+{{end -}}
