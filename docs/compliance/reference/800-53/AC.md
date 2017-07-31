@@ -44,11 +44,11 @@ The organization:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskjg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmte0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskjg" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmte0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of
 this control, one can control which users and teams are allowed to
 create and manipulate Docker Enterprise Edition resources. By default, no one
@@ -56,14 +56,14 @@ can make changes to the cluster. Permissions can be granted and
 managed to enforce fine-grained access control. Supporting
 documentation can found at the following resources:
 
-UCP:
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
 
-DTR:
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/</a></li>
 
+</ul>
 </div>
 </div>
 
@@ -118,18 +118,22 @@ The organization:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskk0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmteg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskk0" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmteg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, an external identity management system (such as Microsoft&#39;s
 Active Directory or an LDAP endpoint) can be configured as mandated by
 this control and can be integrated with Docker Enterprise Edition.
 Supporting documentation can be found at the following resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/external-auth/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/external-auth/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/external-auth/</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -169,36 +173,48 @@ The organization employs automated mechanisms to support the management of infor
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskkg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000diskl0">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disklg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtf0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtfg">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtg0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskkg" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtf0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, supporting documentation for managing users and teams can
 found at the following resources:
 
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/create-and-manage-users/
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/create-and-manage-teams/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/create-and-manage-users/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/create-and-manage-users/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/create-and-manage-teams/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/create-and-manage-teams/</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000diskl0" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtfg" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, supporting documentation for managing users and teams can
 found at the following resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/create-and-manage-users/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/create-and-manage-teams/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/create-and-manage-users/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/create-and-manage-users/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/create-and-manage-teams/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/create-and-manage-teams/</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000disklg" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtg0" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, an external identity management system (such as Microsoft&#39;s
 Active Directory or an LDAP endpoint) can be configured as mandated by
 this control and can be integrated with Docker Enterprise Edition.
 Supporting documentation can be found at the following resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/external-auth/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/external-auth/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/external-auth/</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -228,11 +244,11 @@ The information system automatically [Selection: removes; disables] temporary an
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskm0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtgg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskm0" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtgg" class="tab-pane fade in active">
 Using Docker Enterprise Edition&#39;s LDAP integration capabilities, one
 can disable and/or remove temporary and emergency accounts in a
 connected directory service (such as Active Directory) after an
@@ -240,7 +256,11 @@ organization-defined time period. When a user is removed from LDAP,
 that user becomes inactive after the LDAP synchronization runs.
 Supporting documentation can be found at the following resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/external-auth/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/external-auth/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/external-auth/</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -270,18 +290,22 @@ The information system automatically disables inactive accounts after [Assignmen
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskmg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmth0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskmg" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmth0" class="tab-pane fade in active">
 Using Docker Enterprise Edition&#39;s LDAP integration capabilities, one
 can automatically disable inactive accounts in a connected directory
 service (such as Active Directory). When a user is removed from LDAP,
 that user becomes inactive after the LDAP synchronization runs.
 Supporting documentation can be found at the following resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/external-auth/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/external-auth/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/external-auth/</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -311,11 +335,11 @@ The information system automatically audits account creation, modification, enab
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskn0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmthg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskn0" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmthg" class="tab-pane fade in active">
 Docker Enterprise Edition logs various authentication and
 authorization events to standard log files. One can configure Docker
 Enterprise Edition to direct these event logs to a remote logging
@@ -326,9 +350,13 @@ service&#39;s logging mechanisms for auditing the events defined by this
 control. Supporting documentation can be found at the following
 resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -358,11 +386,11 @@ The organization requires that users log out when [Assignment: organization-defi
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskng">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmti0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskng" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmti0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, Docker Enterprise Edition can be configured to enforce automated
 session termination of users after an organization-defined time period
@@ -370,6 +398,7 @@ of inactivity. By default, the initial lifetime of a user&#39;s session
 is set to 72 hours and the renewal session for a user&#39;s session is
 set to 24 hours. These values can both be changed in the &#34;Auth&#34;
 section of the &#34;Admin Settings&#34; in Universal Control Plane.
+</ul>
 </div>
 </div>
 
@@ -424,27 +453,35 @@ The organization:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disko0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000diskog">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000diskp0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtig">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtj0">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtjg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disko0" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtig" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, supporting documentation can be found at the following
 resources:
 
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000diskog" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtj0" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, supporting documentation can be found at the following
 resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000diskp0" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtjg" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, Docker Enterprise Edition supports various levels of user
 permissions and role-based access control enforcements. Administrator
@@ -455,13 +492,15 @@ cluster. Supporting documentation can be found at the following
 resources:
 
 UCP:
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Identity_Management
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC
 
-DTR:
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Identity_Management">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Identity_Management</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -501,14 +540,15 @@ The organization only permits the use of shared/group accounts that meet [Assign
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskpg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtk0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskpg" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtk0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, users and/or groups synchronized to Docker Enterprise Edition
 via LDAP can be configured at the directory service.
+</ul>
 </div>
 </div>
 
@@ -538,13 +578,14 @@ The information system terminates shared/group account credentials when members 
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskq0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtkg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskq0" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtkg" class="tab-pane fade in active">
 Users and/or groups synchronized to Docker Enterprise Edition via
 LDAP can be configured at the directory service.
+</ul>
 </div>
 </div>
 
@@ -574,14 +615,15 @@ The information system enforces [Assignment: organization-defined circumstances 
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskqg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtl0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskqg" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtl0" class="tab-pane fade in active">
 Information system accounts synchronized to Docker Enterprise Edition
 via LDAP can be configured at the directory service to meet this
 requirement as necessary.
+</ul>
 </div>
 </div>
 
@@ -630,48 +672,60 @@ The organization:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskr0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000diskrg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disks0">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disksg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtlg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtm0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtmg">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtn0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskr0" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtlg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, supporting documentation can be found at the following
 resources:
 
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/monitor-and-troubleshoot/
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/monitor-and-troubleshoot/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/monitor-and-troubleshoot/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000diskrg" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtm0" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, Docker Enterprise Edition can be configured to aggregate
 container and daemon events via a number of logging drivers.
 Supporting documentation can be found at the following resources:
 
-- https://docs.docker.com/engine/admin/logging/view_container_logs/
-- https://docs.docker.com/engine/admin/logging/overview/
-- https://docs.docker.com/engine/admin/logging/log_tags/
 
+<ul>
+<li><a href="https://docs.docker.com/engine/admin/logging/view_container_logs/">https://docs.docker.com/engine/admin/logging/view_container_logs/</a></li>
+<li><a href="https://docs.docker.com/engine/admin/logging/overview/">https://docs.docker.com/engine/admin/logging/overview/</a></li>
+<li><a href="https://docs.docker.com/engine/admin/logging/log_tags/">https://docs.docker.com/engine/admin/logging/log_tags/</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000disks0" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtmg" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, Universal Control Plane can be configured to send system
 account log data to a remote logging service such as an Elasticsearch,
 Logstash and Kibana (ELK) stack. Supporting documentation can be found
 at the following resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000disksg" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtn0" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, when Docker Enterprise Edition is configured for LDAP
 integration, one can refer to the directory service&#39;s existing
 monitoring tools.
+</ul>
 </div>
 </div>
 
@@ -701,14 +755,15 @@ The organization disables accounts of users posing a significant risk within [As
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskt0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtng">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskt0" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtng" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, users and/or groups synchronized to Docker Enterprise Edition
 via LDAP can be managed at the directory service.
+</ul>
 </div>
 </div>
 
@@ -748,41 +803,50 @@ The information system enforces approved authorizations for logical access to in
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disktg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disku0">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000diskug">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmto0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtog">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtp0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disktg" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmto0" class="tab-pane fade in active">
 One can control which users and teams can create and manipulate
 Docker Trusted Registry resources. By default, no one can make changes
 to the cluster. Permissions can be granted and managed to enforce
 fine-grained access control. Supporting documentation can be found at
 the following resources:
 
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000disku0" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtog" class="tab-pane fade">
 One can control which users and teams can create and manipulate
 Universal Control Plane resources. By default, no one can make changes
 to the cluster. Permissions can be granted and managed to enforce
 fine-grained access control. Supporting documentation can be found at
 the following resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000diskug" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtp0" class="tab-pane fade">
 One can control which users and teams can create and manipulate
 Docker Enterprise Edition resources. By default, no one can make
 changes to the cluster. Permissions can be granted and managed to
 enforce fine-grained access control. The eNZi component facilitates
 authorizations as dictated by the system&#39;s administrators.
+</ul>
 </div>
 </div>
 
@@ -926,42 +990,53 @@ The information system enforces approved authorizations for controlling the flow
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000diskv0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000diskvg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disl00">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtpg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtq0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtqg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000diskv0" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtpg" class="tab-pane fade in active">
 Supporting documentation to configure Docker Trusted Registry to meet
 the requirements of this control can be found at the following
 resources:
 
-- https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/install/system-requirements/#/ports-used
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/">https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/install/system-requirements/#/ports-used">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/install/system-requirements/#/ports-used</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000diskvg" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtq0" class="tab-pane fade">
 Docker Enterprise Edition can be configured to control the flow of information
 that originates from applications running in containers. Supporting
 documentation can be found at the following resources:
 
-- https://docs.docker.com/engine/userguide/networking/
-- http://success.docker.com/Datacenter/Apply/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks
 
+<ul>
+<li><a href="https://docs.docker.com/engine/userguide/networking/">https://docs.docker.com/engine/userguide/networking/</a></li>
+<li><a href="http://success.docker.com/Datacenter/Apply/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks">http://success.docker.com/Datacenter/Apply/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000disl00" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtqg" class="tab-pane fade">
 Supporting documentation to configure Universal Control Plane to meet
 the requirements of this control can be found at the following
 resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/">https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -1071,48 +1146,54 @@ The information system enforces information flow control using [Assignment: orga
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl0g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disl10">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disl1g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtr0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtrg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmts0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl0g" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtr0" class="tab-pane fade in active">
 Supporting documentation to configure Docker Trusted Registry to meet
 the requirements of this control can be found at the following
 resources:
 
-- https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/install/system-requirements/#/ports-used
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/">https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/install/system-requirements/#/ports-used">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/install/system-requirements/#/ports-used</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000disl10" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtrg" class="tab-pane fade">
 Docker Enterprise Edition can be configured to control the flow of
 information that originates from applications running in containers
 per organization-defined security policy filters. Supporting
 documentation can be found at the following resources:
 
-- https://docs.docker.com/engine/userguide/networking/
-- http://success.docker.com/Datacenter/Apply/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks
 
-There are also third-party behavioral activity monitoring tools (e.g.
-Sysdig Falco &lt;http://www.sysdig.org/falco/&gt;) that can be used
-alongside Docker Enterprise Edition to satisfy this control&#39;s
-requirements.
+<ul>
+<li><a href="https://docs.docker.com/engine/userguide/networking/">https://docs.docker.com/engine/userguide/networking/</a></li>
+<li><a href="http://success.docker.com/Datacenter/Apply/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks">http://success.docker.com/Datacenter/Apply/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks</a></li>
 
+</ul>
 </div>
-<div id="b5vapgj5uce000disl1g" class="tab-pane fade">
+<div id="b5vm46pllv0000avmts0" class="tab-pane fade">
 Supporting documentation to configure Universal Control Plane to meet
 the requirements of this control can be found at the following
 resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/">https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -1262,42 +1343,53 @@ The information system separates information flows logically or physically using
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl20">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disl2g">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disl30">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtsg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtt0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmttg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl20" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtsg" class="tab-pane fade in active">
 Supporting documentation to configure Docker Trusted Registry to meet
 the requirements of this control can be found at the following
 resources:
 
-- https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/install/system-requirements/#/ports-used
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/">https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/install/system-requirements/#/ports-used">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/install/system-requirements/#/ports-used</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000disl2g" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtt0" class="tab-pane fade">
 Docker Enterprise Edition can be configured to separate the flow of
 information that originates from applications running in containers.
 Supporting documentation can be found at the following resources:
 
-- https://docs.docker.com/engine/userguide/networking/
-- http://success.docker.com/Datacenter/Apply/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks
 
+<ul>
+<li><a href="https://docs.docker.com/engine/userguide/networking/">https://docs.docker.com/engine/userguide/networking/</a></li>
+<li><a href="http://success.docker.com/Datacenter/Apply/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks">http://success.docker.com/Datacenter/Apply/Docker_Reference_Architecture%3A_Designing_Scalable%2C_Portable_Docker_Container_Networks</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000disl30" class="tab-pane fade">
+<div id="b5vm46pllv0000avmttg" class="tab-pane fade">
 Supporting documentation to configure Universal Control Plane to meet
 the requirements of this control can be found at the following
 resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/">https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -1347,12 +1439,12 @@ The organization:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl3g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disl40">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtu0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmtug">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl3g" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtu0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, one can control which users and teams can create and
 manipulate Docker Trusted Registry resources. By default, no one can
@@ -1360,11 +1452,15 @@ make changes to the cluster. Permissions can be granted and managed to
 enforce fine-grained access control. Supporting documentation can be
 found at the following resources:
 
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/
-- https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC</a></li>
+
+</ul>
 </div>
-<div id="b5vapgj5uce000disl40" class="tab-pane fade">
+<div id="b5vm46pllv0000avmtug" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, one can control which users and teams can create and
 manipulate Universal Control Plane resources. By default, no one can
@@ -1372,10 +1468,14 @@ make changes to the cluster. Permissions can be granted and managed to
 enforce fine-grained access control. Supporting documentation can be
 found at the following resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
-- https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources</a></li>
+<li><a href="https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC">https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -1489,11 +1589,11 @@ The information system prevents [Assignment: organization-defined software] from
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl4g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtv0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl4g" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtv0" class="tab-pane fade in active">
 Universal Control Plane users can be assigned to one of a number of
 different permission levels. The permission level assigned to a
 specific user determines that user&#39;s ability to execute certain
@@ -1507,7 +1607,11 @@ required privileged access to the host. Additional documentation
 regarding the various permission levels within UCP can be found at the
 following resource:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -1537,11 +1641,11 @@ The information system audits the execution of privileged functions.
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl50">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmtvg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl50" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmtvg" class="tab-pane fade in active">
 Docker Enterprise Edition logs privileged user events to standard log
 files. One can configure Docker Enterprise Edition to direct these
 event logs to a remote logging service such as an Elasticsearch,
@@ -1551,8 +1655,12 @@ can refer the the directory service&#39;s logging mechanisms for auditing
 the events defined by this control. Supporting documentation regarding
 logging and monitoring can be found at the following resources:
 
-- https://docs.docker.com/datacenter/ucp/2.0/guides/monitor/
-- https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.0/guides/monitor/">https://docs.docker.com/datacenter/ucp/2.0/guides/monitor/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/">https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -1582,20 +1690,24 @@ The information system prevents non-privileged users from executing privileged f
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl5g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmu00">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl5g" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmu00" class="tab-pane fade in active">
 One can control which users and teams can create and manipulate
 Docker Enterprise Edition resources. By default, no one can make changes to
 the cluster. Permissions can be granted and managed to enforce
 fine-grained access control. Supporting documentation for the configuration of this functionality can be found at the following resources:
 
-- https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/
-- https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/
-- https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/permission-levels/
-- https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/">https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/">https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/permission-levels/">https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/permission-levels/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/">https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -1629,11 +1741,11 @@ The information system:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl60">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmu0g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl60" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmu0g" class="tab-pane fade in active">
 When Docker Enterprise Edition is integrated to a directory service via LDAP,
 one can reference the functionality of the directory service to
 configure the enforcement of a limit to the number of conesecutive
@@ -1642,6 +1754,7 @@ via LDAP, one can reference the functionality of the directory service
 to configure he ability to automatically lock/disable an account for a
 specified period of time after a consecutive invalid logon attempt
 limit is reached.
+</ul>
 </div>
 </div>
 
@@ -1759,15 +1872,16 @@ The information system limits the number of concurrent sessions for each [Assign
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl6g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmu10">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl6g" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmu10" class="tab-pane fade in active">
 Docker Enterprise Edition can be configured to limit the number of
 concurrent sessions for each account. These options can be found
 within the Universal Control Plane Admin Settings under the &#34;Auth&#34;
 section. 
+</ul>
 </div>
 </div>
 
@@ -1801,17 +1915,18 @@ The information system:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl70">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmu1g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl70" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmu1g" class="tab-pane fade in active">
 Per the requirements of AC-2 (5), Docker Enterprise Edition
 can be configured to enforce user session lifetime limits and renewal
 thresholds. These options can be found within the Universal Control
 Plane Admin Settings under the &#34;Auth&#34; section. Configurable options
 include the initial lifetime (in hours) of a user&#39;s session and the
 renewal threshold of a session (in hours).
+</ul>
 </div>
 </div>
 
@@ -1841,11 +1956,11 @@ The information system conceals, via the session lock, information previously vi
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl7g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmu20">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl7g" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmu20" class="tab-pane fade in active">
 Per the requirements of AC-2 (5), Docker Enterprise Edition
 can be configured to enforce user session lifetime limits and renewal
 thresholds. These options can be found within the Universal Control
@@ -1854,6 +1969,7 @@ include the initial lifetime (in hours) of a user&#39;s session and the
 renewal threshold of a session (in hours). Upon the expiration of the
 configured session thresholds, a user will be locked out of his/her
 session.
+</ul>
 </div>
 </div>
 
@@ -1883,11 +1999,11 @@ The information system automatically terminates a user session after [Assignment
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl80">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmu2g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl80" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmu2g" class="tab-pane fade in active">
 Per the requirements of AC-2 (5), Docker Enterprise Edition
 can be configured to enforce user session lifetime limits and renewal
 thresholds. These options can be found within the Universal Control
@@ -1896,6 +2012,7 @@ include the initial lifetime (in hours) of a user&#39;s session and the
 renewal threshold of a session (in hours). Upon the expiration of the
 configured session thresholds, a user will be locked out of his/her
 session.
+</ul>
 </div>
 </div>
 
@@ -1929,13 +2046,14 @@ The information system:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl8g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmu30">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl8g" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmu30" class="tab-pane fade in active">
 Universal Control Plane includes a logout capability that allows a
 user to terminate his/her current session.
+</ul>
 </div>
 </div>
 
@@ -2114,21 +2232,23 @@ The information system monitors and controls remote access methods.
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disl90">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disl9g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmu3g">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmu40">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disl90" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmu3g" class="tab-pane fade in active">
 Docker Enterprise Edition logs and controls all local and remote
 access events. In addition, auditing can be configured on the
 underlying operating system to meet this control.
 
+</ul>
 </div>
-<div id="b5vapgj5uce000disl9g" class="tab-pane fade">
+<div id="b5vm46pllv0000avmu40" class="tab-pane fade">
 Docker Enterprise Edition logs and controls all local and remote access
 events. In addition, auditing can be configured on the underlying
 operating system to meet this control.
+</ul>
 </div>
 </div>
 
@@ -2168,34 +2288,37 @@ The information system implements cryptographic mechanisms to protect the confid
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disla0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000dislag">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000dislb0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmu4g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmu50">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmu5g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disla0" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmu4g" class="tab-pane fade in active">
 All remote access sessions to Docker Trusted Registry are protected
 with Transport Layer Security (TLS) 1.2. This is included at both the
 HTTPS application layer for access to the DTR user interface and for
 command-line based connections to the registry. In addition to this,
 all communication to DTR is enforced by way of two-way mutual TLS
 authentication.
+</ul>
 </div>
-<div id="b5vapgj5uce000dislag" class="tab-pane fade">
+<div id="b5vm46pllv0000avmu50" class="tab-pane fade">
 All remote access sessions to Docker Enterprise Edition are protected
 with Transport Layer Security (TLS) 1.2. In addition to this, all
 communication to Docker Enterprise Edition is enforced by way of
 two-way mutual TLS authentication.
 
+</ul>
 </div>
-<div id="b5vapgj5uce000dislb0" class="tab-pane fade">
+<div id="b5vm46pllv0000avmu5g" class="tab-pane fade">
 All remote access sessions to Universal Control Plane are protected
 with Transport Layer Security (TLS) 1.2. This is included at both the
 HTTPS application layer for access to the UCP user interface and for
 command-line based connections to the cluster. In addition to this,
 all communication to UCP is enforced by way of two-way mutual TLS
 authentication.
+</ul>
 </div>
 </div>
 
@@ -2235,30 +2358,33 @@ The information system routes all remote accesses through [Assignment: organizat
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000dislbg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000dislc0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000dislcg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmu60">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmu6g">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmu70">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000dislbg" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmu60" class="tab-pane fade in active">
 A combination of managed load balancers, firewalls and access control
 lists, and virtual networking resources can be used to ensure traffic
 destined for Docker Trusted Registry replicas is routed through
 managed network access control points.
+</ul>
 </div>
-<div id="b5vapgj5uce000dislc0" class="tab-pane fade">
+<div id="b5vm46pllv0000avmu6g" class="tab-pane fade">
 A combination of managed load balancers, firewalls and access control
 lists, and virtual networking resources can be used to ensure traffic
 destined for Docker Enterprise Edition is routed through managed network access
 control points.
 
+</ul>
 </div>
-<div id="b5vapgj5uce000dislcg" class="tab-pane fade">
+<div id="b5vm46pllv0000avmu70" class="tab-pane fade">
 A combination of managed load balancers, firewalls and access control
 lists, and virtual networking resources can be used to ensure traffic
 destined for Universal Control Plane managers and worker nodes is
 routed through managed network access control points.
+</ul>
 </div>
 </div>
 
@@ -2322,20 +2448,21 @@ The organization provides the capability to expeditiously disconnect or disable 
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vapgj5uce000disld0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disldg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vapgj5uce000disle0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm46pllv0000avmu7g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmu80">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vm46pllv0000avmu8g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vapgj5uce000disld0" class="tab-pane fade in active">
+<div id="b5vm46pllv0000avmu7g" class="tab-pane fade in active">
 Built-in firewall technology in Docker Trusted Registry&#39;s underlying
 operating system can be used to force the disconnection of remote
 connections to the host. In addition, UCP slave nodes running Docker
 Trusted Registry replicas can be paused or drained, which subsequently
 stops sessions to the DTR replica.
+</ul>
 </div>
-<div id="b5vapgj5uce000disldg" class="tab-pane fade">
+<div id="b5vm46pllv0000avmu80" class="tab-pane fade">
 Built-in firewall technology in Docker Enterprise Edition&#39;s underlying
 operating system can be used to force the disconnection of remote
 connections to the host. In addition, Docker Enterprise Edition provides the
@@ -2344,14 +2471,16 @@ stops and/or removes sessions to the node. Individual services and/or
 applications running on Docker Enterprise Edition can also be stopped and/or
 removed.
 
+</ul>
 </div>
-<div id="b5vapgj5uce000disle0" class="tab-pane fade">
+<div id="b5vm46pllv0000avmu8g" class="tab-pane fade">
 Built-in firewall technology in Universal Control Plane&#39;s underlying
 operating system can be used to force the disconnection of remote
 connections to the host. In addition, UCP provides the option to pause
 or drain a node in the cluster, which subsequently stops and/or
 removes sessions to the node. Individual services and/or applications
 running on a UCP cluster can also be stopped and/or removed.
+</ul>
 </div>
 </div>
 

@@ -86,7 +86,16 @@ will be rejected.
 {{else -}}
 <div id="{{ $component.ID }}" class="tab-pane fade">
 {{end -}}
-{{range $component.Narratives}}{{ . }}{{end}}
+{{range $component.Narratives -}}
+{{ . -}}
+{{end -}}
+{{if $component.NarrativeLinks}}
+<ul>
+{{range $component.NarrativeLinks -}}
+<li><a href="{{ . }}">{{ . }}</a></li>
+{{end -}}
+{{end}}
+</ul>
 </div>
 {{end -}}
 </div>

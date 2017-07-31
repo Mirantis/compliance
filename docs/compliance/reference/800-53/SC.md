@@ -59,30 +59,38 @@ The information system separates user functionality (including user interface se
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaphj5uce000disnd0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaphj5uce000disndg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm47hllv0000avn07g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm47hllv0000avn080">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaphj5uce000disnd0" class="tab-pane fade in active">
+<div id="b5vm47hllv0000avn07g" class="tab-pane fade in active">
 Docker Trusted Registry is made up of a number of backend services
 that provide for both user functionality (including user interface
 services) and system management functionality. Each of these services
 operates independently of one another. Additional information can be
 found at the following resources:
 
-- https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/
-- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Docker_Trusted_Registry
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/">https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/</a></li>
+<li><a href="https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Docker_Trusted_Registry">https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Docker_Trusted_Registry</a></li>
+
+</ul>
 </div>
-<div id="b5vaphj5uce000disndg" class="tab-pane fade">
+<div id="b5vm47hllv0000avn080" class="tab-pane fade">
 Universal Control Plane is made up of a number of backend services
 that provide for both user functionality (including user interface
 services) and system management functionality. Each of these services
 operates independently of one another. Additional information can be
 found at the following resources:
 
-- https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/
-- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Universal_Control_Plane
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/">https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/</a></li>
+<li><a href="https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Universal_Control_Plane">https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Universal_Control_Plane</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -442,11 +450,11 @@ The information system provides the capability to dynamically isolate/segregate 
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaphj5uce000disne0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm47hllv0000avn08g">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaphj5uce000disne0" class="tab-pane fade in active">
+<div id="b5vm47hllv0000avn08g" class="tab-pane fade in active">
 Docker Enterprise Edition is designed to run application containers
 whose content can be completely isolated/segregated from other
 application containers within the same node/cluster. This is
@@ -454,10 +462,13 @@ accomplished by way of Linux kernel primitives and various security
 profiles that can be applied to the underlying host OS. Additional
 information can be found at the following resources:
 
-- https://docs.docker.com/engine/security/security/
-- https://docs.docker.com/engine/userguide/networking/overlay-security-model/
-- https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Engine_and_Node_Security
 
+<ul>
+<li><a href="https://docs.docker.com/engine/security/security/">https://docs.docker.com/engine/security/security/</a></li>
+<li><a href="https://docs.docker.com/engine/userguide/networking/overlay-security-model/">https://docs.docker.com/engine/userguide/networking/overlay-security-model/</a></li>
+<li><a href="https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Engine_and_Node_Security">https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Engine_and_Node_Security</a></li>
+
+</ul>
 </div>
 </div>
 
@@ -617,17 +628,18 @@ The organization produces, controls, and distributes symmetric cryptographic key
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaphj5uce000disneg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm47hllv0000avn090">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaphj5uce000disneg" class="tab-pane fade in active">
+<div id="b5vm47hllv0000avn090" class="tab-pane fade in active">
 Docker Enterprise Edition can be installed on the following operating systems:
 CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04 LTS&#43;, and
 SUSE Linux Enterprise 12&#43;. In order to meet the requirements of this
 control, reference the chosen operating system&#39;s documentation to
 ensure it is configured in FIPS mode.
 
+</ul>
 </div>
 </div>
 
@@ -667,17 +679,18 @@ The information system implements [Assignment: organization-defined cryptographi
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaphj5uce000disnf0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm47hllv0000avn09g">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaphj5uce000disnf0" class="tab-pane fade in active">
+<div id="b5vm47hllv0000avn09g" class="tab-pane fade in active">
 Docker Enterprise Edition can be installed on the following operating systems:
 CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04 LTS&#43;, and
 SUSE Linux Enterprise 12&#43;. In order to meet the requirements of this
 control, reference the chosen operating system&#39;s documentation to
 ensure it is configured in FIPS mode.
 
+</ul>
 </div>
 </div>
 
@@ -914,34 +927,37 @@ The information system protects the authenticity of communications sessions.
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaphj5uce000disnfg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaphj5uce000disng0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vaphj5uce000disngg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm47hllv0000avn0a0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm47hllv0000avn0ag">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vm47hllv0000avn0b0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaphj5uce000disnfg" class="tab-pane fade in active">
+<div id="b5vm47hllv0000avn0a0" class="tab-pane fade in active">
 All remote access sessions to Docker Trusted Registry are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. This
 is included at both the HTTPS application layer for access to the DTR
 user interface and for command-line based connections to the registry.
 In addition to this, all communication to DTR is enforced by way of
 two-way mutual TLS authentication.
+</ul>
 </div>
-<div id="b5vaphj5uce000disng0" class="tab-pane fade">
+<div id="b5vm47hllv0000avn0ag" class="tab-pane fade">
 All remote access sessions to Docker Enterprise Edition are protected with
 Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
 addition to this, all communication to and between Docker Enterprise Editions
 is enforced by way of two-way mutual TLS authentication.
 
+</ul>
 </div>
-<div id="b5vaphj5uce000disngg" class="tab-pane fade">
+<div id="b5vm47hllv0000avn0b0" class="tab-pane fade">
 All remote access sessions to Universal Control Plane are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. This
 is included at both the HTTPS application layer for access to the UCP
 user interface and for command-line based connections to the cluster.
 In addition to this, all communication to UCP is enforced by way of
 two-way mutual TLS authentication.
+</ul>
 </div>
 </div>
 
@@ -971,13 +987,14 @@ The information system invalidates session identifiers upon user logout or other
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaphj5uce000disnh0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm47hllv0000avn0bg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaphj5uce000disnh0" class="tab-pane fade in active">
+<div id="b5vm47hllv0000avn0bg" class="tab-pane fade in active">
 Docker Enterprise Edition invalidates session identifiers upon user
 logout per the requirements of this control.
+</ul>
 </div>
 </div>
 
@@ -1067,11 +1084,11 @@ The information system protects the [Selection (one or more): confidentiality; i
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaphj5uce000disnhg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm47hllv0000avn0c0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaphj5uce000disnhg" class="tab-pane fade in active">
+<div id="b5vm47hllv0000avn0c0" class="tab-pane fade in active">
 All remote access sessions to Docker Enterprise Edition are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
 addition to this, all communication to/from and between Docker
@@ -1080,6 +1097,7 @@ authentication. All Swarm Mode manager nodes in a Docker Enterprise
 Edition cluster store state metadata and user secrets encrypted at
 rest using the AES GCM cipher.
 
+</ul>
 </div>
 </div>
 
@@ -1119,34 +1137,37 @@ The information system implements cryptographic mechanisms to prevent unauthoriz
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaphj5uce000disni0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaphj5uce000disnig">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vaphj5uce000disnj0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vm47hllv0000avn0cg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vm47hllv0000avn0d0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vm47hllv0000avn0dg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaphj5uce000disni0" class="tab-pane fade in active">
+<div id="b5vm47hllv0000avn0cg" class="tab-pane fade in active">
 All remote access sessions to Docker Trusted Registry are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. This
 is included at both the HTTPS application layer for access to the DTR
 user interface and for command-line based connections to the registry.
 In addition to this, all communication to DTR is enforced by way of
 two-way mutual TLS authentication.
+</ul>
 </div>
-<div id="b5vaphj5uce000disnig" class="tab-pane fade">
+<div id="b5vm47hllv0000avn0d0" class="tab-pane fade">
 All remote access sessions to Docker Enterprise Edition are protected with
 Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
 addition to this, all communication to and between Docker Enterprise Editions
 is enforced by way of two-way mutual TLS authentication.
 
+</ul>
 </div>
-<div id="b5vaphj5uce000disnj0" class="tab-pane fade">
+<div id="b5vm47hllv0000avn0dg" class="tab-pane fade">
 All remote access sessions to Universal Control Plane are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. This
 is included at both the HTTPS application layer for access to the UCP
 user interface and for command-line based connections to the cluster.
 In addition to this, all communication to UCP is enforced by way of
 two-way mutual TLS authentication.
+</ul>
 </div>
 </div>
 

@@ -112,7 +112,7 @@ func iterateControls(family string, familyTitle string, controls []XMLControl, i
 						id := xid.New()
 
 						// Format narratives
-						// **Need to clean up narrative links
+						// **Break out in to separate function
 						narratives := make([]string, len(satisfy.GetNarratives()))
 						narrativeLinks := []string{}
 						for _, narrative := range satisfy.GetNarratives() {
@@ -123,18 +123,19 @@ func iterateControls(family string, familyTitle string, controls []XMLControl, i
 								narrativeText = strings.Replace(narrativeText, "''", "'", -1)
 							}
 							narrativeLinksIndex := strings.Index(narrativeText, "- http")
-							if narrativeLinksIndex >= 0 {
-								narrativeLinks = strings.Split(narrativeText[narrativeLinksIndex:], "\n")
-								for i, link := range narrativeLinks {
-									if strings.Index(link, "- ") >= 0 {
-										narrativeLinks[i] = link[strings.Index(link, "- ")+2:]
+
+							if narrativeLinksIndex != -1 {
+								splitNarrativeFromLinks := strings.Split(narrativeText[narrativeLinksIndex:], "\n")
+								narrativeText = narrativeText[:narrativeLinksIndex]
+								for _, link := range splitNarrativeFromLinks {
+									linkIndex := strings.Index(link, "- ")
+									if linkIndex != -1 {
+										narrativeLinks = append(narrativeLinks, link[linkIndex+2:])
 									}
 								}
 							}
 							narratives = append(narratives, narrativeText)
 						}
-
-						fmt.Println(narrativeLinks)
 
 						markdownTemplateControl.Components = append(markdownTemplateControl.Components, MarkdownTemplateComponent{
 							ID:   id.String(),
