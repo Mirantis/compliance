@@ -111,15 +111,30 @@ func iterateControls(family string, familyTitle string, controls []XMLControl, i
 					if satisfy.GetControlKey() == control.Number {
 						id := xid.New()
 
+						// Format narratives
+						// **Need to clean up narrative links
 						narratives := make([]string, len(satisfy.GetNarratives()))
+						narrativeLinks := []string{}
 						for _, narrative := range satisfy.GetNarratives() {
 							narrativeText := narrative.GetText()
+
 							if strings.Index(narrativeText, "'") == 0 {
 								narrativeText = narrativeText[1 : len(narrativeText)-2]
 								narrativeText = strings.Replace(narrativeText, "''", "'", -1)
 							}
+							narrativeLinksIndex := strings.Index(narrativeText, "- http")
+							if narrativeLinksIndex >= 0 {
+								narrativeLinks = strings.Split(narrativeText[narrativeLinksIndex:], "\n")
+								for i, link := range narrativeLinks {
+									if strings.Index(link, "- ") >= 0 {
+										narrativeLinks[i] = link[strings.Index(link, "- ")+2:]
+									}
+								}
+							}
 							narratives = append(narratives, narrativeText)
 						}
+
+						fmt.Println(narrativeLinks)
 
 						markdownTemplateControl.Components = append(markdownTemplateControl.Components, MarkdownTemplateComponent{
 							ID:   id.String(),
@@ -127,6 +142,7 @@ func iterateControls(family string, familyTitle string, controls []XMLControl, i
 							ImplementationStatuses: satisfy.GetImplementationStatuses(),
 							ControlOrigins:         satisfy.GetControlOrigins(),
 							Narratives:             narratives,
+							NarrativeLinks:         narrativeLinks,
 						})
 
 						break

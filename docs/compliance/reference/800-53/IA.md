@@ -54,11 +54,11 @@ The information system uniquely identifies and authenticates organizational user
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr600">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000dismqg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr600" class="tab-pane fade in active">
+<div id="b5vaph35uce000dismqg" class="tab-pane fade in active">
 Docker Enterprise Edition can be configured to identify and authenticate
 users via it&#39;s integrated support for LDAP. Users and groups managed
 within the organization&#39;s LDAP directory service (e.g. Active
@@ -148,27 +148,27 @@ The organization requires individuals to be authenticated with an individual aut
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr60g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr610">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr61g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000dismr0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaph35uce000dismrg">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b5vaph35uce000disms0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr60g" class="tab-pane fade in active">
+<div id="b5vaph35uce000dismr0" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, Docker Trusted
 Registry requires individual users to be authenticated in order to
 gain access to the system. Any permissions granted to the team(s) that
 which the user is a member are subsequently applied.
 </div>
-<div id="b5vaf0anqis000atr610" class="tab-pane fade">
+<div id="b5vaph35uce000dismrg" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, Universal Control
 Plane requires individual users to be authenticated in order to gain
 access to the system. Any permissions granted to the team(s) that
 which the user is a member are subsequently applied.
 </div>
-<div id="b5vaf0anqis000atr61g" class="tab-pane fade">
+<div id="b5vaph35uce000disms0" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, Docker Enterprise Edition
 requires individual users to be authenticated in order to gain access
@@ -223,11 +223,11 @@ The information system implements replay-resistant authentication mechanisms for
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr620">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000dismsg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr620" class="tab-pane fade in active">
+<div id="b5vaph35uce000dismsg" class="tab-pane fade in active">
 Docker Enterprise Edition integrates with LDAP for authenticating users to an
 external directory service. You should configure your external
 directory service for ensuring that you are protected against replay
@@ -261,11 +261,11 @@ The information system implements replay-resistant authentication mechanisms for
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr62g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000dismt0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr62g" class="tab-pane fade in active">
+<div id="b5vaph35uce000dismt0" class="tab-pane fade in active">
 Docker Enterprise Edition integrates with LDAP for authenticating users to an
 external directory service. You should configure your external
 directory service for ensuring that you are protected against replay
@@ -349,13 +349,13 @@ The information system uniquely identifies and authenticates [Assignment: organi
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr630">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr63g">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr640">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000dismtg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaph35uce000dismu0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vaph35uce000dismug">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr630" class="tab-pane fade in active">
+<div id="b5vaph35uce000dismtg" class="tab-pane fade in active">
 Docker Trusted Registry replicas reside on Universal Control Plane
 worker nodes. In order for UCP worker nodes to join a Universal
 Control Plane cluster, they must be identified and authenticated via a
@@ -366,14 +366,14 @@ manager nodes has been established. Reference documentation can be
 found at
 https://docs.docker.com/datacenter/dtr/2.1/guides/install/#/step-7-join-replicas-to-the-cluster.
 </div>
-<div id="b5vaf0anqis000atr63g" class="tab-pane fade">
+<div id="b5vaph35uce000dismu0" class="tab-pane fade">
 In order for other CS Engine nodes to be able to join a cluster
 managed by Universal Control Plane, they must be identified and
 authenticated via either a manager or worker token. Use of the token
 includes trust on first use mutual TLS.
 
 </div>
-<div id="b5vaf0anqis000atr640" class="tab-pane fade">
+<div id="b5vaph35uce000dismug" class="tab-pane fade">
 In order for nodes to join a Universal Control Plane cluster, they
 must be identified and authenticated via either a manager or worker
 token. Additional information can be found at the following resources:
@@ -449,11 +449,11 @@ The organization manages information system identifiers by:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr64g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000dismv0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr64g" class="tab-pane fade in active">
+<div id="b5vaph35uce000dismv0" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP can be
@@ -529,11 +529,11 @@ The organization manages individual identifiers by uniquely identifying each ind
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr650">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000dismvg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr650" class="tab-pane fade in active">
+<div id="b5vaph35uce000dismvg" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP can be
@@ -611,11 +611,11 @@ The organization manages information system authenticators by:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr65g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000disn00">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr65g" class="tab-pane fade in active">
+<div id="b5vaph35uce000disn00" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP can be
@@ -702,11 +702,11 @@ The information system, for password-based authentication:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr660">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000disn0g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr660" class="tab-pane fade in active">
+<div id="b5vaph35uce000disn0g" class="tab-pane fade in active">
 An external directory service integrated with Docker Enterprise
 Edition via LDAP can be configured to enforce minimum password
 complexity requirements. Refer to your directory service&#39;s
@@ -776,13 +776,13 @@ The information system, for PKI-based authentication:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr66g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr670">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr67g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000disn10">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaph35uce000disn1g">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b5vaph35uce000disn20">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr66g" class="tab-pane fade in active">
+<div id="b5vaph35uce000disn10" class="tab-pane fade in active">
 Docker Trusted Registry includes a Docker volume which holds the root
 key material for the DTR root CA that issues certificats. In addition
 Universal Control Plane contains two, built-in root certificate
@@ -814,7 +814,7 @@ In addition, Docker Trusted Registry&#39;s server certificates can be
 replaced by following the instructions at
 https://docs.docker.com/datacenter/dtr/2.1/guides/configure/.
 </div>
-<div id="b5vaf0anqis000atr670" class="tab-pane fade">
+<div id="b5vaph35uce000disn1g" class="tab-pane fade">
 Universal Control Plane contains two, built-in root certificate
 authorities. One CA is used for signing client bundles generated by
 users. The other CA is used for TLS communication between UCP cluster
@@ -837,7 +837,7 @@ can be found at the following resources:
 
 - https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/#/replace-the-server-certificates
 </div>
-<div id="b5vaf0anqis000atr67g" class="tab-pane fade">
+<div id="b5vaph35uce000disn20" class="tab-pane fade">
 All users within a Docker Enterprise Edition cluster can create a
 client certificate bundle for authenticating in to the cluster from
 the Docker client tooling. When a user attempts to authenticate in to
@@ -896,11 +896,11 @@ The organization employs automated tools to determine if password authenticators
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr680">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000disn2g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr680" class="tab-pane fade in active">
+<div id="b5vaph35uce000disn2g" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP can be
@@ -946,11 +946,11 @@ The organization protects authenticators commensurate with the security category
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr68g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000disn30">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr68g" class="tab-pane fade in active">
+<div id="b5vaph35uce000disn30" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP can be
@@ -1080,17 +1080,17 @@ The information system obscures feedback of authentication information during th
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr690">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr69g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000disn3g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaph35uce000disn40">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr690" class="tab-pane fade in active">
+<div id="b5vaph35uce000disn3g" class="tab-pane fade in active">
 Docker Trusted Registry obscures all feedback of authentication
 information during the authentication process. This includes both
 authentication via the web UI and the CLI.
 </div>
-<div id="b5vaf0anqis000atr69g" class="tab-pane fade">
+<div id="b5vaph35uce000disn40" class="tab-pane fade">
 Universal Control Plane obscures all feedback of authentication
 information during the authentication process. This includes both
 authentication via the web UI and the CLI.
@@ -1128,18 +1128,18 @@ The information system implements mechanisms for authentication to a cryptograph
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr6a0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr6ag">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000disn4g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaph35uce000disn50">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr6a0" class="tab-pane fade in active">
+<div id="b5vaph35uce000disn4g" class="tab-pane fade in active">
 All access to Docker Trusted Registry is protected with Transport
 Layer Security (TLS) 1.2 with the AES-GCM cipher. This includes both
 SSH access to the individual UCP nodes and CLI-/web-based access to
 the UCP management functions with mutual TLS and HTTPS respectively.
 </div>
-<div id="b5vaf0anqis000atr6ag" class="tab-pane fade">
+<div id="b5vaph35uce000disn50" class="tab-pane fade">
 All access to Universal Control Plane is protected with Transport
 Layer Security (TLS) 1.2 with the AES GCM cipher. This includes both
 SSH access to the individual UCP nodes and CLI-/web-based access to
@@ -1178,17 +1178,17 @@ The information system uniquely identifies and authenticates non-organizational 
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr6b0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr6bg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000disn5g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaph35uce000disn60">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr6b0" class="tab-pane fade in active">
+<div id="b5vaph35uce000disn5g" class="tab-pane fade in active">
 Users managed by Docker Trusted Registry can be grouped per the
 requirements of the organization and as defined by this control. This
 can include groupings for non-organizational users.
 </div>
-<div id="b5vaf0anqis000atr6bg" class="tab-pane fade">
+<div id="b5vaph35uce000disn60" class="tab-pane fade">
 Users managed by Universal Control Plane can be grouped per the
 requirements of the organization and as defined by this control. This
 can include groupings for non-organizational users.
@@ -1231,11 +1231,11 @@ The information system accepts only FICAM-approved third-party credentials.
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr6c0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000disn6g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr6c0" class="tab-pane fade in active">
+<div id="b5vaph35uce000disn6g" class="tab-pane fade in active">
 An external directory service integrated with Docker Enterprise Edition via
 LDAP can be configured to meet the FICAM requirements as indicated by
 this control. Refer to your directory service&#39;s documentation for
@@ -1269,11 +1269,11 @@ The organization employs only FICAM-approved information system components in [A
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr6cg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000disn70">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr6cg" class="tab-pane fade in active">
+<div id="b5vaph35uce000disn70" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP can be
@@ -1309,11 +1309,11 @@ The information system conforms to FICAM-issued profiles.
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr6d0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000disn7g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr6d0" class="tab-pane fade in active">
+<div id="b5vaph35uce000disn7g" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP can be

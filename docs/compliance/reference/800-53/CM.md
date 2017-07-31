@@ -44,11 +44,11 @@ The organization:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5hg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismc0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5hg" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismc0" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing Docker
 Enterprise Edition and for helping the organization meet the
 configurmation management requirements of this control. Additional
@@ -87,11 +87,11 @@ The organization develops, documents, and maintains under configuration control,
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5i0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismcg">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5i0" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismcg" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing Docker
 Enterprise Edition and for helping the organization meet the
 configurmation management requirements of this control. Additional
@@ -135,11 +135,11 @@ The organization reviews and updates the baseline configuration of the informati
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5ig">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismd0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5ig" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismd0" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing Docker
 Enterprise Edition and for helping the organization meet the
 configurmation management requirements of this control. Additional
@@ -178,11 +178,11 @@ The organization employs automated mechanisms to maintain an up-to-date, complet
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5j0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismdg">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5j0" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismdg" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing Docker
 Enterprise Edition and for helping the organization meet the
 configurmation management requirements of this control. CIS regularly
@@ -226,11 +226,11 @@ The organization retains [Assignment: organization-defined previous versions of 
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5jg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000disme0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5jg" class="tab-pane fade in active">
+<div id="b5vapgr5uce000disme0" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configurmation management requirements of this control. CIS regularly
@@ -308,11 +308,11 @@ The organization:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5k0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismeg">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5k0" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismeg" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configurmation management change control requirements of this control.
@@ -359,11 +359,11 @@ The organization employs automated mechanisms to:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5kg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismf0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5kg" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismf0" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configurmation management change control requirements of this control.
@@ -406,11 +406,11 @@ The organization tests, validates, and documents changes to the information syst
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5l0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismfg">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5l0" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismfg" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configurmation management change control requirements of this control.
@@ -483,11 +483,11 @@ The organization ensures that cryptographic mechanisms used to provide [Assignme
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5lg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismg0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5lg" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismg0" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 cryptography management requirements of this control. Additional
@@ -571,12 +571,12 @@ The information system enforces access restrictions and supports auditing of the
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5m0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5mg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismgg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vapgr5uce000dismh0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5m0" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismgg" class="tab-pane fade in active">
 Role-based access control can be configured within Docker Trusted
 Registry to meet the requirements of this control. Additional
 information can be found at the following resources:
@@ -585,7 +585,7 @@ information can be found at the following resources:
 - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/
 - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC
 </div>
-<div id="b5vaf0anqis000atr5mg" class="tab-pane fade">
+<div id="b5vapgr5uce000dismh0" class="tab-pane fade">
 Role-based access control can be configured within Universal Control
 Plane to meet the requirements of this control. Additional information
 can be found at the following resources:
@@ -623,11 +623,11 @@ The organization reviews information system changes [Assignment: organization-de
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5n0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismhg">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5n0" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismhg" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 system change requirements of this control. Additional information can
@@ -676,13 +676,13 @@ The information system prevents the installation of [Assignment: organization-de
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5ng">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5o0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5og">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismi0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vapgr5uce000dismig">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vapgr5uce000dismj0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5ng" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismi0" class="tab-pane fade in active">
 Docker Content Trust is a capability provided by Docker Enterprise
 Edition that enforces client-side signing and verification of Docker
 image tags. It provides the ability to use digital signatures for data
@@ -699,7 +699,7 @@ Additional information can be found at teh following resources:
 - https://docs.docker.com/engine/security/trust/content_trust/
 - https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/manage-trusted-repositories/
 </div>
-<div id="b5vaf0anqis000atr5o0" class="tab-pane fade">
+<div id="b5vapgr5uce000dismig" class="tab-pane fade">
 Before installing Docker Enterprise Edition, ensure that your
 supporting Linux operating system&#39;s packager manager supports package
 signature verification and that it is enabled. It is also required
@@ -721,7 +721,7 @@ the following resources:
 - https://docs.docker.com/engine/security/trust/content_trust/
 
 </div>
-<div id="b5vaf0anqis000atr5og" class="tab-pane fade">
+<div id="b5vapgr5uce000dismj0" class="tab-pane fade">
 Docker Content Trust is a capability provided by Docker Enterprise Edition
 that enforces client-side signing and verification of Docker image
 tags. It provides the ability to use digital signatures for data sent
@@ -826,26 +826,26 @@ The organization employs automated mechanisms to centrally manage, apply, and ve
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5p0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5pg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5q0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismjg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vapgr5uce000dismk0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vapgr5uce000dismkg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5p0" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismjg" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements, the organization can
 incorporate the use of an external configuration management system to
 meet the requirements of this control.
 </div>
-<div id="b5vaf0anqis000atr5pg" class="tab-pane fade">
+<div id="b5vapgr5uce000dismk0" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. The organization can incorporate the use of an external
 configuration management system to meet the requirements of this
 control.
 
 </div>
-<div id="b5vaf0anqis000atr5q0" class="tab-pane fade">
+<div id="b5vapgr5uce000dismkg" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
  control. To assist with these requirements, the organization can
  incorporate the use of an external configuration management system to
@@ -927,19 +927,19 @@ The information system prevents program execution in accordance with [Selection 
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5qg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5r0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5rg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000disml0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vapgr5uce000dismlg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vapgr5uce000dismm0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5qg" class="tab-pane fade in active">
+<div id="b5vapgr5uce000disml0" class="tab-pane fade in active">
 The organization can define a list of allowed base Docker images and
 make them available via Docker Trusted Registry. The organization can
 also prevent users from being able to pull Docker images from
 untrusted sources.
 </div>
-<div id="b5vaf0anqis000atr5r0" class="tab-pane fade">
+<div id="b5vapgr5uce000dismlg" class="tab-pane fade">
 In order to restrict which Docker images can be used to deploy
 applications to Docker Enterprise Edition, the organization must define a list
 of allowed base Docker images and make them available via Docker
@@ -947,7 +947,7 @@ Trusted Registry. The organization must also prevent users from being
 able to pull Docker images from untrusted sources.
 
 </div>
-<div id="b5vaf0anqis000atr5rg" class="tab-pane fade">
+<div id="b5vapgr5uce000dismm0" class="tab-pane fade">
 In order to restrict which Docker images can be used to deploy
 applications to Universal Control Plane, the organization must define a
 list of allowed base Docker images and make them available via Docker
@@ -1022,13 +1022,13 @@ The organization:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5s0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5sg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5t0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismmg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vapgr5uce000dismn0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b5vapgr5uce000dismng">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5s0" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismmg" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements, the organization can
 define a list of allowed base Docker images and make them available
@@ -1040,7 +1040,7 @@ stored in Docker Trusted Registry. This can be accomplished by using
 Docker Content Trust to sign Docker images which can subsequently be
 stored in Docker Trusted Registry.
 </div>
-<div id="b5vaf0anqis000atr5sg" class="tab-pane fade">
+<div id="b5vapgr5uce000dismn0" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements and in order to restrict
 which Docker images can be used to deploy applications to CS Docker
@@ -1050,7 +1050,7 @@ organization must also prevent users from being able to pull Docker
 images from untrusted sources.
 
 </div>
-<div id="b5vaf0anqis000atr5t0" class="tab-pane fade">
+<div id="b5vapgr5uce000dismng" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements and in order to restrict
 which Docker images can be used to deploy applications to Universal
@@ -1221,11 +1221,11 @@ The organization develops, documents, and implements a configuration management 
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5tg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismo0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5tg" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismo0" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configuration management plan requirements of this control. Additional
@@ -1304,11 +1304,11 @@ The organization:
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5u0">DTR</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismog">DTR</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5u0" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismog" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements, the organization can
 define a list of allowed base Docker images and make them available
@@ -1343,11 +1343,11 @@ The information system alerts [Assignment: organization-defined personnel or rol
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5ug">DTR</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vapgr5uce000dismp0">DTR</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5ug" class="tab-pane fade in active">
+<div id="b5vapgr5uce000dismp0" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements, the organization can
 define a list of allowed base Docker images and make them available

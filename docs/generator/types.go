@@ -72,4 +72,5 @@ type MarkdownTemplateComponent struct {
 	ImplementationStatuses []string
 	ControlOrigins         []string
 	Narratives             []string
+	NarrativeLinks         []string
 }

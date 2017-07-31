@@ -525,12 +525,12 @@ The information system implements transaction recovery for systems that are tran
 **Implemenation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vaf0anqis000atr5v0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vaf0anqis000atr5vg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b5vaph35uce000dismpg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b5vaph35uce000dismq0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vaf0anqis000atr5v0" class="tab-pane fade in active">
+<div id="b5vaph35uce000dismpg" class="tab-pane fade in active">
 Docker Trusted Registry maintains its cluster state via an internal
 key-value store. This, and other DTR transactions can be backed up and
 recovered. Additional information can be found at the following
@@ -539,7 +539,7 @@ resources:
 - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/backups-and-disaster-recovery/
 - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#DTR_Backup
 </div>
-<div id="b5vaf0anqis000atr5vg" class="tab-pane fade">
+<div id="b5vaph35uce000dismq0" class="tab-pane fade">
 Universal Control Plane maintains its cluster state via an internal
 key-value store. This, and other UCP transactions can be backed up and
 recovered. Additional information can be found at the following
