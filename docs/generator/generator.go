@@ -23,6 +23,7 @@ const tmplPath = "./tmpl/80053.test.tmpl"
 // Mount point within container
 const markdownOutputPath = "./800-53"
 
+// doesExist checks path existence
 func doesExist(path string) bool {
 	if _, err := os.Stat(path); err != nil {
 		if os.IsNotExist(err) {
@@ -33,10 +34,12 @@ func doesExist(path string) bool {
 	return true
 }
 
+// parseComponents parses OpenControl component.yml files
 func parseComponents(rootDir string) ([]cmcommon.Component, error) {
 	var components []cmcommon.Component
 	var filePaths []string
 
+	// Walk component directories
 	componentDirs, _ := ioutil.ReadDir(rootDir)
 	for _, root := range componentDirs {
 		if err := filepath.Walk(path.Join(rootDir, root.Name()), func(path string, f os.FileInfo, err error) error {
@@ -56,6 +59,7 @@ func parseComponents(rootDir string) ([]cmcommon.Component, error) {
 		return nil, errors.New("No component files were parsed")
 	}
 
+	// Load component.yml files in to type
 	for _, file := range filePaths {
 		component, err := cmcomponents.Load(file)
 		if err != nil {
@@ -67,13 +71,9 @@ func parseComponents(rootDir string) ([]cmcommon.Component, error) {
 	return components, nil
 }
 
-func parseStandard(standardFilePath string) (XMLStandard, error) {
+// parseStandard parses NIST 800-53 standard
+func parseStandard(data []byte) (XMLStandard, error) {
 	var standard XMLStandard
-
-	data, err := ioutil.ReadFile(standardFilePath)
-	if err != nil {
-		return standard, err
-	}
 
 	if err := xml.Unmarshal(data, &standard); err != nil {
 		return standard, err
@@ -82,11 +82,14 @@ func parseStandard(standardFilePath string) (XMLStandard, error) {
 	return standard, nil
 }
 
+// iterateControls recursively iterates over NIST 800-53 controls and
+// identifies matching component narratives
 func iterateControls(family string, familyTitle string, controls []XMLControl, components []cmcommon.Component) ([]MarkdownTemplateControl, string) {
 	var markdownTemplateControls []MarkdownTemplateControl
 	var abbrev string
 
 	for _, control := range controls {
+		// Ignore withdrawn controls
 		if control.Family == family && len(control.Withdrawn.IncorporatedInto) <= 0 {
 			if abbrev == "" {
 				abbrev = strings.Split(control.Number, "-")[0]
@@ -100,6 +103,7 @@ func iterateControls(family string, familyTitle string, controls []XMLControl, c
 				IsControlEnhancement: false,
 			}
 
+			// Identify matching component narratives
 			for _, component := range components {
 				satisfies := component.GetAllSatisfies()
 				for _, satisfy := range satisfies {
@@ -117,6 +121,7 @@ func iterateControls(family string, familyTitle string, controls []XMLControl, c
 
 			markdownTemplateControls = append(markdownTemplateControls, markdownTemplateControl)
 
+			// Convert XMLControlEnhancements to XMLControls for recursion
 			xmlControlEnhancements := make([]XMLControl, len(control.ControlEnhancements))
 			for i, enhancement := range control.ControlEnhancements {
 				xmlControlEnhancements[i] = XMLControl{
@@ -136,6 +141,7 @@ func iterateControls(family string, familyTitle string, controls []XMLControl, c
 	return markdownTemplateControls, abbrev
 }
 
+// generateMarkdownFiles generates markdown files for each NIST 800-53 family
 func generateMarkdownFiles(standard XMLStandard, components []cmcommon.Component) error {
 	// Get families
 	var families []string
@@ -170,10 +176,18 @@ func generateMarkdownFiles(standard XMLStandard, components []cmcommon.Component
 		if err := tmpl.Execute(f, markdownTemplateMap); err != nil {
 			return err
 		}
-
 	}
 
 	return nil
+}
+
+func readFile(filePath string) ([]byte, error) {
+	data, err := ioutil.ReadFile(filePath)
+	if err != nil {
+		return nil, err
+	}
+
+	return data, nil
 }
 
 func main() {
@@ -187,7 +201,11 @@ func main() {
 		log.Fatalf("Markdown output path %s does not exist", markdownOutputPath)
 	}
 
-	standard, err := parseStandard(xmlStandardPath)
+	xmlStandardData, err := readFile(xmlStandardPath)
+	if err != nil {
+		log.Fatalf("Error reading NIST 800-53 standard XML: %v", err)
+	}
+	standard, err := parseStandard(xmlStandardData)
 	if err != nil {
 		log.Fatalf("Error parsing standard: %v", err)
 	}
