@@ -1,0 +1,8 @@
+name: Docker EE FedRAMP Moderate
+title: D
+maintainer: Andrew Weiss <anweiss@docker.com>
+copyright: Docker, Inc
+copyright_email: compliance@docker.com
+license: CC0-1.0
+summary: Docker EE FedRAMP Moderate InSpec Profile
+version: 0.1.0

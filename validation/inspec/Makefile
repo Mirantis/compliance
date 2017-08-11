@@ -1,0 +1,1 @@
+.PHONY: inspec vendor

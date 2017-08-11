@@ -5,8 +5,9 @@ metadata:
     Docker Enterprise Edition is an integrated solution for developers and IT
     operations to collaborate as part of the enterprise software supply chain.
     It is an enterprise-grade secure container orchestration and application
-    management platform built and maintained by Docker, Inc. Docker Enterprise
-    Edition (Advanced) is made up of five core components: Docker Enterprise
+    management platform built and maintained by Docker, Inc. The compliance
+    documentation defined by this system has been mapped to five components of
+    the Docker Enterprise Edition (Advanced) stack as follows: Docker Enterprise
     Edition Engine, Docker Trusted Registry (DTR), Universal Control Plane
     (UCP), integrated authentication and authorization service (eNZi) and Docker
     Security Scanning (DSS).

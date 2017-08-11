@@ -11,7 +11,6 @@ Docker also provides pre-built System Security Plan (SSP) templates for authoriz
 |Provider|Format|Baselines|Status|
 |--------|------|---------|------|
 |[Microsoft Azure Government](https://azure.microsoft.com/en-us/overview/clouds/government/)|[Azure Blueprint](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-plan-compliance) (.docx)|Moderate<br>High<br>DoD L4<br>DoD L5|Available<br>Coming Soon<br>Coming Soon<br>Coming Soon|
-|[AWS GovCloud](https://aws.amazon.com/govcloud-us/)|TBD|Moderate|Coming soon|
 
 Note that even if a pre-built template for Docker EE is not available for your chosen cloud provider, you can still use the OpenControl-formatted content in this repository to generate your own SSP templates. Much of the content in this repository is identical to that which is provided in the pre-built templates.
 
@@ -30,11 +29,11 @@ In order to meet all of the applicable security controls included in this reposi
 
 |Component Name|Folder|Version|
 |--------------|------|-------|
-|Docker EE Engine|[`opencontrol/components/Engine-EE/`](https://github.com/docker/compliance/tree/master/opencontrol/components/Engine-EE)|17.03.0-ee|
-|Docker Trusted Registry (DTR)|[`opencontrol/components/DTR/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DTR)|2.2|
-|Docker Security Scanning (DSS)|[`opencontrol/components/DSS/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DSS)|2.2|
-|Universal Control Plane (UCP)|[`opencontrol/components/UCP/`](https://github.com/docker/compliance/tree/master/opencontrol/components/UCP)|2.1|
-|Authentication and Authorization Service (eNZi)|[`opencontrol/components/eNZi/`](https://github.com/docker/compliance/tree/master/opencontrol/components/eNZi)|2.1|
+|Docker EE Engine|[`opencontrol/components/Engine-EE/`](https://github.com/docker/compliance/tree/master/opencontrol/components/Engine-EE)|17.06.x-ee|
+|Docker Trusted Registry (DTR)|[`opencontrol/components/DTR/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DTR)|2.3|
+|Docker Security Scanning (DSS)|[`opencontrol/components/DSS/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DSS)|2.3|
+|Universal Control Plane (UCP)|[`opencontrol/components/UCP/`](https://github.com/docker/compliance/tree/master/opencontrol/components/UCP)|2.2|
+|Authentication and Authorization Service (eNZi)|[`opencontrol/components/eNZi/`](https://github.com/docker/compliance/tree/master/opencontrol/components/eNZi)|2.2|
 
 > Both the UCP and DTR components leverage the eNZi authentication and authorization service component for authentication and authorization across an entire Docker Enterprise Edition cluster at the Standard and Advanced tiers.
 
