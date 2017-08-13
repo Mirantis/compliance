@@ -1,0 +1,3 @@
+endpoint: "http://localhost:55985/wsman"
+user: vagrant
+password: vagrant

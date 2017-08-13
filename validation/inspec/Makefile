@@ -1,1 +1,2 @@
-.PHONY: inspec vendor
+default: exec-moderate
+

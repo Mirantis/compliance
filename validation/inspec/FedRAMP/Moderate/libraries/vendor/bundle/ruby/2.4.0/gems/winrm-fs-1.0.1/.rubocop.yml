@@ -1,0 +1,9 @@
+Style/FileName:
+  Exclude:
+    - 'lib/winrm-fs.rb'
+
+Style/Encoding:
+  Enabled: true
+
+Metrics/LineLength:
+  Max: 100
