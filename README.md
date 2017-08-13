@@ -4,9 +4,65 @@
 
 This repository contains compliance information for [Docker Enterprise Edition (EE)](https://www.docker.com/enterprise-edition) at the Basic, Standard and Advanced tiers as it pertains to NIST-800-53 Rev 4 security controls at the [FedRAMP](https://www.fedramp.gov/) Moderate and High baselines. This data adheres to the [OpenControl](http://open-control.org/) schema for building compliance documentation and can be used to support your own authority to operate (ATO) review process. The documentation generated from this content can be used to assist your organization in authorizing Docker Enterprise Edition in both on-premises/private cloud infrastructure and in public cloud providers.
 
-> This content is provided for informational purposes only and has not been vetted by any third-party security assessors. You are solely responsible for developing, implementing, and managing your applications and/or subscriptions running on your own platform in compliance with applicable laws, regulations, and contractual obligations. The documentation is provided "as-is" and without any warranty of any kind, whether express, implied or statutory, and Docker, Inc. expressly disclaims all warranties for non-infringement, merchantability or fitness for a particular purpose.
+> **DISCLAIMER:** This content is provided for informational purposes only and has not been vetted by any third-party security assessors. You are solely responsible for developing, implementing, and managing your applications and/or subscriptions running on your own platform in compliance with applicable laws, regulations, and contractual obligations. The documentation is provided "as-is" and without any warranty of any kind, whether express, implied or statutory, and Docker, Inc. expressly disclaims all warranties for non-infringement, merchantability or fitness for a particular purpose.
 
-Docker also provides pre-built System Security Plan (SSP) templates for authorizing Docker Enterprise Edition on various FedRAMP P-ATO'd IaaS providers, as indicated in the table below. These can be obtained by contacting [compliance@docker.com](mailto:compliance@docker.com). These templates are **not** the official cloud providers' SSP templates but rather show both the controls inherited from that IaaS provider's P-ATO and the controls applicable to Docker Enterprise Edition. When conducting an ATO, it is still your responsibility to request the provider's official SSP package as appropriate and conduct your own security analysis.
+## Generating SSP Docs for Docker EE
+
+The [Compliance Masonry](https://github.com/opencontrol/compliance-masonry/) command-line tool is required in order to generate SSP documentation based on the pre-written Docker EE narratives in this repository. You can either download and run the Compliance Masonry tool directly from your local workstation or run it with Docker.
+
+In order to meet all of the applicable security controls included in this repository, you must have installed all of the components of Docker Enterprise Edition Advanced. Each component is associated with a single `component.yaml` file which contains the actual security narratives. These components, and the versions at which the security narratives are currently based, are listed in the table below:
+
+|Component Name|Folder|Version|
+|--------------|------|-------|
+|Docker EE Engine|[`opencontrol/components/Engine-EE/`](https://github.com/docker/compliance/tree/master/opencontrol/components/Engine-EE)|17.06-ee|
+|Docker Trusted Registry (DTR)|[`opencontrol/components/DTR/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DTR)|2.3|
+|Docker Security Scanning (DSS)|[`opencontrol/components/DSS/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DSS)|2.3|
+|Universal Control Plane (UCP)|[`opencontrol/components/UCP/`](https://github.com/docker/compliance/tree/master/opencontrol/components/UCP)|2.2|
+|Authentication and Authorization Service (eNZi)|[`opencontrol/components/eNZi/`](https://github.com/docker/compliance/tree/master/opencontrol/components/eNZi)|2.2|
+
+> **NOTE:** Both the UCP and DTR components leverage the eNZi authentication and authorization service component for authentication and authorization across an entire Docker Enterprise Edition cluster at the Standard and Advanced tiers.
+
+The [`examples/DockerEE-Moderate-ATO`](https://github.com/docker/compliance/tree/master/examples/opencontrol/DockerEE-Moderate-ATO) folder contains an example that you can use as a starting point for generating your SSP. It also includes additional placeholder `component.yaml` files that can be used to document your organization's adherence to the appropriate controls and that which aren't covered by the functionality of Docker Enterprise Edition. These have been organized in to separate directories representing each control family (e.g. `AC_Policy/`, `MA_POLICY/`, etc).
+
+### Download and run Compliance Masonry
+
+You can download the [Compliance Masonry](https://github.com/opencontrol/compliance-masonry/) command-line tool for your specific OS from the releases page [here](https://github.com/opencontrol/compliance-masonry/releases).
+
+After you've cloned or downloaded the contents of this repository to your machine, you can generate your SSP docs based on the *DockerEE-Moderate-ATO* example as follows:
+
+1. Navigate to directory containing the example
+
+    `cd examples/opencontrol/DockerEE-Moderate-ATO`
+
+2. Get Compliance Masonry dependencies
+
+    `compliance-masonry get`
+
+3. Generate SSP as a GitBook at the FedRAMP Moderate baseline
+
+    `compliance-masonry docs gitbook FedRAMP-moderate`
+
+### Running Compliance Masonry with Docker
+
+If you prefer, you can also use Compliance Masonry via the official [Docker image](https://store.docker.com/community/images/opencontrolorg/compliance-masonry) (opencontrolorg/compliance-masonry).
+
+After you've cloned or downloaded the contents of this repository to your machine, you can use Docker to generate your SSP docs based on the *DockerEE-Moderate-ATO* example as follows:
+
+1. Navigate to example directory
+
+    `cd examples/opencontrol/DockerEE-Moderate-ATO`
+
+2. Get Compliance Masonry dependencies
+
+    `docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get`
+
+3. Generate SSP as a GitBook at the FedRAMP Moderate baseline
+
+    `docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry docs gitbook FedRAMP-moderate`
+
+## Pre-Built SSP Templates for Docker EE
+
+Docker also provides pre-built System Security Plan (SSP) templates for authorizing Docker Enterprise Edition on various FedRAMP P-ATO'd IaaS providers, as indicated in the table below. These can be obtained by contacting [compliance@docker.com](mailto:compliance@docker.com). These templates are **not** the official cloud providers' SSP templates but rather show both the controls inherited from that IaaS provider's P-ATO and the controls applicable to Docker Enterprise Edition Advanced. When conducting an ATO, it is still your responsibility to request the provider's official SSP package as appropriate and conduct your own security analysis.
 
 |Provider|Format|Baselines|Status|
 |--------|------|---------|------|
@@ -14,34 +70,7 @@ Docker also provides pre-built System Security Plan (SSP) templates for authoriz
 
 Note that even if a pre-built template for Docker EE is not available for your chosen cloud provider, you can still use the OpenControl-formatted content in this repository to generate your own SSP templates. Much of the content in this repository is identical to that which is provided in the pre-built templates.
 
-## Usage
-
-In order to generate the documentation appropriate to your system, you can either download and install the [Compliance Masonry](https://github.com/opencontrol/compliance-masonry/) command-line tool on to your local workstation or run the official [Compliance Masonry Docker image](https://store.docker.com/community/images/opencontrolorg/compliance-masonry) at the root of the `examples/opencontrol/DockerEE-Moderate-ATO` directory as follows:
-
-```sh
-docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get
-docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry docs gitbook FedRAMP-moderate
-```
-
- Refer to the Compliance Masonry [usage instructions](https://github.com/opencontrol/compliance-masonry/blob/master/docs/usage.md) for more info on the various CLI options. The [`examples/DockerEE-Moderate-ATO`](https://github.com/docker/compliance/tree/master/examples/opencontrol/DockerEE-Moderate-ATO) directory contains an example use of this tooling.
-
-In order to meet all of the applicable security controls included in this repository, you must have Docker Enterprise Edition at the Advanced tier and at the versions specified in the table below. The control guidance is separated in to the following components:
-
-|Component Name|Folder|Version|
-|--------------|------|-------|
-|Docker EE Engine|[`opencontrol/components/Engine-EE/`](https://github.com/docker/compliance/tree/master/opencontrol/components/Engine-EE)|17.06.x-ee|
-|Docker Trusted Registry (DTR)|[`opencontrol/components/DTR/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DTR)|2.3|
-|Docker Security Scanning (DSS)|[`opencontrol/components/DSS/`](https://github.com/docker/compliance/tree/master/opencontrol/components/DSS)|2.3|
-|Universal Control Plane (UCP)|[`opencontrol/components/UCP/`](https://github.com/docker/compliance/tree/master/opencontrol/components/UCP)|2.2|
-|Authentication and Authorization Service (eNZi)|[`opencontrol/components/eNZi/`](https://github.com/docker/compliance/tree/master/opencontrol/components/eNZi)|2.2|
-
-> Both the UCP and DTR components leverage the eNZi authentication and authorization service component for authentication and authorization across an entire Docker Enterprise Edition cluster at the Standard and Advanced tiers.
-
-Each component is associated with a single `component.yaml` file which contain the actual security narratives.
-
-Bear in mind that you'll also need to include your own `component.yaml` files that reflect your organization's adherence to the appropriate controls and that which aren't covered by the functionality of Docker Enterprise Edition. Typically these are organized in separate component directories for each control familiy (e.g. `AC_Policy/`, `MA_POLICY/`, etc). Refer to the [`examples/opencontrol/DockerEE-Moderate-ATO`](https://github.com/docker/compliance/tree/master/examples/opencontrol/DockerEE-Moderate-ATO) directory for an example of this.
-
-## Developing
+## Contributing to Docker compliance resources
 
 Refer to the [Contributing Guide](https://github.com/docker/compliance/blob/master/CONTRIBUTING.md) for instructions on contributing to this project.
 
