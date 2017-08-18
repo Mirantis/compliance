@@ -38,11 +38,16 @@ class UCP < Inspec.resource(1)
     return api_response['Version'].to_s.partition('ucp/').last
   end
 
+  def ldap_enabled?
+    api_response = query_api('enzi/v0/config/auth')
+    return api_response['backend'] == "ldap" ? true : false
+  end
+
   private
 
   def query_api(endpoint)
     endpoint_uri = URI.parse("#{@ucp_uri}/#{endpoint}")
-    Net::HTTP.start(endpoint_uri.host, endpoint_uri.port, :use_ssl => true) do |http|
+    Net::HTTP.start(endpoint_uri.host, endpoint_uri.port, :use_ssl => true, :verify_mode => OpenSSL::SSL::VERIFY_NONE) do |http|
       request = Net::HTTP::Get.new(endpoint_uri)
       request['Authorization'] = "Bearer #{@auth_token}"
       response = http.request(request)
