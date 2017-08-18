@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
@@ -10,8 +10,6 @@ GEM
     docker-api (1.33.6)
       excon (>= 0.38.0)
       json
-    domain_name (0.5.20170404)
-      unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     excon (0.58.0)
     faraday (0.12.1)
@@ -23,17 +21,8 @@ GEM
       builder (>= 2.1.2)
     hashie (3.5.6)
     htmlentities (4.3.4)
-    http (2.2.2)
-      addressable (~> 2.3)
-      http-cookie (~> 1.0)
-      http-form_data (~> 1.0.1)
-      http_parser.rb (~> 0.6.0)
-    http-cookie (1.0.3)
-      domain_name (~> 0.5)
-    http-form_data (1.0.3)
-    http_parser.rb (0.6.0)
     httpclient (2.8.3)
-    inspec (1.33.1)
+    inspec (1.33.12)
       addressable (~> 2.4)
       faraday (>= 0.9.0)
       hashie (~> 3.4)
@@ -110,9 +99,6 @@ GEM
       net-ssh (>= 2.9, < 5.0)
       winrm (~> 2.0)
       winrm-fs (~> 1.0)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.7.4)
     winrm (2.2.3)
       builder (>= 2.1.2)
       erubis (~> 2.7)
@@ -132,7 +118,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  http
   inspec
 
 BUNDLED WITH

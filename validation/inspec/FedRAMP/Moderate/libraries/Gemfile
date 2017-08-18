@@ -1,3 +1,2 @@
-source 'http://rubygems.org'
-gem 'http'
+source 'https://rubygems.org'
 gem 'inspec'

@@ -1,3 +1,0 @@
-source 'https://supermarket.chef.io'
-cookbook 'sudo', '~> 2.7.2'
-cookbook 'test', path: 'cookbooks/test'
