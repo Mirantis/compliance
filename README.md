@@ -1,6 +1,6 @@
 # Docker Enterprise Edition Compliance Controls [![CircleCI](https://circleci.com/gh/docker/compliance/tree/master.svg?style=svg&circle-token=daeaf5acd7ac08000ea727cbf8ec9baa8ded8da4)](https://circleci.com/gh/docker/compliance/tree/master) [![codecov](https://codecov.io/gh/docker/compliance/branch/master/graph/badge.svg?token=WiRPQcno3c)](https://codecov.io/gh/docker/compliance)
 
-This repository contains compliance information for [Docker Enterprise Edition (EE)](https://www.docker.com/enterprise-edition) as it pertains to [NIST 800-53](https://nvd.nist.gov/800-53) Rev. 4 security controls at the [FedRAMP](https://www.fedramp.gov/) Moderate and High baselines. This data adheres to the [OpenControl](http://open-control.org/) schema for building compliance documentation and can be used to support your own authority to operate (ATO) review process. The system security plane (SSP) documentation that can be generated from this content can be used to assist your organization in authorizing Docker Enterprise Edition on both on-premises/private cloud infrastructures and in public cloud providers.
+This repository contains compliance information and complementary tooling for [Docker Enterprise Edition (EE)](https://www.docker.com/enterprise-edition) as it pertains to [NIST 800-53](https://nvd.nist.gov/800-53) Rev. 4 security controls at the [FedRAMP](https://www.fedramp.gov/) Moderate and High baselines. This data adheres to the [OpenControl](http://open-control.org/) schema for building compliance documentation and can be used to support your own authority to operate (ATO) review process. The system security plane (SSP) documentation that can be generated from this content can be used to assist your organization in authorizing Docker Enterprise Edition on both on-premises/private cloud infrastructures and in public cloud providers.
 
 > **DISCLAIMER:** This content is provided for informational purposes only and has not been vetted by any third-party security assessors. You are solely responsible for developing, implementing, and managing your applications and/or subscriptions running on your own platform in compliance with applicable laws, regulations, and contractual obligations. The documentation is provided "as-is" and without any warranty of any kind, whether express, implied or statutory, and Docker, Inc. expressly disclaims all warranties for non-infringement, merchantability or fitness for a particular purpose.
 
@@ -20,6 +20,8 @@ In order to meet all of the applicable security controls included in this reposi
 
 > **NOTE:** Both the UCP and DTR components leverage the eNZi authentication and authorization service component for authentication and authorization across an entire Docker Enterprise Edition cluster at the Standard and Advanced tiers.
 
+You can download this security content for previously released versions of Docker EE, UCP and DTR on our [Releases](https://github.com/docker/compliance/releases) page.
+
 The [`examples/opencontrol/DockerEE-Moderate-ATO`](https://github.com/docker/compliance/tree/master/examples/opencontrol/DockerEE-Moderate-ATO) folder contains an example that you can use as a starting point for generating an SSP at the FedRAMP Moderate baseline. It also includes additional placeholder `component.yaml` files that can be used to document your organization's adherence to the appropriate controls and that which aren't covered by the functionality of Docker Enterprise Edition. These have been organized in to separate directories representing each control family (e.g. `AC_Policy/`, `MA_POLICY/`, etc).
 
 ### Download and run Compliance Masonry
@@ -36,25 +38,15 @@ After you've cloned or downloaded the contents of this repository to your machin
 
     `compliance-masonry get`
 
-3. Generate SSP as a GitBook at the FedRAMP Moderate baseline
-
-    `compliance-masonry docs gitbook FedRAMP-moderate`
-
-### Running Compliance Masonry with Docker
-
-If you prefer, you can also run the Compliance Masonry tool via the official Docker image ([opencontrolorg/compliance-masonry](https://store.docker.com/community/images/opencontrolorg/compliance-masonry)).
-
-After you've cloned or downloaded the contents of this repository to your machine, you can use Docker to generate your SSP docs based on the [DockerEE-Moderate-ATO](https://github.com/docker/compliance/tree/master/examples/opencontrol/DockerEE-Moderate-ATO) example as follows:
-
-1. Navigate to example directory
-
-    `cd examples/opencontrol/DockerEE-Moderate-ATO`
-
-2. Get Compliance Masonry dependencies
+    or with Docker:
 
     `docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get`
 
 3. Generate SSP as a GitBook at the FedRAMP Moderate baseline
+
+    `compliance-masonry docs gitbook FedRAMP-moderate`
+
+    or with Docker:
 
     `docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry docs gitbook FedRAMP-moderate`
 
@@ -67,6 +59,12 @@ Docker also provides pre-built System Security Plan (SSP) templates for authoriz
 |[Microsoft Azure Government](https://azure.microsoft.com/en-us/overview/clouds/government/)|[Azure Blueprint](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-plan-compliance) (.docx)|Moderate<br>High<br>DoD L4<br>DoD L5|Available<br>Coming Soon<br>Coming Soon<br>Coming Soon|
 
 Note that even if a pre-built template for Docker EE is not available for your chosen cloud provider, you can still use the OpenControl-formatted content in this repository to generate your own SSP templates. Much of the content in this repository is identical to that which is provided in the pre-built templates.
+
+## InSpec Profiles for Docker EE
+
+The [`validation/inspec/`](validation/inspec/) directory contains [InSpec](https://inspec.io) audit profiles for Docker EE. These can be used to continuously audit a running Docker EE cluster and validate its configuration against applicable controls at both the FedRAMP Moderate and High baselines.
+
+Instructions for using these profiles can be found in the [`validation/inspec/`](validation/inspec) directory.
 
 ## Contributing to Docker compliance resources
 
