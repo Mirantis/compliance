@@ -60,7 +60,7 @@ Docker also provides pre-built System Security Plan (SSP) templates for authoriz
 
 Note that even if a pre-built template for Docker EE is not available for your chosen cloud provider, you can still use the OpenControl-formatted content in this repository to generate your own SSP templates. Much of the content in this repository is identical to that which is provided in the pre-built templates.
 
-## InSpec Profiles for Docker EE
+## InSpec profiles for Docker EE
 
 The [`validation/inspec/`](validation/inspec/) directory contains [InSpec](https://inspec.io) audit profiles for Docker EE. These can be used to continuously audit a running Docker EE cluster and validate its configuration against applicable controls at both the FedRAMP Moderate and High baselines.
 
@@ -70,11 +70,11 @@ Instructions for using these profiles can be found in the [`validation/inspec/`]
 
 Refer to the [Contributing Guide](CONTRIBUTING.md) for instructions on contributing to this project.
 
-### Component Validation
+### Component validation
 
 The OpenControl schema is defined by the [Kwalify](http://www.kuwata-lab.com/kwalify/) schema validator and YAML parser. Each component definition in the Docker Enterprise Edition Advanced tier is tested against this schema using the [PyKwalify](https://github.com/Grokzen/pykwalify) Python port of the Kwalify specification. The Dockerfile in the root of this repository is used only by CircleCI for running the component tests within a container.
 
-### Natural Language Processing [Experimental]
+### Natural language processing [experimental]
 
 Thorough documentation of the relevant security controls for each of the Docker EE components is a critical aspect of this project. It's imperative that not only is each control satisfied, but that the contents of the actual narratives match that which is defined by NIST 800-53. As such, we've started to experiment with natural language processing tooling. We've included a set of utilities in the project backed by [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services) that demonstrate ways that the security assessment process can be enhanced with artificial intelligence.
 
