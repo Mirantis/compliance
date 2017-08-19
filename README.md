@@ -8,7 +8,7 @@ This repository contains compliance information and complementary tooling for [D
 
 The [Compliance Masonry](https://github.com/opencontrol/compliance-masonry/) command-line tool is required to generate SSP documentation based on the pre-written Docker EE narratives in this repository. You can either download and run the Compliance Masonry tool directly from your local workstation or run it with Docker.
 
-In order to meet all of the applicable security controls included in this repository, you must have installed all of the components of Docker Enterprise Edition Advanced. This includes Docker EE Engine, Docker Trusted Registry and Universal Control Plane. Each component is associated with a single `component.yaml` text file which contains the pre-written security narratives. These components, and the versions at which the security narratives are currently based, are listed in the table below:
+In order to satisfy the entirety of applicable security controls included in this repository, you must have installed all of the components of Docker Enterprise Edition Advanced. This includes Docker EE Engine, Docker Trusted Registry and Universal Control Plane. Each component is associated with a single `component.yaml` text file which contains the pre-written security narratives. These components, and the versions at which the security narratives are currently based, are listed in the table below:
 
 |Component Name|Folder|Version|
 |--------------|------|-------|
@@ -18,11 +18,11 @@ In order to meet all of the applicable security controls included in this reposi
 |Universal Control Plane (UCP)|[`opencontrol/components/UCP/`](opencontrol/components/UCP)|2.2|
 |Authentication and Authorization Service (eNZi)|[`opencontrol/components/eNZi/`](opencontrol/components/eNZi)|2.2|
 
-> **NOTE:** Both the UCP and DTR components leverage the eNZi authentication and authorization service component for authentication and authorization across an entire Docker Enterprise Edition cluster at the Standard and Advanced tiers.
+> **NOTE:** Both the UCP and DTR components leverage the eNZi service component for authentication and authorization across an entire Docker Enterprise Edition Advanced cluster.
 
 You can download this security content for previously released versions of Docker EE, UCP and DTR on our [Releases](https://github.com/docker/compliance/releases) page.
 
-The [`examples/opencontrol/DockerEE-Moderate-ATO`](examples/opencontrol/DockerEE-Moderate-ATO) folder contains an example that you can use as a starting point for generating an SSP at the FedRAMP Moderate baseline. It also includes additional placeholder `component.yaml` files that can be used to document your organization's adherence to the appropriate controls and that which aren't covered by the functionality of Docker Enterprise Edition. These have been organized in to separate directories representing each control family (e.g. `AC_Policy/`, `MA_POLICY/`, etc).
+The [`examples/opencontrol/DockerEE-Moderate-ATO`](examples/opencontrol/DockerEE-Moderate-ATO) folder contains an example that you can use as a starting point for generating an SSP at the FedRAMP Moderate baseline. It also includes additional placeholder `component.yaml` files that can be used to document your organization's adherence to the appropriate controls and that which aren't satisfied by the functionality of Docker Enterprise Edition. These have been organized in to separate directories representing each control family (e.g. `AC_Policy/`, `MA_POLICY/`, etc).
 
 ### Download and run Compliance Masonry
 
@@ -50,15 +50,17 @@ After you've cloned or downloaded the contents of this repository to your machin
 
     `docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry docs gitbook FedRAMP-moderate`
 
-## Pre-Built SSP templates for Docker EE
+If you prefer to generate a Word doc based on the official FedRAMP SSP template, you can follow the instructions at https://github.com/opencontrol/fedramp-templater.
 
-Docker also provides pre-built System Security Plan (SSP) templates for authorizing Docker Enterprise Edition on various FedRAMP P-ATO'd IaaS providers, as indicated in the table below. These can be obtained by contacting [compliance@docker.com](mailto:compliance@docker.com). These templates are **not** the official cloud providers' SSP templates but rather show both the controls inherited from that IaaS provider's P-ATO and the controls applicable to Docker Enterprise Edition Advanced. When conducting an ATO, it is still your responsibility to request the provider's official SSP package as appropriate and conduct your own security analysis.
+## Precompiled SSP templates for Docker EE
+
+Docker also provides precompiled System Security Plan (SSP) templates for authorizing Docker Enterprise Edition on various FedRAMP P-ATO'd IaaS providers, as indicated in the table below. These can be obtained by contacting [compliance@docker.com](mailto:compliance@docker.com). These templates are **not** the official cloud providers' SSP templates but rather highlight both the controls inherited from that IaaS provider's P-ATO and the controls applicable to Docker Enterprise Edition Advanced. When conducting an ATO, it is still your responsibility to request the provider's official SSP package as appropriate and conduct your own security analysis and audit.
 
 |Provider|Format|Baselines|Status|
 |--------|------|---------|------|
 |[Microsoft Azure Government](https://azure.microsoft.com/en-us/overview/clouds/government/)|[Azure Blueprint](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-plan-compliance) (.docx)|Moderate<br>High<br>DoD L4<br>DoD L5|Available<br>Coming Soon<br>Coming Soon<br>Coming Soon|
 
-Note that even if a pre-built template for Docker EE is not available for your chosen cloud provider, you can still use the OpenControl-formatted content in this repository to generate your own SSP templates. Much of the content in this repository is identical to that which is provided in the pre-built templates.
+Note that even if a precompiled template for Docker EE is not available for your chosen cloud provider, you can still use the OpenControl-formatted content in this repository to generate your own SSP templates. Much of the content in this repository is identical to that which is provided in the pre-built templates.
 
 ## InSpec profiles for Docker EE
 
