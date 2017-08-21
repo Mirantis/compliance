@@ -16,11 +16,11 @@ class UCP < Inspec.resource(1)
     end
   "
 
-  def initialize(ucp_uri, username, password)
-    @ucp_uri = ucp_uri.to_s.chomp('/')
-    username = username.to_s
-    password = password.to_s
-    if ucp_uri !~ URI.regexp
+  def initialize(args)
+    @ucp_uri = args["ucp_uri"].to_s.chomp('/')
+    username = args["username"].to_s
+    password = args["password"].to_s
+    if @ucp_uri !~ URI.regexp
       return skip_resource "Invalid UCP URL #{@ucp_uri}"
     end
     begin
@@ -41,6 +41,10 @@ class UCP < Inspec.resource(1)
   def ldap_enabled?
     api_response = query_api('enzi/v0/config/auth')
     return api_response['backend'] == "ldap" ? true : false
+  end
+
+  def get_config
+    ucp_config = inspec.command('docker config inspect --format \'{{ printf "%s" .Spec.Data }}\' com.docker.ucp.config-1').stdout
   end
 
   private

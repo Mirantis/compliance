@@ -1,3 +1,13 @@
 ucpuri: ''
 username: ''
 password: ''
+clientbundledockerhost: ''
+clientbundlecacert: |
+  -----BEGIN CERTIFICATE-----
+  -----END CERTIFICATE-----
+clientbundlecert: |
+  -----BEGIN CERTIFICATE-----
+  -----END CERTIFICATE-----
+clientbundlekey: |
+  -----BEGIN EC PRIVATE KEY-----
+  -----END EC PRIVATE KEY-----
