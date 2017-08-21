@@ -1,7 +1,7 @@
 # encoding: utf-8
 # copyright: 2017, Docker, Inc
 
-title 'Access Control (AC)'
+title 'Universal Control Plane'
 
 val_ucp_uri = attribute('ucpuri', description: 'UCP URI')
 val_username = attribute('username', description: 'UCP username')
