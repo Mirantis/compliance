@@ -221,12 +221,13 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
-      - configured by customer
+      - service provider corporate
+      - Docker EE system
     narrative:
       - text: |
           'Users and/or groups synchronized to Docker Enterprise Edition via
-          LDAP can be configured at the directory service.'
+          LDAP can be configured at the directory service to ensure shared/group
+          account credentials are terminated when members leave the group.'
     standard_key: NIST-800-53
 
   - control_key: AC-2 (11)
@@ -234,13 +235,20 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
-      - configured by customer
+      - service provider corporate
+      - Docker EE system
     narrative:
       - text: |
           'Information system accounts synchronized to Docker Enterprise Edition
           via LDAP can be configured at the directory service to meet this
           requirement as necessary.'
+    parameters:
+      - key: "AC-2(11)-1"
+        text: |
+          "customer-defined circumstrances or usage conditions"
+      - key: "AC-2(11)-2"
+        text: |
+          "customer-defined accounts"
     standard_key: NIST-800-53
   
   - control_key: AC-2 (12)
@@ -248,14 +256,21 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
-      - configured by customer
+      - service provider corporate
+      - Docker EE system
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
           control, when Docker Enterprise Edition is configured for LDAP
           integration, one can refer to the directory service''s existing
           monitoring tools.'
+    parameters:
+      - key: "AC-2(12)(a)"
+        text: |
+          "customer-defined atypical use"
+      - key: "AC-2(12)(b)"
+        text: |
+          "at a minimum, the ISSO and/or similar role within the organization"
     standard_key: NIST-800-53
 
   - control_key: AC-2 (13)
@@ -263,13 +278,18 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
-      - configured by customer
+      - service provider corporate
+      - Docker EE system
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
           control, users and/or groups synchronized to Docker Enterprise Edition
-          via LDAP can be managed at the directory service.'
+          via LDAP can be managed at the directory service and disabled if
+          posing a significant risk.'
+    parameters:
+      - key: "AC-2(13)"
+        text: |
+          "one hour"
     standard_key: NIST-800-53
 
   - control_key: AC-3
@@ -277,14 +297,17 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'One can control which users and teams can create and manipulate
           Docker Enterprise Edition resources. By default, no one can make
           changes to the cluster. Permissions can be granted and managed to
           enforce fine-grained access control. The eNZi component facilitates
-          authorizations as dictated by the system''s administrators.'
+          authorizations as dictated by the system''s administrators. Supporting
+          documentation can be found at the following resources:
+          
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/'
     standard_key: NIST-800-53
 
   - control_key: AC-6 (9)

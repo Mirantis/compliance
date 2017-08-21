@@ -8,22 +8,28 @@ references:
 satisfies:  
   - control_key: AC-2 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
           control, supporting documentation for managing users and teams can
           found at the following resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/create-and-manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/create-and-manage-teams/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-teams/'
     standard_key: NIST-800-53
   
   - control_key: AC-2 (7)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
     narrative:
       - key: a
         text: |
@@ -31,13 +37,16 @@ satisfies:
           control, supporting documentation can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/'
     standard_key: NIST-800-53
   
   - control_key: AC-2 (12)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -46,9 +55,20 @@ satisfies:
           Logstash and Kibana (ELK) stack. Supporting documentation can be found
           at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-node-messages/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-configurations/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-task-state/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/
+          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_Logging_Design_and_Best_Practices'
+    parameters:
+      - key: "AC-2(12)(a)"
+        text: |
+          "customer-defined atypical use"
+      - key: "AC-2(12)(b)"
+        text: |
+          "at a minimum, the ISSO and/or similar role within the organization"
     standard_key: NIST-800-53
 
   - control_key: AC-3
@@ -56,7 +76,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'One can control which users and teams can create and manipulate
@@ -65,29 +85,41 @@ satisfies:
           fine-grained access control. Supporting documentation can be found at
           the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/deploy-view-only-service/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/grant-permissions/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/isolate-nodes-between-teams/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/isolate-volumes-between-teams/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/manage-access-with-collections/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/access-control-node/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
     standard_key: NIST-800-53
 
   - control_key: AC-4
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'Supporting documentation to configure Universal Control Plane to meet
           the requirements of this control can be found at the following
           resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/install/system-requirements/#ports-used
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-domain-names-to-access-services/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/restrict-services-to-worker-nodes/
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking'
+    parameters:
+      - key: "AC-4"
+        text: |
+          "customer-defined information flow control policies"
     standard_key: NIST-800-53
   
   - control_key: AC-4 (8)
@@ -95,21 +127,32 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
       - configured by customer
+      - shared
     narrative:
       - text: |
           'Supporting documentation to configure Universal Control Plane to meet
           the requirements of this control can be found at the following
           resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/install/system-requirements/#/ports-used
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-domain-names-to-access-services/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/restrict-services-to-worker-nodes/
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking'
+    parameters:
+      - key: "AC-4(8)(a)"
+        text: |
+          "FedRAMP assignment: security policy filters inherent in boundary
+          protection devices such as gateways, routers, guards, encrypted
+          tunnels, firewalls"
+      - key: "AC-4(8)(b)"
+        text: |
+          "FedRAMP assignment: information containing PII or organization
+          sensitive information types"
     standard_key: NIST-800-53
   
   - control_key: AC-4 (21)
@@ -117,21 +160,29 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
       - configured by customer
+      - shared
     narrative:
       - text: |
           'Supporting documentation to configure Universal Control Plane to meet
           the requirements of this control can be found at the following
           resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/install/system-requirements/#/ports-used
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-domain-names-to-access-services/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/restrict-services-to-worker-nodes/
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking'
+    parameters:
+      - key: "AC-4(21)-1"
+        text: |
+          "customer-defined mechanisms and/or techniques"
+      - key: "AC-4(21)-2"
+        text: |
+          "customer-defined required separation by types of information"
     standard_key: NIST-800-53
 
   - control_key: AC-5
