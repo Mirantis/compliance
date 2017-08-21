@@ -3,7 +3,7 @@ schema_version: 3.1.0
 name: Universal Control Plane (UCP)
 references:
   - name: UCP Documentation
-    path: https://docs.docker.com/ucp/overview/
+    path: https://docs.docker.com/datacenter/ucp/2.2/guides/
     type: URL
 satisfies:  
   - control_key: AC-2 (1)
@@ -13,6 +13,7 @@ satisfies:
     control_origins:
       - service provider corporate
       - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -30,6 +31,7 @@ satisfies:
     control_origins:
       - service provider corporate
       - Docker EE system
+      - service provider hybrid
     narrative:
       - key: a
         text: |
@@ -47,6 +49,7 @@ satisfies:
     control_origins:
       - service provider corporate
       - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -190,7 +193,9 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -200,10 +205,184 @@ satisfies:
           enforce fine-grained access control. Supporting documentation can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-5(a)"
+        text: |
+          "customer-defined duties of individuals"
+    standard_key: NIST-800-53
+
+  - control_key: AC-6
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can control which users and teams can create and
+          manipulate Universal Control Plane resources and employ principles of
+          least privilege. By default, no one can make changes to the cluster.
+          Permissions can be granted and managed to enforce fine-grained access
+          control. Supporting documentation can be found at the following
+          resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    standard_key: NIST-800-53
+
+  - control_key: AC-6 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can control which users and teams can create and
+          manipulate Universal Control Plane resources and explicitly authorize
+          access as necessary. By default, no one can make changes to the
+          cluster. Permissions can be granted and managed to enforce
+          fine-grained access control. Supporting documentation can be found at
+          the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-6(1)"
+        text: |
+          "FedRAMP assignment: all functions not publiclly accessible and all
+          security-relevant information not publicly available"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-6 (2)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can control which users and teams can create and
+          manipulate Universal Control Plane resources. By default, no one can
+          make changes to the cluster. Permissions can be granted and managed to
+          enforce fine-grained access control. Supporting documentation can be
+          found at the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-6(2)"
+        text: |
+          "FedRAMP requirement: all security functions"
+    standard_key: NIST-800-53
+
+  - control_key: AC-6 (3)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can control which users and teams can create and
+          manipulate Universal Control Plane resources, including Docker
+          networking components. By default, no one can make changes to the
+          cluster. Permissions can be granted and managed to enforce
+          fine-grained access control. Supporting documentation can be found at
+          the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-6(3)-1"
+        text: |
+          "privileged commands used to change/configure network devices"
+      - key: "AC-6(3)-2"
+        text: |
+          "customer-defined operational needs"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-6 (5)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can restrict privileged accounts within Universal Control
+          Plane to custom-defined roles. By default, no one can make changes to
+          the cluster. Permissions can be granted and managed to enforce
+          fine-grained access control. Supporting documentation can be found at
+          the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-6(5)"
+        text: |
+          "customer-defined personnel or roles"
+    standard_key: NIST-800-53
+
+  - control_key: AC-6 (7)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can review all implemented grants, accounts and roles
+          within Universal Control Plane and reassign/revoke privileges as
+          necessary. Supporting documentation can be found at the following
+          resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-6(7)(a)-1"
+        text: |
+          "at least annually"
+      - key: "AC-6(7)(a)-2"
+        text: |
+          "all users"
     standard_key: NIST-800-53
 
   - control_key: AC-6 (8)
@@ -211,7 +390,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'Universal Control Plane users can be assigned to one of a number of
@@ -223,11 +402,40 @@ satisfies:
           roles cannot execute any Docker commands. Users assigned to the
           "Restricted Control" role can only run Docker commands under their own
           purview and cannot see other users UCP resources nor run commands that
-          required privileged access to the host. Additional documentation
-          regarding the various permission levels within UCP can be found at the
-          following resource:
+          required privileged access to the host. Furthermore, custom roles can
+          be created for fine-grained access to specific UCP resources and
+          functionality. Additional documentation regarding the various
+          permission levels within UCP can be found at the following resource:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-6(8)"
+        text: |
+          "FedRAMP assignment: any software except software explicitly
+          documented"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-6 (10)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+    narrative:
+      - text: |
+          'One can control which users and teams can create and manipulate
+          Universal Control Plane resources and prevent non-privileged users
+          from executing privileged functions per the requirements of this
+          control. By default, no one can make changes to the cluster.
+          Permissions can be granted and managed to enforce fine-grained access
+          control. Supporting documentation for the configuration of this
+          functionality can be found at the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/'
     standard_key: NIST-800-53
   
   - control_key: AC-12 (1)
@@ -235,17 +443,67 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'Universal Control Plane includes a logout capability that allows a
           user to terminate his/her current session.'
+    parameters:
+      - key: "AC-12(1)(a)"
+        text: |
+          "customer-defined information resources"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-14
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control, a
+          review of actions allowed by unauthenticated users can be performed
+          within Universal Control Plane.'
+    parameters:
+      - key: "AC-14(a)"
+        text: |
+          "customer-defined user actions"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-17
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control,
+          Universal Control Plane can be configured to allow/prohibit remote
+          access.'
+    standard_key: NIST-800-53
+  
+  - control_key: AC-17 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+    narrative:
+      - text: |
+          'Universal Control Plane logs and controls all local and remote
+          access events. In addition, auditing can be configured on the
+          underlying operating system to meet this control.'
     standard_key: NIST-800-53
 
   - control_key: AC-17 (2)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'All remote access sessions to Universal Control Plane are protected
@@ -258,20 +516,53 @@ satisfies:
 
   - control_key: AC-17 (3)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'A combination of managed load balancers, firewalls and access control
           lists, and virtual networking resources can be used to ensure traffic
           destined for Universal Control Plane managers and worker nodes is
           routed through managed network access control points.'
+    parameters:
+      - key: "AC-17(3)"
+        text: |
+          "customer-defined"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-17 (4)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control,
+          Universal Control Plane can be configured to authorize certain
+          privileged functions via remote access.'
+    parameters:
+      - key: "AC-17(4)(a)"
+        text: |
+          "customer-defined needs"
     standard_key: NIST-800-53
 
   - control_key: AC-17 (9)
     covered_by: []
-    implementation_status: complete
-    control_origin: "configured by customer"
+    implementation_statuses:
+      - complete
+      - partial
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+      - configured by customer
     narrative:
       - text: |
           'Built-in firewall technology in Universal Control Plane's underlying
@@ -280,6 +571,62 @@ satisfies:
           or drain a node in the cluster, which subsequently stops and/or
           removes sessions to the node. Individual services and/or applications
           running on a UCP cluster can also be stopped and/or removed.'
+    parameters:
+      - key: "AC-17(9)"
+        text: |
+          "FedRAMP requirement: no greater than fifteen minutes"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-20
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control, one
+          can control which external systems can access Universal Control
+          Plane.'
+    standard_key: NIST-800-53
+  
+  - control_key: AC-20 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control, one
+          can control which external systems can access Universal Control
+          Plane.'
+    standard_key: NIST-800-53
+
+  - control_key: AC-21
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+      - shared
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control, one
+          can validate the assigned roles and access levels within Universal
+          Control Plane to control information sharing.'
+    parameters:
+      - key: "AC-21(a)"
+        text: |
+          "customer-defined information sharing circumstances"
+      - key: "AC-21(b)"
+        text: |
+          "customer-defined automated mechanisms or manual processes"
     standard_key: NIST-800-53
 
   - control_key: AU-2

@@ -315,7 +315,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'Docker Enterprise Edition logs privileged user events to standard log
@@ -327,27 +327,8 @@ satisfies:
           the events defined by this control. Supporting documentation regarding
           logging and monitoring can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.0/guides/monitor/
-          - https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/configure-logs/'
-    standard_key: NIST-800-53
-
-  - control_key: AC-6 (10)
-    covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
-    narrative:
-      - text: |
-          'One can control which users and teams can create and manipulate
-          Docker Enterprise Edition resources. By default, no one can make changes to
-          the cluster. Permissions can be granted and managed to enforce
-          fine-grained access control. Supporting documentation for the configuration of this functionality can be found at the following resources:
-
-          - https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/
-          - https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/
-          - https://docs.docker.com/datacenter/ucp/2.0/guides/user-management/permission-levels/
-          - https://docs.docker.com/datacenter/dtr/2.1/guides/user-management/permission-levels/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
     standard_key: NIST-800-53
   
   - control_key: AC-7
@@ -355,13 +336,14 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
     narrative:
       - key: a
         text: |
-          'When Docker Enterprise Edition is integrated to a directory service via LDAP,
-          one can reference the functionality of the directory service to
-          configure the enforcement of a limit to the number of conesecutive
+          'When Docker Enterprise Edition is integrated to a directory service
+          via LDAP, one can reference the functionality of the directory service
+          to configure the enforcement of a limit to the number of conesecutive
           invalid logon attempts by a user during a specified time period.'
       - key: b
         text: |
@@ -370,6 +352,50 @@ satisfies:
           to configure he ability to automatically lock/disable an account for a
           specified period of time after a consecutive invalid logon attempt
           limit is reached.'
+    parameters:
+      - key: "AC-7(a)-1"
+        text: |
+          "FedRAMP requirement: not more than three"
+      - key: "AC-7(a)-2"
+        text: |
+          "FedRAMP requirement: fifteen minutes"
+      - key: "AC-7(b)-1"
+        text: |
+          "FedRAMP requirement: locks the account/node for three hours"
+      - key: "AC-7(b)-2"
+        text: |
+          "customer-defined additional actions"
+    standard_key: NIST-800-53
+
+  - control_key: AC-8
+    covered_by: []
+    implementation_statuses:
+      - planned
+    control_origins:
+      - Docker EE system
+    narrative:
+      - key: a
+        text: |
+          'The feature required to satisfy the requirements of this control has
+          not yet been built in to Docker EE but is planned for a future
+          released.'
+      - key: b
+        text: |
+          'The feature required to satisfy the requirements of this control has
+          not yet been built in to Docker EE but is planned for a future
+          released.'
+      - key: c
+        text: |
+          'The feature required to satisfy control has
+          not yet been built in to Docker EE but is planned for a future
+          released.'
+    parameters:
+      - key: "AC-8(a)"
+        text: |
+          "customer-defined system use notification banner"
+      - key: "AC-8(c)(1)"
+        text: |
+          "customer-defined conditions"
     standard_key: NIST-800-53
 
   - control_key: AC-10
@@ -377,13 +403,19 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'Docker Enterprise Edition can be configured to limit the number of
           concurrent sessions for each account. These options can be found
-          within the Universal Control Plane Admin Settings under the "Auth"
-          section. '
+          within the Universal Control Plane Admin Settings under the
+          "Authentication & Authorization" section. '
+    parameters:
+      - key: "AC-10"
+        text: |
+          "customer-defined account and/or account type; FedRAMP requirement:
+          three sessions for privileged access and two sessions for
+          non-privileged access"
     standard_key: NIST-800-53
 
   - control_key: AC-11
@@ -391,15 +423,20 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
-          'Per the requirements of AC-2 (5), Docker Enterprise Edition
-          can be configured to enforce user session lifetime limits and renewal
+          'Per the requirements of AC-2 (5), Docker Enterprise Edition can be
+          configured to enforce user session lifetime limits and renewal
           thresholds. These options can be found within the Universal Control
-          Plane Admin Settings under the "Auth" section. Configurable options
-          include the initial lifetime (in hours) of a user''s session and the
-          renewal threshold of a session (in hours).'
+          Plane Admin Settings under the "Authentication & Authorization"
+          section. Configurable options include the initial lifetime (in hours)
+          of a user''s session and the renewal threshold of a session (in
+          hours).'
+    parameters:
+      - key: "AC-11(a)"
+        text: |
+          "FedRAMP requirement: fifteen minutes"
     standard_key: NIST-800-53
 
   - control_key: AC-11 (1)
@@ -407,17 +444,18 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
-          'Per the requirements of AC-2 (5), Docker Enterprise Edition
-          can be configured to enforce user session lifetime limits and renewal
+          'Per the requirements of AC-2 (5), Docker Enterprise Edition can be
+          configured to enforce user session lifetime limits and renewal
           thresholds. These options can be found within the Universal Control
-          Plane Admin Settings under the "Auth" section. Configurable options
-          include the initial lifetime (in hours) of a user''s session and the
-          renewal threshold of a session (in hours). Upon the expiration of the
-          configured session thresholds, a user will be locked out of his/her
-          session.'
+          Plane Admin Settings under the "Authentication & Authorization"
+          section. Configurable options include the initial lifetime (in hours)
+          of a user''s session and the renewal threshold of a session (in
+          hours). Upon the expiration of the configured session thresholds, a
+          user will be locked out of his/her session per the requirements of
+          this controls.'
     standard_key: NIST-800-53
 
   - control_key: AC-12
@@ -425,17 +463,21 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
-          'Per the requirements of AC-2 (5), Docker Enterprise Edition
-          can be configured to enforce user session lifetime limits and renewal
+          'Per the requirements of AC-2 (5), Docker Enterprise Edition can be
+          configured to enforce user session lifetime limits and renewal
           thresholds. These options can be found within the Universal Control
-          Plane Admin Settings under the "Auth" section. Configurable options
-          include the initial lifetime (in hours) of a user''s session and the
-          renewal threshold of a session (in hours). Upon the expiration of the
-          configured session thresholds, a user will be locked out of his/her
-          session.'
+          Plane Admin Settings under the "Authentication & Authorization"
+          section. Configurable options include the initial lifetime (in hours)
+          of a user''s session and the renewal threshold of a session (in
+          hours). Upon the expiration of the configured session thresholds, a
+          user will be locked out of his/her session.'
+    parameters:
+      - key: "AC-12"
+        text: |
+          "customer-defined conditions or trigger events"
     standard_key: NIST-800-53
   
   - control_key: AC-17 (1)
@@ -443,12 +485,12 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - configured by customer
+      - Docker EE system
     narrative:
       - text: |
-          'Docker Enterprise Edition logs and controls all local and remote access
-          events. In addition, auditing can be configured on the underlying
-          operating system to meet this control.'
+          'Docker Enterprise Edition logs and controls all local and remote
+          access events. In addition, auditing can be configured on the
+          underlying operating system to meet this control.'
     standard_key: NIST-800-53
 
   - control_key: AU-3

@@ -3,7 +3,7 @@ schema_version: 3.1.0
 name: Docker Security Scanning (DSS)
 references:
   - name: DSS Documentation
-    path: https://docs.docker.com/datacenter/dtr/2.2/guides/user/manage-images/scan-images-for-vulnerabilities/
+    path: https://docs.docker.com/datacenter/dtr/2.3/guides/admin/configure/set-up-vulnerability-scans/
     type: URL
 satisfies:
   - control_key: RA-5 (1)
