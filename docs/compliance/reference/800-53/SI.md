@@ -152,21 +152,19 @@ The information system automatically updates malicious code protection mechanism
 </tr>
 </table>
 
-**Implemenation Details:**
+**Implementation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vm47hllv0000avn0e0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6ea6ih223e000as9su0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vm47hllv0000avn0e0" class="tab-pane fade in active">
+<div id="b6ea6ih223e000as9su0" class="tab-pane fade in active">
 Docker Enterprise Edition packages for supported underlying operating
 systems can only be obtained from Docker, Inc. The Docker EE
 repositories from which Docker EE packages are obtained are protected
 with official GPG keys. Each Docker package is also validated with a
 signature definition.
-
-</ul>
 </div>
 </div>
 
@@ -864,36 +862,32 @@ The information system:
 </tr>
 </table>
 
-**Implemenation Details:**
+**Implementation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vm47hllv0000avn0eg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vm47hllv0000avn0f0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vm47hllv0000avn0fg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6ea6ih223e000as9sug">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6ea6ih223e000as9sv0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6ea6ih223e000as9svg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vm47hllv0000avn0eg" class="tab-pane fade in active">
+<div id="b6ea6ih223e000as9sug" class="tab-pane fade in active">
 All error messages generated via the configured logging mechanism of
 Docker Trusted Registry are displayed such that they meet the
 requirements of this control. Only users that are authorized the
 appropriate level of access can view these error messages.
-</ul>
 </div>
-<div id="b5vm47hllv0000avn0f0" class="tab-pane fade">
+<div id="b6ea6ih223e000as9sv0" class="tab-pane fade">
 All error messages generated via the logging mechanisms of the Docker
 Enterprise Edition engine are displayed such that they meet the
 requirements of this control. Only users that are authorized the
 appropriate level of access can view these error messages.
-
-</ul>
 </div>
-<div id="b5vm47hllv0000avn0fg" class="tab-pane fade">
+<div id="b6ea6ih223e000as9svg" class="tab-pane fade">
 All error messages generated via the configured logging mechanism of
 Universal Control Plane are displayed such that they meet the
 requirements of this control. Only users that are authorized the
 appropriate level of access can view these error messages.
-</ul>
 </div>
 </div>
 
@@ -1018,22 +1012,20 @@ The information system implements [Assignment: organization-defined security saf
 </tr>
 </table>
 
-**Implemenation Details:**
+**Implementation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vm47hllv0000avn0g0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6ea6ih223e000as9t00">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vm47hllv0000avn0g0" class="tab-pane fade in active">
-Docker Enterprise Edition can be installed on the following operating systems:
-CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04 LTS&#43;, and
-SUSE Linux Enterprise 12&#43;. In order to meet the requirements of this
-control, reference the chosen operating system&#39;s security
-documentation for information regarding the protection of memory from
-unauthorized code execution.
-
-</ul>
+<div id="b6ea6ih223e000as9t00" class="tab-pane fade in active">
+Docker Enterprise Edition can be installed on the following operating
+systems: CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04
+LTS&#43;, SUSE Linux Enterprise 12&#43; and Windows Server 2016&#43;. In order to
+meet the requirements of this control, reference the chosen operating
+system&#39;s security documentation for information regarding the
+protection of memory from unauthorized code execution.
 </div>
 </div>
 

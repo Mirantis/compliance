@@ -199,7 +199,7 @@ func generateMarkdownFiles(standard XMLStandard, components []cmcommon.Component
 			return err
 		}
 
-		f, err := os.Create(fmt.Sprintf("./%s/%s.md", markdownOutputPath, abbrev))
+		f, err := os.Create(fmt.Sprintf("./%s/%s.md", markdownOutputPath, strings.ToLower(abbrev)))
 		if err != nil {
 			return err
 		}

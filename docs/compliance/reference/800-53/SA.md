@@ -338,16 +338,16 @@ The organization requires the developer of the information system, system compon
 </tr>
 </table>
 
-**Implemenation Details:**
+**Implementation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vm479llv0000avn060">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vm479llv0000avn06g">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b5vm479llv0000avn070">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6ea6i1223e000as9sm0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6ea6i1223e000as9smg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6ea6i1223e000as9sn0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vm479llv0000avn060" class="tab-pane fade in active">
+<div id="b6ea6i1223e000as9sm0" class="tab-pane fade in active">
 Docker Content Trust gives you the ability to verify both the
 integrity and the publisher of all the data received from a Docker
 Trusted Registry over any channel. It allows operations with a remote
@@ -357,9 +357,8 @@ sent to and receive from remote DTR instances. These signatures allow
 client-side verification of the integrity and publisher of specific
 image tags. Docker Trusted Registry includes an integrated imaging
 signing service.
-</ul>
 </div>
-<div id="b5vm479llv0000avn06g" class="tab-pane fade">
+<div id="b6ea6i1223e000as9smg" class="tab-pane fade">
 Docker Content Trust gives you the ability to verify both the
 integrity and the publisher of all the data received from a Docker
 Trusted Registry over any channel. It allows operations with a remote
@@ -368,10 +367,8 @@ tags. It provides for the ability to use digital signatures for data
 sent to and receive from remote DTR instances. These signatures allow
 client-side verification of the integrity and publisher of specific
 image tags.
-
-</ul>
 </div>
-<div id="b5vm479llv0000avn070" class="tab-pane fade">
+<div id="b6ea6i1223e000as9sn0" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements, Docker Content Trust gives
 you the ability to verify both the integrity and the publisher of all
@@ -387,8 +384,8 @@ Additional information can be found at the following resources:
 
 <ul>
 <li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/run-only-the-images-you-trust/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/run-only-the-images-you-trust/</a></li>
-
 </ul>
+
 </div>
 </div>
 
