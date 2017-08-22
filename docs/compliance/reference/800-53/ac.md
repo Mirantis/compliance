@@ -6,7 +6,7 @@ keywords: "standards, compliance, security, 800-53, Access Control"
 
 ## AC-1 Access Control Policy And Procedures
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -24,9 +24,9 @@ The organization:
 </ol>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -41,14 +41,14 @@ The organization:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n0000931270">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vdg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n0000931270" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vdg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of
 this control, one can control which users and teams are allowed to
 create and manipulate Docker Enterprise Edition resources. By default, no one
@@ -69,7 +69,7 @@ documentation can found at the following resources:
 
 ## AC-2 Account Management
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -98,9 +98,9 @@ The organization:
 <li>Establishes a process for reissuing shared/group account credentials (if deployed) when individuals are removed from the group.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -115,14 +115,14 @@ The organization:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n000093127g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1ve0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n000093127g" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1ve0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, an external identity management system (such as Microsoft&#39;s
 Active Directory or an LDAP endpoint) can be configured as mandated by
@@ -139,13 +139,13 @@ Supporting documentation can be found at the following resources:
 
 ### AC-2 (1) Automated System Account Management
 
-**Description:**
+#### Description
 
 The organization employs automated mechanisms to support the management of information system accounts.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -170,16 +170,16 @@ The organization employs automated mechanisms to support the management of infor
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n0000931280">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n000093128g">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n0000931290">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1veg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vf0">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vfg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n0000931280" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1veg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, supporting documentation for managing users and teams can
 found at the following resources:
@@ -191,7 +191,7 @@ found at the following resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n000093128g" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vf0" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, supporting documentation for managing users and teams can
 found at the following resources:
@@ -203,7 +203,7 @@ found at the following resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n0000931290" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vfg" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, an external identity management system (such as Microsoft&#39;s
 Active Directory or an LDAP endpoint) can be configured as mandated by
@@ -220,13 +220,13 @@ Supporting documentation can be found at the following resources:
 
 ### AC-2 (2) Removal Of Temporary / Emergency Accounts
 
-**Description:**
+#### Description
 
 The information system automatically [Selection: removes; disables] temporary and emergency accounts after [Assignment: organization-defined time period for each type of account].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -241,14 +241,14 @@ The information system automatically [Selection: removes; disables] temporary an
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n000093129g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vg0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n000093129g" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vg0" class="tab-pane fade in active">
 Using Docker Enterprise Edition&#39;s LDAP integration capabilities, one
 can disable and/or remove temporary and emergency accounts in a
 connected directory service (such as Active Directory) after an
@@ -266,13 +266,13 @@ Supporting documentation can be found at the following resources:
 
 ### AC-2 (3) Disable Inactive Accounts
 
-**Description:**
+#### Description
 
 The information system automatically disables inactive accounts after [Assignment: organization-defined time period].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -287,14 +287,14 @@ The information system automatically disables inactive accounts after [Assignmen
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312a0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vgg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312a0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vgg" class="tab-pane fade in active">
 Using Docker Enterprise Edition&#39;s LDAP integration capabilities, one
 can automatically disable inactive accounts in a connected directory
 service (such as Active Directory). When a user is removed from LDAP,
@@ -311,13 +311,13 @@ Supporting documentation can be found at the following resources:
 
 ### AC-2 (4) Automated Audit Actions
 
-**Description:**
+#### Description
 
 The information system automatically audits account creation, modification, enabling, disabling, and removal actions, and notifies [Assignment: organization-defined personnel or roles].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -332,14 +332,14 @@ The information system automatically audits account creation, modification, enab
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312ag">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vh0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312ag" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vh0" class="tab-pane fade in active">
 Docker Enterprise Edition logs various authentication and
 authorization events to standard log files. One can configure Docker
 Enterprise Edition to direct these event logs to a remote logging
@@ -362,13 +362,13 @@ resources:
 
 ### AC-2 (5) Inactivity Logout
 
-**Description:**
+#### Description
 
 The organization requires that users log out when [Assignment: organization-defined time-period of expected inactivity or description of when to log out].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -383,14 +383,14 @@ The organization requires that users log out when [Assignment: organization-defi
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312b0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vhg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312b0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vhg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, Docker Enterprise Edition can be configured to enforce automated
 session termination of users after an organization-defined time period
@@ -403,17 +403,17 @@ section of the &#34;Admin Settings&#34; in Universal Control Plane.
 
 ### AC-2 (6) Dynamic Privilege Management
 
-**Description:**
+#### Description
 
 The information system implements the following dynamic privilege management capabilities: [Assignment: organization-defined list of dynamic privilege management capabilities].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-2 (7) Role-Based Schemes
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -422,9 +422,9 @@ The organization:
 <li>Takes [Assignment: organization-defined actions] when privileged role assignments are no longer appropriate.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -449,16 +449,16 @@ The organization:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312bg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312c0">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312cg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vi0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vig">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vj0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312bg" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vi0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, supporting documentation can be found at the following
 resources:
@@ -469,7 +469,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312c0" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vig" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, supporting documentation can be found at the following
 resources:
@@ -480,7 +480,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312cg" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vj0" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, Docker Enterprise Edition supports various levels of user
 permissions and role-based access control enforcements. Administrator
@@ -505,23 +505,23 @@ UCP:
 
 ### AC-2 (8) Dynamic Account Creation
 
-**Description:**
+#### Description
 
 The information system creates [Assignment: organization-defined information system accounts] dynamically.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-2 (9) Restrictions On Use Of Shared / Group Accounts
 
-**Description:**
+#### Description
 
 The organization only permits the use of shared/group accounts that meet [Assignment: organization-defined conditions for establishing shared/group accounts].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -536,14 +536,14 @@ The organization only permits the use of shared/group accounts that meet [Assign
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312d0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vjg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312d0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vjg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, users and/or groups synchronized to Docker Enterprise Edition
 via LDAP can be configured at the directory service.
@@ -552,13 +552,13 @@ via LDAP can be configured at the directory service.
 
 ### AC-2 (10) Shared / Group Account Credential Termination
 
-**Description:**
+#### Description
 
 The information system terminates shared/group account credentials when members leave the group.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -573,14 +573,14 @@ The information system terminates shared/group account credentials when members 
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312dg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vk0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312dg" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vk0" class="tab-pane fade in active">
 Users and/or groups synchronized to Docker Enterprise Edition via
 LDAP can be configured at the directory service.
 </div>
@@ -588,13 +588,13 @@ LDAP can be configured at the directory service.
 
 ### AC-2 (11) Usage Conditions
 
-**Description:**
+#### Description
 
 The information system enforces [Assignment: organization-defined circumstances and/or usage conditions] for [Assignment: organization-defined information system accounts].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -609,14 +609,14 @@ The information system enforces [Assignment: organization-defined circumstances 
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312e0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vkg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312e0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vkg" class="tab-pane fade in active">
 Information system accounts synchronized to Docker Enterprise Edition
 via LDAP can be configured at the directory service to meet this
 requirement as necessary.
@@ -625,7 +625,7 @@ requirement as necessary.
 
 ### AC-2 (12) Account Monitoring / Atypical Usage
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -633,9 +633,9 @@ The organization:
 <li>Reports atypical usage of information system accounts to [Assignment: organization-defined personnel or roles].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -665,17 +665,17 @@ The organization:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312eg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312f0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312fg">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312g0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vl0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vlg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vm0">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vmg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312eg" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vl0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, supporting documentation can be found at the following
 resources:
@@ -687,7 +687,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312f0" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vlg" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, Docker Enterprise Edition can be configured to aggregate
 container and daemon events via a number of logging drivers.
@@ -701,7 +701,7 @@ Supporting documentation can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312fg" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vm0" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, Universal Control Plane can be configured to send system
 account log data to a remote logging service such as an Elasticsearch,
@@ -716,7 +716,7 @@ at the following resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312g0" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vmg" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, when Docker Enterprise Edition is configured for LDAP
 integration, one can refer to the directory service&#39;s existing
@@ -726,13 +726,13 @@ monitoring tools.
 
 ### AC-2 (13) Disable Accounts For High-Risk Individuals
 
-**Description:**
+#### Description
 
 The organization disables accounts of users posing a significant risk within [Assignment: organization-defined time period] of discovery of the risk.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -747,14 +747,14 @@ The organization disables accounts of users posing a significant risk within [As
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312gg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vn0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312gg" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vn0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, users and/or groups synchronized to Docker Enterprise Edition
 via LDAP can be managed at the directory service.
@@ -763,13 +763,13 @@ via LDAP can be managed at the directory service.
 
 ## AC-3 Access Enforcement
 
-**Description:**
+#### Description
 
 The information system enforces approved authorizations for logical access to information           and system resources in accordance with applicable access control policies.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -794,16 +794,16 @@ The information system enforces approved authorizations for logical access to in
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312h0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312hg">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312i0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vng">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vo0">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vog">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312h0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vng" class="tab-pane fade in active">
 One can control which users and teams can create and manipulate
 Docker Trusted Registry resources. By default, no one can make changes
 to the cluster. Permissions can be granted and managed to enforce
@@ -818,7 +818,7 @@ the following resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312hg" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vo0" class="tab-pane fade">
 One can control which users and teams can create and manipulate
 Universal Control Plane resources. By default, no one can make changes
 to the cluster. Permissions can be granted and managed to enforce
@@ -834,7 +834,7 @@ the following resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312i0" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vog" class="tab-pane fade">
 One can control which users and teams can create and manipulate
 Docker Enterprise Edition resources. By default, no one can make
 changes to the cluster. Permissions can be granted and managed to
@@ -845,17 +845,17 @@ authorizations as dictated by the system&#39;s administrators.
 
 ### AC-3 (2) Dual Authorization
 
-**Description:**
+#### Description
 
 The information system enforces dual authorization for [Assignment: organization-defined privileged commands and/or other organization-defined actions].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-3 (3) Mandatory Access Control
 
-**Description:**
+#### Description
 
 The information system enforces [Assignment: organization-defined mandatory access control policy] over all subjects and objects where the policy:
 <ol type="a">
@@ -872,13 +872,13 @@ The information system enforces [Assignment: organization-defined mandatory acce
 <li>Specifies that [Assignment: organization-defined subjects] may explicitly be granted [Assignment: organization-defined privileges (i.e., they are trusted subjects)] such that they are not limited by some or all of the above constraints.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-3 (4) Discretionary Access Control
 
-**Description:**
+#### Description
 
 The information system enforces [Assignment: organization-defined discretionary access control policy] over defined subjects and objects where the policy specifies that a subject that has been granted access to information can do one or more of the following:
 <ol type="a">
@@ -889,43 +889,43 @@ The information system enforces [Assignment: organization-defined discretionary 
 <li>Change the rules governing access control.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-3 (5) Security-Relevant Information
 
-**Description:**
+#### Description
 
 The information system prevents access to [Assignment: organization-defined security-relevant information] except during secure, non-operable system states.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-3 (7) Role-Based Access Control
 
-**Description:**
+#### Description
 
 The information system enforces a role-based access control policy over defined subjects and objects and controls access based upon [Assignment: organization-defined roles and users authorized to assume such roles].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-3 (8) Revocation Of Access Authorizations
 
-**Description:**
+#### Description
 
 The information system enforces the revocation of access authorizations resulting from changes to the security attributes of subjects and objects based on [Assignment: organization-defined rules governing the timing of revocations of access authorizations].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-3 (9) Controlled Release
 
-**Description:**
+#### Description
 
 The information system does not release information outside of the established system boundary unless:
 <ol type="a">
@@ -933,29 +933,29 @@ The information system does not release information outside of the established s
 <li>[Assignment: organization-defined security safeguards] are used to validate the appropriateness of the information designated for release.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-3 (10) Audited Override Of Access Control Mechanisms
 
-**Description:**
+#### Description
 
 The organization employs an audited override of automated access control mechanisms under [Assignment: organization-defined conditions].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-4 Information Flow Enforcement
 
-**Description:**
+#### Description
 
 The information system enforces approved authorizations for controlling the flow of information within the system and between interconnected systems based on [Assignment: organization-defined information flow control policies].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -980,16 +980,16 @@ The information system enforces approved authorizations for controlling the flow
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312ig">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312j0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312jg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vp0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vpg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vq0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312ig" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vp0" class="tab-pane fade in active">
 Supporting documentation to configure Docker Trusted Registry to meet
 the requirements of this control can be found at the following
 resources:
@@ -1002,7 +1002,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312j0" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vpg" class="tab-pane fade">
 Docker Enterprise Edition can be configured to control the flow of information
 that originates from applications running in containers. Supporting
 documentation can be found at the following resources:
@@ -1014,7 +1014,7 @@ documentation can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312jg" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vq0" class="tab-pane fade">
 Supporting documentation to configure Universal Control Plane to meet
 the requirements of this control can be found at the following
 resources:
@@ -1035,83 +1035,83 @@ resources:
 
 ### AC-4 (1) Object Security Attributes
 
-**Description:**
+#### Description
 
 The information system uses [Assignment: organization-defined security attributes] associated with [Assignment: organization-defined information, source, and destination objects] to enforce [Assignment: organization-defined information flow control policies] as a basis for flow control decisions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (2) Processing Domains
 
-**Description:**
+#### Description
 
 The information system uses protected processing domains to enforce [Assignment: organization-defined information flow control policies] as a basis for flow control decisions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (3) Dynamic Information Flow Control
 
-**Description:**
+#### Description
 
 The information system enforces dynamic information flow control based on [Assignment: organization-defined policies].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (4) Content Check Encrypted Information
 
-**Description:**
+#### Description
 
 The information system prevents encrypted information from bypassing content-checking mechanisms by [Selection (one or more): decrypting the information; blocking the flow of the encrypted information; terminating communications sessions attempting to pass encrypted information; [Assignment: organization-defined procedure or method]].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (5) Embedded Data Types
 
-**Description:**
+#### Description
 
 The information system enforces [Assignment: organization-defined limitations] on embedding data types within other data types.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (6) Metadata
 
-**Description:**
+#### Description
 
 The information system enforces information flow control based on [Assignment: organization-defined metadata].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (7) One-Way Flow Mechanisms
 
-**Description:**
+#### Description
 
 The information system enforces [Assignment: organization-defined one-way information flows] using hardware mechanisms.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (8) Security Policy Filters
 
-**Description:**
+#### Description
 
 The information system enforces information flow control using [Assignment: organization-defined security policy filters] as a basis for flow control decisions for [Assignment: organization-defined information flows].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1136,16 +1136,16 @@ The information system enforces information flow control using [Assignment: orga
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312k0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312kg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312l0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vqg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vr0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vrg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312k0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vqg" class="tab-pane fade in active">
 Supporting documentation to configure Docker Trusted Registry to meet
 the requirements of this control can be found at the following
 resources:
@@ -1158,7 +1158,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312kg" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vr0" class="tab-pane fade">
 Docker Enterprise Edition can be configured to control the flow of
 information that originates from applications running in containers
 per organization-defined security policy filters. Supporting
@@ -1171,7 +1171,7 @@ documentation can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312l0" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vrg" class="tab-pane fade">
 Supporting documentation to configure Universal Control Plane to meet
 the requirements of this control can be found at the following
 resources:
@@ -1192,123 +1192,123 @@ resources:
 
 ### AC-4 (9) Human Reviews
 
-**Description:**
+#### Description
 
 The information system enforces the use of human reviews for [Assignment: organization-defined information flows] under the following conditions: [Assignment: organization-defined conditions].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (10) Enable / Disable Security Policy Filters
 
-**Description:**
+#### Description
 
 The information system provides the capability for privileged administrators to enable/disable [Assignment: organization-defined security policy filters] under the following conditions: [Assignment: organization-defined conditions].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (11) Configuration Of Security Policy Filters
 
-**Description:**
+#### Description
 
 The information system provides the capability for privileged administrators to configure [Assignment: organization-defined security policy filters] to support different security policies.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (12) Data Type Identifiers
 
-**Description:**
+#### Description
 
 The information system, when transferring information between different security domains, uses [Assignment: organization-defined data type identifiers] to validate data essential for information flow decisions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (13) Decomposition Into Policy-Relevant Subcomponents
 
-**Description:**
+#### Description
 
 The information system, when transferring information between different security domains, decomposes information into [Assignment: organization-defined policy-relevant subcomponents] for submission to policy enforcement mechanisms.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (14) Security Policy Filter Constraints
 
-**Description:**
+#### Description
 
 The information system, when transferring information between different security domains, implements [Assignment: organization-defined security policy filters] requiring fully enumerated formats that restrict data structure and content.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (15) Detection Of Unsanctioned Information
 
-**Description:**
+#### Description
 
 The information system, when transferring information between different security domains, examines the information for the presence of [Assignment: organized-defined unsanctioned information] and prohibits the transfer of such information in accordance with the [Assignment: organization-defined security policy].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (17) Domain Authentication
 
-**Description:**
+#### Description
 
 The information system uniquely identifies and authenticates source and destination points by [Selection (one or more): organization, system, application, individual] for information transfer.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (18) Security Attribute Binding
 
-**Description:**
+#### Description
 
 The information system binds security attributes to information using [Assignment: organization-defined binding techniques] to facilitate information flow policy enforcement.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (19) Validation Of Metadata
 
-**Description:**
+#### Description
 
 The information system, when transferring information between different security domains, applies the same security policy filtering to metadata as it applies to data payloads.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (20) Approved Solutions
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined solutions in approved configurations] to control the flow of [Assignment: organization-defined information] across security domains.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-4 (21) Physical / Logical Separation Of Information Flows
 
-**Description:**
+#### Description
 
 The information system separates information flows logically or physically using [Assignment: organization-defined mechanisms and/or techniques] to accomplish [Assignment: organization-defined required separations by types of information].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1333,16 +1333,16 @@ The information system separates information flows logically or physically using
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312lg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312m0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312mg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vs0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vsg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vt0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312lg" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vs0" class="tab-pane fade in active">
 Supporting documentation to configure Docker Trusted Registry to meet
 the requirements of this control can be found at the following
 resources:
@@ -1355,7 +1355,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312m0" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vsg" class="tab-pane fade">
 Docker Enterprise Edition can be configured to separate the flow of
 information that originates from applications running in containers.
 Supporting documentation can be found at the following resources:
@@ -1367,7 +1367,7 @@ Supporting documentation can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312mg" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vt0" class="tab-pane fade">
 Supporting documentation to configure Universal Control Plane to meet
 the requirements of this control can be found at the following
 resources:
@@ -1388,17 +1388,17 @@ resources:
 
 ### AC-4 (22) Access Only
 
-**Description:**
+#### Description
 
 The information system provides access from a single device to computing platforms, applications, or data residing on multiple different security domains, while preventing any information flow between the different security domains.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-5 Separation Of Duties
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -1407,9 +1407,9 @@ The organization:
 <li>Defines information system access authorizations to support separation of duties.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1429,15 +1429,15 @@ The organization:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312n0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312ng">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vtg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vu0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312n0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vtg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, one can control which users and teams can create and
 manipulate Docker Trusted Registry resources. By default, no one can
@@ -1453,7 +1453,7 @@ found at the following resources:
 </ul>
 
 </div>
-<div id="b6eaeosf0n00009312ng" class="tab-pane fade">
+<div id="b6eamn7edd2000ed1vu0" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, one can control which users and teams can create and
 manipulate Universal Control Plane resources. By default, no one can
@@ -1474,77 +1474,77 @@ found at the following resources:
 
 ## AC-6 Least Privilege
 
-**Description:**
+#### Description
 
 The organization employs the principle of least privilege, allowing only authorized accesses for users (or processes acting on behalf of users) which are necessary to accomplish assigned tasks in accordance with organizational missions and business functions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-6 (1) Authorize Access To Security Functions
 
-**Description:**
+#### Description
 
 The organization explicitly authorizes access to [Assignment: organization-defined security functions (deployed in hardware, software, and firmware) and security-relevant information].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-6 (2) Non-Privileged Access For Nonsecurity Functions
 
-**Description:**
+#### Description
 
 The organization requires that users of information system accounts, or roles, with access to [Assignment: organization-defined security functions or security-relevant information], use non-privileged accounts or roles, when accessing nonsecurity functions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-6 (3) Network Access To Privileged Commands
 
-**Description:**
+#### Description
 
 The organization authorizes network access to [Assignment: organization-defined privileged commands] only for [Assignment: organization-defined compelling operational needs] and documents the rationale for such access in the security plan for the information system.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-6 (4) Separate Processing Domains
 
-**Description:**
+#### Description
 
 The information system provides separate processing domains to enable finer-grained allocation of user privileges.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-6 (5) Privileged Accounts
 
-**Description:**
+#### Description
 
 The organization restricts privileged accounts on the information system to [Assignment: organization-defined personnel or roles].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-6 (6) Privileged Access By Non-Organizational Users
 
-**Description:**
+#### Description
 
 The organization prohibits privileged access to the information system by non-organizational users.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-6 (7) Review Of User Privileges
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -1552,19 +1552,19 @@ The organization:
 <li>Reassigns or removes privileges, if necessary, to correctly reflect organizational mission/business needs.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-6 (8) Privilege Levels For Code Execution
 
-**Description:**
+#### Description
 
 The information system prevents [Assignment: organization-defined software] from executing at higher privilege levels than users executing the software.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1579,14 +1579,14 @@ The information system prevents [Assignment: organization-defined software] from
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312o0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vug">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312o0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vug" class="tab-pane fade in active">
 Universal Control Plane users can be assigned to one of a number of
 different permission levels. The permission level assigned to a
 specific user determines that user&#39;s ability to execute certain
@@ -1610,13 +1610,13 @@ following resource:
 
 ### AC-6 (9) Auditing Use Of Privileged Functions
 
-**Description:**
+#### Description
 
 The information system audits the execution of privileged functions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1631,14 +1631,14 @@ The information system audits the execution of privileged functions.
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312og">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vv0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312og" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vv0" class="tab-pane fade in active">
 Docker Enterprise Edition logs privileged user events to standard log
 files. One can configure Docker Enterprise Edition to direct these
 event logs to a remote logging service such as an Elasticsearch,
@@ -1659,13 +1659,13 @@ logging and monitoring can be found at the following resources:
 
 ### AC-6 (10) Prohibit Non-Privileged Users From Executing Privileged Functions
 
-**Description:**
+#### Description
 
 The information system prevents non-privileged users from executing privileged functions to include disabling, circumventing, or altering implemented security safeguards/countermeasures.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1680,14 +1680,14 @@ The information system prevents non-privileged users from executing privileged f
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312p0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed1vvg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312p0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed1vvg" class="tab-pane fade in active">
 One can control which users and teams can create and manipulate
 Docker Enterprise Edition resources. By default, no one can make changes to
 the cluster. Permissions can be granted and managed to enforce
@@ -1706,7 +1706,7 @@ fine-grained access control. Supporting documentation for the configuration of t
 
 ## AC-7 Unsuccessful Logon Attempts
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -1714,9 +1714,9 @@ The information system:
 <li>Automatically [Selection: locks the account/node for an [Assignment: organization-defined time period]; locks the account/node until released by an administrator; delays next logon prompt according to [Assignment: organization-defined delay algorithm]] when the maximum number of unsuccessful attempts is exceeded.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1731,14 +1731,14 @@ The information system:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312pg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed2000">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312pg" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed2000" class="tab-pane fade in active">
 When Docker Enterprise Edition is integrated to a directory service via LDAP,
 one can reference the functionality of the directory service to
 configure the enforcement of a limit to the number of conesecutive
@@ -1752,17 +1752,17 @@ limit is reached.
 
 ### AC-7 (2) Purge / Wipe Mobile Device
 
-**Description:**
+#### Description
 
 The information system purges/wipes information from [Assignment: organization-defined mobile devices] based on [Assignment: organization-defined purging/wiping requirements/techniques] after [Assignment: organization-defined number] consecutive, unsuccessful device logon attempts.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-8 System Use Notification
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -1784,69 +1784,69 @@ The information system:
 </ol>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-9 Previous Logon (Access) Notification
 
-**Description:**
+#### Description
 
 The information system notifies the user, upon successful logon (access) to the system, of the date and time of the last logon (access).
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-9 (1) Unsuccessful Logons
 
-**Description:**
+#### Description
 
 The information system notifies the user, upon successful logon/access, of the number of unsuccessful logon/access attempts since the last successful logon/access.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-9 (2) Successful / Unsuccessful Logons
 
-**Description:**
+#### Description
 
 The information system notifies the user of the number of [Selection: successful logons/accesses; unsuccessful logon/access attempts; both] during [Assignment: organization-defined time period].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-9 (3) Notification Of Account Changes
 
-**Description:**
+#### Description
 
 The information system notifies the user of changes to [Assignment: organization-defined security-related characteristics/parameters of the user�s account] during [Assignment: organization-defined time period].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-9 (4) Additional Logon Information
 
-**Description:**
+#### Description
 
 The information system notifies the user, upon successful logon (access), of the following additional information: [Assignment: organization-defined information to be included in addition to the date and time of the last logon (access)].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-10 Concurrent Session Control
 
-**Description:**
+#### Description
 
 The information system limits the number of concurrent sessions for each [Assignment: organization-defined account and/or account type] to [Assignment: organization-defined number].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1861,14 +1861,14 @@ The information system limits the number of concurrent sessions for each [Assign
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312q0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed200g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312q0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed200g" class="tab-pane fade in active">
 Docker Enterprise Edition can be configured to limit the number of
 concurrent sessions for each account. These options can be found
 within the Universal Control Plane Admin Settings under the &#34;Auth&#34;
@@ -1878,7 +1878,7 @@ section.
 
 ## AC-11 Session Lock
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -1886,9 +1886,9 @@ The information system:
 <li>Retains the session lock until the user reestablishes access using established identification and authentication procedures.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1903,14 +1903,14 @@ The information system:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312qg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed2010">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312qg" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed2010" class="tab-pane fade in active">
 Per the requirements of AC-2 (5), Docker Enterprise Edition
 can be configured to enforce user session lifetime limits and renewal
 thresholds. These options can be found within the Universal Control
@@ -1922,13 +1922,13 @@ renewal threshold of a session (in hours).
 
 ### AC-11 (1) Pattern-Hiding Displays
 
-**Description:**
+#### Description
 
 The information system conceals, via the session lock, information previously visible on the display with a publicly viewable image.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1943,14 +1943,14 @@ The information system conceals, via the session lock, information previously vi
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312r0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed201g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312r0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed201g" class="tab-pane fade in active">
 Per the requirements of AC-2 (5), Docker Enterprise Edition
 can be configured to enforce user session lifetime limits and renewal
 thresholds. These options can be found within the Universal Control
@@ -1964,13 +1964,13 @@ session.
 
 ## AC-12 Session Termination
 
-**Description:**
+#### Description
 
 The information system automatically terminates a user session after [Assignment: organization-defined conditions or trigger events requiring session disconnect].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1985,14 +1985,14 @@ The information system automatically terminates a user session after [Assignment
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312rg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed2020">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312rg" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed2020" class="tab-pane fade in active">
 Per the requirements of AC-2 (5), Docker Enterprise Edition
 can be configured to enforce user session lifetime limits and renewal
 thresholds. These options can be found within the Universal Control
@@ -2006,7 +2006,7 @@ session.
 
 ### AC-12 (1) User-Initiated Logouts / Message Displays
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -2014,9 +2014,9 @@ The information system:
 <li>Displays an explicit logout message to users indicating the reliable termination of authenticated communications sessions.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -2031,14 +2031,14 @@ The information system:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312s0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed202g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312s0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed202g" class="tab-pane fade in active">
 Universal Control Plane includes a logout capability that allows a
 user to terminate his/her current session.
 </div>
@@ -2046,7 +2046,7 @@ user to terminate his/her current session.
 
 ## AC-14 Permitted Actions Without Identification Or Authentication
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -2054,13 +2054,13 @@ The organization:
 <li>Documents and provides supporting rationale in the security plan for the information system, user actions not requiring identification or authentication.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-16 Security Attributes
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -2070,113 +2070,113 @@ The organization:
 <li>Determines the permitted [Assignment: organization-defined values or ranges] for each of the established security attributes.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-16 (1) Dynamic Attribute Association
 
-**Description:**
+#### Description
 
 The information system dynamically associates security attributes with [Assignment: organization-defined subjects and objects] in accordance with [Assignment: organization-defined security policies] as information is created and combined.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-16 (2) Attribute Value Changes By Authorized Individuals
 
-**Description:**
+#### Description
 
 The information system provides authorized individuals (or processes acting on behalf of individuals) the capability to define or change the value of associated security attributes.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-16 (3) Maintenance Of Attribute Associations By Information System
 
-**Description:**
+#### Description
 
 The information system maintains the association and integrity of [Assignment: organization-defined security attributes] to [Assignment: organization-defined subjects and objects].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-16 (4) Association Of Attributes By Authorized Individuals
 
-**Description:**
+#### Description
 
 The information system supports the association of [Assignment: organization-defined security attributes] with [Assignment: organization-defined subjects and objects] by authorized individuals (or processes acting on behalf of individuals).
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-16 (5) Attribute Displays For Output Devices
 
-**Description:**
+#### Description
 
 The information system displays security attributes in human-readable form on each object that the system transmits to output devices to identify [Assignment: organization-identified special dissemination, handling, or distribution instructions] using [Assignment: organization-identified human-readable, standard naming conventions].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-16 (6) Maintenance Of Attribute Association By Organization
 
-**Description:**
+#### Description
 
 The organization allows personnel to associate, and maintain the association of [Assignment: organization-defined security attributes] with [Assignment: organization-defined subjects and objects] in accordance with [Assignment: organization-defined security policies].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-16 (7) Consistent Attribute Interpretation
 
-**Description:**
+#### Description
 
 The organization provides a consistent interpretation of security attributes transmitted between distributed information system components.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-16 (8) Association Techniques / Technologies
 
-**Description:**
+#### Description
 
 The information system implements [Assignment: organization-defined techniques or technologies] with [Assignment: organization-defined level of assurance] in associating security attributes to information.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-16 (9) Attribute Reassignment
 
-**Description:**
+#### Description
 
 The organization ensures that security attributes associated with information are reassigned only via re-grading mechanisms validated using [Assignment: organization-defined techniques or procedures].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-16 (10) Attribute Configuration By Authorized Individuals
 
-**Description:**
+#### Description
 
 The information system provides authorized individuals the capability to define or change the type and value of security attributes available for association with subjects and objects.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-17 Remote Access
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -2184,19 +2184,19 @@ The organization:
 <li>Authorizes remote access to the information system prior to allowing such connections.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-17 (1) Automated Monitoring / Control
 
-**Description:**
+#### Description
 
 The information system monitors and controls remote access methods.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -2216,21 +2216,21 @@ The information system monitors and controls remote access methods.
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312sg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312t0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed2030">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed203g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312sg" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed2030" class="tab-pane fade in active">
 Docker Enterprise Edition logs and controls all local and remote
 access events. In addition, auditing can be configured on the
 underlying operating system to meet this control.
 
 </div>
-<div id="b6eaeosf0n00009312t0" class="tab-pane fade">
+<div id="b6eamn7edd2000ed203g" class="tab-pane fade">
 Docker Enterprise Edition logs and controls all local and remote access
 events. In addition, auditing can be configured on the underlying
 operating system to meet this control.
@@ -2239,13 +2239,13 @@ operating system to meet this control.
 
 ### AC-17 (2) Protection Of Confidentiality / Integrity Using Encryption
 
-**Description:**
+#### Description
 
 The information system implements cryptographic mechanisms to protect the confidentiality and integrity of remote access sessions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -2270,16 +2270,16 @@ The information system implements cryptographic mechanisms to protect the confid
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312tg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312u0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312ug">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed2040">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed204g">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed2050">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312tg" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed2040" class="tab-pane fade in active">
 All remote access sessions to Docker Trusted Registry are protected
 with Transport Layer Security (TLS) 1.2. This is included at both the
 HTTPS application layer for access to the DTR user interface and for
@@ -2287,14 +2287,14 @@ command-line based connections to the registry. In addition to this,
 all communication to DTR is enforced by way of two-way mutual TLS
 authentication.
 </div>
-<div id="b6eaeosf0n00009312u0" class="tab-pane fade">
+<div id="b6eamn7edd2000ed204g" class="tab-pane fade">
 All remote access sessions to Docker Enterprise Edition are protected
 with Transport Layer Security (TLS) 1.2. In addition to this, all
 communication to Docker Enterprise Edition is enforced by way of
 two-way mutual TLS authentication.
 
 </div>
-<div id="b6eaeosf0n00009312ug" class="tab-pane fade">
+<div id="b6eamn7edd2000ed2050" class="tab-pane fade">
 All remote access sessions to Universal Control Plane are protected
 with Transport Layer Security (TLS) 1.2. This is included at both the
 HTTPS application layer for access to the UCP user interface and for
@@ -2306,13 +2306,13 @@ authentication.
 
 ### AC-17 (3) Managed Access Control Points
 
-**Description:**
+#### Description
 
 The information system routes all remote accesses through [Assignment: organization-defined number] managed network access control points.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -2337,29 +2337,29 @@ The information system routes all remote accesses through [Assignment: organizat
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n00009312v0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n00009312vg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n0000931300">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed205g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed2060">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed206g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n00009312v0" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed205g" class="tab-pane fade in active">
 A combination of managed load balancers, firewalls and access control
 lists, and virtual networking resources can be used to ensure traffic
 destined for Docker Trusted Registry replicas is routed through
 managed network access control points.
 </div>
-<div id="b6eaeosf0n00009312vg" class="tab-pane fade">
+<div id="b6eamn7edd2000ed2060" class="tab-pane fade">
 A combination of managed load balancers, firewalls and access control
 lists, and virtual networking resources can be used to ensure traffic
 destined for Docker Enterprise Edition is routed through managed network access
 control points.
 
 </div>
-<div id="b6eaeosf0n0000931300" class="tab-pane fade">
+<div id="b6eamn7edd2000ed206g" class="tab-pane fade">
 A combination of managed load balancers, firewalls and access control
 lists, and virtual networking resources can be used to ensure traffic
 destined for Universal Control Plane managers and worker nodes is
@@ -2369,7 +2369,7 @@ routed through managed network access control points.
 
 ### AC-17 (4) Privileged Commands / Access
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -2377,29 +2377,29 @@ The organization:
 <li>Documents the rationale for such access in the security plan for the information system.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-17 (6) Protection Of Information
 
-**Description:**
+#### Description
 
 The organization ensures that users protect information about remote access mechanisms from unauthorized use and disclosure.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-17 (9) Disconnect / Disable Access
 
-**Description:**
+#### Description
 
 The organization provides the capability to expeditiously disconnect or disable remote access to the information system within [Assignment: organization-defined time period].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -2424,23 +2424,23 @@ The organization provides the capability to expeditiously disconnect or disable 
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaeosf0n000093130g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n0000931310">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eaeosf0n000093131g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamn7edd2000ed2070">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed207g">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamn7edd2000ed2080">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaeosf0n000093130g" class="tab-pane fade in active">
+<div id="b6eamn7edd2000ed2070" class="tab-pane fade in active">
 Built-in firewall technology in Docker Trusted Registry&#39;s underlying
 operating system can be used to force the disconnection of remote
 connections to the host. In addition, UCP slave nodes running Docker
 Trusted Registry replicas can be paused or drained, which subsequently
 stops sessions to the DTR replica.
 </div>
-<div id="b6eaeosf0n0000931310" class="tab-pane fade">
+<div id="b6eamn7edd2000ed207g" class="tab-pane fade">
 Built-in firewall technology in Docker Enterprise Edition&#39;s underlying
 operating system can be used to force the disconnection of remote
 connections to the host. In addition, Docker Enterprise Edition provides the
@@ -2450,7 +2450,7 @@ applications running on Docker Enterprise Edition can also be stopped and/or
 removed.
 
 </div>
-<div id="b6eaeosf0n000093131g" class="tab-pane fade">
+<div id="b6eamn7edd2000ed2080" class="tab-pane fade">
 Built-in firewall technology in Universal Control Plane&#39;s underlying
 operating system can be used to force the disconnection of remote
 connections to the host. In addition, UCP provides the option to pause
@@ -2462,7 +2462,7 @@ running on a UCP cluster can also be stopped and/or removed.
 
 ## AC-18 Wireless Access
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -2470,53 +2470,53 @@ The organization:
 <li>Authorizes wireless access to the information system prior to allowing such connections.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-18 (1) Authentication And Encryption
 
-**Description:**
+#### Description
 
 The information system protects wireless access to the system using authentication of [Selection (one or more): users; devices] and encryption.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-18 (3) Disable Wireless Networking
 
-**Description:**
+#### Description
 
 The organization disables, when not intended for use, wireless networking capabilities internally embedded within information system components prior to issuance and deployment.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-18 (4) Restrict Configurations By Users
 
-**Description:**
+#### Description
 
 The organization identifies and explicitly authorizes users allowed to independently configure wireless networking capabilities.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-18 (5) Antennas / Transmission Power Levels
 
-**Description:**
+#### Description
 
 The organization selects radio antennas and calibrates transmission power levels to reduce the probability that usable signals can be received outside of organization-controlled boundaries.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-19 Access Control For Mobile Devices
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -2524,13 +2524,13 @@ The organization:
 <li>Authorizes the connection of mobile devices to organizational information systems.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-19 (4) Restrictions For Classified Information
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -2546,23 +2546,23 @@ The organization:
 <li>Restricts the connection of classified mobile devices to classified information systems in accordance with [Assignment: organization-defined security policies].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-19 (5) Full Device / Container-Based  Encryption
 
-**Description:**
+#### Description
 
 The organization employs [Selection: full-device encryption; container encryption] to protect the confidentiality and integrity of information on [Assignment: organization-defined mobile devices].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-20 Use Of External Information Systems
 
-**Description:**
+#### Description
 
 The organization establishes terms and conditions, consistent with any trust relationships established with other organizations owning, operating, and/or maintaining external information systems, allowing authorized individuals to:
 <ol type="a">
@@ -2570,13 +2570,13 @@ The organization establishes terms and conditions, consistent with any trust rel
 <li>Process, store, or transmit organization-controlled information using external information systems.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-20 (1) Limits On Authorized Use
 
-**Description:**
+#### Description
 
 The organization permits authorized individuals to use an external information system to access the information system or to process, store, or transmit organization-controlled information only when the organization:
 <ol type="a">
@@ -2584,43 +2584,43 @@ The organization permits authorized individuals to use an external information s
 <li>Retains approved information system connection or processing agreements with the organizational entity hosting the external information system.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-20 (2) Portable Storage Devices
 
-**Description:**
+#### Description
 
 The organization [Selection: restricts; prohibits] the use of organization-controlled portable storage devices by authorized individuals on external information systems.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-20 (3) Non-Organizationally Owned Systems / Components / Devices
 
-**Description:**
+#### Description
 
 The organization [Selection: restricts; prohibits] the use of non-organizationally owned information systems, system components, or devices to process, store, or transmit organizational information.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-20 (4) Network Accessible Storage Devices
 
-**Description:**
+#### Description
 
 The organization prohibits the use of [Assignment: organization-defined network accessible storage devices] in external information systems.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-21 Information Sharing
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -2628,33 +2628,33 @@ The organization:
 <li>Employs [Assignment: organization-defined automated mechanisms or manual processes] to assist users in making information sharing/collaboration decisions.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-21 (1) Automated Decision Support
 
-**Description:**
+#### Description
 
 The information system enforces information-sharing decisions by authorized users based on access authorizations of sharing partners and access restrictions on information to be shared.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-21 (2) Information Search And Retrieval
 
-**Description:**
+#### Description
 
 The information system implements information search and retrieval services that enforce [Assignment: organization-defined information sharing restrictions].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-22 Publicly Accessible Content
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -2664,57 +2664,57 @@ The organization:
 <li>Reviews the content on the publicly accessible information system for nonpublic information [Assignment: organization-defined frequency] and removes such information, if discovered.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-23 Data Mining Protection
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined data mining prevention and detection techniques] for [Assignment: organization-defined data storage objects] to adequately detect and protect against data mining.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-24 Access Control Decisions
 
-**Description:**
+#### Description
 
 The organization establishes procedures to ensure [Assignment: organization-defined access control decisions] are applied to each access request prior to access enforcement.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-24 (1) Transmit Access Authorization Information
 
-**Description:**
+#### Description
 
 The information system transmits [Assignment: organization-defined access authorization information] using [Assignment: organization-defined security safeguards] to [Assignment: organization-defined information systems] that enforce access control decisions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AC-24 (2) No User Or Process Identity
 
-**Description:**
+#### Description
 
 The information system enforces access control decisions based on [Assignment: organization-defined security attributes] that do not include the identity of the user or process acting on behalf of the user.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AC-25 Reference Monitor
 
-**Description:**
+#### Description
 
 The information system implements a reference monitor for [Assignment: organization-defined access control policies] that is tamperproof, always invoked, and small enough to be subject to analysis and testing, the completeness of which can be assured.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 

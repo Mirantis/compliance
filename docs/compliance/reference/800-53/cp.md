@@ -6,7 +6,7 @@ keywords: "standards, compliance, security, 800-53, Contingency Planning"
 
 ## CP-1 Contingency Planning Policy And Procedures
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -24,13 +24,13 @@ The organization:
 </ol>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## CP-2 Contingency Plan
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -52,93 +52,93 @@ The organization:
 <li>Protects the contingency plan from unauthorized disclosure and modification.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-2 (1) Coordinate With Related Plans
 
-**Description:**
+#### Description
 
 The organization coordinates contingency plan development with organizational elements responsible for related plans.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-2 (2) Capacity Planning
 
-**Description:**
+#### Description
 
 The organization conducts capacity planning so that necessary capacity for information processing, telecommunications, and environmental support exists during contingency operations.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-2 (3) Resume Essential Missions / Business Functions
 
-**Description:**
+#### Description
 
 The organization plans for the resumption of essential missions and business functions within [Assignment: organization-defined time period] of contingency plan activation.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-2 (4) Resume All Missions / Business Functions
 
-**Description:**
+#### Description
 
 The organization plans for the resumption of all missions and business functions within [Assignment: organization-defined time period] of contingency plan activation.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-2 (5) Continue  Essential Missions / Business Functions
 
-**Description:**
+#### Description
 
 The organization plans for the continuance of essential missions and business functions with little or no loss of operational continuity and sustains that continuity until full information system restoration at primary processing and/or storage sites.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-2 (6) Alternate Processing / Storage Site
 
-**Description:**
+#### Description
 
 The organization plans for the transfer of essential missions and business functions to alternate processing and/or storage sites with little or no loss of operational continuity and sustains that continuity through information system restoration to primary processing and/or storage sites.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-2 (7) Coordinate  With External Service Providers
 
-**Description:**
+#### Description
 
 The organization coordinates its contingency plan with the contingency plans of external service providers to ensure that contingency requirements can be satisfied.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-2 (8) Identify Critical Assets
 
-**Description:**
+#### Description
 
 The organization identifies critical information system assets supporting essential missions and business functions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## CP-3 Contingency Training
 
-**Description:**
+#### Description
 
 The organization provides contingency training to information system users consistent with assigned roles and responsibilities:
 <ol type="a">
@@ -147,33 +147,33 @@ The organization provides contingency training to information system users consi
 <li>[Assignment: organization-defined frequency] thereafter.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-3 (1) Simulated Events
 
-**Description:**
+#### Description
 
 The organization incorporates simulated events into contingency training to facilitate effective response by personnel in crisis situations.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-3 (2) Automated Training Environments
 
-**Description:**
+#### Description
 
 The organization employs automated mechanisms to provide a more thorough and realistic contingency training environment.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## CP-4 Contingency Plan Testing
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -182,23 +182,23 @@ The organization:
 <li>Initiates corrective actions, if needed.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-4 (1) Coordinate With Related Plans
 
-**Description:**
+#### Description
 
 The organization coordinates contingency plan testing with organizational elements responsible for related plans.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-4 (2) Alternate Processing Site
 
-**Description:**
+#### Description
 
 The organization tests the contingency plan at the alternate processing site:
 <ol type="a">
@@ -206,33 +206,33 @@ The organization tests the contingency plan at the alternate processing site:
 <li>To evaluate the capabilities of the alternate processing site to support contingency operations.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-4 (3) Automated Testing
 
-**Description:**
+#### Description
 
 The organization employs automated mechanisms to more thoroughly and effectively test the contingency plan.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-4 (4) Full Recovery / Reconstitution
 
-**Description:**
+#### Description
 
 The organization includes a full recovery and reconstitution of the information system to a known state as part of contingency plan testing.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## CP-6 Alternate Storage Site
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -240,43 +240,43 @@ The organization:
 <li>Ensures that the alternate storage site provides information security safeguards equivalent to that of the primary site.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-6 (1) Separation From Primary Site
 
-**Description:**
+#### Description
 
 The organization identifies an alternate storage site that is separated from the primary storage site to reduce susceptibility to the same threats.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-6 (2) Recovery Time / Point Objectives
 
-**Description:**
+#### Description
 
 The organization configures the alternate storage site to facilitate recovery operations in accordance with recovery time and recovery point objectives.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-6 (3) Accessibility
 
-**Description:**
+#### Description
 
 The organization identifies potential accessibility problems to the alternate storage site in the event of an area-wide disruption or disaster and outlines explicit mitigation actions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## CP-7 Alternate Processing Site
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -285,73 +285,73 @@ The organization:
 <li>Ensures that the alternate processing site provides information security safeguards equivalent to those of the primary site.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-7 (1) Separation From Primary Site
 
-**Description:**
+#### Description
 
 The organization identifies an alternate processing site that is separated from the primary processing site to reduce susceptibility to the same threats.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-7 (2) Accessibility
 
-**Description:**
+#### Description
 
 The organization identifies potential accessibility problems to the alternate processing site in the event of an area-wide disruption or disaster and outlines explicit mitigation actions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-7 (3) Priority Of Service
 
-**Description:**
+#### Description
 
 The organization develops alternate processing site agreements that contain priority-of-service provisions in accordance with organizational availability requirements (including recovery time objectives).
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-7 (4) Preparation For Use
 
-**Description:**
+#### Description
 
 The organization prepares the alternate processing site so that the site is ready to be used as the operational site supporting essential missions and business functions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-7 (6) Inability To Return To Primary Site
 
-**Description:**
+#### Description
 
 The organization plans and prepares for circumstances that preclude returning to the primary processing site.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## CP-8 Telecommunications Services
 
-**Description:**
+#### Description
 
 The organization establishes alternate telecommunications services including necessary agreements to permit the resumption of [Assignment: organization-defined information system operations] for essential missions and business functions within [Assignment: organization-defined time period] when the primary telecommunications capabilities are unavailable at either the primary or alternate processing or storage sites.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-8 (1) Priority Of Service Provisions
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -359,33 +359,33 @@ The organization:
 <li>Requests Telecommunications Service Priority for all telecommunications services used for national security emergency preparedness in the event that the primary and/or alternate telecommunications services are provided by a common carrier.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-8 (2) Single Points Of Failure
 
-**Description:**
+#### Description
 
 The organization obtains alternate telecommunications services to reduce the likelihood of sharing a single point of failure with primary telecommunications services.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-8 (3) Separation Of Primary / Alternate Providers
 
-**Description:**
+#### Description
 
 The organization obtains alternate telecommunications services from providers that are separated from primary service providers to reduce susceptibility to the same threats.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-8 (4) Provider Contingency Plan
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -394,23 +394,23 @@ The organization:
 <li>Obtains evidence of contingency testing/training by providers [Assignment: organization-defined frequency].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-8 (5) Alternate Telecommunication Service Testing
 
-**Description:**
+#### Description
 
 The organization tests alternate telecommunication services [Assignment: organization-defined frequency].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## CP-9 Information System Backup
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -420,89 +420,89 @@ The organization:
 <li>Protects the confidentiality, integrity, and availability of backup information at storage locations.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-9 (1) Testing For Reliability / Integrity
 
-**Description:**
+#### Description
 
 The organization tests backup information [Assignment: organization-defined frequency] to verify media reliability and information integrity.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-9 (2) Test Restoration Using Sampling
 
-**Description:**
+#### Description
 
 The organization uses a sample of backup information in the restoration of selected information system functions as part of contingency plan testing.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-9 (3) Separate Storage For Critical Information
 
-**Description:**
+#### Description
 
 The organization stores backup copies of [Assignment: organization-defined critical information system software and other security-related information] in a separate facility or in a fire-rated container that is not collocated with the operational system.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-9 (5) Transfer To Alternate Storage Site
 
-**Description:**
+#### Description
 
 The organization transfers information system backup information to the alternate storage site [Assignment: organization-defined time period and transfer rate consistent with the recovery time and recovery point objectives].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-9 (6) Redundant Secondary System
 
-**Description:**
+#### Description
 
 The organization accomplishes information system backup by maintaining a redundant secondary system that is not collocated with the primary system and that can be activated without loss of information or disruption to operations.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-9 (7) Dual Authorization
 
-**Description:**
+#### Description
 
 The organization enforces dual authorization for the deletion or destruction of [Assignment: organization-defined backup information].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## CP-10 Information System Recovery And Reconstitution
 
-**Description:**
+#### Description
 
 The organization provides for the recovery and reconstitution of the information system to a known state after a disruption, compromise, or failure.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-10 (2) Transaction Recovery
 
-**Description:**
+#### Description
 
 The information system implements transaction recovery for systems that are transaction-based.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -522,15 +522,15 @@ The information system implements transaction recovery for systems that are tran
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaepcf0n00009314d0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eaepcf0n00009314dg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnnedd2000ed21jg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnnedd2000ed21k0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaepcf0n00009314d0" class="tab-pane fade in active">
+<div id="b6eamnnedd2000ed21jg" class="tab-pane fade in active">
 Docker Trusted Registry maintains its cluster state via an internal
 key-value store. This, and other DTR transactions can be backed up and
 recovered. Additional information can be found at the following
@@ -543,7 +543,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eaepcf0n00009314dg" class="tab-pane fade">
+<div id="b6eamnnedd2000ed21k0" class="tab-pane fade">
 Universal Control Plane maintains its cluster state via an internal
 key-value store. This, and other UCP transactions can be backed up and
 recovered. Additional information can be found at the following
@@ -560,51 +560,51 @@ resources:
 
 ### CP-10 (4) Restore Within Time Period
 
-**Description:**
+#### Description
 
 The organization provides the capability to restore information system components within [Assignment: organization-defined restoration time-periods] from configuration-controlled and integrity-protected information representing a known, operational state for the components.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### CP-10 (6) Component Protection
 
-**Description:**
+#### Description
 
 The organization protects backup and restoration hardware, firmware, and software.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## CP-11 Alternate Communications Protocols
 
-**Description:**
+#### Description
 
 The information system provides the capability to employ [Assignment: organization-defined alternative communications protocols] in support of maintaining continuity of operations.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## CP-12 Safe Mode
 
-**Description:**
+#### Description
 
 The information system, when [Assignment: organization-defined conditions] are detected, enters a safe mode of operation with [Assignment: organization-defined restrictions of safe mode of operation].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## CP-13 Alternative Security Mechanisms
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined alternative or supplemental security mechanisms] for satisfying [Assignment: organization-defined security functions] when the primary means of implementing the security function is unavailable or compromised.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 

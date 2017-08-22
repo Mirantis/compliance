@@ -6,7 +6,7 @@ keywords: "standards, compliance, security, 800-53, Awareness And Training"
 
 ## AT-1 Security Awareness And Training Policy And Procedures
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -24,13 +24,13 @@ The organization:
 </ol>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AT-2 Security Awareness Training
 
-**Description:**
+#### Description
 
 The organization provides basic security awareness training to information system users (including managers, senior executives, and contractors):
 <ol type="a">
@@ -39,33 +39,33 @@ The organization provides basic security awareness training to information syste
 <li>[Assignment: organization-defined frequency] thereafter.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AT-2 (1) Practical Exercises
 
-**Description:**
+#### Description
 
 The organization includes practical exercises in security awareness training that simulate actual cyber attacks.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AT-2 (2) Insider Threat
 
-**Description:**
+#### Description
 
 The organization includes security awareness training on recognizing and reporting potential indicators of insider threat.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AT-3 Role-Based Security Training
 
-**Description:**
+#### Description
 
 The organization provides role-based security training to personnel with assigned security roles and responsibilities:
 <ol type="a">
@@ -74,53 +74,53 @@ The organization provides role-based security training to personnel with assigne
 <li>[Assignment: organization-defined frequency] thereafter.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AT-3 (1) Environmental Controls
 
-**Description:**
+#### Description
 
 The organization provides [Assignment: organization-defined personnel or roles] with initial and [Assignment: organization-defined frequency] training in the employment and operation of environmental controls.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AT-3 (2) Physical Security Controls
 
-**Description:**
+#### Description
 
 The organization provides [Assignment: organization-defined personnel or roles] with initial and [Assignment: organization-defined frequency] training in the employment and operation of physical security controls.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AT-3 (3) Practical Exercises
 
-**Description:**
+#### Description
 
 The organization includes practical exercises in security training that reinforce training objectives.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AT-3 (4) Suspicious Communications And Anomalous System Behavior
 
-**Description:**
+#### Description
 
 The organization provides training to its personnel on [Assignment: organization-defined indicators of malicious code] to recognize suspicious communications and anomalous behavior in organizational information systems.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AT-4 Security Training Records
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -128,7 +128,7 @@ The organization:
 <li>Retains individual training records for [Assignment: organization-defined time period].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 

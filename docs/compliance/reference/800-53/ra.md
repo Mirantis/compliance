@@ -6,7 +6,7 @@ keywords: "standards, compliance, security, 800-53, Risk Assessment"
 
 ## RA-1 Risk Assessment Policy And Procedures
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -24,13 +24,13 @@ The organization:
 </ol>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## RA-2 Security Categorization
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -39,13 +39,13 @@ The organization:
 <li>Ensures that the authorizing official or authorizing official designated representative reviews and approves the security categorization decision.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## RA-3 Risk Assessment
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -56,13 +56,13 @@ The organization:
 <li>Updates the risk assessment [Assignment: organization-defined frequency] or whenever there are significant changes to the information system or environment of operation (including the identification of new threats and vulnerabilities), or other conditions that may impact the security state of the system.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## RA-5 Vulnerability Scanning
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -79,19 +79,19 @@ The organization:
 <li>Shares information obtained from the vulnerability scanning process and security control assessments with [Assignment: organization-defined personnel or roles] to help eliminate similar vulnerabilities in other information systems (i.e., systemic weaknesses or deficiencies).</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### RA-5 (1) Update Tool Capability
 
-**Description:**
+#### Description
 
 The organization employs vulnerability scanning tools that include the capability to readily update the information system vulnerabilities to be scanned.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -111,22 +111,22 @@ The organization employs vulnerability scanning tools that include the capabilit
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaepkf0n00009314rg">DSS</a></li>
-<li><a data-toggle="tab" data-target="#b6eaepkf0n00009314s0">DTR</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnvedd2000ed2220">DSS</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnvedd2000ed222g">DTR</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaepkf0n00009314rg" class="tab-pane fade in active">
+<div id="b6eamnvedd2000ed2220" class="tab-pane fade in active">
 To assist the orgnization in meeting the requirements of this control, the Docker Security Scanning (DSS) component of Docker Trusted Registry
 (DTR) that is included with the Docker Enterprise Edition Advanced
 tier can be used to scan Docker images for vulnerabilities against
 known vulnerability databases. Scans can be triggered either manually
 or when Docker images are pushed to DTR.
 </div>
-<div id="b6eaepkf0n00009314s0" class="tab-pane fade">
+<div id="b6eamnvedd2000ed222g" class="tab-pane fade">
 The Docker Security Scanning tool allows for the scanning of Docker
 images in Docker Trusted Registry against the Common Vulnerabilities
 and Exposures (CVE) dictionary.
@@ -135,13 +135,13 @@ and Exposures (CVE) dictionary.
 
 ### RA-5 (2) Update By Frequency / Prior To New Scan / When Identified
 
-**Description:**
+#### Description
 
 The organization updates the information system vulnerabilities scanned [Selection (one or more): [Assignment: organization-defined frequency]; prior to a new scan; when new vulnerabilities are identified and reported].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -156,14 +156,14 @@ The organization updates the information system vulnerabilities scanned [Selecti
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaepkf0n00009314sg">DSS</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnvedd2000ed2230">DSS</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaepkf0n00009314sg" class="tab-pane fade in active">
+<div id="b6eamnvedd2000ed2230" class="tab-pane fade in active">
 To assist the orgnization in meeting the requirements of this
 control, the Docker Security Scanning component of Docker Trusted
 Registry (DTR) that is included with the Docker Enterprise Edition
@@ -183,13 +183,13 @@ databases. Additional information can be found at the following resources:
 
 ### RA-5 (3) Breadth / Depth Of Coverage
 
-**Description:**
+#### Description
 
 The organization employs vulnerability scanning procedures that can identify the breadth and depth of coverage (i.e., information system components scanned and vulnerabilities checked).
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -209,22 +209,22 @@ The organization employs vulnerability scanning procedures that can identify the
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaepkf0n00009314t0">DSS</a></li>
-<li><a data-toggle="tab" data-target="#b6eaepkf0n00009314tg">DTR</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnvedd2000ed223g">DSS</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnvedd2000ed2240">DTR</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaepkf0n00009314t0" class="tab-pane fade in active">
+<div id="b6eamnvedd2000ed223g" class="tab-pane fade in active">
 To assist the orgnization in meeting the requirements of this
 control, the Docker Security Scanning component of Docker Trusted
 Registry (DTR) that is included with the Docker Enterprise Edition
 Advanced tier identifies vulnerabilities in a Docker image and marks
 them against predefined criticality levels; critical major and minor.
 </div>
-<div id="b6eaepkf0n00009314tg" class="tab-pane fade">
+<div id="b6eamnvedd2000ed2240" class="tab-pane fade">
 The Docker Security Scanning tool allows for the scanning of Docker
 images in Docker Trusted Registry against the Common Vulnerabilities
 and Exposures (CVE).&#39; dictionary
@@ -233,23 +233,23 @@ and Exposures (CVE).&#39; dictionary
 
 ### RA-5 (4) Discoverable Information
 
-**Description:**
+#### Description
 
 The organization determines what information about the information system is discoverable by adversaries and subsequently takes [Assignment: organization-defined corrective actions].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### RA-5 (5) Privileged Access
 
-**Description:**
+#### Description
 
 The information system implements privileged access authorization to [Assignment: organization-identified information system components] for selected [Assignment: organization-defined vulnerability scanning activities].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -264,14 +264,14 @@ The information system implements privileged access authorization to [Assignment
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaepkf0n00009314u0">DSS</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnvedd2000ed224g">DSS</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaepkf0n00009314u0" class="tab-pane fade in active">
+<div id="b6eamnvedd2000ed224g" class="tab-pane fade in active">
 Only the appropriate users that the organization has provided Docker
 Trusted Registry access to are able to view and interpret
 vulnerability scan results.
@@ -280,13 +280,13 @@ vulnerability scan results.
 
 ### RA-5 (6) Automated Trend Analyses
 
-**Description:**
+#### Description
 
 The organization employs automated mechanisms to compare the results of vulnerability scans over time to determine trends in information system vulnerabilities.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -301,14 +301,14 @@ The organization employs automated mechanisms to compare the results of vulnerab
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eaepkf0n00009314ug">DSS</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnvedd2000ed2250">DSS</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eaepkf0n00009314ug" class="tab-pane fade in active">
+<div id="b6eamnvedd2000ed2250" class="tab-pane fade in active">
 For each Docker image pushed to Docker Trusted Registry at a given
 time, Docker Security Scaninng retains a list of vulnerabilities
 detected. The DTR API can be queried to retrieve the vulnerability
@@ -319,31 +319,31 @@ the results can be compared per the requirements of this control.
 
 ### RA-5 (8) Review Historic Audit Logs
 
-**Description:**
+#### Description
 
 The organization reviews historic audit logs to determine if a vulnerability identified in the information system has been previously exploited.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### RA-5 (10) Correlate Scanning Information
 
-**Description:**
+#### Description
 
 The organization correlates the output from vulnerability scanning tools to determine the presence of multi-vulnerability/multi-hop attack vectors.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## RA-6 Technical Surveillance Countermeasures Survey
 
-**Description:**
+#### Description
 
 The organization employs a technical surveillance countermeasures survey at [Assignment: organization-defined locations] [Selection (one or more): [Assignment: organization-defined frequency]; [Assignment: organization-defined events or indicators occur]].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 

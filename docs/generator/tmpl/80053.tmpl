@@ -21,7 +21,7 @@ will be rejected.
 {{else -}}
 ## {{ .Number }} {{ .Title }}
 {{end}}
-**Description:**
+#### Description
 
 {{range .Statements -}}
 {{ .Description }}
@@ -40,11 +40,11 @@ will be rejected.
 </ol>
 {{end}}
 {{end -}}
-**Control Information:**
+#### Control Information
 
 {{if .Components -}}
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -61,7 +61,7 @@ will be rejected.
 {{end -}}
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
 {{range $i, $component := .Components -}}
@@ -100,7 +100,7 @@ will be rejected.
 {{end -}}
 </div>
 {{else -}}
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 {{end}}
 {{end -}}
 {{end -}}
