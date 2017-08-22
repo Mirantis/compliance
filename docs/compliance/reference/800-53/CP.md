@@ -522,15 +522,15 @@ The information system implements transaction recovery for systems that are tran
 </tr>
 </table>
 
-**Implemenation Details:**
+**Implementation Details:**
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b5vm479llv0000avmvk0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b5vm479llv0000avmvkg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6ea6hp223e000as9s40">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6ea6hp223e000as9s4g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b5vm479llv0000avmvk0" class="tab-pane fade in active">
+<div id="b6ea6hp223e000as9s40" class="tab-pane fade in active">
 Docker Trusted Registry maintains its cluster state via an internal
 key-value store. This, and other DTR transactions can be backed up and
 recovered. Additional information can be found at the following
@@ -540,10 +540,10 @@ resources:
 <ul>
 <li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/backups-and-disaster-recovery/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/backups-and-disaster-recovery/</a></li>
 <li><a href="https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#DTR_Backup">https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#DTR_Backup</a></li>
-
 </ul>
+
 </div>
-<div id="b5vm479llv0000avmvkg" class="tab-pane fade">
+<div id="b6ea6hp223e000as9s4g" class="tab-pane fade">
 Universal Control Plane maintains its cluster state via an internal
 key-value store. This, and other UCP transactions can be backed up and
 recovered. Additional information can be found at the following
@@ -553,8 +553,8 @@ resources:
 <ul>
 <li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/backups-and-disaster-recovery/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/backups-and-disaster-recovery/</a></li>
 <li><a href="https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#UCP_Backup">https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#UCP_Backup</a></li>
-
 </ul>
+
 </div>
 </div>
 
