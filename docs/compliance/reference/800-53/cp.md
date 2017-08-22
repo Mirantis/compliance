@@ -1,7 +1,7 @@
 ---
-title: "Contingency Planning"
-description: "Contingency Planning reference"
-keywords: "standards, compliance, security, 800-53, Contingency Planning"
+title: "Contingency planning"
+description: "Contingency planning reference"
+keywords: "standards, compliance, security, 800-53, Contingency planning"
 ---
 
 ## CP-1 Contingency Planning Policy And Procedures
@@ -525,12 +525,12 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnnedd2000ed21jg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnnedd2000ed21k0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olpsg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87naf54g009olpt0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnnedd2000ed21jg" class="tab-pane fade in active">
+<div id="b6eb87naf54g009olpsg" class="tab-pane fade in active">
 Docker Trusted Registry maintains its cluster state via an internal
 key-value store. This, and other DTR transactions can be backed up and
 recovered. Additional information can be found at the following
@@ -543,7 +543,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eamnnedd2000ed21k0" class="tab-pane fade">
+<div id="b6eb87naf54g009olpt0" class="tab-pane fade">
 Universal Control Plane maintains its cluster state via an internal
 key-value store. This, and other UCP transactions can be backed up and
 recovered. Additional information can be found at the following

@@ -1,7 +1,7 @@
 ---
-title: "Risk Assessment"
-description: "Risk Assessment reference"
-keywords: "standards, compliance, security, 800-53, Risk Assessment"
+title: "Risk assessment"
+description: "Risk assessment reference"
+keywords: "standards, compliance, security, 800-53, Risk assessment"
 ---
 
 ## RA-1 Risk Assessment Policy And Procedures
@@ -114,19 +114,19 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnvedd2000ed2220">DSS</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnvedd2000ed222g">DTR</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqb0">DSS</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87vaf54g009olqbg">DTR</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnvedd2000ed2220" class="tab-pane fade in active">
+<div id="b6eb87vaf54g009olqb0" class="tab-pane fade in active">
 To assist the orgnization in meeting the requirements of this control, the Docker Security Scanning (DSS) component of Docker Trusted Registry
 (DTR) that is included with the Docker Enterprise Edition Advanced
 tier can be used to scan Docker images for vulnerabilities against
 known vulnerability databases. Scans can be triggered either manually
 or when Docker images are pushed to DTR.
 </div>
-<div id="b6eamnvedd2000ed222g" class="tab-pane fade">
+<div id="b6eb87vaf54g009olqbg" class="tab-pane fade">
 The Docker Security Scanning tool allows for the scanning of Docker
 images in Docker Trusted Registry against the Common Vulnerabilities
 and Exposures (CVE) dictionary.
@@ -159,11 +159,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnvedd2000ed2230">DSS</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqc0">DSS</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnvedd2000ed2230" class="tab-pane fade in active">
+<div id="b6eb87vaf54g009olqc0" class="tab-pane fade in active">
 To assist the orgnization in meeting the requirements of this
 control, the Docker Security Scanning component of Docker Trusted
 Registry (DTR) that is included with the Docker Enterprise Edition
@@ -212,19 +212,19 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnvedd2000ed223g">DSS</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnvedd2000ed2240">DTR</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqcg">DSS</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87vaf54g009olqd0">DTR</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnvedd2000ed223g" class="tab-pane fade in active">
+<div id="b6eb87vaf54g009olqcg" class="tab-pane fade in active">
 To assist the orgnization in meeting the requirements of this
 control, the Docker Security Scanning component of Docker Trusted
 Registry (DTR) that is included with the Docker Enterprise Edition
 Advanced tier identifies vulnerabilities in a Docker image and marks
 them against predefined criticality levels; critical major and minor.
 </div>
-<div id="b6eamnvedd2000ed2240" class="tab-pane fade">
+<div id="b6eb87vaf54g009olqd0" class="tab-pane fade">
 The Docker Security Scanning tool allows for the scanning of Docker
 images in Docker Trusted Registry against the Common Vulnerabilities
 and Exposures (CVE).&#39; dictionary
@@ -267,11 +267,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnvedd2000ed224g">DSS</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqdg">DSS</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnvedd2000ed224g" class="tab-pane fade in active">
+<div id="b6eb87vaf54g009olqdg" class="tab-pane fade in active">
 Only the appropriate users that the organization has provided Docker
 Trusted Registry access to are able to view and interpret
 vulnerability scan results.
@@ -304,11 +304,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnvedd2000ed2250">DSS</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqe0">DSS</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnvedd2000ed2250" class="tab-pane fade in active">
+<div id="b6eb87vaf54g009olqe0" class="tab-pane fade in active">
 For each Docker image pushed to Docker Trusted Registry at a given
 time, Docker Security Scaninng retains a list of vulnerabilities
 detected. The DTR API can be queried to retrieve the vulnerability

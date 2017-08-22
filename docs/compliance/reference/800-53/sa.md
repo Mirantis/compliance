@@ -1,7 +1,7 @@
 ---
-title: "System And Services Acquisition"
-description: "System And Services Acquisition reference"
-keywords: "standards, compliance, security, 800-53, System And Services Acquisition"
+title: "System and services acquisition"
+description: "System and services acquisition reference"
+keywords: "standards, compliance, security, 800-53, System and services acquisition"
 ---
 
 ## SA-1 System And Services Acquisition Policy And Procedures
@@ -341,13 +341,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamo7edd2000ed225g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamo7edd2000ed2260">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamo7edd2000ed226g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqeg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87vaf54g009olqf0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87vaf54g009olqfg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamo7edd2000ed225g" class="tab-pane fade in active">
+<div id="b6eb87vaf54g009olqeg" class="tab-pane fade in active">
 Docker Content Trust gives you the ability to verify both the
 integrity and the publisher of all the data received from a Docker
 Trusted Registry over any channel. It allows operations with a remote
@@ -358,7 +358,7 @@ client-side verification of the integrity and publisher of specific
 image tags. Docker Trusted Registry includes an integrated imaging
 signing service.
 </div>
-<div id="b6eamo7edd2000ed2260" class="tab-pane fade">
+<div id="b6eb87vaf54g009olqf0" class="tab-pane fade">
 Docker Content Trust gives you the ability to verify both the
 integrity and the publisher of all the data received from a Docker
 Trusted Registry over any channel. It allows operations with a remote
@@ -369,7 +369,7 @@ client-side verification of the integrity and publisher of specific
 image tags.
 
 </div>
-<div id="b6eamo7edd2000ed226g" class="tab-pane fade">
+<div id="b6eb87vaf54g009olqfg" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements, Docker Content Trust gives
 you the ability to verify both the integrity and the publisher of all

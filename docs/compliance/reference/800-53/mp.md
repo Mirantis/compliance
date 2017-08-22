@@ -1,7 +1,7 @@
 ---
-title: "Media Protection"
-description: "Media Protection reference"
-keywords: "standards, compliance, security, 800-53, Media Protection"
+title: "Media protection"
+description: "Media protection reference"
+keywords: "standards, compliance, security, 800-53, Media protection"
 ---
 
 ## MP-1 Media Protection Policy And Procedures

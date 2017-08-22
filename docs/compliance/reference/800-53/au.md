@@ -1,7 +1,7 @@
 ---
-title: "Audit And Accountability"
-description: "Audit And Accountability reference"
-keywords: "standards, compliance, security, 800-53, Audit And Accountability"
+title: "Audit and accountability"
+description: "Audit and accountability reference"
+keywords: "standards, compliance, security, 800-53, Audit and accountability"
 ---
 
 ## AU-1 Audit And Accountability Policy And Procedures
@@ -70,13 +70,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed208g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed2090">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed209g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olohg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009oloi0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009oloig">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed208g" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olohg" class="tab-pane fade in active">
 All of the event types indicated by this control are logged by a
 combination of the backend ucp-controller service within Universal
 Control Plane and the backend services that make up Docker Trusted
@@ -88,7 +88,7 @@ Registry. Additional documentation can be found at the following resource:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed2090" class="tab-pane fade">
+<div id="b6eb87faf54g009oloi0" class="tab-pane fade">
 Both Universal Control Plane and Docker Trusted Registry backend
 service containers, all of which reside on Docker Enterprise Edition,
 log all of the event types indicated by this control (as explained by
@@ -103,7 +103,7 @@ logging drivers can be found at the following resource:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed209g" class="tab-pane fade">
+<div id="b6eb87faf54g009oloig" class="tab-pane fade">
 All of the event types indicated by this control are logged by the
 backend ucp-controller service within Universal Control Plane. In
 addition, each container created on a Universal Control Plane cluster
@@ -169,14 +169,14 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20a0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20ag">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20b0">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20bg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009oloj0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olojg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olok0">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olokg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20a0" class="tab-pane fade in active">
+<div id="b6eb87faf54g009oloj0" class="tab-pane fade in active">
 Docker Trusted Registry generates all of the audit record information
 indicated by this control. A sample audit event has been provided
 below:
@@ -186,7 +186,7 @@ based auth
 suceeded&#34;,&#34;remote_addr&#34;:&#34;192.168.33.1:55905&#34;,&#34;time&#34;:&#34;2016-11-09T22:41:01Z&#34;,&#34;type&#34;:&#34;auth
 ok&#34;,&#34;username&#34;:&#34;dockeruser&#34;}
 </div>
-<div id="b6eamnfedd2000ed20ag" class="tab-pane fade">
+<div id="b6eb87faf54g009olojg" class="tab-pane fade">
 Both Universal Control Plane and Docker Trusted Registry are
 pre-configured to take advantage of Docker Enterprise Edition&#39;s
 built-in logging mechanisms. A sample audit event recorded by Docker
@@ -205,7 +205,7 @@ Additional documentation can be referenced at the following resource:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20b0" class="tab-pane fade">
+<div id="b6eb87faf54g009olok0" class="tab-pane fade">
 Universal Control Plane generates all of the audit record information
 indicated by this control. A sample audit event has been provided
 below:
@@ -215,7 +215,7 @@ based auth
 suceeded&#34;,&#34;remote_addr&#34;:&#34;192.168.33.1:55905&#34;,&#34;time&#34;:&#34;2016-11-09T22:41:01Z&#34;,&#34;type&#34;:&#34;auth
 ok&#34;,&#34;username&#34;:&#34;dockeruser&#34;}
 </div>
-<div id="b6eamnfedd2000ed20bg" class="tab-pane fade">
+<div id="b6eb87faf54g009olokg" class="tab-pane fade">
 Docker Enterprise Edition generates all of the audit record
 information indicated by this control. A sample audit event has been
 provided below:
@@ -263,13 +263,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20c0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20cg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20d0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olol0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009ololg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olom0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20c0" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olol0" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -283,7 +283,7 @@ information can be found at the following resource:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20cg" class="tab-pane fade">
+<div id="b6eb87faf54g009ololg" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The logging
 stack can subsequently be used to interpolate the information defined
@@ -296,7 +296,7 @@ documentation can be found at the following resource:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20d0" class="tab-pane fade">
+<div id="b6eb87faf54g009olom0" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be used to
 interpolate the information defined by this control from the logged
@@ -347,13 +347,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20dg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20e0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20eg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olomg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olon0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olong">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20dg" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olomg" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -367,7 +367,7 @@ information can be found at the following resource:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20e0" class="tab-pane fade">
+<div id="b6eb87faf54g009olon0" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The logging
 stack can subsequently be used to interpolate the information defined
@@ -380,7 +380,7 @@ documentation can be found at the following resource:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20eg" class="tab-pane fade">
+<div id="b6eb87faf54g009olong" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be used to
 interpolate the information defined by this control from the logged
@@ -455,13 +455,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20f0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20fg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20g0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009oloo0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009oloog">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olop0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20f0" class="tab-pane fade in active">
+<div id="b6eb87faf54g009oloo0" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -475,7 +475,7 @@ found at the following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20fg" class="tab-pane fade">
+<div id="b6eb87faf54g009oloog" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The logging
 stack can be used to interpolate the information defined by this
@@ -489,7 +489,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20g0" class="tab-pane fade">
+<div id="b6eb87faf54g009olop0" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be configured to
 alert individuals in the event of log processing failures. Additional
@@ -539,13 +539,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20gg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20h0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20hg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olopg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009oloq0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009oloqg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20gg" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olopg" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -559,7 +559,7 @@ found at the following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20h0" class="tab-pane fade">
+<div id="b6eb87faf54g009oloq0" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The logging
 stack can subsequently be configured to warn the organization when the
@@ -572,7 +572,7 @@ the following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20hg" class="tab-pane fade">
+<div id="b6eb87faf54g009oloqg" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be configured to
 warn the organization when the allocated log storage is full.
@@ -622,13 +622,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20i0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20ig">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20j0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olor0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olorg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olos0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20i0" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olor0" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -642,7 +642,7 @@ the following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20ig" class="tab-pane fade">
+<div id="b6eb87faf54g009olorg" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack.  The
 logging stack can subsequently be configured to warn the organization
@@ -655,7 +655,7 @@ the following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20j0" class="tab-pane fade">
+<div id="b6eb87faf54g009olos0" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be configured to
 warn the organization when audit log failures occur. Additional
@@ -759,13 +759,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20jg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20k0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20kg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olosg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olot0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olotg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20jg" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olosg" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -779,7 +779,7 @@ following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20k0" class="tab-pane fade">
+<div id="b6eb87faf54g009olot0" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The
 organization can subsequently centrally review and analyze all of the
@@ -792,7 +792,7 @@ following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20kg" class="tab-pane fade">
+<div id="b6eb87faf54g009olotg" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The organization can subsequently centrally review and
 analyze all of the Docker EE audit records. Additional information can
@@ -906,13 +906,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20l0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20lg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20m0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olou0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009oloug">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olov0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20l0" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olou0" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -928,7 +928,7 @@ during generation and transmission to a remote logging stack.
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20lg" class="tab-pane fade">
+<div id="b6eb87faf54g009oloug" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The logging
 stack can subsequently be used to facilitate the audit reduction and
@@ -944,7 +944,7 @@ generation and transmission to a remote logging stack.
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20m0" class="tab-pane fade">
+<div id="b6eb87faf54g009olov0" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be used to
 facilitate the audit reduction and report generation requirements of
@@ -997,13 +997,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20mg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20n0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20ng">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olovg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp00">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp0g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20mg" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olovg" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -1017,7 +1017,7 @@ at the following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20n0" class="tab-pane fade">
+<div id="b6eb87faf54g009olp00" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The logging
 stack can subsequently be configured to parse information by
@@ -1030,7 +1030,7 @@ at the following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20ng" class="tab-pane fade">
+<div id="b6eb87faf54g009olp0g" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be configured to
 parse information by organization-defined audit fields. Additional
@@ -1094,20 +1094,20 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20o0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20og">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20p0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olp10">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp1g">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp20">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20o0" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olp10" class="tab-pane fade in active">
 Docker Trusted Registry uses the system clock of the underlying
 operating system on which it runs. This behavior cannot be modified.The underlying operating system on which Docker Trusted Registry runs
 should be configured such that its system clock uses Coordinated
 Universal Time (UTC) as indicated by this control. Refer to the
 operating system&#39;s instructions for doing so.
 </div>
-<div id="b6eamnfedd2000ed20og" class="tab-pane fade">
+<div id="b6eb87faf54g009olp1g" class="tab-pane fade">
 Docker Enterprise Edition uses the system clock of the underlying
 operating system on which it runs. This behavior cannot be modified.
 The underlying operating system on which Docker Enterprise Edition
@@ -1116,7 +1116,7 @@ Universal Time (UTC) as indicated by this control. Refer to the
 operating system&#39;s instructions for doing so.
 
 </div>
-<div id="b6eamnfedd2000ed20p0" class="tab-pane fade">
+<div id="b6eb87faf54g009olp20" class="tab-pane fade">
 Universal Control Plane uses the system clock of the underlying
 operating system on which it runs. This behavior cannot be modified.The underlying operating system on which Universal Control Plane runs
 should be configured such that its system clock uses Coordinated
@@ -1165,13 +1165,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20pg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20q0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20qg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olp2g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp30">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp3g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20pg" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olp2g" class="tab-pane fade in active">
 The underlying operating system on which Docker Trusted Registry runs
 should be configured such that its system clock compares itself with
 an authoritative time source as indicated by this control. This can be
@@ -1184,7 +1184,7 @@ time period. This can be accomplished by utilizing the Network Time
 Protocol (NTP). Refer to the operating system&#39;s instructions for doing
 so.
 </div>
-<div id="b6eamnfedd2000ed20q0" class="tab-pane fade">
+<div id="b6eb87faf54g009olp30" class="tab-pane fade">
 The underlying operating system on which Docker Enterprise Edition runs should
 be configured such that its system clock compares itself with an
 authoritative time source as indicated by this control. This can be
@@ -1199,7 +1199,7 @@ utilizing the Network Time Protocol (NTP). Refer to the operating
 system&#39;s instructions for doing so.
 
 </div>
-<div id="b6eamnfedd2000ed20qg" class="tab-pane fade">
+<div id="b6eb87faf54g009olp3g" class="tab-pane fade">
 The underlying operating system on which Universal Control Plane runs
 should be configured such that its system clock compares itself with
 an authoritative time source as indicated by this control. This can be
@@ -1260,13 +1260,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20r0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20rg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20s0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olp40">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp4g">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp50">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20r0" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olp40" class="tab-pane fade in active">
 By default, Docker Trusted Registry is configured to use the
 underlying logging capabilities of Docker Enterprise Edition. As such,
 on the underlying Linux operating system, only root and sudo users and
@@ -1278,7 +1278,7 @@ logging stack. In this case, the organization is responsible for
 configuring the remote logging stack per the provisions of this
 control.
 </div>
-<div id="b6eamnfedd2000ed20rg" class="tab-pane fade">
+<div id="b6eb87faf54g009olp4g" class="tab-pane fade">
 On the underlying Linux operating system supporting Docker Enterprise
 Edition, only root and sudo users and users that have been added to
 the &#34;docker&#34; group have the ability to access the logs generated by
@@ -1295,7 +1295,7 @@ following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20s0" class="tab-pane fade">
+<div id="b6eb87faf54g009olp50" class="tab-pane fade">
 By default, Universal Control Plane is configured to use the
 underlying logging capabilities of Docker Enterprise Edition. As such,
 on the underlying Linux operating system, only root and sudo users and
@@ -1355,13 +1355,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20sg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20t0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20tg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olp5g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp60">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp6g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20sg" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olp5g" class="tab-pane fade in active">
 Docker Trusted Registry resides as an Application on a Universal
 Control Plane cluster, acan be configured to send logs to a remote
 logging stack. Additional information can be found at the following
@@ -1373,7 +1373,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20t0" class="tab-pane fade">
+<div id="b6eb87faf54g009olp60" class="tab-pane fade">
 Docker Enterprise Edition can be configured to use a logging driver
 that can subsequently meet the backup requirements of this control.
 Additional information can be found at the following resources:
@@ -1384,7 +1384,7 @@ Additional information can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20tg" class="tab-pane fade">
+<div id="b6eb87faf54g009olp6g" class="tab-pane fade">
 Universal Control Plane can be configured to send logs to a remote
 logging stack. Additional information can be found at the following
 resources:
@@ -1428,12 +1428,12 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20u0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20ug">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olp70">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp7g">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20u0" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olp70" class="tab-pane fade in active">
 Docker Trusted Registry resides as an Application on a Universal
 Control Plane cluster, acan be configured to send logs to a remote
 logging stack. Additional information can be found at the following
@@ -1445,7 +1445,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed20ug" class="tab-pane fade">
+<div id="b6eb87faf54g009olp7g" class="tab-pane fade">
 Docker Enterprise Edition can be configured to use a logging driver
 that can subsequently meet the encryption mechanisms required by this
 control. Additional information can be found at the following
@@ -1515,11 +1515,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20v0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olp80">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20v0" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olp80" class="tab-pane fade in active">
 Docker Enterprise Edition includes functionality known as Docker
 Content Trust which allows one to cryptographically sign Docker
 images. It enforces client-side signing and verification of image tags
@@ -1629,13 +1629,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20vg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed2100">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed210g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olp8g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp90">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olp9g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed20vg" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olp8g" class="tab-pane fade in active">
 The organization will be responsible for meeting the requirements of
 this control. To assist with these requirements, Docker Trusted
 Registry resides as an Application on a Universal Control Plane
@@ -1649,7 +1649,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed2100" class="tab-pane fade">
+<div id="b6eb87faf54g009olp90" class="tab-pane fade">
 The organization will be responsible for meeting the requirements of
 this control. To assist with these requirements, Docker Enterprise
 Edition can be configured to use a logging driver that stores data in
@@ -1662,7 +1662,7 @@ information can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed210g" class="tab-pane fade">
+<div id="b6eb87faf54g009olp9g" class="tab-pane fade">
 The organization will be responsible for meeting the requirements of
 this control. To assist with these requirements, Universal Control
 Plane can be configured to send logs to a remote logging stack.
@@ -1727,13 +1727,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed2110">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed211g">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed2120">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olpa0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olpag">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olpb0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed2110" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olpa0" class="tab-pane fade in active">
 All of the event types indicated by AU-2 a. are logged by a
 combination of the backend services within Universal Control Plane and
 Docker Trusted Registry. Additional information can be found at the
@@ -1748,7 +1748,7 @@ use for instructions on configuring this service.
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed211g" class="tab-pane fade">
+<div id="b6eb87faf54g009olpag" class="tab-pane fade">
 Both Universal Control Plane and Docker Trusted Registry backend
 service containers, all of which reside on Docker Enterprise Edition,
 log all of the event types indicated by this AU-2 a. These and other
@@ -1766,7 +1766,7 @@ distribution in use for instructions on configuring this service.
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed2120" class="tab-pane fade">
+<div id="b6eb87faf54g009olpb0" class="tab-pane fade">
 All of the event types indicated by AU-2 a. are logged by the backend
 ucp-controller service within Universal Control Plane. In addition,
 each container created on a Universal Control Plane cluster logs event
@@ -1819,13 +1819,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed212g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed2130">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed213g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olpbg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olpc0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olpcg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed212g" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olpbg" class="tab-pane fade in active">
 Docker Trusted Registry resides as an Application on a Universal
 Control Plane cluster, and as such, can be configured to send logs to
 a remote logging stack. Additional information can be found at the
@@ -1837,7 +1837,7 @@ following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed2130" class="tab-pane fade">
+<div id="b6eb87faf54g009olpc0" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. This
 logging stack can subsequently be used to compile audit records in to
@@ -1851,7 +1851,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed213g" class="tab-pane fade">
+<div id="b6eb87faf54g009olpcg" class="tab-pane fade">
 Universal Control Plane can be configured to send logs to a remote
 logging stack. Additional information can be found at the following
 resources:
@@ -1910,13 +1910,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed2140">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed214g">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed2150">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olpd0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olpdg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eb87faf54g009olpe0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eamnfedd2000ed2140" class="tab-pane fade in active">
+<div id="b6eb87faf54g009olpd0" class="tab-pane fade in active">
 Docker Trusted Registry resides as an Application on a Universal
 Control Plane cluster, and as such, can be configured to send logs to
 a remote logging stack. Additional information can be found at the
@@ -1928,7 +1928,7 @@ following resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed214g" class="tab-pane fade">
+<div id="b6eb87faf54g009olpdg" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. This
 logging stack can subsequently be used to meet the requirements of
@@ -1941,7 +1941,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6eamnfedd2000ed2150" class="tab-pane fade">
+<div id="b6eb87faf54g009olpe0" class="tab-pane fade">
 Universal Control Plane can be configured to send logs to a remote
 logging stack. Additional information can be found at the following
 resources:

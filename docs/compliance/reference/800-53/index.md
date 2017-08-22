@@ -1,5 +1,5 @@
 ---
-title: NIST 800-53 Control Reference
+title: NIST 800-53 control reference
 ---
 
 All of the NIST 800-53 Rev. 4 controls applicable to Docker Enterprise Edition can be referenced in this section. For generating your own security documentation using the OpenControl-formatted version of these controls, please refer to our compliance repository at [https://github.com/docker/compliance](https://github.com/docker/compliance).

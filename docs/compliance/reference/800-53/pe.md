@@ -1,7 +1,7 @@
 ---
-title: "Physical And Environmental Protection"
-description: "Physical And Environmental Protection reference"
-keywords: "standards, compliance, security, 800-53, Physical And Environmental Protection"
+title: "Physical and environmental protection"
+description: "Physical and environmental protection reference"
+keywords: "standards, compliance, security, 800-53, Physical and environmental protection"
 ---
 
 ## PE-1 Physical And Environmental Protection Policy And Procedures

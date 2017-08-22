@@ -1,7 +1,7 @@
 ---
-title: "Incident Response"
-description: "Incident Response reference"
-keywords: "standards, compliance, security, 800-53, Incident Response"
+title: "Incident response"
+description: "Incident response reference"
+keywords: "standards, compliance, security, 800-53, Incident response"
 ---
 
 ## IR-1 Incident Response Policy And Procedures
