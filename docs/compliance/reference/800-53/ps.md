@@ -1,7 +1,7 @@
 ---
-title: "Personnel Security"
-description: "Personnel Security reference"
-keywords: "standards, compliance, security, 800-53, Personnel Security"
+title: "Personnel security"
+description: "Personnel security reference"
+keywords: "standards, compliance, security, 800-53, Personnel security"
 ---
 
 ## PS-1 Personnel Security Policy And Procedures

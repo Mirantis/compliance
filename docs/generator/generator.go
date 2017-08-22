@@ -187,7 +187,8 @@ func generateMarkdownFiles(standard XMLStandard, components []cmcommon.Component
 
 	// Generate markdown for each family
 	for _, family := range families {
-		familyTitle := strings.Title(strings.ToLower(family))
+		familyTitle := strings.ToLower(family)
+		familyTitle = strings.ToUpper(string(familyTitle[0])) + string(familyTitle[1:len(familyTitle)])
 
 		markdownTemplateControls, abbrev := iterateControls(family, familyTitle, standard.Controls, false, components)
 		markdownTemplateMap := map[string][]MarkdownTemplateControl{

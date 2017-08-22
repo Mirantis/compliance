@@ -1,7 +1,7 @@
 ---
-title: "Program Management"
-description: "Program Management reference"
-keywords: "standards, compliance, security, 800-53, Program Management"
+title: "Program management"
+description: "Program management reference"
+keywords: "standards, compliance, security, 800-53, Program management"
 ---
 
 ## PM-1 Information Security Program Plan

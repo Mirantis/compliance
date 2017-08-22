@@ -1,7 +1,7 @@
 ---
-title: "Awareness And Training"
-description: "Awareness And Training reference"
-keywords: "standards, compliance, security, 800-53, Awareness And Training"
+title: "Awareness and training"
+description: "Awareness and training reference"
+keywords: "standards, compliance, security, 800-53, Awareness and training"
 ---
 
 ## AT-1 Security Awareness And Training Policy And Procedures

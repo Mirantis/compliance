@@ -1,7 +1,7 @@
 ---
 description: CIS Docker Benchmark information
 keywords: standards, compliance, security, benchmark
-title: CIS Docker Benchmark
+title: CIS Docker benchmark
 ---
 
 The Center for Information Security (CIS) Docker Benchmark is a reference document that can be used by system administrators, security and audit professionals and other IT roles in order to establish a secure configuration baseline for the Docker Engine.
