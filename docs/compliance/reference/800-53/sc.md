@@ -6,7 +6,7 @@ keywords: "standards, compliance, security, 800-53, System And Communications Pr
 
 ## SC-1 System And Communications Protection Policy And Procedures
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -24,19 +24,19 @@ The organization:
 </ol>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-2 Application Partitioning
 
-**Description:**
+#### Description
 
 The information system separates user functionality (including user interface services) from information system management functionality.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -56,15 +56,15 @@ The information system separates user functionality (including user interface se
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6i9223e000as9sng">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6i9223e000as9so0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamo7edd2000ed2270">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamo7edd2000ed227g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6i9223e000as9sng" class="tab-pane fade in active">
+<div id="b6eamo7edd2000ed2270" class="tab-pane fade in active">
 Docker Trusted Registry is made up of a number of backend services
 that provide for both user functionality (including user interface
 services) and system management functionality. Each of these services
@@ -78,7 +78,7 @@ found at the following resources:
 </ul>
 
 </div>
-<div id="b6ea6i9223e000as9so0" class="tab-pane fade">
+<div id="b6eamo7edd2000ed227g" class="tab-pane fade">
 Universal Control Plane is made up of a number of backend services
 that provide for both user functionality (including user interface
 services) and system management functionality. Each of these services
@@ -96,127 +96,127 @@ found at the following resources:
 
 ### SC-2 (1) Interfaces For Non-Privileged Users
 
-**Description:**
+#### Description
 
 The information system prevents the presentation of information system management-related functionality at an interface for non-privileged users.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-3 Security Function Isolation
 
-**Description:**
+#### Description
 
 The information system isolates security functions from nonsecurity functions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-3 (1) Hardware Separation
 
-**Description:**
+#### Description
 
 The information system utilizes underlying hardware separation mechanisms to implement security function isolation.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-3 (2) Access / Flow Control Functions
 
-**Description:**
+#### Description
 
 The information system isolates security functions enforcing access and information flow control from nonsecurity functions and from other security functions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-3 (3) Minimize Nonsecurity Functionality
 
-**Description:**
+#### Description
 
 The organization minimizes the number of nonsecurity functions included within the isolation boundary containing security functions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-3 (4) Module Coupling And Cohesiveness
 
-**Description:**
+#### Description
 
 The organization implements security functions as largely independent modules that maximize internal cohesiveness within modules and minimize coupling between modules.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-3 (5) Layered Structures
 
-**Description:**
+#### Description
 
 The organization implements security functions as a layered structure minimizing interactions between layers of the design and avoiding any dependence by lower layers on the functionality or correctness of higher layers.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-4 Information In Shared Resources
 
-**Description:**
+#### Description
 
 The information system prevents unauthorized and unintended information transfer via shared system resources.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-4 (2) Periods Processing
 
-**Description:**
+#### Description
 
 The information system prevents unauthorized information transfer via shared resources in accordance with [Assignment: organization-defined procedures] when system processing explicitly switches between different information classification levels or security categories.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-5 Denial Of Service Protection
 
-**Description:**
+#### Description
 
 The information system protects against or limits the effects of the following types of denial of service attacks: [Assignment: organization-defined types of denial of service attacks or references to sources for such information] by employing [Assignment: organization-defined security safeguards].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-5 (1) Restrict Internal Users
 
-**Description:**
+#### Description
 
 The information system restricts the ability of individuals to launch [Assignment: organization-defined denial of service attacks] against other information systems.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-5 (2) Excess Capacity / Bandwidth / Redundancy
 
-**Description:**
+#### Description
 
 The information system manages excess capacity, bandwidth, or other redundancy to limit the effects of information flooding denial of service attacks.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-5 (3) Detection / Monitoring
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -224,23 +224,23 @@ The organization:
 <li>Monitors [Assignment: organization-defined information system resources] to determine if sufficient resources exist to prevent effective denial of service attacks.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-6 Resource Availability
 
-**Description:**
+#### Description
 
 The information system protects the availability of resources by allocating [Assignment: organization-defined resources] by [Selection (one or more); priority; quota; [Assignment: organization-defined security safeguards]].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-7 Boundary Protection
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -249,23 +249,23 @@ The information system:
 <li>Connects to external networks or information systems only through managed interfaces consisting of boundary protection devices arranged in accordance with an organizational security architecture.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (3) Access Points
 
-**Description:**
+#### Description
 
 The organization limits the number of external network connections to the information system.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (4) External Telecommunications Services
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -276,43 +276,43 @@ The organization:
 <li>Reviews exceptions to the traffic flow policy [Assignment: organization-defined frequency] and removes exceptions that are no longer supported by an explicit mission/business need.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (5) Deny By Default / Allow By Exception
 
-**Description:**
+#### Description
 
 The information system at managed interfaces denies network communications traffic by default and allows network communications traffic by exception (i.e., deny all, permit by exception).
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (7) Prevent Split Tunneling For Remote Devices
 
-**Description:**
+#### Description
 
 The information system, in conjunction with a remote device, prevents the device from simultaneously establishing non-remote connections with the system and communicating via some other connection to resources in external networks.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (8) Route Traffic To Authenticated Proxy Servers
 
-**Description:**
+#### Description
 
 The information system routes [Assignment: organization-defined internal communications traffic] to [Assignment: organization-defined external networks] through authenticated proxy servers at managed interfaces.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (9) Restrict Threatening Outgoing Communications Traffic
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -320,119 +320,119 @@ The information system:
 <li>Audits the identity of internal users associated with denied communications.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (10) Prevent Unauthorized Exfiltration
 
-**Description:**
+#### Description
 
 The organization prevents the unauthorized exfiltration of information across managed interfaces.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (11) Restrict Incoming Communications Traffic
 
-**Description:**
+#### Description
 
 The information system only allows incoming communications from [Assignment: organization-defined authorized sources] to be routed to [Assignment: organization-defined authorized destinations].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (12) Host-Based Protection
 
-**Description:**
+#### Description
 
 The organization implements [Assignment: organization-defined host-based boundary protection mechanisms] at [Assignment: organization-defined information system components].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (13) Isolation Of Security Tools / Mechanisms / Support Components
 
-**Description:**
+#### Description
 
 The organization isolates [Assignment: organization-defined information security tools, mechanisms, and support components] from other internal information system components by implementing physically separate subnetworks with managed interfaces to other components of the system.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (14) Protects Against Unauthorized Physical Connections
 
-**Description:**
+#### Description
 
 The organization protects against unauthorized physical connections at [Assignment: organization-defined managed interfaces].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (15) Route Privileged Network Accesses
 
-**Description:**
+#### Description
 
 The information system routes all networked, privileged accesses through a dedicated, managed interface for purposes of access control and auditing.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (16) Prevent Discovery Of Components / Devices
 
-**Description:**
+#### Description
 
 The information system prevents discovery of specific system components composing a managed interface.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (17) Automated Enforcement Of Protocol Formats
 
-**Description:**
+#### Description
 
 The information system enforces adherence to protocol formats.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (18) Fail Secure
 
-**Description:**
+#### Description
 
 The information system fails securely in the event of an operational failure of a boundary protection device.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (19) Blocks Communication From Non-Organizationally Configured Hosts
 
-**Description:**
+#### Description
 
 The information system blocks both inbound and outbound communications traffic between [Assignment: organization-defined communication clients] that are independently configured by end users and external service providers.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (20) Dynamic Isolation / Segregation
 
-**Description:**
+#### Description
 
 The information system provides the capability to dynamically isolate/segregate [Assignment: organization-defined information system components] from other components of the system.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -447,14 +447,14 @@ The information system provides the capability to dynamically isolate/segregate 
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6i9223e000as9sog">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamo7edd2000ed2280">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6i9223e000as9sog" class="tab-pane fade in active">
+<div id="b6eamo7edd2000ed2280" class="tab-pane fade in active">
 Docker Enterprise Edition is designed to run application containers
 whose content can be completely isolated/segregated from other
 application containers within the same node/cluster. This is
@@ -474,143 +474,143 @@ information can be found at the following resources:
 
 ### SC-7 (21) Isolation Of Information System Components
 
-**Description:**
+#### Description
 
 The organization employs boundary protection mechanisms to separate [Assignment: organization-defined information system components] supporting [Assignment: organization-defined missions and/or business functions].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (22) Separate Subnets For Connecting To Different Security Domains
 
-**Description:**
+#### Description
 
 The information system implements separate network addresses (i.e., different subnets) to connect to systems in different security domains.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-7 (23) Disable Sender Feedback On Protocol Validation Failure
 
-**Description:**
+#### Description
 
 The information system disables feedback to senders on protocol format validation failure.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-8 Transmission Confidentiality And Integrity
 
-**Description:**
+#### Description
 
 The information system protects the [Selection (one or more): confidentiality; integrity] of transmitted information.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-8 (1) Cryptographic Or Alternate Physical Protection
 
-**Description:**
+#### Description
 
 The information system implements cryptographic mechanisms to [Selection (one or more): prevent unauthorized disclosure of information; detect changes to information] during transmission unless otherwise protected by [Assignment: organization-defined alternative physical safeguards].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-8 (2) Pre / Post Transmission Handling
 
-**Description:**
+#### Description
 
 The information system maintains the [Selection (one or more): confidentiality; integrity] of information during preparation for transmission and during reception.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-8 (3) Cryptographic Protection For Message Externals
 
-**Description:**
+#### Description
 
 The information system implements cryptographic mechanisms to protect message externals unless otherwise protected by [Assignment: organization-defined alternative physical safeguards].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-8 (4) Conceal / Randomize Communications
 
-**Description:**
+#### Description
 
 The information system implements cryptographic mechanisms to conceal or randomize communication patterns unless otherwise protected by [Assignment: organization-defined alternative physical safeguards].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-10 Network Disconnect
 
-**Description:**
+#### Description
 
 The information system terminates the network connection associated with a communications session at the end of the session or after [Assignment: organization-defined time period] of inactivity.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-11 Trusted Path
 
-**Description:**
+#### Description
 
 The information system establishes a trusted communications path between the user and the following security functions of the system: [Assignment: organization-defined security functions to include at a minimum, information system authentication and re-authentication].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-11 (1) Logical Isolation
 
-**Description:**
+#### Description
 
 The information system provides a trusted communications path that is logically isolated and distinguishable from other paths.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-12 Cryptographic Key Establishment And Management
 
-**Description:**
+#### Description
 
 The organization establishes and manages cryptographic keys for required cryptography employed within the information system in accordance with [Assignment: organization-defined requirements for key generation, distribution, storage, access, and destruction].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-12 (1) Availability
 
-**Description:**
+#### Description
 
 The organization maintains availability of information in the event of the loss of cryptographic keys by users.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-12 (2) Symmetric Keys
 
-**Description:**
+#### Description
 
 The organization produces, controls, and distributes symmetric cryptographic keys using [Selection: NIST FIPS-compliant; NSA-approved] key management technology and processes.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -625,41 +625,42 @@ The organization produces, controls, and distributes symmetric cryptographic key
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6i9223e000as9sp0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamo7edd2000ed228g">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6i9223e000as9sp0" class="tab-pane fade in active">
-Docker Enterprise Edition can be installed on the following operating
-systems: CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04
-LTS&#43;, SUSE Linux Enterprise 12&#43; and Windows Server 2016&#43;. In order to
-meet the requirements of this control, reference the chosen operating
-system&#39;s documentation to ensure it is configured in FIPS mode.
+<div id="b6eamo7edd2000ed228g" class="tab-pane fade in active">
+Docker Enterprise Edition can be installed on the following operating systems:
+CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04 LTS&#43;, and
+SUSE Linux Enterprise 12&#43;. In order to meet the requirements of this
+control, reference the chosen operating system&#39;s documentation to
+ensure it is configured in FIPS mode.
+
 </div>
 </div>
 
 ### SC-12 (3) Asymmetric Keys
 
-**Description:**
+#### Description
 
 The organization produces, controls, and distributes asymmetric cryptographic keys using [Selection: NSA-approved key management technology and processes; approved PKI Class 3 certificates or prepositioned keying material; approved PKI Class 3 or Class 4 certificates and hardware security tokens that protect the user�s private key].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-13 Cryptographic Protection
 
-**Description:**
+#### Description
 
 The information system implements [Assignment: organization-defined cryptographic uses and type of cryptography required for each use] in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, and standards.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -674,25 +675,26 @@ The information system implements [Assignment: organization-defined cryptographi
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6i9223e000as9spg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamo7edd2000ed2290">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6i9223e000as9spg" class="tab-pane fade in active">
-Docker Enterprise Edition can be installed on the following operating
-systems: CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04
-LTS&#43;, SUSE Linux Enterprise 12&#43; and Windows Server 2016&#43;. In order to
-meet the requirements of this control, reference the chosen operating
-system&#39;s documentation to ensure it is configured in FIPS mode.
+<div id="b6eamo7edd2000ed2290" class="tab-pane fade in active">
+Docker Enterprise Edition can be installed on the following operating systems:
+CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04 LTS&#43;, and
+SUSE Linux Enterprise 12&#43;. In order to meet the requirements of this
+control, reference the chosen operating system&#39;s documentation to
+ensure it is configured in FIPS mode.
+
 </div>
 </div>
 
 ## SC-15 Collaborative Computing Devices
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -700,73 +702,73 @@ The information system:
 <li>Provides an explicit indication of use to users physically present at the devices.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-15 (1) Physical Disconnect
 
-**Description:**
+#### Description
 
 The information system provides physical disconnect of collaborative computing devices in a manner that supports ease of use.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-15 (3) Disabling / Removal In Secure Work Areas
 
-**Description:**
+#### Description
 
 The organization disables or removes collaborative computing devices from [Assignment: organization-defined information systems or information system components] in [Assignment: organization-defined secure work areas].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-15 (4) Explicitly Indicate Current Participants
 
-**Description:**
+#### Description
 
 The information system provides an explicit indication of current participants in [Assignment: organization-defined online meetings and teleconferences].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-16 Transmission Of Security Attributes
 
-**Description:**
+#### Description
 
 The information system associates [Assignment: organization-defined security attributes] with information exchanged between information systems and between system components.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-16 (1) Integrity Validation
 
-**Description:**
+#### Description
 
 The information system validates the integrity of transmitted security attributes.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-17 Public Key Infrastructure Certificates
 
-**Description:**
+#### Description
 
 The organization issues public key certificates under an [Assignment: organization-defined certificate policy] or obtains public key certificates from an approved service provider.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-18 Mobile Code
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -775,63 +777,63 @@ The organization:
 <li>Authorizes, monitors, and controls the use of mobile code within the information system.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-18 (1) Identify Unacceptable Code / Take Corrective Actions
 
-**Description:**
+#### Description
 
 The information system identifies [Assignment: organization-defined unacceptable mobile code] and takes [Assignment: organization-defined corrective actions].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-18 (2) Acquisition / Development / Use
 
-**Description:**
+#### Description
 
 The organization ensures that the acquisition, development, and use of mobile code to be deployed in the information system meets [Assignment: organization-defined mobile code requirements].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-18 (3) Prevent Downloading / Execution
 
-**Description:**
+#### Description
 
 The information system prevents the download and execution of [Assignment: organization-defined unacceptable mobile code].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-18 (4) Prevent Automatic Execution
 
-**Description:**
+#### Description
 
 The information system prevents the automatic execution of mobile code in [Assignment: organization-defined software applications] and enforces [Assignment: organization-defined actions] prior to executing the code.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-18 (5) Allow Execution Only In Confined Environments
 
-**Description:**
+#### Description
 
 The organization allows execution of permitted mobile code only in confined virtual machine environments.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-19 Voice Over Internet Protocol
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -839,13 +841,13 @@ The organization:
 <li>Authorizes, monitors, and controls the use of VoIP within the information system.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-20 Secure Name / Address Resolution Service (Authoritative Source)
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -853,49 +855,49 @@ The information system:
 <li>Provides the means to indicate the security status of child zones and (if the child supports secure resolution services) to enable verification of a chain of trust among parent and child domains, when operating as part of a distributed, hierarchical namespace.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-20 (2) Data Origin / Integrity
 
-**Description:**
+#### Description
 
 The information system provides data origin and integrity protection artifacts for internal name/address resolution queries.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-21 Secure Name / Address Resolution Service (Recursive Or Caching Resolver)
 
-**Description:**
+#### Description
 
 The information system requests and performs data origin authentication and data integrity verification on the name/address resolution responses the system receives from authoritative sources.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-22 Architecture And Provisioning For Name / Address Resolution Service
 
-**Description:**
+#### Description
 
 The information systems that collectively provide name/address resolution service for an organization are fault-tolerant and implement internal/external role separation.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-23 Session Authenticity
 
-**Description:**
+#### Description
 
 The information system protects the authenticity of communications sessions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -920,16 +922,16 @@ The information system protects the authenticity of communications sessions.
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6i9223e000as9sq0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6i9223e000as9sqg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6i9223e000as9sr0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamo7edd2000ed229g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamo7edd2000ed22a0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamo7edd2000ed22ag">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6i9223e000as9sq0" class="tab-pane fade in active">
+<div id="b6eamo7edd2000ed229g" class="tab-pane fade in active">
 All remote access sessions to Docker Trusted Registry are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. This
 is included at both the HTTPS application layer for access to the DTR
@@ -937,13 +939,14 @@ user interface and for command-line based connections to the registry.
 In addition to this, all communication to DTR is enforced by way of
 two-way mutual TLS authentication.
 </div>
-<div id="b6ea6i9223e000as9sqg" class="tab-pane fade">
-All remote access sessions to Docker Enterprise Edition are protected
-with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
-addition to this, all communication to and between Docker Enterprise
-Editions is enforced by way of two-way mutual TLS authentication.
+<div id="b6eamo7edd2000ed22a0" class="tab-pane fade">
+All remote access sessions to Docker Enterprise Edition are protected with
+Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
+addition to this, all communication to and between Docker Enterprise Editions
+is enforced by way of two-way mutual TLS authentication.
+
 </div>
-<div id="b6ea6i9223e000as9sr0" class="tab-pane fade">
+<div id="b6eamo7edd2000ed22ag" class="tab-pane fade">
 All remote access sessions to Universal Control Plane are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. This
 is included at both the HTTPS application layer for access to the UCP
@@ -955,13 +958,13 @@ two-way mutual TLS authentication.
 
 ### SC-23 (1) Invalidate Session Identifiers At Logout
 
-**Description:**
+#### Description
 
 The information system invalidates session identifiers upon user logout or other session termination.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -976,14 +979,14 @@ The information system invalidates session identifiers upon user logout or other
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6i9223e000as9srg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamo7edd2000ed22b0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6i9223e000as9srg" class="tab-pane fade in active">
+<div id="b6eamo7edd2000ed22b0" class="tab-pane fade in active">
 Docker Enterprise Edition invalidates session identifiers upon user
 logout per the requirements of this control.
 </div>
@@ -991,73 +994,73 @@ logout per the requirements of this control.
 
 ### SC-23 (3) Unique Session Identifiers With Randomization
 
-**Description:**
+#### Description
 
 The information system generates a unique session identifier for each session with [Assignment: organization-defined randomness requirements] and recognizes only session identifiers that are system-generated.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-23 (5) Allowed Certificate Authorities
 
-**Description:**
+#### Description
 
 The information system only allows the use of [Assignment: organization-defined certificate authorities] for verification of the establishment of protected sessions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-24 Fail In Known State
 
-**Description:**
+#### Description
 
 The information system fails to a [Assignment: organization-defined known-state] for [Assignment: organization-defined types of failures] preserving [Assignment: organization-defined system state information] in failure.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-25 Thin Nodes
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined information system components] with minimal functionality and information storage.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-26 Honeypots
 
-**Description:**
+#### Description
 
 The information system includes components specifically designed to be the target of malicious attacks for the purpose of detecting, deflecting, and analyzing such attacks.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-27 Platform-Independent Applications
 
-**Description:**
+#### Description
 
 The information system includes: [Assignment: organization-defined platform-independent applications].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-28 Protection Of Information At Rest
 
-**Description:**
+#### Description
 
 The information system protects the [Selection (one or more): confidentiality; integrity] of [Assignment: organization-defined information at rest].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1072,14 +1075,14 @@ The information system protects the [Selection (one or more): confidentiality; i
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6i9223e000as9ss0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamo7edd2000ed22bg">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6i9223e000as9ss0" class="tab-pane fade in active">
+<div id="b6eamo7edd2000ed22bg" class="tab-pane fade in active">
 All remote access sessions to Docker Enterprise Edition are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
 addition to this, all communication to/from and between Docker
@@ -1087,18 +1090,19 @@ Enterprise Edition nodes is enforced by way of two-way mutual TLS
 authentication. All Swarm Mode manager nodes in a Docker Enterprise
 Edition cluster store state metadata and user secrets encrypted at
 rest using the AES GCM cipher.
+
 </div>
 </div>
 
 ### SC-28 (1) Cryptographic Protection
 
-**Description:**
+#### Description
 
 The information system implements cryptographic mechanisms to prevent unauthorized disclosure and modification of [Assignment: organization-defined information] on [Assignment: organization-defined information system components].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1123,16 +1127,16 @@ The information system implements cryptographic mechanisms to prevent unauthoriz
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6i9223e000as9ssg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6i9223e000as9st0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6i9223e000as9stg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamo7edd2000ed22c0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamo7edd2000ed22cg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamo7edd2000ed22d0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6i9223e000as9ssg" class="tab-pane fade in active">
+<div id="b6eamo7edd2000ed22c0" class="tab-pane fade in active">
 All remote access sessions to Docker Trusted Registry are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. This
 is included at both the HTTPS application layer for access to the DTR
@@ -1140,13 +1144,14 @@ user interface and for command-line based connections to the registry.
 In addition to this, all communication to DTR is enforced by way of
 two-way mutual TLS authentication.
 </div>
-<div id="b6ea6i9223e000as9st0" class="tab-pane fade">
-All remote access sessions to Docker Enterprise Edition are protected
-with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
-addition to this, all communication to and between Docker Enterprise
-Editions is enforced by way of two-way mutual TLS authentication.
+<div id="b6eamo7edd2000ed22cg" class="tab-pane fade">
+All remote access sessions to Docker Enterprise Edition are protected with
+Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
+addition to this, all communication to and between Docker Enterprise Editions
+is enforced by way of two-way mutual TLS authentication.
+
 </div>
-<div id="b6ea6i9223e000as9stg" class="tab-pane fade">
+<div id="b6eamo7edd2000ed22d0" class="tab-pane fade">
 All remote access sessions to Universal Control Plane are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. This
 is included at both the HTTPS application layer for access to the UCP
@@ -1158,87 +1163,87 @@ two-way mutual TLS authentication.
 
 ### SC-28 (2) Off-Line Storage
 
-**Description:**
+#### Description
 
 The organization removes from online storage and stores off-line in a secure location [Assignment: organization-defined information].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-29 Heterogeneity
 
-**Description:**
+#### Description
 
 The organization employs a diverse set of information technologies for [Assignment: organization-defined information system components] in the implementation of the information system.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-29 (1) Virtualization Techniques
 
-**Description:**
+#### Description
 
 The organization employs virtualization techniques to support the deployment of a diversity of operating systems and applications that are changed [Assignment: organization-defined frequency].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-30 Concealment And Misdirection
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined concealment and misdirection techniques] for [Assignment: organization-defined information systems] at [Assignment: organization-defined time periods] to confuse and mislead adversaries.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-30 (2) Randomness
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined techniques] to introduce randomness into organizational operations and assets.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-30 (3) Change Processing / Storage Locations
 
-**Description:**
+#### Description
 
 The organization changes the location of [Assignment: organization-defined processing and/or storage] [Selection: [Assignment: organization-defined time frequency]; at random time intervals]].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-30 (4) Misleading Information
 
-**Description:**
+#### Description
 
 The organization employs realistic, but misleading information in [Assignment: organization-defined information system components] with regard to its security state or posture.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-30 (5) Concealment Of System Components
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined techniques] to hide or conceal [Assignment: organization-defined information system components].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-31 Covert Channel Analysis
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -1246,53 +1251,53 @@ The organization:
 <li>Estimates the maximum bandwidth of those channels.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-31 (1) Test Covert Channels For Exploitability
 
-**Description:**
+#### Description
 
 The organization tests a subset of the identified covert channels to determine which channels are exploitable.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-31 (2) Maximum Bandwidth
 
-**Description:**
+#### Description
 
 The organization reduces the maximum bandwidth for identified covert [Selection (one or more); storage; timing] channels to [Assignment: organization-defined values].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-31 (3) Measure Bandwidth In Operational Environments
 
-**Description:**
+#### Description
 
 The organization measures the bandwidth of [Assignment: organization-defined subset of identified covert channels] in the operational environment of the information system.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-32 Information System Partitioning
 
-**Description:**
+#### Description
 
 The organization partitions the information system into [Assignment: organization-defined information system components] residing in separate physical domains or environments based on [Assignment: organization-defined circumstances for physical separation of components].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-34 Non-Modifiable Executable Programs
 
-**Description:**
+#### Description
 
 The information system at [Assignment: organization-defined information system components]:
 <ol type="a">
@@ -1300,33 +1305,33 @@ The information system at [Assignment: organization-defined information system c
 <li>Loads and executes [Assignment: organization-defined applications] from hardware-enforced, read-only media.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-34 (1) No Writable Storage
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined information system components] with no writeable storage that is persistent across component restart or power on/off.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-34 (2) Integrity Protection / Read-Only Media
 
-**Description:**
+#### Description
 
 The organization protects the integrity of information prior to storage on read-only media and controls the media after such information has been recorded onto the media.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-34 (3) Hardware-Based Protection
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -1334,163 +1339,163 @@ The organization:
 <li>Implements specific procedures for [Assignment: organization-defined authorized individuals] to manually disable hardware write-protect for firmware modifications and re-enable the write-protect prior to returning to operational mode.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-35 Honeyclients
 
-**Description:**
+#### Description
 
 The information system includes components that proactively seek to identify malicious websites and/or web-based malicious code.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-36 Distributed Processing And Storage
 
-**Description:**
+#### Description
 
 The organization distributes [Assignment: organization-defined processing and storage] across multiple physical locations.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-36 (1) Polling Techniques
 
-**Description:**
+#### Description
 
 The organization employs polling techniques to identify potential faults, errors, or compromises to [Assignment: organization-defined distributed processing and storage components].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-37 Out-Of-Band Channels
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined out-of-band channels] for the physical delivery or electronic transmission of [Assignment: organization-defined information, information system components, or devices] to [Assignment: organization-defined individuals or information systems].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-37 (1) Ensure Delivery / Transmission
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined security safeguards] to ensure that only [Assignment: organization-defined individuals or information systems] receive the [Assignment: organization-defined information, information system components, or devices].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-38 Operations Security
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined operations security safeguards] to protect key organizational information throughout the system development life cycle.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-39 Process Isolation
 
-**Description:**
+#### Description
 
 The information system maintains a separate execution domain for each executing process.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-39 (1) Hardware Separation
 
-**Description:**
+#### Description
 
 The information system implements underlying hardware separation mechanisms to facilitate process separation.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-39 (2) Thread Isolation
 
-**Description:**
+#### Description
 
 The information system maintains a separate execution domain for each thread in [Assignment: organization-defined multi-threaded processing].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-40 Wireless Link Protection
 
-**Description:**
+#### Description
 
 The information system protects external and internal [Assignment: organization-defined wireless links] from [Assignment: organization-defined types of signal parameter attacks or references to sources for such attacks].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-40 (1) Electromagnetic Interference
 
-**Description:**
+#### Description
 
 The information system implements cryptographic mechanisms that achieve [Assignment: organization-defined level of protection] against the effects of intentional electromagnetic interference.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-40 (2) Reduce Detection Potential
 
-**Description:**
+#### Description
 
 The information system implements cryptographic mechanisms to reduce the detection potential of wireless links to [Assignment: organization-defined level of reduction].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-40 (3) Imitative Or Manipulative Communications Deception
 
-**Description:**
+#### Description
 
 The information system implements cryptographic mechanisms to identify and reject wireless transmissions that are deliberate attempts to achieve imitative or manipulative communications deception based on signal parameters.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-40 (4) Signal Parameter Identification
 
-**Description:**
+#### Description
 
 The information system implements cryptographic mechanisms to prevent the identification of [Assignment: organization-defined wireless transmitters] by using the transmitter signal parameters.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-41 Port And I/O Device Access
 
-**Description:**
+#### Description
 
 The organization physically disables or removes [Assignment: organization-defined connection ports or input/output devices] on [Assignment: organization-defined information systems or information system components].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-42 Sensor Capability And Data
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -1498,43 +1503,43 @@ The information system:
 <li>Provides an explicit indication of sensor use to [Assignment: organization-defined class of users].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-42 (1) Reporting To Authorized Individuals Or Roles
 
-**Description:**
+#### Description
 
 The organization ensures that the information system is configured so that data or information collected by the [Assignment: organization-defined sensors] is only reported to authorized individuals or roles.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-42 (2) Authorized Use
 
-**Description:**
+#### Description
 
 The organization employs the following measures: [Assignment: organization-defined measures], so that data or information collected by [Assignment: organization-defined sensors] is only used for authorized purposes.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### SC-42 (3) Prohibit Use Of Devices
 
-**Description:**
+#### Description
 
 The organization prohibits the use of devices possessing [Assignment: organization-defined environmental sensing capabilities] in [Assignment: organization-defined facilities, areas, or systems].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-43 Usage Restrictions
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -1542,17 +1547,17 @@ The organization:
 <li>Authorizes, monitors, and controls the use of such components within the information system.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## SC-44 Detonation Chambers
 
-**Description:**
+#### Description
 
 The organization employs a detonation chamber capability within [Assignment: organization-defined information system, system component, or location].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 

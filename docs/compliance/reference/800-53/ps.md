@@ -6,7 +6,7 @@ keywords: "standards, compliance, security, 800-53, Personnel Security"
 
 ## PS-1 Personnel Security Policy And Procedures
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -24,13 +24,13 @@ The organization:
 </ol>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PS-2 Position Risk Designation
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -39,13 +39,13 @@ The organization:
 <li>Reviews and updates position risk designations [Assignment: organization-defined frequency].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PS-3 Personnel Screening
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -53,33 +53,33 @@ The organization:
 <li>Rescreens individuals according to [Assignment: organization-defined conditions requiring rescreening and, where rescreening is so indicated, the frequency of such rescreening].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PS-3 (1) Classified Information
 
-**Description:**
+#### Description
 
 The organization ensures that individuals accessing an information system processing, storing, or transmitting classified information are cleared and indoctrinated to the highest classification level of the information to which they have access on the system.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PS-3 (2) Formal Indoctrination
 
-**Description:**
+#### Description
 
 The organization ensures that individuals accessing an information system processing, storing, or transmitting types of classified information which require formal indoctrination, are formally indoctrinated for all of the relevant types of information to which they have access on the system.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PS-3 (3) Information With Special Protection Measures
 
-**Description:**
+#### Description
 
 The organization ensures that individuals accessing an information system processing, storing, or transmitting information requiring special protection:
 <ol type="a">
@@ -87,13 +87,13 @@ The organization ensures that individuals accessing an information system proces
 <li>Satisfy [Assignment: organization-defined additional personnel screening criteria].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PS-4 Personnel Termination
 
-**Description:**
+#### Description
 
 The organization, upon termination of individual employment:
 <ol type="a">
@@ -105,13 +105,13 @@ The organization, upon termination of individual employment:
 <li>Notifies [Assignment: organization-defined personnel or roles] within [Assignment: organization-defined time period].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PS-4 (1) Post-Employment Requirements
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -119,23 +119,23 @@ The organization:
 <li>Requires terminated individuals to sign an acknowledgment of post-employment requirements as part of the organizational termination process.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PS-4 (2) Automated Notification
 
-**Description:**
+#### Description
 
 The organization employs automated mechanisms to notify [Assignment: organization-defined personnel or roles] upon termination of an individual.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PS-5 Personnel Transfer
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -145,13 +145,13 @@ The organization:
 <li>Notifies [Assignment: organization-defined personnel or roles] within [Assignment: organization-defined time period].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PS-6 Access Agreements
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -165,13 +165,13 @@ The organization:
 </ol>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PS-6 (2) Classified Information Requiring Special Protection
 
-**Description:**
+#### Description
 
 The organization ensures that access to classified information requiring special protection is granted only to individuals who:
 <ol type="a">
@@ -180,13 +180,13 @@ The organization ensures that access to classified information requiring special
 <li>Have read, understood, and signed a nondisclosure agreement.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PS-6 (3) Post-Employment Requirements
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -194,13 +194,13 @@ The organization:
 <li>Requires individuals to sign an acknowledgment of these requirements, if applicable, as part of granting initial access to covered information.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PS-7 Third-Party Personnel Security
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -211,13 +211,13 @@ The organization:
 <li>Monitors provider compliance.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PS-8 Personnel Sanctions
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -225,7 +225,7 @@ The organization:
 <li>Notifies [Assignment: organization-defined personnel or roles] within [Assignment: organization-defined time period] when a formal employee sanctions process is initiated, identifying the individual sanctioned and the reason for the sanction.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 

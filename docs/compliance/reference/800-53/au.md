@@ -6,7 +6,7 @@ keywords: "standards, compliance, security, 800-53, Audit And Accountability"
 
 ## AU-1 Audit And Accountability Policy And Procedures
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -24,13 +24,13 @@ The organization:
 </ol>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-2 Audit Events
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -40,9 +40,9 @@ The organization:
 <li>Determines that the following events are to be audited within the information system: [Assignment: organization-defined audited events (the subset of the auditable events defined in AU-2 a.) along with the frequency of (or situation requiring) auditing for each identified event].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -67,16 +67,16 @@ The organization:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9qp0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9qpg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9qq0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed208g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed2090">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed209g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9qp0" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed208g" class="tab-pane fade in active">
 All of the event types indicated by this control are logged by a
 combination of the backend ucp-controller service within Universal
 Control Plane and the backend services that make up Docker Trusted
@@ -88,7 +88,7 @@ Registry. Additional documentation can be found at the following resource:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9qpg" class="tab-pane fade">
+<div id="b6eamnfedd2000ed2090" class="tab-pane fade">
 Both Universal Control Plane and Docker Trusted Registry backend
 service containers, all of which reside on Docker Enterprise Edition,
 log all of the event types indicated by this control (as explained by
@@ -103,7 +103,7 @@ logging drivers can be found at the following resource:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9qq0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed209g" class="tab-pane fade">
 All of the event types indicated by this control are logged by the
 backend ucp-controller service within Universal Control Plane. In
 addition, each container created on a Universal Control Plane cluster
@@ -120,23 +120,23 @@ can be referenced at the following resources:
 
 ### AU-2 (3) Reviews And Updates
 
-**Description:**
+#### Description
 
 The organization reviews and updates the audited events [Assignment: organization-defined frequency].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-3 Content Of Audit Records
 
-**Description:**
+#### Description
 
 The information system generates audit records containing information that establishes what type of event occurred, when the event occurred, where the event occurred, the source of the event, the outcome of the event, and the identity of any individuals or subjects associated with the event.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -166,17 +166,17 @@ The information system generates audit records containing information that estab
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9qqg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9qr0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9qrg">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9qs0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20a0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20ag">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20b0">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20bg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9qqg" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20a0" class="tab-pane fade in active">
 Docker Trusted Registry generates all of the audit record information
 indicated by this control. A sample audit event has been provided
 below:
@@ -186,7 +186,7 @@ based auth
 suceeded&#34;,&#34;remote_addr&#34;:&#34;192.168.33.1:55905&#34;,&#34;time&#34;:&#34;2016-11-09T22:41:01Z&#34;,&#34;type&#34;:&#34;auth
 ok&#34;,&#34;username&#34;:&#34;dockeruser&#34;}
 </div>
-<div id="b6ea6hh223e000as9qr0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20ag" class="tab-pane fade">
 Both Universal Control Plane and Docker Trusted Registry are
 pre-configured to take advantage of Docker Enterprise Edition&#39;s
 built-in logging mechanisms. A sample audit event recorded by Docker
@@ -205,7 +205,7 @@ Additional documentation can be referenced at the following resource:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9qrg" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20b0" class="tab-pane fade">
 Universal Control Plane generates all of the audit record information
 indicated by this control. A sample audit event has been provided
 below:
@@ -215,7 +215,7 @@ based auth
 suceeded&#34;,&#34;remote_addr&#34;:&#34;192.168.33.1:55905&#34;,&#34;time&#34;:&#34;2016-11-09T22:41:01Z&#34;,&#34;type&#34;:&#34;auth
 ok&#34;,&#34;username&#34;:&#34;dockeruser&#34;}
 </div>
-<div id="b6ea6hh223e000as9qs0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20bg" class="tab-pane fade">
 Docker Enterprise Edition generates all of the audit record
 information indicated by this control. A sample audit event has been
 provided below:
@@ -229,13 +229,13 @@ ok&#34;,&#34;username&#34;:&#34;dockeruser&#34;}
 
 ### AU-3 (1) Additional Audit Information
 
-**Description:**
+#### Description
 
 The information system generates audit records containing the following additional information: [Assignment: organization-defined additional, more detailed information].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -260,16 +260,16 @@ The information system generates audit records containing the following addition
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9qsg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9qt0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9qtg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20c0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20cg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20d0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9qsg" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20c0" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -283,7 +283,7 @@ information can be found at the following resource:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9qt0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20cg" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The logging
 stack can subsequently be used to interpolate the information defined
@@ -296,7 +296,7 @@ documentation can be found at the following resource:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9qtg" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20d0" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be used to
 interpolate the information defined by this control from the logged
@@ -313,13 +313,13 @@ resource:
 
 ### AU-3 (2) Centralized Management Of Planned Audit Record Content
 
-**Description:**
+#### Description
 
 The information system provides centralized management and configuration of the content to be captured in audit records generated by [Assignment: organization-defined information system components].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -344,16 +344,16 @@ The information system provides centralized management and configuration of the 
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9qu0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9qug">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9qv0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20dg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20e0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20eg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9qu0" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20dg" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -367,7 +367,7 @@ information can be found at the following resource:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9qug" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20e0" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The logging
 stack can subsequently be used to interpolate the information defined
@@ -380,7 +380,7 @@ documentation can be found at the following resource:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9qv0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20eg" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be used to
 interpolate the information defined by this control from the logged
@@ -397,27 +397,27 @@ resource:
 
 ## AU-4 Audit Storage Capacity
 
-**Description:**
+#### Description
 
 The organization allocates audit record storage capacity in accordance with [Assignment: organization-defined audit record storage requirements].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-4 (1) Transfer To Alternate Storage
 
-**Description:**
+#### Description
 
 The information system off-loads audit records [Assignment: organization-defined frequency] onto a different system or media than the system being audited.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-5 Response To Audit Processing Failures
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -425,9 +425,9 @@ The information system:
 <li>Takes the following additional actions: [Assignment: organization-defined actions to be taken (e.g., shut down information system, overwrite oldest audit records, stop generating audit records)].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -452,16 +452,16 @@ The information system:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9qvg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r00">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r0g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20f0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20fg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20g0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9qvg" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20f0" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -475,7 +475,7 @@ found at the following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9r00" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20fg" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The logging
 stack can be used to interpolate the information defined by this
@@ -489,7 +489,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9r0g" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20g0" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be configured to
 alert individuals in the event of log processing failures. Additional
@@ -505,13 +505,13 @@ information can be found at the following resources:
 
 ### AU-5 (1) Audit Storage Capacity
 
-**Description:**
+#### Description
 
 The information system provides a warning to [Assignment: organization-defined personnel, roles, and/or locations] within [Assignment: organization-defined time period] when allocated audit record storage volume reaches [Assignment: organization-defined percentage] of repository maximum audit record storage capacity.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -536,16 +536,16 @@ The information system provides a warning to [Assignment: organization-defined p
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9r10">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r1g">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r20">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20gg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20h0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20hg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9r10" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20gg" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -559,7 +559,7 @@ found at the following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9r1g" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20h0" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The logging
 stack can subsequently be configured to warn the organization when the
@@ -572,7 +572,7 @@ the following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9r20" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20hg" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be configured to
 warn the organization when the allocated log storage is full.
@@ -588,13 +588,13 @@ Additional information can be found at the following resources:
 
 ### AU-5 (2) Real-Time Alerts
 
-**Description:**
+#### Description
 
 The information system provides an alert in [Assignment: organization-defined real-time period] to [Assignment: organization-defined personnel, roles, and/or locations] when the following audit failure events occur: [Assignment: organization-defined audit failure events requiring real-time alerts].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -619,16 +619,16 @@ The information system provides an alert in [Assignment: organization-defined re
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9r2g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r30">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r3g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20i0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20ig">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20j0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9r2g" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20i0" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -642,7 +642,7 @@ the following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9r30" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20ig" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack.  The
 logging stack can subsequently be configured to warn the organization
@@ -655,7 +655,7 @@ the following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9r3g" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20j0" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be configured to
 warn the organization when audit log failures occur. Additional
@@ -671,27 +671,27 @@ information can be found at the following resources:
 
 ### AU-5 (3) Configurable Traffic Volume Thresholds
 
-**Description:**
+#### Description
 
 The information system enforces configurable network communications traffic volume thresholds reflecting limits on auditing capacity and [Selection: rejects; delays] network traffic above those thresholds.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-5 (4) Shutdown On Failure
 
-**Description:**
+#### Description
 
 The information system invokes a [Selection: full system shutdown; partial system shutdown; degraded operational mode with limited mission/business functionality available] in the event of [Assignment: organization-defined audit failures], unless an alternate audit capability exists.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-6 Audit Review, Analysis, And Reporting
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -699,39 +699,39 @@ The organization:
 <li>Reports findings to [Assignment: organization-defined personnel or roles].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-6 (1) Process Integration
 
-**Description:**
+#### Description
 
 The organization employs automated mechanisms to integrate audit review, analysis, and reporting processes to support organizational processes for investigation and response to suspicious activities.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-6 (3) Correlate Audit Repositories
 
-**Description:**
+#### Description
 
 The organization analyzes and correlates audit records across different repositories to gain organization-wide situational awareness.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-6 (4) Central Review And Analysis
 
-**Description:**
+#### Description
 
 The information system provides the capability to centrally review and analyze audit records from multiple components within the system.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -756,16 +756,16 @@ The information system provides the capability to centrally review and analyze a
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9r40">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r4g">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r50">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20jg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20k0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20kg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9r40" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20jg" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -779,7 +779,7 @@ following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9r4g" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20k0" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The
 organization can subsequently centrally review and analyze all of the
@@ -792,7 +792,7 @@ following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9r50" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20kg" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The organization can subsequently centrally review and
 analyze all of the Docker EE audit records. Additional information can
@@ -808,67 +808,67 @@ be found at the following resources:
 
 ### AU-6 (5) Integration / Scanning And Monitoring Capabilities
 
-**Description:**
+#### Description
 
 The organization integrates analysis of audit records with analysis of [Selection (one or more): vulnerability scanning information; performance data; information system monitoring information; [Assignment: organization-defined data/information collected from other sources]] to further enhance the ability to identify inappropriate or unusual activity.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-6 (6) Correlation With Physical Monitoring
 
-**Description:**
+#### Description
 
 The organization correlates information from audit records with information obtained from monitoring physical access to further enhance the ability to identify suspicious, inappropriate, unusual, or malevolent activity.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-6 (7) Permitted Actions
 
-**Description:**
+#### Description
 
 The organization specifies the permitted actions for each [Selection (one or more): information system process; role; user] associated with the review, analysis, and reporting of audit information.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-6 (8) Full Text Analysis Of Privileged Commands
 
-**Description:**
+#### Description
 
 The organization performs a full text analysis of audited privileged commands in a physically distinct component or subsystem of the information system, or other information system that is dedicated to that analysis.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-6 (9) Correlation With Information From Nontechnical Sources
 
-**Description:**
+#### Description
 
 The organization correlates information from nontechnical sources with audit information to enhance organization-wide situational awareness.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-6 (10) Audit Level Adjustment
 
-**Description:**
+#### Description
 
 The organization adjusts the level of audit review, analysis, and reporting within the information system when there is a change in risk based on law enforcement information, intelligence information, or other credible sources of information.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-7 Audit Reduction And Report Generation
 
-**Description:**
+#### Description
 
 The information system provides an audit reduction and report generation capability that:
 <ol type="a">
@@ -876,9 +876,9 @@ The information system provides an audit reduction and report generation capabil
 <li>Does not alter the original content or time ordering of audit records.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -903,16 +903,16 @@ The information system provides an audit reduction and report generation capabil
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9r5g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r60">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r6g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20l0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20lg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20m0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9r5g" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20l0" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -928,7 +928,7 @@ during generation and transmission to a remote logging stack.
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9r60" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20lg" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The logging
 stack can subsequently be used to facilitate the audit reduction and
@@ -944,7 +944,7 @@ generation and transmission to a remote logging stack.
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9r6g" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20m0" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be used to
 facilitate the audit reduction and report generation requirements of
@@ -963,13 +963,13 @@ generation and transmission to a remote logging stack.
 
 ### AU-7 (1) Automatic Processing
 
-**Description:**
+#### Description
 
 The information system provides the capability to process audit records for events of interest based on [Assignment: organization-defined audit fields within audit records].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -994,16 +994,16 @@ The information system provides the capability to process audit records for even
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9r70">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r7g">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r80">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20mg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20n0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20ng">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9r70" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20mg" class="tab-pane fade in active">
 Universal Control Plane can be configured to log data to a remote
 logging stack, which in turn, sends the Docker Trusted Registry
 backend container audit records to the remote logging stack. The
@@ -1017,7 +1017,7 @@ at the following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9r7g" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20n0" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. The logging
 stack can subsequently be configured to parse information by
@@ -1030,7 +1030,7 @@ at the following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9r80" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20ng" class="tab-pane fade">
 Universal Control Plane can be configured to log data to a remote
 logging stack. The logging stack can subsequently be configured to
 parse information by organization-defined audit fields. Additional
@@ -1046,17 +1046,17 @@ information can be found at the following resources:
 
 ### AU-7 (2) Automatic Sort And Search
 
-**Description:**
+#### Description
 
 The information system provides the capability to sort and search audit records for events of interest based on the content of [Assignment: organization-defined audit fields within audit records].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-8 Time Stamps
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -1064,9 +1064,9 @@ The information system:
 <li>Records time stamps for audit records that can be mapped to Coordinated Universal Time (UTC) or Greenwich Mean Time (GMT) and meets [Assignment: organization-defined granularity of time measurement].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1091,23 +1091,23 @@ The information system:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9r8g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r90">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9r9g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20o0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20og">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20p0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9r8g" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20o0" class="tab-pane fade in active">
 Docker Trusted Registry uses the system clock of the underlying
 operating system on which it runs. This behavior cannot be modified.The underlying operating system on which Docker Trusted Registry runs
 should be configured such that its system clock uses Coordinated
 Universal Time (UTC) as indicated by this control. Refer to the
 operating system&#39;s instructions for doing so.
 </div>
-<div id="b6ea6hh223e000as9r90" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20og" class="tab-pane fade">
 Docker Enterprise Edition uses the system clock of the underlying
 operating system on which it runs. This behavior cannot be modified.
 The underlying operating system on which Docker Enterprise Edition
@@ -1116,7 +1116,7 @@ Universal Time (UTC) as indicated by this control. Refer to the
 operating system&#39;s instructions for doing so.
 
 </div>
-<div id="b6ea6hh223e000as9r9g" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20p0" class="tab-pane fade">
 Universal Control Plane uses the system clock of the underlying
 operating system on which it runs. This behavior cannot be modified.The underlying operating system on which Universal Control Plane runs
 should be configured such that its system clock uses Coordinated
@@ -1127,7 +1127,7 @@ operating system&#39;s instructions for doing so.
 
 ### AU-8 (1) Synchronization With Authoritative Time Source
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -1135,9 +1135,9 @@ The information system:
 <li>Synchronizes the internal system clocks to the authoritative time source when the time difference is greater than [Assignment: organization-defined time period].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1162,16 +1162,16 @@ The information system:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9ra0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rag">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rb0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20pg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20q0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20qg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9ra0" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20pg" class="tab-pane fade in active">
 The underlying operating system on which Docker Trusted Registry runs
 should be configured such that its system clock compares itself with
 an authoritative time source as indicated by this control. This can be
@@ -1184,7 +1184,7 @@ time period. This can be accomplished by utilizing the Network Time
 Protocol (NTP). Refer to the operating system&#39;s instructions for doing
 so.
 </div>
-<div id="b6ea6hh223e000as9rag" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20q0" class="tab-pane fade">
 The underlying operating system on which Docker Enterprise Edition runs should
 be configured such that its system clock compares itself with an
 authoritative time source as indicated by this control. This can be
@@ -1199,7 +1199,7 @@ utilizing the Network Time Protocol (NTP). Refer to the operating
 system&#39;s instructions for doing so.
 
 </div>
-<div id="b6ea6hh223e000as9rb0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20qg" class="tab-pane fade">
 The underlying operating system on which Universal Control Plane runs
 should be configured such that its system clock compares itself with
 an authoritative time source as indicated by this control. This can be
@@ -1216,23 +1216,23 @@ so.
 
 ### AU-8 (2) Secondary Authoritative Time Source
 
-**Description:**
+#### Description
 
 The information system identifies a secondary authoritative time source that is located in a different geographic region than the primary authoritative time source.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-9 Protection Of Audit Information
 
-**Description:**
+#### Description
 
 The information system protects audit information and audit tools from unauthorized access, modification, and deletion.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1257,16 +1257,16 @@ The information system protects audit information and audit tools from unauthori
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9rbg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rc0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rcg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20r0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20rg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20s0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9rbg" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20r0" class="tab-pane fade in active">
 By default, Docker Trusted Registry is configured to use the
 underlying logging capabilities of Docker Enterprise Edition. As such,
 on the underlying Linux operating system, only root and sudo users and
@@ -1278,7 +1278,7 @@ logging stack. In this case, the organization is responsible for
 configuring the remote logging stack per the provisions of this
 control.
 </div>
-<div id="b6ea6hh223e000as9rc0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20rg" class="tab-pane fade">
 On the underlying Linux operating system supporting Docker Enterprise
 Edition, only root and sudo users and users that have been added to
 the &#34;docker&#34; group have the ability to access the logs generated by
@@ -1295,7 +1295,7 @@ following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9rcg" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20s0" class="tab-pane fade">
 By default, Universal Control Plane is configured to use the
 underlying logging capabilities of Docker Enterprise Edition. As such,
 on the underlying Linux operating system, only root and sudo users and
@@ -1311,23 +1311,23 @@ control.
 
 ### AU-9 (1) Hardware Write-Once Media
 
-**Description:**
+#### Description
 
 The information system writes audit trails to hardware-enforced, write-once media.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-9 (2) Audit Backup On Separate Physical Systems / Components
 
-**Description:**
+#### Description
 
 The information system backs up audit records [Assignment: organization-defined frequency] onto a physically different system or system component than the system or component being audited.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1352,16 +1352,16 @@ The information system backs up audit records [Assignment: organization-defined 
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9rd0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rdg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9re0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20sg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20t0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20tg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9rd0" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20sg" class="tab-pane fade in active">
 Docker Trusted Registry resides as an Application on a Universal
 Control Plane cluster, acan be configured to send logs to a remote
 logging stack. Additional information can be found at the following
@@ -1373,7 +1373,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9rdg" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20t0" class="tab-pane fade">
 Docker Enterprise Edition can be configured to use a logging driver
 that can subsequently meet the backup requirements of this control.
 Additional information can be found at the following resources:
@@ -1384,7 +1384,7 @@ Additional information can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9re0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20tg" class="tab-pane fade">
 Universal Control Plane can be configured to send logs to a remote
 logging stack. Additional information can be found at the following
 resources:
@@ -1399,13 +1399,13 @@ resources:
 
 ### AU-9 (3) Cryptographic Protection
 
-**Description:**
+#### Description
 
 The information system implements cryptographic mechanisms to protect the integrity of audit information and audit tools.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1425,15 +1425,15 @@ The information system implements cryptographic mechanisms to protect the integr
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9reg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rf0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20u0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed20ug">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9reg" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20u0" class="tab-pane fade in active">
 Docker Trusted Registry resides as an Application on a Universal
 Control Plane cluster, acan be configured to send logs to a remote
 logging stack. Additional information can be found at the following
@@ -1445,7 +1445,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9rf0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed20ug" class="tab-pane fade">
 Docker Enterprise Edition can be configured to use a logging driver
 that can subsequently meet the encryption mechanisms required by this
 control. Additional information can be found at the following
@@ -1461,43 +1461,43 @@ resources:
 
 ### AU-9 (4) Access By Subset Of Privileged Users
 
-**Description:**
+#### Description
 
 The organization authorizes access to management of audit functionality to only [Assignment: organization-defined subset of privileged users].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-9 (5) Dual Authorization
 
-**Description:**
+#### Description
 
 The organization enforces dual authorization for [Selection (one or more): movement; deletion] of [Assignment: organization-defined audit information].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-9 (6) Read Only Access
 
-**Description:**
+#### Description
 
 The organization authorizes read-only access to audit information to [Assignment: organization-defined subset of privileged users].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-10 Non-Repudiation
 
-**Description:**
+#### Description
 
 The information system protects against an individual (or process acting on behalf of an individual) falsely denying having performed [Assignment: organization-defined actions to be covered by non-repudiation].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1512,14 +1512,14 @@ The information system protects against an individual (or process acting on beha
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9rfg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20v0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9rfg" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20v0" class="tab-pane fade in active">
 Docker Enterprise Edition includes functionality known as Docker
 Content Trust which allows one to cryptographically sign Docker
 images. It enforces client-side signing and verification of image tags
@@ -1543,7 +1543,7 @@ resources:
 
 ### AU-10 (1) Association Of Identities
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -1551,13 +1551,13 @@ The information system:
 <li>Provides the means for authorized individuals to determine the identity of the producer of the information.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-10 (2) Validate Binding Of Information Producer Identity
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -1565,23 +1565,23 @@ The information system:
 <li>Performs [Assignment: organization-defined actions] in the event of a validation error.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-10 (3) Chain Of Custody
 
-**Description:**
+#### Description
 
 The information system maintains reviewer/releaser identity and credentials within the established chain of custody for all information reviewed or released.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-10 (4) Validate Binding Of Information Reviewer Identity
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -1589,19 +1589,19 @@ The information system:
 <li>Performs [Assignment: organization-defined actions] in the event of a validation error.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-11 Audit Record Retention
 
-**Description:**
+#### Description
 
 The organization retains audit records for [Assignment: organization-defined time period consistent with records retention policy] to provide support for after-the-fact investigations of security incidents and to meet regulatory and organizational information retention requirements.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1626,16 +1626,16 @@ The organization retains audit records for [Assignment: organization-defined tim
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9rg0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rgg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rh0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed20vg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed2100">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed210g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9rg0" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed20vg" class="tab-pane fade in active">
 The organization will be responsible for meeting the requirements of
 this control. To assist with these requirements, Docker Trusted
 Registry resides as an Application on a Universal Control Plane
@@ -1649,7 +1649,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9rgg" class="tab-pane fade">
+<div id="b6eamnfedd2000ed2100" class="tab-pane fade">
 The organization will be responsible for meeting the requirements of
 this control. To assist with these requirements, Docker Enterprise
 Edition can be configured to use a logging driver that stores data in
@@ -1662,7 +1662,7 @@ information can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9rh0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed210g" class="tab-pane fade">
 The organization will be responsible for meeting the requirements of
 this control. To assist with these requirements, Universal Control
 Plane can be configured to send logs to a remote logging stack.
@@ -1678,17 +1678,17 @@ Additional information can be found at the following resources:
 
 ### AU-11 (1) Long-Term Retrieval Capability
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined measures] to ensure that long-term audit records generated by the information system can be retrieved.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-12 Audit Generation
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -1697,9 +1697,9 @@ The information system:
 <li>Generates audit records for the events defined in AU-2 d. with the content defined in AU-3.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1724,16 +1724,16 @@ The information system:
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9rhg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9ri0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rig">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed2110">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed211g">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed2120">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9rhg" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed2110" class="tab-pane fade in active">
 All of the event types indicated by AU-2 a. are logged by a
 combination of the backend services within Universal Control Plane and
 Docker Trusted Registry. Additional information can be found at the
@@ -1748,7 +1748,7 @@ use for instructions on configuring this service.
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9ri0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed211g" class="tab-pane fade">
 Both Universal Control Plane and Docker Trusted Registry backend
 service containers, all of which reside on Docker Enterprise Edition,
 log all of the event types indicated by this AU-2 a. These and other
@@ -1766,7 +1766,7 @@ distribution in use for instructions on configuring this service.
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9rig" class="tab-pane fade">
+<div id="b6eamnfedd2000ed2120" class="tab-pane fade">
 All of the event types indicated by AU-2 a. are logged by the backend
 ucp-controller service within Universal Control Plane. In addition,
 each container created on a Universal Control Plane cluster logs event
@@ -1785,13 +1785,13 @@ use for instructions on configuring this service.
 
 ### AU-12 (1) System-Wide / Time-Correlated Audit Trail
 
-**Description:**
+#### Description
 
 The information system compiles audit records from [Assignment: organization-defined information system components] into a system-wide (logical or physical) audit trail that is time-correlated to within [Assignment: organization-defined level of tolerance for the relationship between time stamps of individual records in the audit trail].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1816,16 +1816,16 @@ The information system compiles audit records from [Assignment: organization-def
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9rj0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rjg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rk0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed212g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed2130">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed213g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9rj0" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed212g" class="tab-pane fade in active">
 Docker Trusted Registry resides as an Application on a Universal
 Control Plane cluster, and as such, can be configured to send logs to
 a remote logging stack. Additional information can be found at the
@@ -1837,7 +1837,7 @@ following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9rjg" class="tab-pane fade">
+<div id="b6eamnfedd2000ed2130" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. This
 logging stack can subsequently be used to compile audit records in to
@@ -1851,7 +1851,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9rk0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed213g" class="tab-pane fade">
 Universal Control Plane can be configured to send logs to a remote
 logging stack. Additional information can be found at the following
 resources:
@@ -1866,23 +1866,23 @@ resources:
 
 ### AU-12 (2) Standardized Formats
 
-**Description:**
+#### Description
 
 The information system produces a system-wide (logical or physical) audit trail composed of audit records in a standardized format.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-12 (3) Changes By Authorized Individuals
 
-**Description:**
+#### Description
 
 The information system provides the capability for [Assignment: organization-defined individuals or roles] to change the auditing to be performed on [Assignment: organization-defined information system components] based on [Assignment: organization-defined selectable event criteria] within [Assignment: organization-defined time thresholds].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Docker system
+Responsible role(s) - Docker system
 
 <table>
 <tr>
@@ -1907,16 +1907,16 @@ The information system provides the capability for [Assignment: organization-def
 </tr>
 </table>
 
-**Implementation Details:**
+#### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6ea6hh223e000as9rkg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rl0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6ea6hh223e000as9rlg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6eamnfedd2000ed2140">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed214g">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6eamnfedd2000ed2150">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6ea6hh223e000as9rkg" class="tab-pane fade in active">
+<div id="b6eamnfedd2000ed2140" class="tab-pane fade in active">
 Docker Trusted Registry resides as an Application on a Universal
 Control Plane cluster, and as such, can be configured to send logs to
 a remote logging stack. Additional information can be found at the
@@ -1928,7 +1928,7 @@ following resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9rl0" class="tab-pane fade">
+<div id="b6eamnfedd2000ed214g" class="tab-pane fade">
 Docker Enterprise Edition can be configured with various logging
 drivers to send audit events to an external logging stack. This
 logging stack can subsequently be used to meet the requirements of
@@ -1941,7 +1941,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6ea6hh223e000as9rlg" class="tab-pane fade">
+<div id="b6eamnfedd2000ed2150" class="tab-pane fade">
 Universal Control Plane can be configured to send logs to a remote
 logging stack. Additional information can be found at the following
 resources:
@@ -1956,111 +1956,111 @@ resources:
 
 ## AU-13 Monitoring For Information Disclosure
 
-**Description:**
+#### Description
 
 The organization monitors [Assignment: organization-defined open source information and/or information sites] [Assignment: organization-defined frequency] for evidence of unauthorized disclosure of organizational information.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-13 (1) Use Of Automated Tools
 
-**Description:**
+#### Description
 
 The organization employs automated mechanisms to determine if organizational information has been disclosed in an unauthorized manner.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-13 (2) Review Of Monitored Sites
 
-**Description:**
+#### Description
 
 The organization reviews the open source information sites being monitored [Assignment: organization-defined frequency].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-14 Session Audit
 
-**Description:**
+#### Description
 
 The information system provides the capability for authorized users to select a user session to capture/record or view/hear.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-14 (1) System Start-Up
 
-**Description:**
+#### Description
 
 The information system initiates session audits at system start-up.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-14 (2) Capture/Record And Log Content
 
-**Description:**
+#### Description
 
 The information system provides the capability for authorized users to capture/record and log content related to a user session.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-14 (3) Remote Viewing / Listening
 
-**Description:**
+#### Description
 
 The information system provides the capability for authorized users to remotely view/hear all content related to an established user session in real time.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-15 Alternate Audit Capability
 
-**Description:**
+#### Description
 
 The organization provides an alternate audit capability in the event of a failure in primary audit capability that provides [Assignment: organization-defined alternate audit functionality].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## AU-16 Cross-Organizational Auditing
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined methods] for coordinating [Assignment: organization-defined audit information] among external organizations when audit information is transmitted across organizational boundaries.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-16 (1) Identity Preservation
 
-**Description:**
+#### Description
 
 The organization requires that the identity of individuals be preserved in cross-organizational audit trails.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### AU-16 (2) Sharing Of Audit Information
 
-**Description:**
+#### Description
 
 The organization provides cross-organizational audit information to [Assignment: organization-defined organizations] based on [Assignment: organization-defined cross-organizational sharing agreements].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 

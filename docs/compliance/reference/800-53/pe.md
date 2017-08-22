@@ -6,7 +6,7 @@ keywords: "standards, compliance, security, 800-53, Physical And Environmental P
 
 ## PE-1 Physical And Environmental Protection Policy And Procedures
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -24,13 +24,13 @@ The organization:
 </ol>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-2 Physical Access Authorizations
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -40,43 +40,43 @@ The organization:
 <li>Removes individuals from the facility access list when access is no longer required.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-2 (1) Access By Position / Role
 
-**Description:**
+#### Description
 
 The organization authorizes physical access to the facility where the information system resides based on position or role.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-2 (2) Two Forms Of Identification
 
-**Description:**
+#### Description
 
 The organization requires two forms of identification from [Assignment: organization-defined list of acceptable forms of identification] for visitor access to the facility where the information system resides.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-2 (3) Restrict Unescorted Access
 
-**Description:**
+#### Description
 
 The organization restricts unescorted access to the facility where the information system resides to personnel with [Selection (one or more): security clearances for all information contained within the system; formal access authorizations for all information contained within the system; need for access to all information contained within the system; [Assignment: organization-defined credentials]].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-3 Physical Access Control
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -94,93 +94,93 @@ The organization:
 <li>Changes combinations and keys [Assignment: organization-defined frequency] and/or when keys are lost, combinations are compromised, or individuals are transferred or terminated.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-3 (1) Information System Access
 
-**Description:**
+#### Description
 
 The organization enforces physical access authorizations to the information system in addition to the physical access controls for the facility at [Assignment: organization-defined physical spaces containing one or more components of the information system].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-3 (2) Facility / Information System Boundaries
 
-**Description:**
+#### Description
 
 The organization performs security checks [Assignment: organization-defined frequency] at the physical boundary of the facility or information system for unauthorized exfiltration of information or removal of information system components.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-3 (3) Continuous Guards / Alarms / Monitoring
 
-**Description:**
+#### Description
 
 The organization employs guards and/or alarms to monitor every physical access point to the facility where the information system resides 24 hours per day, 7 days per week.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-3 (4) Lockable Casings
 
-**Description:**
+#### Description
 
 The organization uses lockable physical casings to protect [Assignment: organization-defined information system components] from unauthorized physical access.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-3 (5) Tamper Protection
 
-**Description:**
+#### Description
 
 The organization employs [Assignment: organization-defined security safeguards] to [Selection (one or more): detect; prevent] physical tampering or alteration of [Assignment: organization-defined hardware components] within the information system.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-3 (6) Facility Penetration Testing
 
-**Description:**
+#### Description
 
 The organization employs a penetration testing process that includes [Assignment: organization-defined frequency], unannounced attempts to bypass or circumvent security controls associated with physical access points to the facility.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-4 Access Control For Transmission Medium
 
-**Description:**
+#### Description
 
 The organization controls physical access to [Assignment: organization-defined information system distribution and transmission lines] within organizational facilities using [Assignment: organization-defined security safeguards].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-5 Access Control For Output Devices
 
-**Description:**
+#### Description
 
 The organization controls physical access to information system output devices to prevent unauthorized individuals from obtaining the output.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-5 (1) Access To Output By Authorized Individuals
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -188,13 +188,13 @@ The organization:
 <li>Ensures that only authorized individuals receive output from the device.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-5 (2) Access To Output By Individual Identity
 
-**Description:**
+#### Description
 
 The information system:
 <ol type="a">
@@ -202,23 +202,23 @@ The information system:
 <li>Links individual identity to receipt of the output from the device.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-5 (3) Marking Output Devices
 
-**Description:**
+#### Description
 
 The organization marks [Assignment: organization-defined information system output devices] indicating the appropriate security marking of the information permitted to be output from the device.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-6 Monitoring Physical Access
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -227,53 +227,53 @@ The organization:
 <li>Coordinates results of reviews and investigations with the organizational incident response capability.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-6 (1) Intrusion Alarms / Surveillance Equipment
 
-**Description:**
+#### Description
 
 The organization monitors physical intrusion alarms and surveillance equipment.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-6 (2) Automated Intrusion Recognition / Responses
 
-**Description:**
+#### Description
 
 The organization employs automated mechanisms to recognize [Assignment: organization-defined classes/types of intrusions] and initiate [Assignment: organization-defined response actions].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-6 (3) Video Surveillance
 
-**Description:**
+#### Description
 
 The organization employs video surveillance of [Assignment: organization-defined operational areas] and retains video recordings for [Assignment: organization-defined time period].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-6 (4) Monitoring Physical Access To Information Systems
 
-**Description:**
+#### Description
 
 The organization monitors physical access to the information system in addition to the physical access monitoring of the facility as [Assignment: organization-defined physical spaces containing one or more components of the information system].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-8 Visitor Access Records
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -281,53 +281,53 @@ The organization:
 <li>Reviews visitor access records [Assignment: organization-defined frequency].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-8 (1) Automated Records Maintenance / Review
 
-**Description:**
+#### Description
 
 The organization employs automated mechanisms to facilitate the maintenance and review of visitor access records.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-9 Power Equipment And Cabling
 
-**Description:**
+#### Description
 
 The organization protects power equipment and power cabling for the information system from damage and destruction.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-9 (1) Redundant Cabling
 
-**Description:**
+#### Description
 
 The organization employs redundant power cabling paths that are physically separated by [Assignment: organization-defined distance].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-9 (2) Automatic Voltage Controls
 
-**Description:**
+#### Description
 
 The organization employs automatic voltage controls for [Assignment: organization-defined critical information system components].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-10 Emergency Shutoff
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -336,33 +336,33 @@ The organization:
 <li>Protects emergency power shutoff capability from unauthorized activation.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-11 Emergency Power
 
-**Description:**
+#### Description
 
 The organization provides a short-term uninterruptible power supply to facilitate [Selection (one or more): an orderly shutdown of the information system; transition of the information system to long-term alternate power] in the event of a primary power source loss.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-11 (1) Long-Term Alternate Power Supply - Minimal Operational Capability
 
-**Description:**
+#### Description
 
 The organization provides a long-term alternate power supply for the information system that is capable of maintaining minimally required operational capability in the event of an extended loss of the primary power source.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-11 (2) Long-Term Alternate Power Supply - Self-Contained
 
-**Description:**
+#### Description
 
 The organization provides a long-term alternate power supply for the information system that is:
 <ol type="a">
@@ -371,83 +371,83 @@ The organization provides a long-term alternate power supply for the information
 <li>Capable of maintaining [Selection: minimally required operational capability; full operational capability] in the event of an extended loss of the primary power source.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-12 Emergency Lighting
 
-**Description:**
+#### Description
 
 The organization employs and maintains automatic emergency lighting for the information system that activates in the event of a power outage or disruption and that covers emergency exits and evacuation routes within the facility.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-12 (1) Essential Missions / Business Functions
 
-**Description:**
+#### Description
 
 The organization provides emergency lighting for all areas within the facility supporting essential missions and business functions.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-13 Fire Protection
 
-**Description:**
+#### Description
 
 The organization employs and maintains fire suppression and detection devices/systems for the information system that are supported by an independent energy source.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-13 (1) Detection Devices / Systems
 
-**Description:**
+#### Description
 
 The organization employs fire detection devices/systems for the information system that activate automatically and notify [Assignment: organization-defined personnel or roles] and [Assignment: organization-defined emergency responders] in the event of a fire.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-13 (2) Suppression Devices / Systems
 
-**Description:**
+#### Description
 
 The organization employs fire suppression devices/systems for the information system that provide automatic notification of any activation to Assignment: organization-defined personnel or roles] and [Assignment: organization-defined emergency responders].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-13 (3) Automatic Fire Suppression
 
-**Description:**
+#### Description
 
 The organization employs an automatic fire suppression capability for the information system when the facility is not staffed on a continuous basis.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-13 (4) Inspections
 
-**Description:**
+#### Description
 
 The organization ensures that the facility undergoes [Assignment: organization-defined frequency] inspections by authorized and qualified inspectors and resolves identified deficiencies within [Assignment: organization-defined time period].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-14 Temperature And Humidity Controls
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -455,63 +455,63 @@ The organization:
 <li>Monitors temperature and humidity levels [Assignment: organization-defined frequency].</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-14 (1) Automatic Controls
 
-**Description:**
+#### Description
 
 The organization employs automatic temperature and humidity controls in the facility to prevent fluctuations potentially harmful to the information system.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-14 (2) Monitoring With Alarms / Notifications
 
-**Description:**
+#### Description
 
 The organization employs temperature and humidity monitoring that provides an alarm or notification of changes potentially harmful to personnel or equipment.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-15 Water Damage Protection
 
-**Description:**
+#### Description
 
 The organization protects the information system from damage resulting from water leakage by providing master shutoff or isolation valves that are accessible, working properly, and known to key personnel.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-15 (1) Automation Support
 
-**Description:**
+#### Description
 
 The organization employs automated mechanisms to detect the presence of water in the vicinity of the information system and alerts [Assignment: organization-defined personnel or roles].
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-16 Delivery And Removal
 
-**Description:**
+#### Description
 
 The organization authorizes, monitors, and controls [Assignment: organization-defined types of information system components] entering and exiting the facility and maintains records of those items.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-17 Alternate Work Site
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -520,53 +520,53 @@ The organization:
 <li>Provides a means for employees to communicate with information security personnel in case of security incidents or problems.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-18 Location Of Information System Components
 
-**Description:**
+#### Description
 
 The organization positions information system components within the facility to minimize potential damage from [Assignment: organization-defined physical and environmental hazards] and to minimize the opportunity for unauthorized access.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-18 (1) Facility Site
 
-**Description:**
+#### Description
 
 The organization plans the location or site of the facility where the information system resides with regard to physical and environmental hazards and for existing facilities, considers the physical and environmental hazards in its risk mitigation strategy.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-19 Information Leakage
 
-**Description:**
+#### Description
 
 The organization protects the information system from information leakage due to electromagnetic signals emanations.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ### PE-19 (1) National Emissions / Tempest Policies And Procedures
 
-**Description:**
+#### Description
 
 The organization ensures that information system components, associated data communications, and networks are protected in accordance with national emissions and TEMPEST policies and procedures based on the security category or classification of the information.
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
 ## PE-20 Asset Monitoring And Tracking
 
-**Description:**
+#### Description
 
 The organization:
 <ol type="a">
@@ -574,7 +574,7 @@ The organization:
 <li>Ensures that asset location technologies are employed in accordance with applicable federal laws, Executive Orders, directives, regulations, policies, standards, and guidance.</li>
 </ol>
 
-**Control Information:**
+#### Control Information
 
-**Responsible role(s)** - Organization
+Responsible role(s) - Organization
 
