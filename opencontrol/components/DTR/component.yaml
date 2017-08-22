@@ -10,7 +10,7 @@ satisfies:
     covered_by: []
     implementation_statuses:
       - complete
-    control_origin:
+    control_origins:
       - service provider corporate
       - Docker EE system
       - service provider hybrid

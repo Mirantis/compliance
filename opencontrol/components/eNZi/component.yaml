@@ -21,11 +21,8 @@ satisfies:
           can make changes to the cluster. Permissions can be granted and
           managed to enforce fine-grained access control. Supporting
           documentation can found at the following resources:
-          
-          UCP:
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
 
-          DTR:
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
           - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/'
     standard_key: NIST-800-53
 
@@ -182,12 +179,9 @@ satisfies:
           cluster. Supporting documentation can be found at the following
           resources:
           
-          UCP:
           - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Identity_Management
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC
-          
-          DTR:
           - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC'
     parameters:
