@@ -2,6 +2,8 @@ require 'net/http'
 require 'json'
 require 'uri'
 require 'inspec'
+require 'toml'
+
 
 class UCP < Inspec.resource(1)
   name 'ucp'
@@ -20,9 +22,24 @@ class UCP < Inspec.resource(1)
     @ucp_uri = args["ucp_uri"].to_s.chomp('/')
     username = args["username"].to_s
     password = args["password"].to_s
-    if @ucp_uri !~ URI.regexp
+    @client_bundle_docker_host = args["client_bundle_docker_host"].to_s
+    @client_bundle_ca_cert_path = args["client_bundle_ca_cert_path"].to_s
+    @client_bundle_cert_path = args["client_bundle_cert_path"].to_s
+    @client_bundle_key_path = args["client_bundle_key_path"].to_s
+    if !@ucp_uri.empty? && @ucp_uri !~ URI.regexp
       return skip_resource "Invalid UCP URL #{@ucp_uri}"
     end
+    unless File.file?(@client_bundle_ca_cert_path)
+      return skip_resource "Client bundle CA cert path #{@client_bundle_ca_cert_path} does not exist"
+    end
+    unless File.file?(@client_bundle_cert_path)
+      return skip_resource "Client bundle cert path #{@client_bundle_cert_path} does not exist"
+    end
+    unless File.file?(@client_bundle_key_path)
+      return skip_resource "Client bundle key path #{@client_bundle_key_path} does not exist"
+    end
+
+    return if @ucp_uri.empty?
     begin
       uri = URI("#{@ucp_uri}/auth/login")
       auth_response = Net::HTTP.post(uri, { "username" => "#{username}", "password" => "#{password}" }.to_json, "Content-Type" => "application/json")
@@ -43,8 +60,14 @@ class UCP < Inspec.resource(1)
     return api_response['backend'] == "ldap" ? true : false
   end
 
-  def get_config
-    ucp_config = inspec.command('docker config inspect --format \'{{ printf "%s" .Spec.Data }}\' com.docker.ucp.config-1').stdout
+  def remote_logging_enabled?
+    begin
+      ucp_config = inspec.command("docker -H #{@client_bundle_docker_host} --tlsverify --tlscacert #{@client_bundle_ca_cert_path} --tlscert #{@client_bundle_cert_path} --tlskey #{@client_bundle_key_path} config inspect --format '{{ printf \"%s\" .Spec.Data }}' com.docker.ucp.config-1").stdout
+      ucp_config_parsed = TOML.load(ucp_config)
+      return ucp_config_parsed['log_configuration']['host'].empty? ? false : true
+    rescue StandardError
+      return skip_resource "Error connecting to UCP host #{@client_bundle_docker_host}: #{$!}"
+    end
   end
 
   private
