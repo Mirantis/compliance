@@ -18,16 +18,20 @@ You can then use the InSpec commands below to audit your cluster at a chosen bas
 
 1. Set correct directory
 
-    `cd validation/inspec`
+    ```sh
+    cd validation/inspec
+    ```
 
 2. Audit cluster at FedRAMP Moderate baseline
 
-    `inspec exec FedRAMP/Moderate --attrs profile-attribute.yml`
+    ```sh
+    inspec exec FedRAMP/Moderate --attrs profile-attribute.yml
+    ```
 
     or using Docker:
 
     ```sh
-    docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v "$PWD":/share docker/compliance-inspec exec FedRAMP/Moderate --attrs profile-attribute.ym
+    docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v "$PWD":/share docker/compliance-inspec exec FedRAMP/Moderate --attrs profile-attribute.yml
     ```
 
 The included `Makefile` can also be used to run InSpec audit commands.
