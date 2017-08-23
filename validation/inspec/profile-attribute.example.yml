@@ -1,13 +1,7 @@
-ucpuri: ''
-username: ''
-password: ''
-clientbundledockerhost: ''
-clientbundlecacert: |
-  -----BEGIN CERTIFICATE-----
-  -----END CERTIFICATE-----
-clientbundlecert: |
-  -----BEGIN CERTIFICATE-----
-  -----END CERTIFICATE-----
-clientbundlekey: |
-  -----BEGIN EC PRIVATE KEY-----
-  -----END EC PRIVATE KEY-----
+ucpuri: ''                # UCP URI
+username: ''              # UCP username
+password: ''              # UCP password
+clientbundlehost: ''      # UCP client bundle Docker host
+clientbundlecacert: ''    # UCP client bundle CA cert path
+clientbundlecert: ''      # UCP client bundle cert path
+clientbundlekey: ''       # UCP client bundle key path

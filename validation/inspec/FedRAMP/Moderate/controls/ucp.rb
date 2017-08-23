@@ -6,19 +6,19 @@ title 'Universal Control Plane'
 val_ucp_uri = attribute('ucpuri', description: 'UCP URI')
 val_username = attribute('username', description: 'UCP username')
 val_password = attribute('password', description: 'UCP password')
-val_client_bundle_docker_host = attribute('clientbundledockerhost', description: 'UCP client bundle Docker host')
-val_client_bundle_ca_cert_path = attribute('clientbundlecacertpath', description: 'Path to UCP client bundle CA cert')
-val_client_bundle_cert_path = attribute('clientbundlecertpath', description: 'Path to UCP client bundle cert')
-val_client_bundle_key_path = attribute('clientbundlekeypath', description: 'Path to UCp client bundle key')
+val_client_bundle_host = attribute('clientbundlehost', description: 'UCP client bundle host')
+val_client_bundle_ca_cert = attribute('clientbundlecacert', description: 'Path to UCP client bundle CA cert')
+val_client_bundle_cert = attribute('clientbundlecert', description: 'Path to UCP client bundle cert')
+val_client_bundle_key = attribute('clientbundlekey', description: 'Path to UCp client bundle key')
 
 ucp_instance = ucp({
   "ucp_uri" => val_ucp_uri,
   "username" => val_username,
   "password" => val_password,
-  "client_bundle_docker_host" => val_client_bundle_docker_host,
-  "client_bundle_ca_cert_path" => val_client_bundle_ca_cert_path,
-  "client_bundle_cert_path" => val_client_bundle_cert_path,
-  "client_bundle_key_path" => val_client_bundle_key_path
+  "client_bundle_host" => val_client_bundle_host,
+  "client_bundle_ca_cert" => val_client_bundle_ca_cert,
+  "client_bundle_cert" => val_client_bundle_cert,
+  "client_bundle_key" => val_client_bundle_key
 })
 
 describe ucp_instance do
