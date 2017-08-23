@@ -7,7 +7,6 @@ Profiles are used by the InSpec tool to scan an active instance of Docker EE, Un
 - FedRAMP Moderate
 - FedRAMP High
 
-
 ## Using the InSpec tool
 
 You can download the InSpec tool at https://www.inspec.io/downloads/. If you prefer, you can also use the official Docker image ([chef/inspec](https://store.docker.com/community/images/chef/inspec)) to execute an audit. Refer to the [InSpec documentation](https://www.inspec.io/docs/) for full CLI usage instructions.
@@ -28,10 +27,8 @@ You can then use the InSpec commands below to audit your cluster at a chosen bas
     inspec exec FedRAMP/Moderate --attrs profile-attribute.yml
     ```
 
-    or using Docker:
+We also maintain a Docker image that already includes our InSpec profiles and the InSpec CLI. If you prefer, you can use it as follows:
 
     ```sh
     docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v "$PWD":/share docker/compliance-inspec exec FedRAMP/Moderate --attrs profile-attribute.yml
     ```
-
-The included `Makefile` can also be used to run InSpec audit commands.
