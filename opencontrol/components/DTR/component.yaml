@@ -364,23 +364,48 @@ satisfies:
 
   - control_key: AU-2
     covered_by: []
-    implementation_status: complete    
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete    
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+      - shared
     narrative:
       - key: a
         text: |
           'All of the event types indicated by this control are logged by a
           combination of the backend ucp-controller service within Universal
           Control Plane and the backend services that make up Docker Trusted
-          Registry. Additional documentation can be found at the following resource:
+          Registry. Additional documentation can be found at the following
+          resource:
 
-          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/monitor-and-troubleshoot/'
+          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/monitor-and-troubleshoot/
+          - https://docs.docker.com/datacenter/dtr/2.3/guides/architecture/#dtr-internal-components
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/#ucp-internal-components'
+    parameters:
+      - key: "AU-2(a)"
+        text: |
+          "FedRAMP requirement: successful and unsuccessful account logon
+          events, account management events, object access, policy change,
+          privileged functions, process tracking, and system events. For Web
+          applications: all administrator activity, authentication checks,
+          authorization checks, data deletions, data access, data changes, and
+          permission changes"
+      - key: "AU-2(d)"
+        text: |
+          "FedRAMP requirement: organization-defined subset of the auditable
+          events defined in AU-2-a. to be audited continually for each
+          identified event"
     standard_key: NIST-800-53
 
   - control_key: AU-3
     covered_by: []
-    implementation_status: complete  
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete  
+    control_origins:
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Docker Trusted Registry generates all of the audit record information
@@ -395,8 +420,11 @@ satisfies:
   
   - control_key: AU-3 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -406,7 +434,15 @@ satisfies:
           defined by this control from the logged audit records. Additional
           information can be found at the following resource:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-3(1)"
+        text: |
+          "FedRAMP requirement: session, connection, trasaction, or activity
+          duration; for client-server transactions, the number of bytes received
+          and bytes sent, additional informational messages to diagnose or
+          identify the event, characteristics that describe or identify the
+          object or resource being acted upon"
     standard_key: NIST-800-53
 
   - control_key: AU-3 (2)
@@ -414,7 +450,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -424,13 +461,20 @@ satisfies:
           defined by this control from the logged audit records. Additional
           information can be found at the following resource:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-3(2)"
+        text: |
+          "all network, data storage, and computing devices"
     standard_key: NIST-800-53
 
   - control_key: AU-5
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -440,7 +484,15 @@ satisfies:
           the event of log processing failures. Additional information can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-5(a)"
+        text: |
+          "customer-defined personnel or roles"
+      - key: "AU-5(b)"
+        text: |
+          "FedRAMP requirement: low-impact: overwrite oldest audit records;
+          moderate-impact: shut down"
     standard_key: NIST-800-53
 
   - control_key: AU-5 (1)
@@ -448,7 +500,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -458,7 +511,17 @@ satisfies:
           when the allocated log storage is full. Additional information can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-5(1)-1"
+        text: |
+          "appropriate service team personnel, customer-defined personnel"
+      - key: "AU-5(1)-2"
+        text: |
+          "24 hours, customer-defined time period"
+      - key: "AU-5(1)-3"
+        text: |
+          "a service team defined percentage, customer-defined percentage"
     standard_key: NIST-800-53
 
   - control_key: AU-5 (2)
@@ -466,7 +529,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -476,7 +540,18 @@ satisfies:
           when audit log failures occur. Additional information can be found at
           the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-5(2)-1"
+        text: |
+          "real-time"
+      - key: "AU-5(2)-2"
+        text: |
+          "appropriate service team personnel"
+      - key: "AU-5(2)-3"
+        text: |
+          "events defined by each service team, audit failure events requiring
+          real-time alerts, as defined by organization audit policy"
     standard_key: NIST-800-53
 
   - control_key: AU-6 (4)

@@ -237,7 +237,10 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+      - shared
     narrative:
       - key: a
         text: |
@@ -257,7 +260,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Both Universal Control Plane and Docker Trusted Registry are
@@ -280,7 +284,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Docker Enterprise Edition can be configured with various logging
@@ -290,6 +295,14 @@ satisfies:
           documentation can be found at the following resource:
 
           - https://docs.docker.com/engine/admin/logging/overview/'
+    parameters:
+      - key: "AU-3(1)"
+        text: |
+          "FedRAMP requirement: session, connection, trasaction, or activity
+          duration; for client-server transactions, the number of bytes received
+          and bytes sent, additional informational messages to diagnose or
+          identify the event, characteristics that describe or identify the
+          object or resource being acted upon"
     standard_key: NIST-800-53
 
   - control_key: AU-3 (2)
@@ -297,7 +310,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Docker Enterprise Edition can be configured with various logging
@@ -307,6 +321,10 @@ satisfies:
           documentation can be found at the following resource:
 
           - https://docs.docker.com/engine/admin/logging/overview/'
+    parameters:
+      - key: "AU-3(2)"
+        text: |
+          "all network, data storage, and computing devices"
     standard_key: NIST-800-53
 
   - control_key: AU-5
@@ -314,7 +332,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Docker Enterprise Edition can be configured with various logging
@@ -325,6 +344,14 @@ satisfies:
           resources:
 
           - https://docs.docker.com/engine/admin/logging/overview/'
+    parameters:
+      - key: "AU-5(a)"
+        text: |
+          "customer-defined personnel or roles"
+      - key: "AU-5(b)"
+        text: |
+          "FedRAMP requirement: low-impact: overwrite oldest audit records;
+          moderate-impact: shut down"
     standard_key: NIST-800-53
 
   - control_key: AU-5 (1)
@@ -332,7 +359,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker eE system
+      - shared
     narrative:
       - text: |
           'Docker Enterprise Edition can be configured with various logging
@@ -342,6 +370,16 @@ satisfies:
           the following resources:
 
           - https://docs.docker.com/engine/admin/logging/overview/'
+    parameters:
+      - key: "AU-5(1)-1"
+        text: |
+          "appropriate service team personnel, customer-defined personnel"
+      - key: "AU-5(1)-2"
+        text: |
+          "24 hours, customer-defined time period"
+      - key: "AU-5(1)-3"
+        text: |
+          "a service team defined percentage, customer-defined percentage"
     standard_key: NIST-800-53
 
   - control_key: AU-5 (2)
@@ -349,7 +387,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Docker Enterprise Edition can be configured with various logging
@@ -359,6 +398,17 @@ satisfies:
           the following resources:
 
           - https://docs.docker.com/engine/admin/logging/overview/'
+    parameters:
+      - key: "AU-5(2)-1"
+        text: |
+          "real-time"
+      - key: "AU-5(2)-2"
+        text: |
+          "appropriate service team personnel"
+      - key: "AU-5(2)-3"
+        text: |
+          "events defined by each service team, audit failure events requiring
+          real-time alerts, as defined by organization audit policy"
     standard_key: NIST-800-53
 
   - control_key: AU-6 (4)

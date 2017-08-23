@@ -239,7 +239,7 @@ satisfies:
     parameters:
       - key: "AC-2(11)-1"
         text: |
-          "customer-defined circumstrances or usage conditions"
+          "customer-defined circumstances or usage conditions"
       - key: "AC-2(11)-2"
         text: |
           "customer-defined accounts"
@@ -372,17 +372,17 @@ satisfies:
         text: |
           'The feature required to satisfy the requirements of this control has
           not yet been built in to Docker EE but is planned for a future
-          released.'
+          release.'
       - key: b
         text: |
           'The feature required to satisfy the requirements of this control has
           not yet been built in to Docker EE but is planned for a future
-          released.'
+          release.'
       - key: c
         text: |
           'The feature required to satisfy control has
           not yet been built in to Docker EE but is planned for a future
-          released.'
+          release.'
     parameters:
       - key: "AC-8(a)"
         text: |
@@ -492,7 +492,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Docker Enterprise Edition generates all of the audit record
@@ -510,7 +511,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Docker Enterprise Edition can be configured to identify and authenticate
