@@ -44,3 +44,5 @@ RUN set -ex; \
 	\
 	dockerd -v; \
 	docker -v
+
+COPY FedRAMP/ /share/FedRAMP/

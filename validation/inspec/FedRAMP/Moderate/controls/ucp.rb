@@ -32,8 +32,8 @@ control 'AC-2' do
     AC-2 Account Management: LDAP should be enabled and configured to help the
     organization meet the requirements of this control
   '
-  describe ucp_instance.ldap_enabled? do
-    it { should be true }
+  describe ucp_instance do
+    its('ldap_enabled?') { should be true }
   end
 end
 
@@ -44,8 +44,8 @@ control 'AC-2 (1)' do
     AC-2 (1) Automated System Account Management: LDAP should be enabled and
     configured to help the organization meet the requirements of this control
   '
-  describe ucp_instance.ldap_enabled? do
-    it { should be true }
+  describe ucp_instance do
+    its('ldap_enabled?') { should be true }
   end
 end
 
@@ -56,8 +56,8 @@ control 'AC-2 (2)' do
     AC-2 (2) Removal of Temporary/Emergency Accounts: LDAP should be enabled and
     configured to help the organization meet the requirements of this control
   '
-  describe ucp_instance.ldap_enabled? do
-    it { should be true }
+  describe ucp_instance do
+    its('ldap_enabled?') { should be true }
   end
 end
 
@@ -68,8 +68,8 @@ control 'AC-2 (3)' do
     AC-2 (3) Disable Inactive Accounts: LDAP should be enabled and
     configured to help the organization meet the requirements of this control
   '
-  describe ucp_instance.ldap_enabled? do
-    it { should be true }
+  describe ucp_instance do
+    its('ldap_enabled?') { should be true }
   end
 end
 
@@ -80,7 +80,7 @@ control 'AC-2 (4)' do
     AC-2 (4) Automated Audit Actions: UCP should be configured to send its logs
     to a remote logging server
   '
-  describe ucp_instance.remote_logging_enabled? do
-    it { should be true }
+  describe ucp_instance do
+    its('remote_logging_enabled?') { should be true }
   end
 end

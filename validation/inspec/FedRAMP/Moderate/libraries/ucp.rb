@@ -26,7 +26,7 @@ class UCP < Inspec.resource(1)
     @client_bundle_ca_cert = args["client_bundle_ca_cert"].to_s
     @client_bundle_cert = args["client_bundle_cert"].to_s
     @client_bundle_key = args["client_bundle_key"].to_s
-    if !@ucp_uri.empty? && @ucp_uri !~ URI.regexp
+    if @ucp_uri.empty? || @ucp_uri !~ URI.regexp
       return skip_resource "Invalid UCP URL #{@ucp_uri}"
     end
     unless File.file?(@client_bundle_ca_cert)
@@ -53,6 +53,9 @@ class UCP < Inspec.resource(1)
     end
 
     @ucp_config_parsed = TOML.load(ucp_config_command.stdout)
+    if @ucp_config_parsed.nil?
+      return skip_resource "Unable to parse UCP config"
+    end
   end
 
   def version
