@@ -29,6 +29,6 @@ You can then use the InSpec commands below to audit your cluster at a chosen bas
 
 We also maintain a Docker image that already includes our InSpec profiles and the InSpec CLI. If you prefer, you can use it as follows:
 
-    ```sh
-    docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v "$PWD":/share docker/compliance-inspec exec FedRAMP/Moderate --attrs profile-attribute.yml
-    ```
+```sh
+docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v "$PWD":/share docker/compliance-inspec exec FedRAMP/Moderate --attrs profile-attribute.yml
+```
