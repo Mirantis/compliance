@@ -72,6 +72,18 @@ class UCP < Inspec.resource(1)
     return !@ucp_config_parsed['log_configuration']['host'].empty?
   end
 
+  def auth_session_lifetime
+    return @ucp_config_parsed['auth']['sessions']['lifetime_minutes']
+  end
+
+  def auth_session_renewal_threshold
+    return @ucp_config_parsed['auth']['sessions']['renewal_threshold_minutes']
+  end
+
+  def auth_per_user_limit
+    return @ucp_config_parsed['auth']['sessions']['per_user_limit']
+  end
+
   private
 
   def query_api(endpoint)
