@@ -26,6 +26,8 @@ You can then use the InSpec commands below to audit your cluster at a chosen bas
 
     or using Docker:
 
-    `docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v $PWD:/share docker/compliance-inspec exec FedRAMP/Moderate --attrs profile-attribute.ym`
+    ```sh
+    docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v "$PWD":/share docker/compliance-inspec exec FedRAMP/Moderate --attrs profile-attribute.ym
+    ```
 
 The included `Makefile` can also be used to run InSpec audit commands.
