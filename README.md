@@ -72,11 +72,11 @@ If you prefer to generate a Word doc based on the official FedRAMP SSP template,
 
 Docker also provides precompiled System Security Plan (SSP) templates for authorizing Docker Enterprise Edition on various FedRAMP P-ATO'd IaaS providers, as indicated in the table below. These can be obtained by contacting [compliance@docker.com](mailto:compliance@docker.com). These templates are **not** the official cloud providers' SSP templates but rather highlight both the controls inherited from that IaaS provider's P-ATO and the controls applicable to Docker Enterprise Edition Advanced. When conducting an ATO, it is still your responsibility to request the provider's official SSP package as appropriate and conduct your own security analysis and audit.
 
-|Provider|Format|Baselines|Status|
-|--------|------|---------|------|
-|[Microsoft Azure Government](https://azure.microsoft.com/en-us/overview/clouds/government/)|[Azure Blueprint](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-plan-compliance) (.docx)|Moderate<br>High<br>DoD L4<br>DoD L5|Available<br>Coming Soon<br>Coming Soon<br>Coming Soon|
+|Provider|Format|Baselines|Status|Last Updated|
+|--------|------|---------|------|------------|
+|[Microsoft Azure Government](https://azure.microsoft.com/en-us/overview/clouds/government/)|[Azure Blueprint](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-plan-compliance) (.docx)|Moderate<br>High<br>DoD L4<br>DoD L5|Available<br>Coming Soon<br>Coming Soon<br>Coming Soon|December 2016|
 
-Note that even if a precompiled template for Docker EE is not available for your chosen cloud provider, you can still use the OpenControl-formatted content in this repository to generate your own SSP templates. Much of the content in this repository is identical to that which is provided in the pre-built templates.
+Note that even if a precompiled template for Docker EE is not available for your chosen cloud provider, you can still use the OpenControl-formatted content in this repository to generate your own SSP templates. Much of the content in this repository is identical to that which is provided in the pre-built templates. This repository also contains the most up-to-date information on Docker EE and that which may not be reflected in the last update to the pre-built SSP templates.
 
 ## InSpec profiles for Docker EE
 
