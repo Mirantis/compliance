@@ -1,5 +1,5 @@
 schema_version: "1.0.0"
-name: Docker Enterprise Edition 17.06
+name: Docker Enterprise Edition
 metadata:
   description: |
     'Docker Enterprise Edition (EE) is an integrated solution for developers and IT
