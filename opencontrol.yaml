@@ -1,16 +1,16 @@
 schema_version: "1.0.0"
-name: Docker Datacenter
+name: Docker Enterprise Edition 17.06
 metadata:
   description: |
-    Docker Enterprise Edition is an integrated solution for developers and IT
+    'Docker Enterprise Edition (EE) is an integrated solution for developers and IT
     operations to collaborate as part of the enterprise software supply chain.
     It is an enterprise-grade secure container orchestration and application
     management platform built and maintained by Docker, Inc. The compliance
     documentation defined by this system has been mapped to five components of
-    the Docker Enterprise Edition (Advanced) stack as follows: Docker Enterprise
+    the Docker Enterprise Edition stack as follows: Docker Enterprise
     Edition Engine, Docker Trusted Registry (DTR), Universal Control Plane
     (UCP), integrated authentication and authorization service (eNZi) and Docker
-    Security Scanning (DSS).
+    Security Scanning (DSS).'
   maintainers:
     - andrew.weiss@docker.com
 components:
