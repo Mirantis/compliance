@@ -416,7 +416,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Docker Enterprise Edition can be configured with various logging
@@ -433,22 +434,23 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - key: a
         text: |
-          Docker Enterprise Edition can be configured with various logging
+          'Docker Enterprise Edition can be configured with various logging
           drivers to send audit events to an external logging stack. The logging
           stack can subsequently be used to facilitate the audit reduction and
           report generation requirements of this control. Additional information
           can be found at the following resources:
 
-          - https://docs.docker.com/engine/admin/logging/overview/
+          - https://docs.docker.com/engine/admin/logging/overview/'
       - key: b
         text: |
-          The underlying operating system chosen to support Docker Enterprise
+          'The underlying operating system chosen to support Docker Enterprise
           Edition should be certified to ensure that logs are not altered during
-          generation and transmission to a remote logging stack.
+          generation and transmission to a remote logging stack.'
     standard_key: NIST-800-53
   
   - control_key: AU-7 (1)
@@ -456,16 +458,21 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
-          Docker Enterprise Edition can be configured with various logging
+          'Docker Enterprise Edition can be configured with various logging
           drivers to send audit events to an external logging stack. The logging
           stack can subsequently be configured to parse information by
           organization-defined audit fields. Additional information can be found
           at the following resources:
 
-          - https://docs.docker.com/engine/admin/logging/overview/
+          - https://docs.docker.com/engine/admin/logging/overview/'
+    parameters:
+      - key: "AU-7(1)"
+        text: |
+          "customer-defined audit fields within audit records"
     standard_key: NIST-800-53
 
   - control_key: AU-8
@@ -473,18 +480,24 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - configured by customer
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - key: a
         text: |
-          Docker Enterprise Edition uses the system clock of the underlying
-          operating system on which it runs. This behavior cannot be modified.
+          'Docker Enterprise Edition uses the system clock of the underlying
+          operating system on which it runs. This behavior cannot be modified.'
       - key: b
         text: |
-          The underlying operating system on which Docker Enterprise Edition
+          'The underlying operating system on which Docker Enterprise Edition
           runs should be configured such that its system clock uses Coordinated
           Universal Time (UTC) as indicated by this control. Refer to the
-          operating system's instructions for doing so.
+          operating system's instructions for doing so.'
+    parameters:
+      - key: "AU-8(b)"
+        text: |
+          "millisecond precision"
     standard_key: NIST-800-53
 
   - control_key: AU-8 (1)
@@ -492,24 +505,37 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - key: a
         text: |
-          The underlying operating system on which Docker Enterprise Edition runs should
+          'The underlying operating system on which Docker Enterprise Edition runs should
           be configured such that its system clock compares itself with an
           authoritative time source as indicated by this control. This can be
           accomplished by utilizing the Network Time Protocol (NTP). Refer to
-          the operating system's instructions for doing so.
+          the operating system's instructions for doing so.'
       - key: b
         text: |
-          The underlying operating system on which Docker Enterprise Edition
+          'The underlying operating system on which Docker Enterprise Edition
           runs should be configured such that its system clock synchronizes
           itself to an authoritative time source as defined by part (a) of this
           control any time the time difference exceeds that of the
           organization-defined time period. This can be accomplished by
           utilizing the Network Time Protocol (NTP). Refer to the operating
-          system's instructions for doing so.
+          system's instructions for doing so.'
+    parameters:
+      - key: "AU-8(1)(a)-1"
+        text: |
+          "FedRAMP requirement: at least hourly"
+      - key: "AU-8(1)(a)-2"
+        text: |
+          "FedRAMP requirement: authoritative time source:
+          http://tf.nist.gov/tf-cgi/servers.cgi"
+      - key: "AU-8(1)(b)"
+        text: |
+          "customer-defined"
     standard_key: NIST-800-53
 
   - control_key: AU-9
@@ -517,26 +543,26 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
-          On the underlying Linux operating system supporting Docker Enterprise
+          'On the underlying Linux operating system supporting Docker Enterprise
           Edition, only root and sudo users and users that have been added to
           the "docker" group have the ability to access the logs generated by
           UCP backend service containers. Should the organization decide to
           configure Docker Enterprise Edition to use a logging driver other than
           the default json-file driver, the organization is subsequently
           responsible for configuring the chosen logging stack per the
-          provisions of this control. Additional information can be found at the
-          following resources:
+          provisions of this control. In addition, for Linux operating systems
+          supporting Docker Enterprise Edition that use the systemd daemon, it
+          is imperative that the Journal is secured per the requirements of this
+          control. The same applies for Linux operating systems supporting
+          Docker Enterprise Edition that instead use upstart. Additional
+          information can be found at the following resources:
           
-          - https://docs.docker.com/engine/admin/logging/overview/
-
-          In addition, for Linux operating systems supporting Docker Enterprise
-          Edition that use the systemd daemon, it is imperative that the Journal
-          is secured per the requirements of this control. The same applies for
-          Linux operating systems supporting Docker Enterprise Edition that
-          instead use upstart.
+          - https://docs.docker.com/engine/admin/logging/overview/'
     standard_key: NIST-800-53
 
   - control_key: AU-9 (2)
@@ -544,14 +570,20 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
-          Docker Enterprise Edition can be configured to use a logging driver
+          'Docker Enterprise Edition can be configured to use a logging driver
           that can subsequently meet the backup requirements of this control.
           Additional information can be found at the following resources:
 
-          - https://docs.docker.com/engine/admin/logging/overview/
+          - https://docs.docker.com/engine/admin/logging/overview/'
+    parameters:
+      - key: "AU-9(2)"
+        text: |
+          "FedRAMP requirement: at least weekly"
     standard_key: NIST-800-53
 
   - control_key: AU-9 (3)
@@ -559,15 +591,17 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
-          Docker Enterprise Edition can be configured to use a logging driver
+          'Docker Enterprise Edition can be configured to use a logging driver
           that can subsequently meet the encryption mechanisms required by this
           control. Additional information can be found at the following
           resources:
 
-          - https://docs.docker.com/engine/admin/logging/overview/
+          - https://docs.docker.com/engine/admin/logging/overview/'
     standard_key: NIST-800-53
 
   - control_key: AU-10
@@ -599,16 +633,23 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+      - shared
     narrative:
       - text: |
-          The organization will be responsible for meeting the requirements of
+          'The organization will be responsible for meeting the requirements of
           this control. To assist with these requirements, Docker Enterprise
           Edition can be configured to use a logging driver that stores data in
           a location for the duration specified by this control. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/engine/admin/logging/overview/
+          - https://docs.docker.com/engine/admin/logging/overview/'
+    parameters:
+      - key: "AU-11"
+        text: |
+          "FedRAMP requirement: at least one year"
     standard_key: NIST-800-53
 
   - control_key: AU-12
@@ -616,29 +657,36 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - key: a
         text: |
-          Both Universal Control Plane and Docker Trusted Registry backend
+          'Both Universal Control Plane and Docker Trusted Registry backend
           service containers, all of which reside on Docker Enterprise Edition,
           log all of the event types indicated by this AU-2 a. These and other
           application containers that reside on Docker Enterprise Edition can be
-          configured to log data via an appropriate Docker logging driver.
-          Additional information can be found at the following resources:
+          configured to log data via an appropriate Docker logging driver. The
+          underlying Linux operating system supporting Docker Enterprise Edition
+          can be configured to audit Docker-specific events with the auditd
+          daemon. Refer to the specific Linux distribution in use for
+          instructions on configuring this service. Additional information can
+          be found at the following resources:
 
-          - https://docs.docker.com/engine/admin/logging/overview/
-
-          The underlying Linux operating system supporting Docker Enterprise
-          Edition can be configured to audit Docker-specific events with the
-          auditd daemon. Refer to the specific Linux distribution in use for
-          instructions on configuring this service.
+          - https://docs.docker.com/engine/admin/logging/overview/'
       - key: b
         text: |
-          Using auditd on the Linux operating system supporting CS Docker
+          'Using auditd on the Linux operating system supporting CS Docker
           Engine, the organization can configure audit rules to select which
           Docker-specific events are to be audited. Refer to the specific Linux
-          distribution in use for instructions on configuring this service.
+          distribution in use for instructions on configuring this service.'
+    parameters:
+      - key: "AU-12(a)"
+        text: |
+          "FedRAMP requirement: at least every 3 years"
+      - key: "AU-12(b)"
+        text: |
+          "customer-defined personnel or roles"
     standard_key: NIST-800-53
 
   - control_key: AU-12 (1)
@@ -646,17 +694,25 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
-          Docker Enterprise Edition can be configured with various logging
+          'Docker Enterprise Edition can be configured with various logging
           drivers to send audit events to an external logging stack. This
           logging stack can subsequently be used to compile audit records in to
           a system-wide audit trail that is time-correlated per the requirements
           of this control. Additional information can be found at the following
           resources:
 
-          - https://docs.docker.com/engine/admin/logging/overview/
+          - https://docs.docker.com/engine/admin/logging/overview/'
+    parameters:
+      - key: "AU-12(1)-1"
+        text: |
+          "all network, data storage, and computing devices"
+      - key: "AU-12(1)-2"
+        text: |
+          "1 millisecond, organization-defined level of tolerance"
     standard_key: NIST-800-53
 
   - control_key: AU-12 (3)
@@ -664,34 +720,33 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+      - shared
     narrative:
       - text: |
-          Docker Enterprise Edition can be configured with various logging
+          'Docker Enterprise Edition can be configured with various logging
           drivers to send audit events to an external logging stack. This
           logging stack can subsequently be used to meet the requirements of
           this control. Additional information can be found at the following
           resources:
 
-          - https://docs.docker.com/engine/admin/logging/overview/
-    standard_key: NIST-800-53
-
-  - control_key: CA-7
-    covered_by: []
-    implementation_statuses:
-      - complete
-    control_origins:
-      - service provider system specific
-    narrative:
-      - text: |
-          The CIS Docker Benchmark can be used as a baseline for securing Docker
-          Enterprise Edition and for helping the organization meet the
-          continuous monitoring requirements of this control. Additional
-          information can be found at the following resources:
-          
-          - https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
-          - http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
-          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+          - https://docs.docker.com/engine/admin/logging/overview/'
+    parameters:
+      - key: "AU-12(3)-1"
+        text: |
+          "service team members with audit configuration responsibilities"
+      - key: "AU-12(3)-2"
+        text: |
+          "all network, data storage, and computing devices"
+      - key: "AU-12(3)-3"
+        text: |
+          "changes to the thread environment, organization-defined threat
+          situations"
+      - key: "AU-12(3)-4"
+        text: |
+          "risk-based assessment, organization-defined time thresholds"
     standard_key: NIST-800-53
 
   - control_key: CM-1
@@ -699,17 +754,31 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+      - shared
     narrative:
       - text: |
-          The CIS Docker Benchmark can be used as a baseline for securing Docker
-          Enterprise Edition and for helping the organization meet the
-          configurmation management requirements of this control. Additional
+          'The CIS Docker Benchmark can be used as a baseline for securing
+          Docker Enterprise Edition and for helping the organization meet the
+          configuration management requirements of this control. Additional
           information can be found at the following resources:
           
-          - https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+          - https://www.cisecurity.org/benchmark/docker/
           - http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
-          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark'
+    parameters:
+      - key: "CM-1(a)"
+        text: |
+          "customer-defined personnel or roles"
+      - key: "CM-1(b)(1)"
+        text: |
+          "FedRAMP requirement: at least every 3 years"
+      - key: "CM-1(b)(2)"
+        text: |
+          "FedRAMP requirement: at least annually or whenever a significant
+          change occurs"
     standard_key: NIST-800-53
 
   - control_key: CM-2
@@ -717,17 +786,20 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+      - shared
     narrative:
       - text: |
-          The CIS Docker Benchmark can be used as a baseline for securing Docker
+          'The CIS Docker Benchmark can be used as a baseline for securing Docker
           Enterprise Edition and for helping the organization meet the
-          configurmation management requirements of this control. Additional
+          configuration management requirements of this control. Additional
           information can be found at the following resources:
           
-          - https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+          - https://www.cisecurity.org/benchmark/docker/
           - http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
-          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark
+          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark'
     standard_key: NIST-800-53
 
   - control_key: CM-2 (1)
@@ -735,7 +807,10 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+      - shared
     narrative:
       - text: |
           'The CIS Docker Benchmark can be used as a baseline for securing Docker
@@ -743,9 +818,17 @@ satisfies:
           configurmation management requirements of this control. Additional
           information can be found at the following resources:
           
-          - https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+          - https://www.cisecurity.org/benchmark/docker/
           - http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark'
+    parameters:
+      - key: "CM-2(1)(a)"
+        text: |
+          "FedRAMP requirement: at least annually or when a significant change
+          occurs"
+      - key: "CM-2(1)(b)"
+        text: |
+          "FedRAMP requirement: to include when directed by the JAB"
     standard_key: NIST-800-53
 
   - control_key: CM-2 (2)
@@ -753,7 +836,9 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'The CIS Docker Benchmark can be used as a baseline for securing
@@ -766,7 +851,7 @@ satisfies:
           configurations have been applied in an automated fashion. Additional
           information can be found at the following resources:
           
-          - https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+          - https://www.cisecurity.org/benchmark/docker/
           - http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark'
     standard_key: NIST-800-53
@@ -776,7 +861,9 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'The CIS Docker Benchmark can be used as a baseline for securing
@@ -790,9 +877,13 @@ satisfies:
           rolled back as required by this control. Additional information can be
           found at the following resources:
           
-          - https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+          - https://www.cisecurity.org/benchmark/docker/
           - http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark'
+    parameters:
+      - key: "CM-2(3)"
+        text: |
+          "the previously approved baseline configuration of IS components"
     standard_key: NIST-800-53
 
   - control_key: CM-3
@@ -800,7 +891,9 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'The CIS Docker Benchmark can be used as a baseline for securing
@@ -808,9 +901,25 @@ satisfies:
           configurmation management change control requirements of this control.
           Additional information can be found at the following resources:
           
-          - https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+          - https://www.cisecurity.org/benchmark/docker/
           - http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark'
+    parameters:
+      - key: "CM-3(e)"
+        text: |
+          "customer-defined time period"
+      - key: "CM-3(g)-1"
+        text: |
+          "FedRAMP requirement: CAB"
+      - key: "CM-3(g)-2"
+        text: |
+          "customer-defined"
+      - key: "CM-3(g)-3"
+        text: |
+          "customer-defined"
+      - key: "CM-3(g)-4"
+        text: |
+          "customer-defined"
     standard_key: NIST-800-53
 
   - control_key: CM-3 (1)
@@ -818,7 +927,9 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'The CIS Docker Benchmark can be used as a baseline for securing
@@ -830,9 +941,19 @@ satisfies:
           have been applied in an automated fashion. Additional information can
           be found at the following resources:
           
-          - https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+          - https://www.cisecurity.org/benchmark/docker/
           - http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark'
+    parameters:
+      - key: "CM-3(1)(b)"
+        text: |
+          "customer-defined authorized approvers"
+      - key: "CM-3(1)(c)"
+        text: |
+          "organization-defined time period"
+      - key: "CM-3(1)(f)"
+        text: |
+          "organization-defined configuration management approval authorities"
     standard_key: NIST-800-53
 
   - control_key: CM-3 (2)
@@ -840,7 +961,9 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'The CIS Docker Benchmark can be used as a baseline for securing
@@ -852,7 +975,7 @@ satisfies:
           have been applied in an automated fashion. Additional information can
           be found at the following resources:
           
-          - https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+          - https://www.cisecurity.org/benchmark/docker/
           - http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark'
     standard_key: NIST-800-53
@@ -862,7 +985,9 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'The CIS Docker Benchmark can be used as a baseline for securing
@@ -870,9 +995,13 @@ satisfies:
           cryptography management requirements of this control. Additional
           information can be found at the following resources:
           
-          - https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+          - https://www.cisecurity.org/benchmark/docker/
           - http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark'
+    parameters:
+      - key: "CM-3(6)"
+        text: |
+          "all security safeguards that rely on cryptography"
     standard_key: NIST-800-53
 
   - control_key: CM-5 (2)
@@ -880,7 +1009,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'The CIS Docker Benchmark can be used as a baseline for securing
@@ -888,9 +1017,16 @@ satisfies:
           system change requirements of this control. Additional information can
           be found at the following resources:
           
-          - https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+          - https://www.cisecurity.org/benchmark/docker/
           - http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark'
+    parameters:
+      - key: "CM-5(2)-1"
+        text: |
+          "every 30 days"
+      - key: "CM-5(2)-2"
+        text: |
+          "organization-defined circumstance"
     standard_key: NIST-800-53
 
   - control_key: CM-5 (3)
@@ -898,13 +1034,16 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provide hybrid
+      - shared
     narrative:
       - text: |
           'Before installing Docker Enterprise Edition, ensure that your
           supporting Linux operating system''s packager manager supports package
           signature verification and that it is enabled. It is also required
-          that you import the Docker public key for CS packages so as to
+          that you import the Docker public key for EE packages so as to
           retrieve the validated and signed package from Docker, Inc. Refer to
           your Linux OS documentation for instructions on completing the above
           steps.
@@ -920,6 +1059,10 @@ satisfies:
           the following resources:
           
           - https://docs.docker.com/engine/security/trust/content_trust/'
+    parameters:
+      - key: "CM-5(3)"
+        text: |
+          "customer-defined software"
     standard_key: NIST-800-53
 
   - control_key: CM-6 (1)
@@ -927,13 +1070,17 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
-          'The organization is responsible for meeting the requirements of this
-          control. The organization can incorporate the use of an external
-          configuration management system to meet the requirements of this
-          control.'
+          'The organization can incorporate the use of an external configuration
+          management system to meet the requirements of this control.'
+    parameters:
+      - key: "CM-6(1)"
+        text: |
+          "customer-defined information system components"
     standard_key: NIST-800-53
 
   - control_key: CM-7 (2)

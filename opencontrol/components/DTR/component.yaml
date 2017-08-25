@@ -559,7 +559,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -569,13 +570,16 @@ satisfies:
           Docker EE audit records. Additional information can be found at the
           following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
     standard_key: NIST-800-53
 
   - control_key: AU-7
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuess:
+      - complete
+    control_origins:
+      - Docker EE system
+      - shared
     narrative:
       - key: a
         text: |
@@ -586,7 +590,7 @@ satisfies:
           reduction and report generation requirements of this control.
           Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
       - key: b
         text: |
           'The underlying operating system chosen to support Docker Trusted
@@ -596,8 +600,11 @@ satisfies:
   
   - control_key: AU-7 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -607,13 +614,21 @@ satisfies:
           organization-defined audit fields. Additional information can be found
           at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-7(1)"
+        text: |
+          "customer-defined audit fields within audit records"
     standard_key: NIST-800-53
 
   - control_key: AU-8
     covered_by: []
-    implementation_status: complete
-    control_origin: "configured by customer"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - key: a
         text: |
@@ -625,12 +640,20 @@ satisfies:
           should be configured such that its system clock uses Coordinated
           Universal Time (UTC) as indicated by this control. Refer to the
           operating system's instructions for doing so.'
+    parameters:
+      - key: "AU-8(b)"
+        text: |
+          "millisecond precision"
     standard_key: NIST-800-53
 
   - control_key: AU-8 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - key: a
         text: |
@@ -648,12 +671,27 @@ satisfies:
           time period. This can be accomplished by utilizing the Network Time
           Protocol (NTP). Refer to the operating system's instructions for doing
           so.'
+    parameters:
+      - key: "AU-8(1)(a)-1"
+        text: |
+          "FedRAMP requirement: at least hourly"
+      - key: "AU-8(1)(a)-2"
+        text: |
+          "FedRAMP requirement: authoritative time source:
+          http://tf.nist.gov/tf-cgi/servers.cgi"
+      - key: "AU-8(1)(b)"
+        text: |
+          "customer-defined"
     standard_key: NIST-800-53
 
   - control_key: AU-9
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'By default, Docker Trusted Registry is configured to use the
@@ -670,19 +708,25 @@ satisfies:
 
   - control_key: AU-9 (2)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'Docker Trusted Registry resides as an Application on a Universal
-          Control Plane cluster, acan be configured to send logs to a remote
-          logging stack. Additional information can be found at the following
-          resources:
+          Control Plane cluster, and can be configured to send logs to a remote
+          logging stack. The logging stack can subsequently be configured to
+          back up audit records per the schedule defined by this control.
+          Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
-
-          The logging stack can subsequently be configured to back up audit
-          records per the schedule defined by this control.'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-9(2)"
+        text: |
+          "FedRAMP requirement: at least weekly"
     standard_key: NIST-800-53
 
   - control_key: AU-9 (3)
@@ -690,63 +734,78 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'Docker Trusted Registry resides as an Application on a Universal
-          Control Plane cluster, acan be configured to send logs to a remote
-          logging stack. Additional information can be found at the following
-          resources:
+          Control Plane cluster, and can be configured to send logs to a remote
+          logging stack. The logging stack can subsequently be configured to
+          meet the encryption mechanisms required by this control. Additional
+          information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
-
-          The logging stack can subsequently be configured to meet the
-          encryption mechanisms required by this control.'
+          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
     standard_key: NIST-800-53
 
   - control_key: AU-11
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+      - shared
     narrative:
       - text: |
           'The organization will be responsible for meeting the requirements of
           this control. To assist with these requirements, Docker Trusted
           Registry resides as an Application on a Universal Control Plane
           cluster, and as such, can be configured to send logs to a remote
-          logging stack. Additional information can be found at the following
-          resources:
+          logging stack. This logging stack can subsequently be configured to
+          retain logs for the duration required by this control. Additional
+          information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
-
-          This logging stack can subsequently be configured to retain logs for
-          the duration required by this control.'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-11"
+        text: |
+          "FedRAMP requirement: at least one year"
     standard_key: NIST-800-53
 
   - control_key: AU-12
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+      - shared
     narrative:
       - key: a
         text: |
           'All of the event types indicated by AU-2 a. are logged by a
           combination of the backend services within Universal Control Plane and
-          Docker Trusted Registry. Additional information can be found at the
-          following resources:
+          Docker Trusted Registry. The underlying Linux operating system
+          supporting DTR can be configured to audit Docker-specific events with
+          the auditd daemon. Refer to the specific Linux distribution in use for
+          instructions on configuring this service. Additional information can
+          be found at the following resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.1/guides/monitor-troubleshoot/
-
-          The underlying Linux operating system supporting DTR can be configured
-          to audit Docker-specific events with the auditd daemon. Refer to the
-          specific Linux distribution in use for instructions on configuring
-          this service.'
+          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/monitor-and-troubleshoot/'
       - key: b
         text: |
           'Using auditd on the Linux operating system supporting DTR, the
           organization can configure audit rules to select which Docker-specific
           events are to be audited. Refer to the specific Linux distribution in
           use for instructions on configuring this service.'
+    parameters:
+      - key: "AU-12(a)"
+        text: |
+          "FedRAMP requirement: at least every 3 years"
+      - key: "AU-12(b)"
+        text: |
+          "customer-defined personnel or roles"
     standard_key: NIST-800-53
 
   - control_key: AU-12 (1)
@@ -754,19 +813,25 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Docker Trusted Registry resides as an Application on a Universal
           Control Plane cluster, and as such, can be configured to send logs to
-          a remote logging stack. Additional information can be found at the
-          following resources:
+          a remote logging stack. This logging stack can subsequently be used to
+          compile audit records in to a system-wide audit trail that is
+          time-correlated per the requirements of this control. Additional
+          information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
-
-          This logging stack can subsequently be used to compile audit records
-          in to a system-wide audit trail that is time-correlated per the
-          requirements of this control.'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-12(1)-1"
+        text: |
+          "all network, data storage, and computing devices"
+      - key: "AU-12(1)-2"
+        text: |
+          "1 millisecond, organization-defined level of tolerance"
     standard_key: NIST-800-53
 
   - control_key: AU-12 (3)
@@ -774,39 +839,61 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+      - shared
     narrative:
       - text: |
           'Docker Trusted Registry resides as an Application on a Universal
           Control Plane cluster, and as such, can be configured to send logs to
-          a remote logging stack. Additional information can be found at the
-          following resources:
+          a remote logging stack. This logging stack can subsequently be used to
+          meet the requirements of this control. Additional information can be
+          found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
-
-          This logging stack can subsequently be used to meet the requirements
-          of this control.'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-12(3)-1"
+        text: |
+          "service team members with audit configuration responsibilities"
+      - key: "AU-12(3)-2"
+        text: |
+          "all network, data storage, and computing devices"
+      - key: "AU-12(3)-3"
+        text: |
+          "changes to the thread environment, organization-defined threat
+          situations"
+      - key: "AU-12(3)-4"
+        text: |
+          "risk-based assessment, organization-defined time thresholds"
     standard_key: NIST-800-53
 
   - control_key: CM-5 (1)
     covered_by: []
-    implementation_status: complete  
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete  
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'Role-based access control can be configured within Docker Trusted
           Registry to meet the requirements of this control. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/
-          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/manage-users/permission-levels/
+          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/
+          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/permission-levels/
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC'
     standard_key: NIST-800-53
 
   - control_key: CM-5 (3)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provide hybrid
+      - shared
     narrative:
       - text: |
           'Docker Content Trust is a capability provided by Docker Enterprise
@@ -823,19 +910,37 @@ satisfies:
           Additional information can be found at teh following resources:
 
           - https://docs.docker.com/engine/security/trust/content_trust/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/manage-trusted-repositories/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/run-only-the-images-you-trust/
+          - https://docs.docker.com/datacenter/dtr/2.3/guides/user/manage-images/sign-images/manage-trusted-repositories/'
+    parameters:
+      - key: "CM-5(3)"
+        text: |
+          "customer-defined software"
     standard_key: NIST-800-53
 
   - control_key: CM-6 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
           control. To assist with these requirements, the organization can
           incorporate the use of an external configuration management system to
-          meet the requirements of this control.'
+          meet the requirements of this control. Docker Trusted Registry''s
+          configuration can also be backed up and stored an appropriate location
+          per the requirements of this control. Additional documenation can be
+          found at the following resources:
+          
+          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/backups-and-disaster-recovery/'
+    parameters:
+      - key: "CM-6(1)"
+        text: |
+          "customer-defined information system components"
     standard_key: NIST-800-53
 
   - control_key: CM-7 (2)
