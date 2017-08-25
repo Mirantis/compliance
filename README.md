@@ -48,23 +48,33 @@ After you've cloned or downloaded the contents of this repository to your machin
 
 1. Navigate to directory containing the example
 
-    `cd examples/opencontrol/DockerEE-Moderate-ATO`
+    ```sh
+    cd examples/opencontrol/DockerEE-Moderate-ATO
+    ```
 
 2. Get Compliance Masonry dependencies
 
-    `compliance-masonry get`
+    ```sh
+    compliance-masonry get
+    ```
 
     or with Docker:
 
-    `docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get`
+    ```sh
+    docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry get
+    ```
 
 3. Generate SSP as a GitBook at the FedRAMP Moderate baseline
 
-    `compliance-masonry docs gitbook FedRAMP-moderate`
+    ```sh
+    compliance-masonry docs gitbook FedRAMP-moderate
+    ```
 
     or with Docker:
 
-    `docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry docs gitbook FedRAMP-moderate`
+    ```sh
+    docker run --rm -v "$PWD":/opencontrol -w /opencontrol opencontrolorg/compliance-masonry docs gitbook FedRAMP-moderate
+    ```
 
 If you prefer to generate a Word doc based on the official FedRAMP SSP template, you can follow the instructions at https://github.com/opencontrol/fedramp-templater.
 
