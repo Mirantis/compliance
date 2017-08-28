@@ -1187,23 +1187,54 @@ satisfies:
           "customer-defined information system components"
     standard_key: NIST-800-53
 
+  - control_key: CM-7 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+    narrative:
+      - key: b
+        text: |
+          'To help the organization meet the requirements of this control,
+          Universal Control Plane includes a robust access control model to
+          disable any functionality as mandated by this control.'
+    parameters:
+      - key: "CM-7(1)(b)"
+        text: |
+          "customer-defined functions, ports, protocols, and services within the
+          information system deemed to be unnecessary and/or nonsecure"
+    standard_key: NIST-800-53
+
   - control_key: CM-7 (2)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
          'In order to restrict which Docker images can be used to deploy
-         applications to Universal Control Plane, the organization must define a
+         applications to Universal Control Plane, the organization can define a
          list of allowed base Docker images and make them available via Docker
-         Trusted Registry. The organization must also prevent users from being
+         Trusted Registry. The organization can also prevent users from being
          able to pull Docker images from untrusted sources.'
+    parameters:
+      - key: "CM-7(2)"
+        text: |
+          "customer-defined policies regarding software program usage or
+          restrictions"
     standard_key: NIST-800-53
 
   - control_key: CM-7 (5)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+      - shared
     narrative:
       - key: a
         text: |
@@ -1225,7 +1256,12 @@ satisfies:
           specific Teams at runtime. Additional information can be found at the
           following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/run-only-the-images-you-trust/'
+    parameters:
+      - key: "CM-7(5)(a)"
+        text: |
+          "customer-defined software programs authorized to execute on the
+          information system"
     standard_key: NIST-800-53
 
   - control_key: CP-10 (2)

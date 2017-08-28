@@ -1083,19 +1083,50 @@ satisfies:
           "customer-defined information system components"
     standard_key: NIST-800-53
 
+  - control_key: CM-7
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control, the
+          latest CIS Docker Benchmark can be used as a secure configuration
+          baseline. Additional information can be found at the following
+          resources:
+          
+          - https://www.cisecurity.org/benchmark/docker/'
+    parameters:
+      - key: "CM-7(b)"
+        text: |
+          "FedRAMP assignment: the service provider shall use the Center for
+          Internet Security Guidelines (Level 1) to establish list of prohibited
+          or restricted functions, ports, protocols, and/or services or
+          establishes its own list of prohibited or restricted functions, ports,
+          protocols, and/or services if USGCB is not available"
+    standard_key: NIST-800-53
+
   - control_key: CM-7 (2)
     covered_by: []
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'In order to restrict which Docker images can be used to deploy
-          applications to Docker Enterprise Edition, the organization must
-          define a list of allowed base Docker images and make them available
-          via Docker Trusted Registry. The organization must also prevent users
-          from being able to pull Docker images from untrusted sources.'
+          applications to Docker Enterprise Edition, the organization can define
+          a list of allowed base Docker images and make them available via
+          Docker Trusted Registry. The organization can also prevent users from
+          being able to pull Docker images from untrusted sources.'
+    parameters:
+      - key: "CM-7(2)"
+        text: |
+          "customer-defined policies regarding software program usage or
+          restrictions"
     standard_key: NIST-800-53
 
   - control_key: CM-7 (5)
@@ -1103,7 +1134,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
+      - shared
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -1113,6 +1145,11 @@ satisfies:
           images and make them available via Docker Trusted Registry. The
           organization must also prevent users from being able to pull Docker
           images from untrusted sources.'
+    parameters:
+      - key: "CM-7(5)(a)"
+        text: |
+          "customer-defined software programs authorized to execute on the
+          information system"
     standard_key: NIST-800-53
 
   - control_key: CM-9
@@ -1120,7 +1157,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
     narrative:
       - text: |
           'The CIS Docker Benchmark can be used as a baseline for securing
@@ -1128,7 +1165,7 @@ satisfies:
           configuration management plan requirements of this control. Additional
           information can be found at the following resources:
           
-          - https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf
+          - https://www.cisecurity.org/benchmark/docker/
           - http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark'
     standard_key: NIST-800-53
