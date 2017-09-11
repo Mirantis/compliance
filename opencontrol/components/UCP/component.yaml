@@ -11,8 +11,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -29,8 +27,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - key: a
@@ -47,8 +43,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -131,7 +125,6 @@ satisfies:
       - complete
     control_origins:
       - Docker EE system
-      - configured by customer
       - shared
     narrative:
       - text: |
@@ -164,7 +157,6 @@ satisfies:
       - complete
     control_origins:
       - Docker EE system
-      - configured by customer
       - shared
     narrative:
       - text: |
@@ -193,8 +185,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -220,8 +210,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -244,8 +232,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -273,8 +259,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -300,8 +284,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -332,8 +314,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -360,8 +340,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -476,8 +454,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'To help the organization meet the requirements of this control,
@@ -519,8 +496,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -539,8 +514,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -559,8 +532,6 @@ satisfies:
       - complete
       - partial
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
       - configured by customer
     narrative:
@@ -582,8 +553,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -597,8 +566,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'To help the organization meet the requirements of this control, one
@@ -611,8 +579,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
       - shared
     narrative:
@@ -634,8 +600,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
       - shared
     narrative:
