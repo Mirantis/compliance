@@ -23,8 +23,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - key: a
@@ -51,8 +49,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -73,8 +69,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -107,8 +101,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -151,8 +143,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -193,8 +183,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -213,8 +201,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
       - configured by customer
     narrative:
@@ -237,8 +223,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
       - shared
     narrative:
@@ -359,7 +343,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - Docker eE system
+      - Docker EE system
       - shared
     narrative:
       - text: |
@@ -480,8 +464,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - key: a
@@ -505,8 +487,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - key: a
@@ -543,8 +523,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -570,8 +548,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -591,8 +567,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -609,10 +583,10 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
-          Docker Enterprise Edition includes functionality known as Docker
+          'Docker Enterprise Edition includes functionality known as Docker
           Content Trust which allows one to cryptographically sign Docker
           images. It enforces client-side signing and verification of image tags
           and provides the ability to use digital signatures for data sent to
@@ -625,7 +599,12 @@ satisfies:
           control. Additional information can be found at the following
           resources:
 
-          - https://docs.docker.com/engine/security/trust/content_trust/
+          - https://docs.docker.com/engine/security/trust/content_trust/'
+    parameters:
+      - key: "AU-10"
+        text: |
+          "actions including the addition, modification, deletion, approval,
+          sending, or receiving of data"
     standard_key: NIST-800-53
 
   - control_key: AU-11
@@ -633,8 +612,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
       - shared
     narrative:
@@ -720,8 +697,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
       - shared
     narrative:
@@ -754,8 +729,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
       - shared
     narrative:
@@ -786,8 +759,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
       - shared
     narrative:
@@ -807,14 +778,12 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
       - shared
     narrative:
       - text: |
-          'The CIS Docker Benchmark can be used as a baseline for securing Docker
-          Enterprise Edition and for helping the organization meet the
+          'The CIS Docker Benchmark can be used as a baseline for securing
+          Docker Enterprise Edition and for helping the organization meet the
           configurmation management requirements of this control. Additional
           information can be found at the following resources:
           
@@ -836,8 +805,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -861,8 +828,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -891,8 +856,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -927,8 +890,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -961,8 +922,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -985,8 +944,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -1034,8 +991,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provide hybrid
       - shared
     narrative:
@@ -1048,15 +1003,15 @@ satisfies:
           your Linux OS documentation for instructions on completing the above
           steps.
 
-          In addition, Docker Content Trust is a capability provided by CS
-          Docker Engine that enforces client-side signing and verification of
-          Docker image tags. It provides the ability to use digital signatures
-          for data sent to and received from Docker Trusted Registry and the
-          public Docker Store. These signatures allow client-side verification
-          of the integrity and publisher of specific image tags. When enabling
-          Docker Content Trust in Docker Enterprise Edition you can enforce the
-          use of signed Docker images. Additional information can be found at
-          the following resources:
+          In addition, Docker Content Trust is a capability provided by Docker
+          Engine that enforces client-side signing and verification of Docker
+          image tags. It provides the ability to use digital signatures for data
+          sent to and received from Docker Trusted Registry and the public
+          Docker Store. These signatures allow client-side verification of the
+          integrity and publisher of specific image tags. When enabling Docker
+          Content Trust in Docker Enterprise Edition you can enforce the use of
+          signed Docker images. Additional information can be found at the
+          following resources:
           
           - https://docs.docker.com/engine/security/trust/content_trust/'
     parameters:
@@ -1070,8 +1025,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -1088,8 +1041,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -1175,7 +1126,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'In order for other Docker EE engine nodes to be able to join a
@@ -1189,7 +1140,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
     narrative:
       - text: |
           'Docker Content Trust gives you the ability to verify both the
@@ -1207,7 +1158,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'Docker Enterprise Edition is designed to run application containers
@@ -1220,6 +1171,10 @@ satisfies:
           - https://docs.docker.com/engine/security/security/
           - https://docs.docker.com/engine/userguide/networking/overlay-security-model/
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Engine_and_Node_Security'
+    parameters:
+      - key: "SC-7(20"
+        text: |
+          "organization-defined information system components"
     standard_key: NIST-800-53
 
   - control_key: SC-12 (2)
@@ -1227,7 +1182,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
     narrative:
       - text: |
           'Docker Enterprise Edition can be installed on the following operating
@@ -1235,6 +1190,10 @@ satisfies:
           LTS+, SUSE Linux Enterprise 12+ and Windows Server 2016+. In order to
           meet the requirements of this control, reference the chosen operating
           system's documentation to ensure it is configured in FIPS mode.'
+    parameters:
+      - key: "SC-12(2)"
+        text: |
+          "FedRAMP requirement: NIST FIPTS compliance"
     standard_key: NIST-800-53
 
   - control_key: SC-13
@@ -1242,7 +1201,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
     narrative:
       - text: |
           'Docker Enterprise Edition can be installed on the following operating
@@ -1250,6 +1209,10 @@ satisfies:
           LTS+, SUSE Linux Enterprise 12+ and Windows Server 2016+. In order to
           meet the requirements of this control, reference the chosen operating
           system's documentation to ensure it is configured in FIPS mode.'
+    parameters:
+      - key: "SC-13"
+        text: |
+          "FedRAMP requirement: FIPS-validated or NSA-approved cryptography"
     standard_key: NIST-800-53
 
   - control_key: SC-23
@@ -1257,7 +1220,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'All remote access sessions to Docker Enterprise Edition are protected
@@ -1271,7 +1234,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'All remote access sessions to Docker Enterprise Edition are protected
@@ -1281,6 +1244,13 @@ satisfies:
           authentication. All Swarm Mode manager nodes in a Docker Enterprise
           Edition cluster store state metadata and user secrets encrypted at
           rest using the AES GCM cipher.'
+    parameters:
+      - key: "SC-28-1"
+        text: |
+          "confidentiality and integrity"
+      - key: "SC-28-2"
+        text: |
+          "customer data"
     standard_key: NIST-800-53
 
   - control_key: SC-28 (1)
@@ -1288,13 +1258,20 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'All remote access sessions to Docker Enterprise Edition are protected
           with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
           addition to this, all communication to and between Docker Enterprise
           Editions is enforced by way of two-way mutual TLS authentication.'
+    parameters:
+      - key: "SC-28(1)-1"
+        text: |
+          "customer data"
+      - key: "SC-28(1)-2"
+        text: |
+          "CSP servers"
     standard_key: NIST-800-53
 
   - control_key: SI-3 (2)
@@ -1302,7 +1279,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'Docker Enterprise Edition packages for supported underlying operating
@@ -1317,13 +1294,17 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'All error messages generated via the logging mechanisms of the Docker
           Enterprise Edition engine are displayed such that they meet the
           requirements of this control. Only users that are authorized the
           appropriate level of access can view these error messages.'
+    parameters:
+      - key: "SI-11(b)"
+        text: |
+          "authorized service personnel and CSP users"
     standard_key: NIST-800-53
 
   - control_key: SI-16
@@ -1331,7 +1312,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - configured by customer
+      - service provider hybrid
     narrative:
       - text: |
           'Docker Enterprise Edition can be installed on the following operating
@@ -1340,4 +1321,9 @@ satisfies:
           meet the requirements of this control, reference the chosen operating
           system's security documentation for information regarding the
           protection of memory from unauthorized code execution.'
+    parameters:
+      - key: "SI-16"
+        text: |
+          "Windows protections, including No Execute, Address Space Layout
+          Randomization, and Data Execution Prevention"
     standard_key: NIST-800-53

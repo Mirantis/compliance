@@ -11,7 +11,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the orgnization in meeting the requirements of this
@@ -27,7 +27,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the orgnization in meeting the requirements of this
@@ -39,8 +39,12 @@ satisfies:
           databases. Additional information can be found at the following
           resources:
           
-          - https://docs.docker.com/datacenter/dtr/2.2/guides/admin/configure/set-up-vulnerability-scans/
+          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/configure/set-up-vulnerability-scans/
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Image_Scanning'
+    parameters:
+      - key: "RA-5(2)"
+        text: |
+          "FedRAMP requirement: prior to a new scan"
     standard_key: NIST-800-53
 
   - control_key: RA-5 (3)
@@ -48,7 +52,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the orgnization in meeting the requirements of this
@@ -63,12 +67,19 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
     narrative:
       - text: |
           'Only the appropriate users that the organization has provided Docker
           Trusted Registry access to are able to view and interpret
           vulnerability scan results.'
+    parameters:
+      - key: "RA-5(5)-1"
+        text: |
+          "FedRAMP requirement: operating systems, databases, web applications"
+      - key: "RA-5(5)-2"
+        text: |
+          "FedRAMP requirement: all scans"
     standard_key: NIST-800-53
 
   - control_key: RA-5 (6)
@@ -76,7 +87,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
     narrative:
       - text: |
           'For each Docker image pushed to Docker Trusted Registry at a given
@@ -84,4 +95,18 @@ satisfies:
           detected. The DTR API can be queried to retrieve the vulnerability
           scan results over a period of time for a given Docker image such that
           the results can be compared per the requirements of this control.'
+    standard_key: NIST-800-53
+
+  - control_key: RA-5 (8)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'Docker Security Scanning maintains a historical bill-of-materials
+          (BOM) for all Docker images that are scanned. Results of previous
+          vulnerability scans can be reviewed and audited per the requirements
+          of this control.'
     standard_key: NIST-800-53

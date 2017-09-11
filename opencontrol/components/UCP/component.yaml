@@ -841,7 +841,7 @@ satisfies:
           this control. Additional information can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
       - key: b
         text: |
           'The underlying operating system chosen to support Universal Control
@@ -863,7 +863,7 @@ satisfies:
           parse information by organization-defined audit fields. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-7(1)"
         text: |
@@ -875,8 +875,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - key: a
@@ -900,8 +898,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - key: a
@@ -938,8 +934,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -960,8 +954,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -982,8 +974,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -1000,8 +990,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
       - shared
     narrative:
@@ -1085,8 +1073,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
       - shared
     narrative:
@@ -1135,8 +1121,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provide hybrid
       - shared
     narrative:
@@ -1166,8 +1150,6 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
       - service provider hybrid
     narrative:
       - text: |
@@ -1266,8 +1248,10 @@ satisfies:
 
   - control_key: CP-10 (2)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
          'Universal Control Plane maintains its cluster state via an internal
@@ -1275,14 +1259,16 @@ satisfies:
          recovered. Additional information can be found at the following
          resources:
 
-         - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/backups-and-disaster-recovery/
+         - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/backups-and-disaster-recovery/
          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#UCP_Backup'
     standard_key: NIST-800-53
 
   - control_key: IA-2 (5)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -1294,21 +1280,25 @@ satisfies:
 
   - control_key: IA-3
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'In order for nodes to join a Universal Control Plane cluster, they
           must be identified and authenticated via either a manager or worker
           token. Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/scale-your-cluster/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/scale-your-cluster/'
     standard_key: NIST-800-53
 
   - control_key: IA-5 (2)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - key: a
         text: |
@@ -1341,13 +1331,15 @@ satisfies:
           certificates can also be revoked and updated. Additional information
           can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/#/replace-the-server-certificates'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-your-own-tls-certificates/'
     standard_key: NIST-800-53
 
   - control_key: IA-6
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'Universal Control Plane obscures all feedback of authentication
@@ -1357,8 +1349,10 @@ satisfies:
 
   - control_key: IA-7
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'All access to Universal Control Plane is protected with Transport
@@ -1369,8 +1363,10 @@ satisfies:
 
   - control_key: IA-8
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'Users managed by Universal Control Plane can be grouped per the
@@ -1380,8 +1376,10 @@ satisfies:
 
   - control_key: SA-10 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -1396,13 +1394,14 @@ satisfies:
           Plane can be configured to only run trusted and signed images.
           Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/run-only-the-images-you-trust/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/run-only-the-images-you-trust/'
     standard_key: NIST-800-53
 
   - control_key: SC-2
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins: "service provider system specific"
     narrative:
       - text: |
           'Universal Control Plane is made up of a number of backend services
@@ -1411,14 +1410,16 @@ satisfies:
           operates independently of one another. Additional information can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Universal_Control_Plane'
     standard_key: NIST-800-53
 
   - control_key: SC-23
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'All remote access sessions to Universal Control Plane are protected
@@ -1431,8 +1432,10 @@ satisfies:
 
   - control_key: SC-28 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'All remote access sessions to Universal Control Plane are protected
@@ -1441,6 +1444,13 @@ satisfies:
           user interface and for command-line based connections to the cluster.
           In addition to this, all communication to UCP is enforced by way of
           two-way mutual TLS authentication.'
+    parameters:
+      - key: "SC-28(1)-1"
+        text: |
+          "customer data"
+      - key: "SC-28(1)-2"
+        text: |
+          "CSP servers"
     standard_key: NIST-800-53
 
   - control_key: SI-11
@@ -1448,11 +1458,15 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'All error messages generated via the configured logging mechanism of
           Universal Control Plane are displayed such that they meet the
           requirements of this control. Only users that are authorized the
           appropriate level of access can view these error messages.'
+    parameters:
+      - key: "SI-11(b)"
+        text: |
+          "authorized service personnel and CSP users"
     standard_key: NIST-800-53
