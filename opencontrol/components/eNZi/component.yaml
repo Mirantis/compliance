@@ -11,8 +11,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -49,8 +48,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -67,8 +65,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'Using Docker Enterprise Edition''s LDAP integration capabilities, one
@@ -93,8 +90,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'Using Docker Enterprise Edition''s LDAP integration capabilities, one
@@ -115,8 +111,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'Docker Enterprise Edition logs various authentication and
@@ -144,8 +139,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -166,8 +160,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -196,8 +189,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -215,8 +207,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'Users and/or groups synchronized to Docker Enterprise Edition via
@@ -229,8 +220,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'Information system accounts synchronized to Docker Enterprise Edition
@@ -250,8 +240,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -272,8 +261,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -330,8 +318,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider corporate
-      - Docker EE system
+      - service provider hybrid
     narrative:
       - key: a
         text: |
