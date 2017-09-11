@@ -47,28 +47,34 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/>shared<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olptg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03a8g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olptg" class="tab-pane fade in active">
-Docker Enterprise Edition can be configured to identify and authenticate
-users via it&#39;s integrated support for LDAP. Users and groups managed
-within the organization&#39;s LDAP directory service (e.g. Active
-Directory) can be synchronized to UCP and DTR on a regular interval. When a
-user is removed from the LDAP-backed directory, that user becomes
-inactive within UCP and DTR. In addition, UCP and DTR teams can be mapped to groups
-synchronized via LDAP. When a user is added/removed to/from the LDAP
-group, that same user is automatically added/removed to/from the UCP and DTR
-team. Instructions for configuring LDAP integration can be found at
-https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/integrate-with-ldap/.
+<div id="b6rfp6mlp4b000a03a8g" class="tab-pane fade in active">
+Docker Enterprise Edition can be configured to identify and
+authenticate users via it&#39;s integrated support for LDAP. Users and
+groups managed within the organization&#39;s LDAP directory service (e.g.
+Active Directory) can be synchronized to UCP and DTR on a regular
+interval. When a user is removed from the LDAP-backed directory, that
+user becomes inactive within UCP and DTR. In addition, UCP and DTR
+teams can be mapped to groups synchronized via LDAP. When a user is
+added/removed to/from the LDAP group, that same user is automatically
+added/removed to/from the UCP and DTR team. Additional information can
+be found at the following resources:
+
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/external-auth/">https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/external-auth/</a></li>
+</ul>
+
 </div>
 </div>
 
@@ -131,49 +137,49 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olpu0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87naf54g009olpug">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87naf54g009olpv0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03a90">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03a9g">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03aa0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olpu0" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03a90" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, Docker Trusted
 Registry requires individual users to be authenticated in order to
 gain access to the system. Any permissions granted to the team(s) that
 which the user is a member are subsequently applied.
 </div>
-<div id="b6eb87naf54g009olpug" class="tab-pane fade">
+<div id="b6rfp6mlp4b000a03a9g" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, Universal Control
 Plane requires individual users to be authenticated in order to gain
 access to the system. Any permissions granted to the team(s) that
 which the user is a member are subsequently applied.
 </div>
-<div id="b6eb87naf54g009olpv0" class="tab-pane fade">
+<div id="b6rfp6mlp4b000a03aa0" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
-control. To assist with meeting these requirements, Docker Enterprise Edition
-requires individual users to be authenticated in order to gain access
-to the system. Any permissions granted to the team(s) that which the
-user is a member are subsequently applied.
+control. To assist with meeting these requirements, Docker Enterprise
+Edition requires individual users to be authenticated in order to gain
+access to the system. Any permissions granted to the team(s) that
+which the user is a member are subsequently applied.
 </div>
 </div>
 
@@ -216,22 +222,22 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olpvg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03aag">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olpvg" class="tab-pane fade in active">
-Docker Enterprise Edition integrates with LDAP for authenticating users to an
-external directory service. You should configure your external
-directory service for ensuring that you are protected against replay
-attacks.
+<div id="b6rfp6mlp4b000a03aag" class="tab-pane fade in active">
+Docker Enterprise Edition integrates with LDAP for authenticating
+users to an external directory service. You should configure your
+external directory service for ensuring that you are protected against
+replay attacks.
 </div>
 </div>
 
@@ -254,22 +260,22 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq00">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03ab0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq00" class="tab-pane fade in active">
-Docker Enterprise Edition integrates with LDAP for authenticating users to an
-external directory service. You should configure your external
-directory service for ensuring that you are protected against replay
-attacks.
+<div id="b6rfp6mlp4b000a03ab0" class="tab-pane fade in active">
+Docker Enterprise Edition integrates with LDAP for authenticating
+users to an external directory service. You should configure your
+external directory service for ensuring that you are protected against
+replay attacks.
 </div>
 </div>
 
@@ -332,55 +338,58 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq0g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87naf54g009olq10">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87naf54g009olq1g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03abg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03ac0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03acg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq0g" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03abg" class="tab-pane fade in active">
 Docker Trusted Registry replicas reside on Universal Control Plane
 worker nodes. In order for UCP worker nodes to join a Universal
 Control Plane cluster, they must be identified and authenticated via a
 worker token. Additional Docker Trusted Registry replicas can only be
 added after a UCP administrator user has authenticated in to the UCP
 cluster and when mutual TLS authentication between the UCP worker and
-manager nodes has been established. Reference documentation can be
-found at
-https://docs.docker.com/datacenter/dtr/2.1/guides/install/#/step-7-join-replicas-to-the-cluster.
-</div>
-<div id="b6eb87naf54g009olq10" class="tab-pane fade">
-In order for other CS Engine nodes to be able to join a cluster
-managed by Universal Control Plane, they must be identified and
-authenticated via either a manager or worker token. Use of the token
-includes trust on first use mutual TLS.
+manager nodes has been established. Additional information can be found at the following resources:
+
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.3/guides/admin/install/#step-7-join-replicas-to-the-cluster">https://docs.docker.com/datacenter/dtr/2.3/guides/admin/install/#step-7-join-replicas-to-the-cluster</a></li>
+</ul>
 
 </div>
-<div id="b6eb87naf54g009olq1g" class="tab-pane fade">
+<div id="b6rfp6mlp4b000a03ac0" class="tab-pane fade">
+In order for other Docker EE engine nodes to be able to join a
+cluster managed by Universal Control Plane, they must be identified
+and authenticated via either a manager or worker token. Use of the
+token includes trust on first use mutual TLS.
+</div>
+<div id="b6rfp6mlp4b000a03acg" class="tab-pane fade">
 In order for nodes to join a Universal Control Plane cluster, they
 must be identified and authenticated via either a manager or worker
 token. Additional information can be found at the following resources:
 
 
 <ul>
-<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/scale-your-cluster/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/scale-your-cluster/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/scale-your-cluster/">https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/scale-your-cluster/</a></li>
 </ul>
 
 </div>
@@ -446,34 +455,34 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq20">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03ad0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq20" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03ad0" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to prevent the reuse of user identifiers for a specified
-period of time. Refer to your directory service&#39;s documentation for
-configuring thisThe organization is responsible for meeting the requirements of this
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to prevent the reuse of user identifiers for a
+specified period of time. Refer to your directory service&#39;s
+documentation for configuring this.The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to prevent the reuse of user identifiers for a specified
-period of time. Refer to your directory service&#39;s documentation for
-configuring this.The organization is responsible for meeting the requirements of this
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to prevent the reuse of user identifiers for a
+specified period of time. Refer to your directory service&#39;s
+documentation for configuring this.The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to prevent the reuse of user identifiers for a specified
-period of time. Refer to your directory service&#39;s documentation for
-configuring this.
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to prevent the reuse of user identifiers for a
+specified period of time. Refer to your directory service&#39;s
+documentation for configuring this.
 </div>
 </div>
 
@@ -526,23 +535,23 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq2g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03adg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq2g" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03adg" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to uniquely identify each individual according to the
-requirements of this control. Refer to your directory service&#39;s
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to uniquely identify each individual according to
+the requirements of this control. Refer to your directory service&#39;s
 documentation for configuring this.
 </div>
 </div>
@@ -608,65 +617,65 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq30">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03ae0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq30" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03ae0" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to establish initial authenticator content according to the
-requirements of this control. Refer to your directory service&#39;s
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to establish initial authenticator content according
+to the requirements of this control. Refer to your directory service&#39;s
 documentation for configuring this.The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to enforce strength requirements for authenticators
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to enforce strength requirements for authenticators
 according to the requirements of this control. Refer to your directory
 service&#39;s documentation for configuring this.The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to distribute, redistribute, and revoke authenticators
-according to the requirements of this control. Refer to your directory
-service&#39;s documentation for configuring this.The organization is responsible for meeting the requirements of this
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to distribute, redistribute, and revoke
+authenticators according to the requirements of this control. Refer to
+your directory service&#39;s documentation for configuring this.The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to change default authenticator content according to the
-requirements of this control. Refer to your directory service&#39;s
-documentation for configuring this.The organization is responsible for meeting the requirements of this
-control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to set minimum and maximum lifetime restrictions and reuse
-conditions for authenticators according to the requirements of this
-control. Refer to your directory service&#39;s documentation for
-configuring this.The organization is responsible for meeting the requirements of this
-control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to refresh authenticators at a regular cadence according to
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to change default authenticator content according to
 the requirements of this control. Refer to your directory service&#39;s
 documentation for configuring this.The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to protect authenticator content from unauthorized
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to set minimum and maximum lifetime restrictions and
+reuse conditions for authenticators according to the requirements of
+this control. Refer to your directory service&#39;s documentation for
+configuring this.The organization is responsible for meeting the requirements of this
+control. To assist with meeting these requirements, an external
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to refresh authenticators at a regular cadence
+according to the requirements of this control. Refer to your directory
+service&#39;s documentation for configuring this.The organization is responsible for meeting the requirements of this
+control. To assist with meeting these requirements, an external
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to protect authenticator content from unauthorized
 disclosure or modification according to the requirements of this
 control. Refer to your directory service&#39;s documentation for
 configuring this.The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to implement specific security safeguards to protect
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to implement specific security safeguards to protect
 authentications according to the requirements of this control. Refer
 to your directory service&#39;s documentation for configuring this.The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to change authenticators for group or role accounts when
-membership to those groups or roles changes  according to the
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to change authenticators for group or role accounts
+when membership to those groups or roles changes  according to the
 requirements of this control. Refer to your directory service&#39;s
 documentation for configuring this.
 </div>
@@ -699,18 +708,18 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq3g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03aeg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq3g" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03aeg" class="tab-pane fade in active">
 An external directory service integrated with Docker Enterprise
 Edition via LDAP can be configured to enforce minimum password
 complexity requirements. Refer to your directory service&#39;s
@@ -763,30 +772,30 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq40">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87naf54g009olq4g">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87naf54g009olq50">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03af0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03afg">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03ag0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq40" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03af0" class="tab-pane fade in active">
 Docker Trusted Registry includes a Docker volume which holds the root
 key material for the DTR root CA that issues certificats. In addition
 Universal Control Plane contains two, built-in root certificate
@@ -812,13 +821,16 @@ subsequently grants that user access to Docker Trusted Registry, it is
 attached to that user&#39;s Universal Control Plane profile. Bundles/keys
 can be revoked by an Administrator or the user themselves. The
 cluster&#39;s internal certificates can also be revoked and updated.
-Instructions for doing so can be found at
-https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/#/replace-the-server-certificates.
-In addition, Docker Trusted Registry&#39;s server certificates can be
-replaced by following the instructions at
-https://docs.docker.com/datacenter/dtr/2.1/guides/configure/.
+Additional information can be found at the following resources:
+
+
+<ul>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-your-own-tls-certificates/">https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-your-own-tls-certificates/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.3/guides/admin/configure/use-your-own-tls-certificates/">https://docs.docker.com/datacenter/dtr/2.3/guides/admin/configure/use-your-own-tls-certificates/</a></li>
+</ul>
+
 </div>
-<div id="b6eb87naf54g009olq4g" class="tab-pane fade">
+<div id="b6rfp6mlp4b000a03afg" class="tab-pane fade">
 Universal Control Plane contains two, built-in root certificate
 authorities. One CA is used for signing client bundles generated by
 users. The other CA is used for TLS communication between UCP cluster
@@ -841,11 +853,11 @@ can be found at the following resources:
 
 
 <ul>
-<li><a href="https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/#/replace-the-server-certificates">https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/#/replace-the-server-certificates</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-your-own-tls-certificates/">https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-your-own-tls-certificates/</a></li>
 </ul>
 
 </div>
-<div id="b6eb87naf54g009olq50" class="tab-pane fade">
+<div id="b6rfp6mlp4b000a03ag0" class="tab-pane fade">
 All users within a Docker Enterprise Edition cluster can create a
 client certificate bundle for authenticating in to the cluster from
 the Docker client tooling. When a user attempts to authenticate in to
@@ -897,18 +909,18 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq5g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03agg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq5g" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03agg" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP can be
@@ -947,23 +959,24 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq60">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03ah0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq60" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03ah0" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to protect authenticators as required by this control.
-Refer to your directory service&#39;s documentation for configuring this.
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to protect authenticators as required by this
+control. Refer to your directory service&#39;s documentation for
+configuring this.
 </div>
 </div>
 
@@ -1076,29 +1089,29 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq6g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87naf54g009olq70">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03ahg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03ai0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq6g" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03ahg" class="tab-pane fade in active">
 Docker Trusted Registry obscures all feedback of authentication
 information during the authentication process. This includes both
 authentication via the web UI and the CLI.
 </div>
-<div id="b6eb87naf54g009olq70" class="tab-pane fade">
+<div id="b6rfp6mlp4b000a03ai0" class="tab-pane fade">
 Universal Control Plane obscures all feedback of authentication
 information during the authentication process. This includes both
 authentication via the web UI and the CLI.
@@ -1124,30 +1137,30 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq7g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87naf54g009olq80">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03aig">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03aj0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq7g" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03aig" class="tab-pane fade in active">
 All access to Docker Trusted Registry is protected with Transport
 Layer Security (TLS) 1.2 with the AES-GCM cipher. This includes both
 SSH access to the individual UCP nodes and CLI-/web-based access to
 the UCP management functions with mutual TLS and HTTPS respectively.
 </div>
-<div id="b6eb87naf54g009olq80" class="tab-pane fade">
+<div id="b6rfp6mlp4b000a03aj0" class="tab-pane fade">
 All access to Universal Control Plane is protected with Transport
 Layer Security (TLS) 1.2 with the AES GCM cipher. This includes both
 SSH access to the individual UCP nodes and CLI-/web-based access to
@@ -1174,29 +1187,29 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq8g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87naf54g009olq90">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03ajg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03ak0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq8g" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03ajg" class="tab-pane fade in active">
 Users managed by Docker Trusted Registry can be grouped per the
 requirements of the organization and as defined by this control. This
 can include groupings for non-organizational users.
 </div>
-<div id="b6eb87naf54g009olq90" class="tab-pane fade">
+<div id="b6rfp6mlp4b000a03ak0" class="tab-pane fade">
 Users managed by Universal Control Plane can be grouped per the
 requirements of the organization and as defined by this control. This
 can include groupings for non-organizational users.
@@ -1232,22 +1245,22 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olq9g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03akg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olq9g" class="tab-pane fade in active">
-An external directory service integrated with Docker Enterprise Edition via
-LDAP can be configured to meet the FICAM requirements as indicated by
-this control. Refer to your directory service&#39;s documentation for
-configuring this.
+<div id="b6rfp6mlp4b000a03akg" class="tab-pane fade in active">
+An external directory service integrated with Docker Enterprise
+Edition via LDAP can be configured to meet the FICAM requirements as
+indicated by this control. Refer to your directory service&#39;s
+documentation for configuring this.
 </div>
 </div>
 
@@ -1270,22 +1283,22 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olqa0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03al0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olqa0" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03al0" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to meet the FICAM requirements as indicated by this
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to meet the FICAM requirements as indicated by this
 control. Refer to your directory service&#39;s documentation for
 configuring this.
 </div>
@@ -1310,22 +1323,22 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olqag">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b6rfp6mlp4b000a03alg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olqag" class="tab-pane fade in active">
+<div id="b6rfp6mlp4b000a03alg" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
-directory service integrated with Docker Enterprise Edition via LDAP can be
-configured to meet the FICAM requirements as indicated by this
+directory service integrated with Docker Enterprise Edition via LDAP
+can be configured to meet the FICAM requirements as indicated by this
 control. Refer to your directory service&#39;s documentation for
 configuring this.
 </div>
