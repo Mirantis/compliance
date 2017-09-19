@@ -44,11 +44,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037l0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0ag">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037l0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0ag" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, one can control which users and teams are allowed to create
 and manipulate Docker Enterprise Edition resources. By default, no one
@@ -116,11 +116,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037lg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0b0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037lg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0b0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, an external identity management system (such as Microsoft&#39;s
 Active Directory or an LDAP endpoint) can be configured as mandated by
@@ -171,13 +171,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037m0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037mg">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037n0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0bg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0c0">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0cg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037m0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0bg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, supporting documentation for managing users and teams can
 found at the following resources:
@@ -189,7 +189,7 @@ found at the following resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a037mg" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0c0" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, supporting documentation for managing users and teams can
 found at the following resources:
@@ -201,7 +201,7 @@ found at the following resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a037n0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0cg" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, an external identity management system (such as Microsoft&#39;s
 Active Directory or an LDAP endpoint) can be configured as mandated by
@@ -242,11 +242,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037ng">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0d0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037ng" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0d0" class="tab-pane fade in active">
 Using Docker Enterprise Edition&#39;s LDAP integration capabilities, one
 can disable and/or remove temporary and emergency accounts in a
 connected directory service (such as Active Directory) after an
@@ -288,11 +288,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037o0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0dg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037o0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0dg" class="tab-pane fade in active">
 Using Docker Enterprise Edition&#39;s LDAP integration capabilities, one
 can automatically disable inactive accounts in a connected directory
 service (such as Active Directory). When a user is removed from LDAP,
@@ -333,11 +333,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037og">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0e0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037og" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0e0" class="tab-pane fade in active">
 Docker Enterprise Edition logs various authentication and
 authorization events to standard log files. One can configure Docker
 Enterprise Edition to direct these event logs to a remote logging
@@ -385,11 +385,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037p0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0eg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037p0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0eg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, Docker Enterprise Edition can be configured to enforce automated
 session termination of users after an organization-defined time period
@@ -451,13 +451,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037pg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037q0">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037qg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0f0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0fg">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0g0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037pg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0f0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, supporting documentation can be found at the following
 resources:
@@ -468,7 +468,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a037q0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0fg" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, supporting documentation can be found at the following
 resources:
@@ -479,7 +479,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a037qg" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0g0" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, Docker Enterprise Edition supports various levels of user
 permissions and role-based access control enforcements. Administrator
@@ -537,11 +537,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037r0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0gg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037r0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0gg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, users and/or groups synchronized to Docker Enterprise Edition
 via LDAP can be configured at the directory service.
@@ -574,11 +574,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037rg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0h0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037rg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0h0" class="tab-pane fade in active">
 Users and/or groups synchronized to Docker Enterprise Edition via
 LDAP can be configured at the directory service to ensure shared/group
 account credentials are terminated when members leave the group.
@@ -611,11 +611,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037s0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0hg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037s0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0hg" class="tab-pane fade in active">
 Information system accounts synchronized to Docker Enterprise Edition
 via LDAP can be configured at the directory service to meet this
 requirement as necessary.
@@ -667,14 +667,14 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037sg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037t0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037tg">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037u0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0i0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0ig">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0j0">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0jg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037sg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0i0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, supporting documentation can be found at the following
 resources:
@@ -686,7 +686,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a037t0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0ig" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, Docker Enterprise Edition can be configured to aggregate
 container and daemon events via a number of logging drivers.
@@ -700,7 +700,7 @@ Supporting documentation can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a037tg" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0j0" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, Universal Control Plane can be configured to send system
 account log data to a remote logging service such as an Elasticsearch,
@@ -719,7 +719,7 @@ at the following resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a037u0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0jg" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, when Docker Enterprise Edition is configured for LDAP
 integration, one can refer to the directory service&#39;s existing
@@ -753,11 +753,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037ug">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0k0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037ug" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0k0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, users and/or groups synchronized to Docker Enterprise Edition
 via LDAP can be managed at the directory service and disabled if
@@ -801,13 +801,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037v0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a037vg">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a03800">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0kg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0l0">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0lg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a037v0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0kg" class="tab-pane fade in active">
 One can control which users and teams can create and manipulate
 Docker Trusted Registry resources. By default, no one can make changes
 to the cluster. Permissions can be granted and managed to enforce
@@ -822,7 +822,7 @@ the following resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a037vg" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0l0" class="tab-pane fade">
 One can control which users and teams can create and manipulate
 Universal Control Plane resources. By default, no one can make changes
 to the cluster. Permissions can be granted and managed to enforce
@@ -844,7 +844,7 @@ the following resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a03800" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0lg" class="tab-pane fade">
 One can control which users and teams can create and manipulate
 Docker Enterprise Edition resources. By default, no one can make
 changes to the cluster. Permissions can be granted and managed to
@@ -1000,13 +1000,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a0380g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a03810">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a0381g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0m0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0mg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0n0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a0380g" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0m0" class="tab-pane fade in active">
 Supporting documentation to configure Docker Trusted Registry to meet
 the requirements of this control can be found at the following
 resources:
@@ -1019,7 +1019,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a03810" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0mg" class="tab-pane fade">
 Docker Enterprise Edition can be configured to control the flow of
 information that originates from applications running in containers.
 Supporting documentation can be found at the following resources:
@@ -1031,7 +1031,7 @@ Supporting documentation can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a0381g" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0n0" class="tab-pane fade">
 Supporting documentation to configure Universal Control Plane to meet
 the requirements of this control can be found at the following
 resources:
@@ -1156,13 +1156,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a03820">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a0382g">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a03830">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0ng">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0o0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0og">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a03820" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0ng" class="tab-pane fade in active">
 Supporting documentation to configure Docker Trusted Registry to meet
 the requirements of this control can be found at the following
 resources:
@@ -1175,7 +1175,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a0382g" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0o0" class="tab-pane fade">
 Docker Enterprise Edition can be configured to control the flow of
 information that originates from applications running in containers
 per organization-defined security policy filters. Supporting
@@ -1188,7 +1188,7 @@ documentation can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a03830" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0og" class="tab-pane fade">
 Supporting documentation to configure Universal Control Plane to meet
 the requirements of this control can be found at the following
 resources:
@@ -1353,13 +1353,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a0383g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a03840">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a0384g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0p0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0pg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0q0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a0383g" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0p0" class="tab-pane fade in active">
 Supporting documentation to configure Docker Trusted Registry to meet
 the requirements of this control can be found at the following
 resources:
@@ -1372,7 +1372,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a03840" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0pg" class="tab-pane fade">
 Docker Enterprise Edition can be configured to separate the flow of
 information that originates from applications running in containers.
 Supporting documentation can be found at the following resources:
@@ -1384,7 +1384,7 @@ Supporting documentation can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a0384g" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0q0" class="tab-pane fade">
 Supporting documentation to configure Universal Control Plane to meet
 the requirements of this control can be found at the following
 resources:
@@ -1449,12 +1449,12 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a03850">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a0385g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0qg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko0r0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a03850" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0qg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, one can control which users and teams can create and
 manipulate Docker Trusted Registry resources. By default, no one can
@@ -1470,7 +1470,7 @@ found at the following resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a0385g" class="tab-pane fade">
+<div id="b70lu81idlmg00bko0r0" class="tab-pane fade">
 To assist the organization in meeting the requirements of this
 control, one can control which users and teams can create and
 manipulate Universal Control Plane resources. By default, no one can
@@ -1515,11 +1515,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a03860">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0rg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a03860" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0rg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, one can control which users and teams can create and
 manipulate Universal Control Plane resources and employ principles of
@@ -1565,11 +1565,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a0386g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0s0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a0386g" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0s0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, one can control which users and teams can create and
 manipulate Universal Control Plane resources and explicitly authorize
@@ -1615,11 +1615,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a03870">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0sg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a03870" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0sg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, one can control which users and teams can create and
 manipulate Universal Control Plane resources. By default, no one can
@@ -1664,11 +1664,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a0387g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0t0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a0387g" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0t0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, one can control which users and teams can create and
 manipulate Universal Control Plane resources, including Docker
@@ -1725,11 +1725,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a03880">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0tg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a03880" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0tg" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, one can restrict privileged accounts within Universal Control
 Plane to custom-defined roles. By default, no one can make changes to
@@ -1789,11 +1789,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a0388g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0u0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a0388g" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0u0" class="tab-pane fade in active">
 To assist the organization in meeting the requirements of this
 control, one can review all implemented grants, accounts and roles
 within Universal Control Plane and reassign/revoke privileges as
@@ -1838,11 +1838,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a03890">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0ug">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a03890" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0ug" class="tab-pane fade in active">
 Universal Control Plane users can be assigned to one of a number of
 different permission levels. The permission level assigned to a
 specific user determines that user&#39;s ability to execute certain
@@ -1895,11 +1895,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a0389g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0v0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a0389g" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0v0" class="tab-pane fade in active">
 Docker Enterprise Edition logs privileged user events to standard log
 files. One can configure Docker Enterprise Edition to direct these
 event logs to a remote logging service such as an Elasticsearch,
@@ -1949,12 +1949,12 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038a0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038ag">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko0vg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko100">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038a0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko0vg" class="tab-pane fade in active">
 One can control which users and teams can create and manipulate
 Docker Trusted Registry resources and prevent non-privileged users
 from executing privileged functions per the requirements of this
@@ -1970,7 +1970,7 @@ functionality can be found at the following resources:
 </ul>
 
 </div>
-<div id="b6rfp5ulp4b000a038ag" class="tab-pane fade">
+<div id="b70lu81idlmg00bko100" class="tab-pane fade">
 One can control which users and teams can create and manipulate
 Universal Control Plane resources and prevent non-privileged users
 from executing privileged functions per the requirements of this
@@ -2017,11 +2017,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038b0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko10g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038b0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko10g" class="tab-pane fade in active">
 When Docker Enterprise Edition is integrated to a directory service
 via LDAP, one can reference the functionality of the directory service
 to configure the enforcement of a limit to the number of conesecutive
@@ -2087,11 +2087,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038bg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko110">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038bg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko110" class="tab-pane fade in active">
 The feature required to satisfy the requirements of this control has
 not yet been built in to Docker EE but is planned for a future
 release.The feature required to satisfy the requirements of this control has
@@ -2178,11 +2178,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038c0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko11g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038c0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko11g" class="tab-pane fade in active">
 Docker Enterprise Edition can be configured to limit the number of
 concurrent sessions for each account. These options can be found
 within the Universal Control Plane Admin Settings under the
@@ -2220,11 +2220,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038cg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko120">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038cg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko120" class="tab-pane fade in active">
 Per the requirements of AC-2 (5), Docker Enterprise Edition can be
 configured to enforce user session lifetime limits and renewal
 thresholds. These options can be found within the Universal Control
@@ -2261,11 +2261,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038d0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko12g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038d0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko12g" class="tab-pane fade in active">
 Per the requirements of AC-2 (5), Docker Enterprise Edition can be
 configured to enforce user session lifetime limits and renewal
 thresholds. These options can be found within the Universal Control
@@ -2304,11 +2304,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038dg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko130">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038dg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko130" class="tab-pane fade in active">
 Per the requirements of AC-2 (5), Docker Enterprise Edition can be
 configured to enforce user session lifetime limits and renewal
 thresholds. These options can be found within the Universal Control
@@ -2350,11 +2350,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038e0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko13g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038e0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko13g" class="tab-pane fade in active">
 Universal Control Plane includes a logout capability that allows a
 user to terminate his/her current session.
 </div>
@@ -2400,25 +2400,25 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038eg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038f0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038fg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko140">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko14g">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko150">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038eg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko140" class="tab-pane fade in active">
 To help the organization meet the requirements of this control, a
 review of actions allowed by unauthenticated users can be performed
 within Docker Trusted Registry.
 </div>
-<div id="b6rfp5ulp4b000a038f0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko14g" class="tab-pane fade">
 To help the organization meet the requirements of this control, one
 can restrict membership to the &#39;docker&#39; group on underlying Linux
 hosts or the local &#34;Administrators&#34; group (and any other groups
 defined within &#39;daemon.json&#39;) on underlying Windows Server 2016 hosts
 to only authorized users.
 </div>
-<div id="b6rfp5ulp4b000a038fg" class="tab-pane fade">
+<div id="b70lu81idlmg00bko150" class="tab-pane fade">
 To help the organization meet the requirements of this control, a
 review of actions allowed by unauthenticated users can be performed
 within Universal Control Plane.
@@ -2581,23 +2581,23 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038g0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038gg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038h0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko15g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko160">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko16g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038g0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko15g" class="tab-pane fade in active">
 To help the organization meet the requirements of this control,
 Docker Trusted Registry can be configured to allow/prohibit remote
 access.
 </div>
-<div id="b6rfp5ulp4b000a038gg" class="tab-pane fade">
+<div id="b70lu81idlmg00bko160" class="tab-pane fade">
 To help the organization meet the requirements of this control,
 Docker Enterprise Edition can be configured to allow/prohibit remote
 access to the Engine.
 </div>
-<div id="b6rfp5ulp4b000a038h0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko16g" class="tab-pane fade">
 To help the organization meet the requirements of this control,
 Universal Control Plane can be configured to allow/prohibit remote
 access.
@@ -2645,29 +2645,29 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038hg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038i0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038ig">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038j0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko170">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko17g">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko180">UCP</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko18g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038hg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko170" class="tab-pane fade in active">
 Docker Trusted Registry logs and controls all local and remote
 access events. In addition, auditing can be configured on the
 underlying operating system to meet this control.
 </div>
-<div id="b6rfp5ulp4b000a038i0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko17g" class="tab-pane fade">
 Docker Enterprise Edition logs and controls all local and remote
 access events. In addition, auditing can be configured on the
 underlying operating system to meet this control.
 </div>
-<div id="b6rfp5ulp4b000a038ig" class="tab-pane fade">
+<div id="b70lu81idlmg00bko180" class="tab-pane fade">
 Universal Control Plane logs and controls all local and remote
 access events. In addition, auditing can be configured on the
 underlying operating system to meet this control.
 </div>
-<div id="b6rfp5ulp4b000a038j0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko18g" class="tab-pane fade">
 Docker Enterprise Edition logs and controls all local and remote
 access events. In addition, auditing can be configured on the
 underlying operating system to meet this control.
@@ -2710,13 +2710,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038jg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038k0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038kg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko190">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko19g">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko1a0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038jg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko190" class="tab-pane fade in active">
 All remote access sessions to Docker Trusted Registry are protected
 with Transport Layer Security (TLS) 1.2. This is included at both the
 HTTPS application layer for access to the DTR user interface and for
@@ -2724,13 +2724,13 @@ command-line based connections to the registry. In addition to this,
 all communication to DTR is enforced by way of two-way mutual TLS
 authentication.
 </div>
-<div id="b6rfp5ulp4b000a038k0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko19g" class="tab-pane fade">
 All remote access sessions to Docker Enterprise Edition are protected
 with Transport Layer Security (TLS) 1.2. In addition to this, all
 communication to Docker Enterprise Edition is enforced by way of
 two-way mutual TLS authentication.
 </div>
-<div id="b6rfp5ulp4b000a038kg" class="tab-pane fade">
+<div id="b70lu81idlmg00bko1a0" class="tab-pane fade">
 All remote access sessions to Universal Control Plane are protected
 with Transport Layer Security (TLS) 1.2. This is included at both the
 HTTPS application layer for access to the UCP user interface and for
@@ -2776,25 +2776,25 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038l0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038lg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038m0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko1ag">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko1b0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko1bg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038l0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko1ag" class="tab-pane fade in active">
 A combination of managed load balancers, firewalls and access control
 lists, and virtual networking resources can be used to ensure traffic
 destined for Docker Trusted Registry replicas is routed through
 managed network access control points.
 </div>
-<div id="b6rfp5ulp4b000a038lg" class="tab-pane fade">
+<div id="b70lu81idlmg00bko1b0" class="tab-pane fade">
 A combination of managed load balancers, firewalls and access control
 lists, and virtual networking resources can be used to ensure traffic
 destined for Docker Enterprise Edition is routed through managed
 network access control points.
 </div>
-<div id="b6rfp5ulp4b000a038m0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko1bg" class="tab-pane fade">
 A combination of managed load balancers, firewalls and access control
 lists, and virtual networking resources can be used to ensure traffic
 destined for Universal Control Plane managers and worker nodes is
@@ -2832,11 +2832,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038mg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko1c0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038mg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko1c0" class="tab-pane fade in active">
 To help the organization meet the requirements of this control,
 Universal Control Plane can be configured to authorize certain
 privileged functions via remote access.
@@ -2889,20 +2889,20 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038n0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038ng">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038o0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko1cg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko1d0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko1dg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038n0" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko1cg" class="tab-pane fade in active">
 Built-in firewall technology in Docker Trusted Registry&#39;s underlying
 operating system can be used to force the disconnection of remote
 connections to the host. In addition, UCP slave nodes running Docker
 Trusted Registry replicas can be paused or drained, which subsequently
 stops sessions to the DTR replica.
 </div>
-<div id="b6rfp5ulp4b000a038ng" class="tab-pane fade">
+<div id="b70lu81idlmg00bko1d0" class="tab-pane fade">
 Built-in firewall technology in Docker Enterprise Edition&#39;s
 underlying operating system can be used to force the disconnection of
 remote connections to the host. In addition, Docker Enterprise Edition
@@ -2911,7 +2911,7 @@ subsequently stops and/or removes sessions to the node. Individual
 services and/or applications running on Docker Enterprise Edition can
 also be stopped and/or removed.
 </div>
-<div id="b6rfp5ulp4b000a038o0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko1dg" class="tab-pane fade">
 Built-in firewall technology in Universal Control Plane&#39;s underlying
 operating system can be used to force the disconnection of remote
 connections to the host. In addition, UCP provides the option to pause
@@ -3056,16 +3056,16 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038og">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038p0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko1e0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko1eg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038og" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko1e0" class="tab-pane fade in active">
 To help the organization meet the requirements of this control, one
 can control which external systems can access Docker Trusted Registry.
 </div>
-<div id="b6rfp5ulp4b000a038p0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko1eg" class="tab-pane fade">
 To help the organization meet the requirements of this control, one
 can control which external systems can access Universal Control
 Plane.
@@ -3107,16 +3107,16 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038pg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038q0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko1f0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko1fg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038pg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko1f0" class="tab-pane fade in active">
 To help the organization meet the requirements of this control, one
 can control which external systems can access Docker Trusted Registry.
 </div>
-<div id="b6rfp5ulp4b000a038q0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko1fg" class="tab-pane fade">
 To help the organization meet the requirements of this control, one
 can control which external systems can access Universal Control
 Plane.
@@ -3188,17 +3188,17 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038qg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp5ulp4b000a038r0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu81idlmg00bko1g0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu81idlmg00bko1gg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp5ulp4b000a038qg" class="tab-pane fade in active">
+<div id="b70lu81idlmg00bko1g0" class="tab-pane fade in active">
 To help the organization meet the requirements of this control, one
 can validate the assigned roles and access levels within Docker
 Trusted Registry to control information sharing.
 </div>
-<div id="b6rfp5ulp4b000a038r0" class="tab-pane fade">
+<div id="b70lu81idlmg00bko1gg" class="tab-pane fade">
 To help the organization meet the requirements of this control, one
 can validate the assigned roles and access levels within Universal
 Control Plane to control information sharing.

@@ -341,13 +341,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp6ulp4b000a03aq0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp6ulp4b000a03aqg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp6ulp4b000a03ar0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3fg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3g0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3gg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp6ulp4b000a03aq0" class="tab-pane fade in active">
+<div id="b70lu8hidlmg00bko3fg" class="tab-pane fade in active">
 Docker Content Trust gives you the ability to verify both the
 integrity and the publisher of all the data received from a Docker
 Trusted Registry over any channel. It allows operations with a remote
@@ -358,7 +358,7 @@ client-side verification of the integrity and publisher of specific
 image tags. Docker Trusted Registry includes an integrated imaging
 signing service.
 </div>
-<div id="b6rfp6ulp4b000a03aqg" class="tab-pane fade">
+<div id="b70lu8hidlmg00bko3g0" class="tab-pane fade">
 Docker Content Trust gives you the ability to verify both the
 integrity and the publisher of all the data received from a Docker
 Trusted Registry over any channel. It allows operations with a remote
@@ -368,7 +368,7 @@ sent to and receive from remote DTR instances. These signatures allow
 client-side verification of the integrity and publisher of specific
 image tags.
 </div>
-<div id="b6rfp6ulp4b000a03ar0" class="tab-pane fade">
+<div id="b70lu8hidlmg00bko3gg" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements, Docker Content Trust gives
 you the ability to verify both the integrity and the publisher of all

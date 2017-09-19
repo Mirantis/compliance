@@ -525,12 +525,12 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6rfp6elp4b000a03a7g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6rfp6elp4b000a03a80">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2t0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2tg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6rfp6elp4b000a03a7g" class="tab-pane fade in active">
+<div id="b70lu89idlmg00bko2t0" class="tab-pane fade in active">
 Docker Trusted Registry maintains its cluster state via an internal
 key-value store. This, and other DTR transactions can be backed up and
 recovered. Additional information can be found at the following
@@ -543,7 +543,7 @@ resources:
 </ul>
 
 </div>
-<div id="b6rfp6elp4b000a03a80" class="tab-pane fade">
+<div id="b70lu89idlmg00bko2tg" class="tab-pane fade">
 Universal Control Plane maintains its cluster state via an internal
 key-value store. This, and other UCP transactions can be backed up and
 recovered. Additional information can be found at the following
