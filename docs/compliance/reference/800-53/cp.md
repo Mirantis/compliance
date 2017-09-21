@@ -513,24 +513,24 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87naf54g009olpsg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87naf54g009olpt0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2t0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2tg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87naf54g009olpsg" class="tab-pane fade in active">
+<div id="b70lu89idlmg00bko2t0" class="tab-pane fade in active">
 Docker Trusted Registry maintains its cluster state via an internal
 key-value store. This, and other DTR transactions can be backed up and
 recovered. Additional information can be found at the following
@@ -538,12 +538,12 @@ resources:
 
 
 <ul>
-<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/admin/backups-and-disaster-recovery/">https://docs.docker.com/datacenter/dtr/2.2/guides/admin/backups-and-disaster-recovery/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.3/guides/admin/backups-and-disaster-recovery/">https://docs.docker.com/datacenter/dtr/2.3/guides/admin/backups-and-disaster-recovery/</a></li>
 <li><a href="https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#DTR_Backup">https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#DTR_Backup</a></li>
 </ul>
 
 </div>
-<div id="b6eb87naf54g009olpt0" class="tab-pane fade">
+<div id="b70lu89idlmg00bko2tg" class="tab-pane fade">
 Universal Control Plane maintains its cluster state via an internal
 key-value store. This, and other UCP transactions can be backed up and
 recovered. Additional information can be found at the following
@@ -551,7 +551,7 @@ resources:
 
 
 <ul>
-<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/admin/backups-and-disaster-recovery/">https://docs.docker.com/datacenter/ucp/2.1/guides/admin/backups-and-disaster-recovery/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.2/guides/admin/backups-and-disaster-recovery/">https://docs.docker.com/datacenter/ucp/2.2/guides/admin/backups-and-disaster-recovery/</a></li>
 <li><a href="https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#UCP_Backup">https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#UCP_Backup</a></li>
 </ul>
 

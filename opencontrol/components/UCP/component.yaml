@@ -3,27 +3,31 @@ schema_version: 3.1.0
 name: Universal Control Plane (UCP)
 references:
   - name: UCP Documentation
-    path: https://docs.docker.com/ucp/overview/
+    path: https://docs.docker.com/datacenter/ucp/2.2/guides/
     type: URL
 satisfies:  
   - control_key: AC-2 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
           control, supporting documentation for managing users and teams can
           found at the following resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/create-and-manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/create-and-manage-teams/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-teams/'
     standard_key: NIST-800-53
   
   - control_key: AC-2 (7)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - key: a
         text: |
@@ -31,13 +35,15 @@ satisfies:
           control, supporting documentation can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/'
     standard_key: NIST-800-53
   
   - control_key: AC-2 (12)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -46,9 +52,20 @@ satisfies:
           Logstash and Kibana (ELK) stack. Supporting documentation can be found
           at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-node-messages/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-configurations/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-task-state/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/
+          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_Logging_Design_and_Best_Practices'
+    parameters:
+      - key: "AC-2(12)(a)"
+        text: |
+          "customer-defined atypical use"
+      - key: "AC-2(12)(b)"
+        text: |
+          "at a minimum, the ISSO and/or similar role within the organization"
     standard_key: NIST-800-53
 
   - control_key: AC-3
@@ -56,7 +73,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'One can control which users and teams can create and manipulate
@@ -65,29 +82,41 @@ satisfies:
           fine-grained access control. Supporting documentation can be found at
           the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/deploy-view-only-service/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/grant-permissions/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/isolate-nodes-between-teams/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/isolate-volumes-between-teams/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/manage-access-with-collections/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/access-control-node/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
     standard_key: NIST-800-53
 
   - control_key: AC-4
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'Supporting documentation to configure Universal Control Plane to meet
           the requirements of this control can be found at the following
           resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/install/system-requirements/#ports-used
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-domain-names-to-access-services/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/restrict-services-to-worker-nodes/
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking'
+    parameters:
+      - key: "AC-4"
+        text: |
+          "customer-defined information flow control policies"
     standard_key: NIST-800-53
   
   - control_key: AC-4 (8)
@@ -95,21 +124,31 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
-      - configured by customer
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Supporting documentation to configure Universal Control Plane to meet
           the requirements of this control can be found at the following
           resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/install/system-requirements/#/ports-used
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-domain-names-to-access-services/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/restrict-services-to-worker-nodes/
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking'
+    parameters:
+      - key: "AC-4(8)(a)"
+        text: |
+          "FedRAMP assignment: security policy filters inherent in boundary
+          protection devices such as gateways, routers, guards, encrypted
+          tunnels, firewalls"
+      - key: "AC-4(8)(b)"
+        text: |
+          "FedRAMP assignment: information containing PII or organization
+          sensitive information types"
     standard_key: NIST-800-53
   
   - control_key: AC-4 (21)
@@ -117,21 +156,28 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
-      - configured by customer
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Supporting documentation to configure Universal Control Plane to meet
           the requirements of this control can be found at the following
           resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/install/system-requirements/#/ports-used
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/use-domain-names-to-access-services/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/restrict-services-to-worker-nodes/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/install/system-requirements/#/ports-used
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-domain-names-to-access-services/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/restrict-services-to-worker-nodes/
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking'
+    parameters:
+      - key: "AC-4(21)-1"
+        text: |
+          "customer-defined mechanisms and/or techniques"
+      - key: "AC-4(21)-2"
+        text: |
+          "customer-defined required separation by types of information"
     standard_key: NIST-800-53
 
   - control_key: AC-5
@@ -139,7 +185,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
     narrative:
       - text: |
           'To assist the organization in meeting the requirements of this
@@ -149,10 +195,172 @@ satisfies:
           enforce fine-grained access control. Supporting documentation can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
           - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-5(a)"
+        text: |
+          "customer-defined duties of individuals"
+    standard_key: NIST-800-53
+
+  - control_key: AC-6
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can control which users and teams can create and
+          manipulate Universal Control Plane resources and employ principles of
+          least privilege. By default, no one can make changes to the cluster.
+          Permissions can be granted and managed to enforce fine-grained access
+          control. Supporting documentation can be found at the following
+          resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    standard_key: NIST-800-53
+
+  - control_key: AC-6 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can control which users and teams can create and
+          manipulate Universal Control Plane resources and explicitly authorize
+          access as necessary. By default, no one can make changes to the
+          cluster. Permissions can be granted and managed to enforce
+          fine-grained access control. Supporting documentation can be found at
+          the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-6(1)"
+        text: |
+          "FedRAMP assignment: all functions not publiclly accessible and all
+          security-relevant information not publicly available"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-6 (2)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can control which users and teams can create and
+          manipulate Universal Control Plane resources. By default, no one can
+          make changes to the cluster. Permissions can be granted and managed to
+          enforce fine-grained access control. Supporting documentation can be
+          found at the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-6(2)"
+        text: |
+          "FedRAMP requirement: all security functions"
+    standard_key: NIST-800-53
+
+  - control_key: AC-6 (3)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can control which users and teams can create and
+          manipulate Universal Control Plane resources, including Docker
+          networking components. By default, no one can make changes to the
+          cluster. Permissions can be granted and managed to enforce
+          fine-grained access control. Supporting documentation can be found at
+          the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-6(3)-1"
+        text: |
+          "privileged commands used to change/configure network devices"
+      - key: "AC-6(3)-2"
+        text: |
+          "customer-defined operational needs"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-6 (5)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can restrict privileged accounts within Universal Control
+          Plane to custom-defined roles. By default, no one can make changes to
+          the cluster. Permissions can be granted and managed to enforce
+          fine-grained access control. Supporting documentation can be found at
+          the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-6(5)"
+        text: |
+          "customer-defined personnel or roles"
+    standard_key: NIST-800-53
+
+  - control_key: AC-6 (7)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the organization in meeting the requirements of this
+          control, one can review all implemented grants, accounts and roles
+          within Universal Control Plane and reassign/revoke privileges as
+          necessary. Supporting documentation can be found at the following
+          resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-6(7)(a)-1"
+        text: |
+          "at least annually"
+      - key: "AC-6(7)(a)-2"
+        text: |
+          "all users"
     standard_key: NIST-800-53
 
   - control_key: AC-6 (8)
@@ -160,7 +368,7 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'Universal Control Plane users can be assigned to one of a number of
@@ -172,11 +380,40 @@ satisfies:
           roles cannot execute any Docker commands. Users assigned to the
           "Restricted Control" role can only run Docker commands under their own
           purview and cannot see other users UCP resources nor run commands that
-          required privileged access to the host. Additional documentation
-          regarding the various permission levels within UCP can be found at the
-          following resource:
+          required privileged access to the host. Furthermore, custom roles can
+          be created for fine-grained access to specific UCP resources and
+          functionality. Additional documentation regarding the various
+          permission levels within UCP can be found at the following resource:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
+          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+    parameters:
+      - key: "AC-6(8)"
+        text: |
+          "FedRAMP assignment: any software except software explicitly
+          documented"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-6 (10)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+    narrative:
+      - text: |
+          'One can control which users and teams can create and manipulate
+          Universal Control Plane resources and prevent non-privileged users
+          from executing privileged functions per the requirements of this
+          control. By default, no one can make changes to the cluster.
+          Permissions can be granted and managed to enforce fine-grained access
+          control. Supporting documentation for the configuration of this
+          functionality can be found at the following resources:
+
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/'
     standard_key: NIST-800-53
   
   - control_key: AC-12 (1)
@@ -184,17 +421,66 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'Universal Control Plane includes a logout capability that allows a
           user to terminate his/her current session.'
+    parameters:
+      - key: "AC-12(1)(a)"
+        text: |
+          "customer-defined information resources"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-14
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control, a
+          review of actions allowed by unauthenticated users can be performed
+          within Universal Control Plane.'
+    parameters:
+      - key: "AC-14(a)"
+        text: |
+          "customer-defined user actions"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-17
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control,
+          Universal Control Plane can be configured to allow/prohibit remote
+          access.'
+    standard_key: NIST-800-53
+  
+  - control_key: AC-17 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+    narrative:
+      - text: |
+          'Universal Control Plane logs and controls all local and remote
+          access events. In addition, auditing can be configured on the
+          underlying operating system to meet this control.'
     standard_key: NIST-800-53
 
   - control_key: AC-17 (2)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'All remote access sessions to Universal Control Plane are protected
@@ -207,20 +493,47 @@ satisfies:
 
   - control_key: AC-17 (3)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - text: |
           'A combination of managed load balancers, firewalls and access control
           lists, and virtual networking resources can be used to ensure traffic
           destined for Universal Control Plane managers and worker nodes is
           routed through managed network access control points.'
+    parameters:
+      - key: "AC-17(3)"
+        text: |
+          "customer-defined"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-17 (4)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control,
+          Universal Control Plane can be configured to authorize certain
+          privileged functions via remote access.'
+    parameters:
+      - key: "AC-17(4)(a)"
+        text: |
+          "customer-defined needs"
     standard_key: NIST-800-53
 
   - control_key: AC-17 (9)
     covered_by: []
-    implementation_status: complete
-    control_origin: "configured by customer"
+    implementation_statuses:
+      - complete
+      - partial
+    control_origins:
+      - service provider hybrid
+      - configured by customer
     narrative:
       - text: |
           'Built-in firewall technology in Universal Control Plane's underlying
@@ -229,12 +542,66 @@ satisfies:
           or drain a node in the cluster, which subsequently stops and/or
           removes sessions to the node. Individual services and/or applications
           running on a UCP cluster can also be stopped and/or removed.'
+    parameters:
+      - key: "AC-17(9)"
+        text: |
+          "FedRAMP requirement: no greater than fifteen minutes"
+    standard_key: NIST-800-53
+  
+  - control_key: AC-20
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control, one
+          can control which external systems can access Universal Control
+          Plane.'
+    standard_key: NIST-800-53
+  
+  - control_key: AC-20 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control, one
+          can control which external systems can access Universal Control
+          Plane.'
+    standard_key: NIST-800-53
+
+  - control_key: AC-21
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+      - shared
+    narrative:
+      - text: |
+          'To help the organization meet the requirements of this control, one
+          can validate the assigned roles and access levels within Universal
+          Control Plane to control information sharing.'
+    parameters:
+      - key: "AC-21(a)"
+        text: |
+          "customer-defined information sharing circumstances"
+      - key: "AC-21(b)"
+        text: |
+          "customer-defined automated mechanisms or manual processes"
     standard_key: NIST-800-53
 
   - control_key: AU-2
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+      - shared
     narrative:
       - key: a
         text: |
@@ -244,13 +611,30 @@ satisfies:
           logs event data. Supporting documentation for configuring UCP logging
           can be referenced at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-2(a)"
+        text: |
+          "FedRAMP requirement: successful and unsuccessful account logon
+          events, account management events, object access, policy change,
+          privileged functions, process tracking, and system events. For Web
+          applications: all administrator activity, authentication checks,
+          authorization checks, data deletions, data access, data changes, and
+          permission changes"
+      - key: "AU-2(d)"
+        text: |
+          "FedRAMP requirement: organization-defined subset of the auditable
+          events defined in AU-2-a. to be audited continually for each
+          identified event"
     standard_key: NIST-800-53
 
   - control_key: AU-3
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane generates all of the audit record information
@@ -265,8 +649,11 @@ satisfies:
 
   - control_key: AU-3 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -275,7 +662,15 @@ satisfies:
           audit records. Additional documentation can be found at the following
           resource:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-3(1)"
+        text: |
+          "FedRAMP requirement: session, connection, trasaction, or activity
+          duration; for client-server transactions, the number of bytes received
+          and bytes sent, additional informational messages to diagnose or
+          identify the event, characteristics that describe or identify the
+          object or resource being acted upon"
     standard_key: NIST-800-53
 
   - control_key: AU-3 (2)
@@ -283,7 +678,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -292,7 +688,11 @@ satisfies:
           audit records. Additional documentation can be found at the following
           resource:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-3(2)"
+        text: |
+          "all network, data storage, and computing devices"
     standard_key: NIST-800-53
 
   - control_key: AU-5
@@ -306,7 +706,15 @@ satisfies:
           alert individuals in the event of log processing failures. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-5(a)"
+        text: |
+          "customer-defined personnel or roles"
+      - key: "AU-5(b)"
+        text: |
+          "FedRAMP requirement: low-impact: overwrite oldest audit records;
+          moderate-impact: shut down"
     standard_key: NIST-800-53
 
   - control_key: AU-5 (1)
@@ -314,7 +722,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -322,7 +731,17 @@ satisfies:
           warn the organization when the allocated log storage is full.
           Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-5(1)-1"
+        text: |
+          "appropriate service team personnel, customer-defined personnel"
+      - key: "AU-5(1)-2"
+        text: |
+          "24 hours, customer-defined time period"
+      - key: "AU-5(1)-3"
+        text: |
+          "a service team defined percentage, customer-defined percentage"
     standard_key: NIST-800-53
 
   - control_key: AU-5 (2)
@@ -330,7 +749,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -338,7 +758,18 @@ satisfies:
           warn the organization when audit log failures occur. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-5(2)-1"
+        text: |
+          "real-time"
+      - key: "AU-5(2)-2"
+        text: |
+          "appropriate service team personnel"
+      - key: "AU-5(2)-3"
+        text: |
+          "events defined by each service team, audit failure events requiring
+          real-time alerts, as defined by organization audit policy"
     standard_key: NIST-800-53
 
   - control_key: AU-6 (4)
@@ -346,7 +777,8 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -354,13 +786,16 @@ satisfies:
           analyze all of the Docker EE audit records. Additional information can
           be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
     standard_key: NIST-800-53
 
   - control_key: AU-7
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+      - shared
     narrative:
       - key: a
         text: |
@@ -370,7 +805,7 @@ satisfies:
           this control. Additional information can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
       - key: b
         text: |
           'The underlying operating system chosen to support Universal Control
@@ -380,8 +815,11 @@ satisfies:
 
   - control_key: AU-7 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
@@ -389,13 +827,19 @@ satisfies:
           parse information by organization-defined audit fields. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-7(1)"
+        text: |
+          "customer-defined audit fields within audit records"
     standard_key: NIST-800-53
 
   - control_key: AU-8
     covered_by: []
-    implementation_status: complete
-    control_origin: "configured by customer"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - key: a
         text: |
@@ -407,12 +851,18 @@ satisfies:
           should be configured such that its system clock uses Coordinated
           Universal Time (UTC) as indicated by this control. Refer to the
           operating system's instructions for doing so.'
+    parameters:
+      - key: "AU-8(b)"
+        text: |
+          "millisecond precision"
     standard_key: NIST-800-53
 
   - control_key: AU-8 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - key: a
         text: |
@@ -430,12 +880,25 @@ satisfies:
           time period. This can be accomplished by utilizing the Network Time
           Protocol (NTP). Refer to the operating system's instructions for doing
           so.'
+    parameters:
+      - key: "AU-8(1)(a)-1"
+        text: |
+          "FedRAMP requirement: at least hourly"
+      - key: "AU-8(1)(a)-2"
+        text: |
+          "FedRAMP requirement: authoritative time source:
+          http://tf.nist.gov/tf-cgi/servers.cgi"
+      - key: "AU-8(1)(b)"
+        text: |
+          "customer-defined"
     standard_key: NIST-800-53
 
   - control_key: AU-9
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - text: |
           'By default, Universal Control Plane is configured to use the
@@ -452,79 +915,96 @@ satisfies:
 
   - control_key: AU-9 (2)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - text: |
           'Universal Control Plane can be configured to send logs to a remote
-          logging stack. Additional information can be found at the following
-          resources:
+          logging stack. The logging stack can subsequently be configured to
+          back up audit records per the schedule defined by this control.
+          Additional information can be found at the following resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
-
-          The logging stack can subsequently be configured to back up audit
-          records per the schedule defined by this control.'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-9(2)"
+        text: |
+          "FedRAMP requirement: at least weekly"
     standard_key: NIST-800-53
 
-  - control_key: AU-9 (2)
+  - control_key: AU-9 (3)
     covered_by: []
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
     narrative:
       - text: |
           'Universal Control Plane can be configured to send logs to a remote
-          logging stack. Additional information can be found at the following
-          resources:
+          logging stack. The logging stack can subsequently be configured to
+          meet the encryption mechanisms required by this control. Additional
+          information can be found at the following resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
-
-          The logging stack can subsequently be configured to meet the
-          encryption mechanisms required by this control.'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
     standard_key: NIST-800-53
 
   - control_key: AU-11
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+      - shared
     narrative:
       - text: |
           'The organization will be responsible for meeting the requirements of
           this control. To assist with these requirements, Universal Control
-          Plane can be configured to send logs to a remote logging stack.
-          Additional information can be found at the following resources:
+          Plane can be configured to send logs to a remote logging stack. This
+          logging stack can subsequently be configured retain logs for the
+          duration required by this control. Additional information can be found
+          at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
-
-          This logging stack can subsequently be configured retain logs for the
-          duration required by this control.'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-11"
+        text: |
+          "FedRAMP requirement: at least one year"
     standard_key: NIST-800-53
 
   - control_key: AU-12
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
+      - shared
     narrative:
       - key: a
         text: |
           'All of the event types indicated by AU-2 a. are logged by the backend
           ucp-controller service within Universal Control Plane. In addition,
           each container created on a Universal Control Plane cluster logs event
-          data. Additional information can be found at the following resources:
+          data. The underlying Linux operating system supporting UCP can be
+          configured to audit Docker-specific events with the auditd daemon.
+          Refer to the specific Linux distribution in use for instructions on
+          configuring this service. Additional information can be found at the
+          following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
-
-          The underlying Linux operating system supporting UCP can be configured
-          to audit Docker-specific events with the auditd daemon. Refer to the
-          specific Linux distribution in use for instructions on configuring
-          this service.'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
       - key: b
         text: |
           'Using auditd on the Linux operating system supporting UCP, the
           organization can configure audit rules to select which Docker-specific
           events are to be audited. Refer to the specific Linux distribution in
           use for instructions on configuring this service.'
+    parameters:
+      - key: "AU-12(a)"
+        text: |
+          "FedRAMP requirement: at least every 3 years"
+      - key: "AU-12(b)"
+        text: |
+          "customer-defined personnel or roles"
     standard_key: NIST-800-53
 
   - control_key: AU-12 (1)
@@ -532,18 +1012,24 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to send logs to a remote
-          logging stack. Additional information can be found at the following
-          resources:
+          logging stack. This logging stack can subsequently be used to compile
+          audit records in to a system-wide audit trail that is time-correlated
+          per the requirements of this control. Additional information can be
+          found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
-
-          This logging stack can subsequently be used to compile audit records
-          in to a system-wide audit trail that is time-correlated per the
-          requirements of this control.'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-12(1)-1"
+        text: |
+          "all network, data storage, and computing devices"
+      - key: "AU-12(1)-2"
+        text: |
+          "1 millisecond, organization-defined level of tolerance"
     standard_key: NIST-800-53
 
   - control_key: AU-12 (3)
@@ -551,87 +1037,150 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - service provider hybrid
+      - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to send logs to a remote
-          logging stack. Additional information can be found at the following
-          resources:
+          logging stack. This logging stack can subsequently be used to meet the
+          requirements of this control. Additional information can be found at
+          the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/store-logs-in-an-external-system/
-
-          This logging stack can subsequently be used to meet the requirements
-          of this control.'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+    parameters:
+      - key: "AU-12(3)-1"
+        text: |
+          "service team members with audit configuration responsibilities"
+      - key: "AU-12(3)-2"
+        text: |
+          "all network, data storage, and computing devices"
+      - key: "AU-12(3)-3"
+        text: |
+          "changes to the thread environment, organization-defined threat
+          situations"
+      - key: "AU-12(3)-4"
+        text: |
+          "risk-based assessment, organization-defined time thresholds"
     standard_key: NIST-800-53
   
   - control_key: CM-5 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'Role-based access control can be configured within Universal Control
           Plane to meet the requirements of this control. Additional information
           can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/manage-users/permission-levels/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#RBAC'
     standard_key: NIST-800-53
   
   - control_key: CM-5 (3)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provide hybrid
+      - shared
     narrative:
       - text: |
-          'Docker Content Trust is a capability provided by Docker Enterprise Edition
-          that enforces client-side signing and verification of Docker image
-          tags. It provides the ability to use digital signatures for data sent
-          to and received from Docker Trusted Registry and the public Docker
-          Store. These signatures allow client-side verification of the
+          'Docker Content Trust is a capability provided by Docker Enterprise
+          Edition that enforces client-side signing and verification of Docker
+          image tags. It provides the ability to use digital signatures for data
+          sent to and received from Docker Trusted Registry and the public
+          Docker Store. These signatures allow client-side verification of the
           integrity and publisher of specific image tags. All Universal Control
           Plane Docker images are officially signed and verified by Docker, Inc.
 
           When configuring Universal Control Plane, you should enforce
           applications to only use Docker images signed by trusted UCP users
-          within your organization. Additional information can be found at the following resources:
+          within your organization. Additional information can be found at the
+          following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/manage-trusted-repositories/
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/continuous-integration/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/run-only-the-images-you-trust/'
+    parameters:
+      - key: "CM-5(3)"
+        text: |
+          "customer-defined software"
     standard_key: NIST-800-53
 
   - control_key: CM-6 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - text: |
          'The organization is responsible for meeting the requirements of this
-          control. To assist with these requirements, the organization can
-          incorporate the use of an external configuration management system to
-          meet the requirements of this control.'
+         control. To assist with these requirements, the organization can
+         incorporate the use of an external configuration management system to
+         meet the requirements of this control. Universal Control Plane''s
+         configuration can also be managed, backed up and stored in another
+         location per the requirements of this control. Additional documentation
+         can be found at the following resources:
+         
+         - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/ucp-configuration-file/
+         - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/backups-and-disaster-recovery/'
+    parameters:
+      - key: "CM-6(1)"
+        text: |
+          "customer-defined information system components"
+    standard_key: NIST-800-53
+
+  - control_key: CM-7 (1)
+    covered_by: []
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider corporate
+      - Docker EE system
+      - service provider hybrid
+    narrative:
+      - key: b
+        text: |
+          'To help the organization meet the requirements of this control,
+          Universal Control Plane includes a robust access control model to
+          disable any functionality as mandated by this control.'
+    parameters:
+      - key: "CM-7(1)(b)"
+        text: |
+          "customer-defined functions, ports, protocols, and services within the
+          information system deemed to be unnecessary and/or nonsecure"
     standard_key: NIST-800-53
 
   - control_key: CM-7 (2)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
          'In order to restrict which Docker images can be used to deploy
-         applications to Universal Control Plane, the organization must define a
+         applications to Universal Control Plane, the organization can define a
          list of allowed base Docker images and make them available via Docker
-         Trusted Registry. The organization must also prevent users from being
+         Trusted Registry. The organization can also prevent users from being
          able to pull Docker images from untrusted sources.'
+    parameters:
+      - key: "CM-7(2)"
+        text: |
+          "customer-defined policies regarding software program usage or
+          restrictions"
     standard_key: NIST-800-53
 
   - control_key: CM-7 (5)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
+      - shared
     narrative:
       - key: a
         text: |
@@ -653,13 +1202,20 @@ satisfies:
           specific Teams at runtime. Additional information can be found at the
           following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/user/content-trust/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/run-only-the-images-you-trust/'
+    parameters:
+      - key: "CM-7(5)(a)"
+        text: |
+          "customer-defined software programs authorized to execute on the
+          information system"
     standard_key: NIST-800-53
 
   - control_key: CP-10 (2)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
          'Universal Control Plane maintains its cluster state via an internal
@@ -667,14 +1223,16 @@ satisfies:
          recovered. Additional information can be found at the following
          resources:
 
-         - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/backups-and-disaster-recovery/
+         - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/backups-and-disaster-recovery/
          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#UCP_Backup'
     standard_key: NIST-800-53
 
   - control_key: IA-2 (5)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -686,21 +1244,25 @@ satisfies:
 
   - control_key: IA-3
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'In order for nodes to join a Universal Control Plane cluster, they
           must be identified and authenticated via either a manager or worker
           token. Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/scale-your-cluster/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/scale-your-cluster/'
     standard_key: NIST-800-53
 
   - control_key: IA-5 (2)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - key: a
         text: |
@@ -733,13 +1295,15 @@ satisfies:
           certificates can also be revoked and updated. Additional information
           can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.0/guides/configuration/#/replace-the-server-certificates'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-your-own-tls-certificates/'
     standard_key: NIST-800-53
 
   - control_key: IA-6
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'Universal Control Plane obscures all feedback of authentication
@@ -749,8 +1313,10 @@ satisfies:
 
   - control_key: IA-7
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'All access to Universal Control Plane is protected with Transport
@@ -761,8 +1327,10 @@ satisfies:
 
   - control_key: IA-8
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'Users managed by Universal Control Plane can be grouped per the
@@ -772,8 +1340,10 @@ satisfies:
 
   - control_key: SA-10 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - service provider hybrid
     narrative:
       - text: |
           'The organization is responsible for meeting the requirements of this
@@ -788,13 +1358,15 @@ satisfies:
           Plane can be configured to only run trusted and signed images.
           Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/admin/configure/run-only-the-images-you-trust/'
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/run-only-the-images-you-trust/'
     standard_key: NIST-800-53
 
   - control_key: SC-2
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'Universal Control Plane is made up of a number of backend services
@@ -803,14 +1375,16 @@ satisfies:
           operates independently of one another. Additional information can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/
+          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/
           - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Universal_Control_Plane'
     standard_key: NIST-800-53
 
   - control_key: SC-23
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'All remote access sessions to Universal Control Plane are protected
@@ -823,8 +1397,10 @@ satisfies:
 
   - control_key: SC-28 (1)
     covered_by: []
-    implementation_status: complete
-    control_origin: "service provider system specific"
+    implementation_statuses:
+      - complete
+    control_origins:
+      - Docker EE system
     narrative:
       - text: |
           'All remote access sessions to Universal Control Plane are protected
@@ -833,6 +1409,13 @@ satisfies:
           user interface and for command-line based connections to the cluster.
           In addition to this, all communication to UCP is enforced by way of
           two-way mutual TLS authentication.'
+    parameters:
+      - key: "SC-28(1)-1"
+        text: |
+          "customer data"
+      - key: "SC-28(1)-2"
+        text: |
+          "CSP servers"
     standard_key: NIST-800-53
 
   - control_key: SI-11
@@ -840,11 +1423,15 @@ satisfies:
     implementation_statuses:
       - complete
     control_origins:
-      - service provider system specific
+      - Docker EE system
     narrative:
       - text: |
           'All error messages generated via the configured logging mechanism of
           Universal Control Plane are displayed such that they meet the
           requirements of this control. Only users that are authorized the
           appropriate level of access can view these error messages.'
+    parameters:
+      - key: "SI-11(b)"
+        text: |
+          "authorized service personnel and CSP users"
     standard_key: NIST-800-53

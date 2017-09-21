@@ -201,43 +201,7 @@ The organization develops a continuous monitoring strategy and implements a cont
 
 #### Control Information
 
-Responsible role(s) - Docker system
-
-<table>
-<tr>
-<th>Component</th>
-<th>Implementation Status(es)</th>
-<th>Control Origin(s)</th>
-</tr>
-<tr>
-<td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
-<td>service provider system specific<br/></td>
-</tr>
-</table>
-
-#### Implementation Details
-
-<ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87faf54g009olpeg">Engine</a></li>
-</ul>
-
-<div class="tab-content">
-<div id="b6eb87faf54g009olpeg" class="tab-pane fade in active">
-The CIS Docker Benchmark can be used as a baseline for securing Docker
-Enterprise Edition and for helping the organization meet the
-continuous monitoring requirements of this control. Additional
-information can be found at the following resources:
-
-
-<ul>
-<li><a href="https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf">https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.13.0_Benchmark_v1.0.0.pdf</a></li>
-<li><a href="http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx">http://www.cisecurity.org/critical-controls/tools/CISControlsv4_MaptoNIST800-53rev4.xlsx</a></li>
-<li><a href="https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark">https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Controls_from_the_CIS_Benchmark</a></li>
-</ul>
-
-</div>
-</div>
+Responsible role(s) - Organization
 
 ### CA-7 (1) Independent Assessment
 

@@ -47,24 +47,24 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqg0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87vaf54g009olqgg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3h0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3hg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87vaf54g009olqg0" class="tab-pane fade in active">
+<div id="b70lu8hidlmg00bko3h0" class="tab-pane fade in active">
 Docker Trusted Registry is made up of a number of backend services
 that provide for both user functionality (including user interface
 services) and system management functionality. Each of these services
@@ -73,12 +73,12 @@ found at the following resources:
 
 
 <ul>
-<li><a href="https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/">https://docs.docker.com/datacenter/dtr/2.2/guides/architecture/</a></li>
+<li><a href="https://docs.docker.com/datacenter/dtr/2.3/guides/architecture/">https://docs.docker.com/datacenter/dtr/2.3/guides/architecture/</a></li>
 <li><a href="https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Docker_Trusted_Registry">https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Docker_Trusted_Registry</a></li>
 </ul>
 
 </div>
-<div id="b6eb87vaf54g009olqgg" class="tab-pane fade">
+<div id="b70lu8hidlmg00bko3hg" class="tab-pane fade">
 Universal Control Plane is made up of a number of backend services
 that provide for both user functionality (including user interface
 services) and system management functionality. Each of these services
@@ -87,7 +87,7 @@ found at the following resources:
 
 
 <ul>
-<li><a href="https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/">https://docs.docker.com/datacenter/ucp/2.1/guides/architecture/</a></li>
+<li><a href="https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/">https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/</a></li>
 <li><a href="https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Universal_Control_Plane">https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Universal_Control_Plane</a></li>
 </ul>
 
@@ -443,18 +443,18 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Enterprise Edition Engine</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqh0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3i0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87vaf54g009olqh0" class="tab-pane fade in active">
+<div id="b70lu8hidlmg00bko3i0" class="tab-pane fade in active">
 Docker Enterprise Edition is designed to run application containers
 whose content can be completely isolated/segregated from other
 application containers within the same node/cluster. This is
@@ -621,24 +621,23 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Enterprise Edition Engine</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqhg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3ig">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87vaf54g009olqhg" class="tab-pane fade in active">
-Docker Enterprise Edition can be installed on the following operating systems:
-CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04 LTS&#43;, and
-SUSE Linux Enterprise 12&#43;. In order to meet the requirements of this
-control, reference the chosen operating system&#39;s documentation to
-ensure it is configured in FIPS mode.
-
+<div id="b70lu8hidlmg00bko3ig" class="tab-pane fade in active">
+Docker Enterprise Edition can be installed on the following operating
+systems: CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04
+LTS&#43;, SUSE Linux Enterprise 12&#43; and Windows Server 2016&#43;. In order to
+meet the requirements of this control, reference the chosen operating
+system&#39;s documentation to ensure it is configured in FIPS mode.
 </div>
 </div>
 
@@ -671,24 +670,23 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Enterprise Edition Engine</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>service provider hybrid<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqi0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3j0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87vaf54g009olqi0" class="tab-pane fade in active">
-Docker Enterprise Edition can be installed on the following operating systems:
-CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04 LTS&#43;, and
-SUSE Linux Enterprise 12&#43;. In order to meet the requirements of this
-control, reference the chosen operating system&#39;s documentation to
-ensure it is configured in FIPS mode.
-
+<div id="b70lu8hidlmg00bko3j0" class="tab-pane fade in active">
+Docker Enterprise Edition can be installed on the following operating
+systems: CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04
+LTS&#43;, SUSE Linux Enterprise 12&#43; and Windows Server 2016&#43;. In order to
+meet the requirements of this control, reference the chosen operating
+system&#39;s documentation to ensure it is configured in FIPS mode.
 </div>
 </div>
 
@@ -908,30 +906,30 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqig">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87vaf54g009olqj0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87vaf54g009olqjg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3jg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3k0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3kg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87vaf54g009olqig" class="tab-pane fade in active">
+<div id="b70lu8hidlmg00bko3jg" class="tab-pane fade in active">
 All remote access sessions to Docker Trusted Registry are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. This
 is included at both the HTTPS application layer for access to the DTR
@@ -939,14 +937,13 @@ user interface and for command-line based connections to the registry.
 In addition to this, all communication to DTR is enforced by way of
 two-way mutual TLS authentication.
 </div>
-<div id="b6eb87vaf54g009olqj0" class="tab-pane fade">
-All remote access sessions to Docker Enterprise Edition are protected with
-Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
-addition to this, all communication to and between Docker Enterprise Editions
-is enforced by way of two-way mutual TLS authentication.
-
+<div id="b70lu8hidlmg00bko3k0" class="tab-pane fade">
+All remote access sessions to Docker Enterprise Edition are protected
+with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
+addition to this, all communication to and between Docker Enterprise
+Editions is enforced by way of two-way mutual TLS authentication.
 </div>
-<div id="b6eb87vaf54g009olqjg" class="tab-pane fade">
+<div id="b70lu8hidlmg00bko3kg" class="tab-pane fade">
 All remote access sessions to Universal Control Plane are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. This
 is included at both the HTTPS application layer for access to the UCP
@@ -975,18 +972,18 @@ Responsible role(s) - Docker system
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqk0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3l0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87vaf54g009olqk0" class="tab-pane fade in active">
+<div id="b70lu8hidlmg00bko3l0" class="tab-pane fade in active">
 Docker Enterprise Edition invalidates session identifiers upon user
 logout per the requirements of this control.
 </div>
@@ -1071,18 +1068,18 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Enterprise Edition Engine</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olqkg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3lg">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87vaf54g009olqkg" class="tab-pane fade in active">
+<div id="b70lu8hidlmg00bko3lg" class="tab-pane fade in active">
 All remote access sessions to Docker Enterprise Edition are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
 addition to this, all communication to/from and between Docker
@@ -1090,7 +1087,6 @@ Enterprise Edition nodes is enforced by way of two-way mutual TLS
 authentication. All Swarm Mode manager nodes in a Docker Enterprise
 Edition cluster store state metadata and user secrets encrypted at
 rest using the AES GCM cipher.
-
 </div>
 </div>
 
@@ -1113,30 +1109,30 @@ Responsible role(s) - Docker system
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
 <td>complete<br/></td>
-<td>service provider system specific<br/></td>
+<td>Docker EE system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b6eb87vaf54g009olql0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87vaf54g009olqlg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b6eb87vaf54g009olqm0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3m0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3mg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#b70lu8hidlmg00bko3n0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b6eb87vaf54g009olql0" class="tab-pane fade in active">
+<div id="b70lu8hidlmg00bko3m0" class="tab-pane fade in active">
 All remote access sessions to Docker Trusted Registry are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. This
 is included at both the HTTPS application layer for access to the DTR
@@ -1144,14 +1140,13 @@ user interface and for command-line based connections to the registry.
 In addition to this, all communication to DTR is enforced by way of
 two-way mutual TLS authentication.
 </div>
-<div id="b6eb87vaf54g009olqlg" class="tab-pane fade">
-All remote access sessions to Docker Enterprise Edition are protected with
-Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
-addition to this, all communication to and between Docker Enterprise Editions
-is enforced by way of two-way mutual TLS authentication.
-
+<div id="b70lu8hidlmg00bko3mg" class="tab-pane fade">
+All remote access sessions to Docker Enterprise Edition are protected
+with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. In
+addition to this, all communication to and between Docker Enterprise
+Editions is enforced by way of two-way mutual TLS authentication.
 </div>
-<div id="b6eb87vaf54g009olqm0" class="tab-pane fade">
+<div id="b70lu8hidlmg00bko3n0" class="tab-pane fade">
 All remote access sessions to Universal Control Plane are protected
 with Transport Layer Security (TLS) 1.2 with the AES GCM cipher. This
 is included at both the HTTPS application layer for access to the UCP
