@@ -1,10 +1,16 @@
 ---
-title: NIST 800-53 control reference
+title: NIST SP 800-53 control reference
 ---
 
-All of the NIST 800-53 Rev. 4 controls applicable to Docker Enterprise Edition can be referenced in this section. For generating your own security documentation using the OpenControl-formatted version of these controls, please refer to our compliance repository at [https://github.com/docker/compliance](https://github.com/docker/compliance).
+This section serves as a quick-reference for NIST Special Publication (SP)
+800-53 Revision 4 security controls that are applicable to the latest release of
+Docker Enterprise Edition (EE). For generating your own security documentation
+using the machine-readable source content of these control mappings, please
+refer to our compliance repository at
+[https://github.com/docker/compliance](https://github.com/docker/compliance).
 
-The controls have been broken out by family and each control's origin is mapped to one of the following:
+The controls have been broken out by family and each control's origin is mapped
+to one of the following:
 
 |Control Origination|Definition|Example|
 |-------------------|----------|-------|
@@ -16,15 +22,16 @@ The controls have been broken out by family and each control's origin is mapped 
 |Shared|A control that is managed and implemented partially by the Docker EE system and partially by the Docker EE end-user|Security awareness training must be conducted by both the Docker EE operators and end-users|
 |Inherited from pre-existing Provisional Authorization|A control that is inherited from another CSP system that has already received a Provisional Authorization|Docker EE inherites PE controls from an IaaS provider|
 
-The following Docker EE system components are referenced by the controls:
+The following Docker EE system components are referenced by these controls:
 
 - Docker EE Engine
 - Universal Control Plane (UCP)
 - Docker Trusted Registry (DTR)
-- Authentication and Authorization Service (eNZi)
-- Docker Security Scanning (DSS)
+- Authentication and Authorization Service (eNZi) (embedded within UCP)
+- Docker Security Scanning (DSS) (embedded within DTR but only as part of the EE "Advanced" subscription tier)
 
-In addition, each control is assigned one or more of the following implementation statuses:
+In addition, each control is assigned one or more of the following
+implementation statuses:
 
 |Implementation status|Definition|
 |---------------------|----------|
@@ -33,4 +40,6 @@ In addition, each control is assigned one or more of the following implementatio
 |Planned|The control is not in place. A plan for achieving full implementation should be included in the Plan of Action & Milestone documentation|
 |None|The control is not applicable within the environment. A description of why the requirement does not apply should be included|
 
-Control narratives that include an `[Assignment: ...]` block should be substituted by your organization's requirements or by the FedRAMP requirements.
+Control narratives that include an `[Assignment: ...]` block should be
+substituted by your organization's requirements or by an alternative set of
+requirements (for instance FedRAMP baselines).
