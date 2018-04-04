@@ -21,7 +21,7 @@ satisfies:
   - control_key: AC-2 (12)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -47,7 +47,7 @@ satisfies:
   - control_key: AC-4
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -67,7 +67,7 @@ satisfies:
   - control_key: AC-4 (8)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -99,7 +99,7 @@ satisfies:
   - control_key: AC-4 (21)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -122,7 +122,7 @@ satisfies:
   - control_key: AC-14
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
@@ -141,7 +141,7 @@ satisfies:
   - control_key: AC-17
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -154,7 +154,7 @@ satisfies:
   - control_key: AC-17 (1)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
@@ -167,7 +167,7 @@ satisfies:
   - control_key: AC-17 (2)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
@@ -181,7 +181,7 @@ satisfies:
   - control_key: AC-17 (3)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -199,7 +199,7 @@ satisfies:
   - control_key: AC-17 (9)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
       - configured by customer
@@ -221,7 +221,7 @@ satisfies:
   - control_key: AU-2
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
       - shared
@@ -242,7 +242,7 @@ satisfies:
   - control_key: AU-3
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
       - shared
@@ -266,7 +266,7 @@ satisfies:
   - control_key: AU-3 (1)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
       - shared
@@ -292,7 +292,7 @@ satisfies:
   - control_key: AU-3 (2)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
       - shared
@@ -314,7 +314,7 @@ satisfies:
   - control_key: AU-5
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
       - shared
@@ -341,7 +341,7 @@ satisfies:
   - control_key: AU-5 (1)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
       - shared
@@ -369,7 +369,7 @@ satisfies:
   - control_key: AU-5 (2)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
       - shared
@@ -398,7 +398,7 @@ satisfies:
   - control_key: AU-6 (4)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
       - shared
@@ -416,7 +416,7 @@ satisfies:
   - control_key: AU-7
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
       - shared
@@ -440,7 +440,7 @@ satisfies:
   - control_key: AU-7 (1)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
       - shared
@@ -462,7 +462,7 @@ satisfies:
   - control_key: AU-8
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -485,7 +485,7 @@ satisfies:
   - control_key: AU-8 (1)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -521,7 +521,7 @@ satisfies:
   - control_key: AU-9
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -546,7 +546,7 @@ satisfies:
   - control_key: AU-9 (2)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -565,7 +565,7 @@ satisfies:
   - control_key: AU-9 (3)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -581,7 +581,7 @@ satisfies:
   - control_key: AU-10
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
@@ -610,7 +610,7 @@ satisfies:
   - control_key: AU-11
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
       - shared
@@ -632,7 +632,7 @@ satisfies:
   - control_key: AU-12
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
       - shared
@@ -669,7 +669,7 @@ satisfies:
   - control_key: AU-12 (1)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
       - shared
@@ -695,7 +695,7 @@ satisfies:
   - control_key: AU-12 (3)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
       - shared
@@ -727,7 +727,7 @@ satisfies:
   - control_key: CM-1
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
       - shared
@@ -757,7 +757,7 @@ satisfies:
   - control_key: CM-2
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
       - shared
@@ -776,7 +776,7 @@ satisfies:
   - control_key: CM-2 (1)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
       - shared
@@ -803,7 +803,7 @@ satisfies:
   - control_key: CM-2 (2)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -826,7 +826,7 @@ satisfies:
   - control_key: CM-2 (3)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -854,7 +854,7 @@ satisfies:
   - control_key: CM-3
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -888,7 +888,7 @@ satisfies:
   - control_key: CM-3 (1)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -920,7 +920,7 @@ satisfies:
   - control_key: CM-3 (2)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -942,7 +942,7 @@ satisfies:
   - control_key: CM-3 (6)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -964,7 +964,7 @@ satisfies:
   - control_key: CM-5 (2)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
@@ -989,7 +989,7 @@ satisfies:
   - control_key: CM-5 (3)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provide hybrid
       - shared
@@ -1023,7 +1023,7 @@ satisfies:
   - control_key: CM-6 (1)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -1039,7 +1039,7 @@ satisfies:
   - control_key: CM-7
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -1063,7 +1063,7 @@ satisfies:
   - control_key: CM-7 (2)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
@@ -1083,7 +1083,7 @@ satisfies:
   - control_key: CM-7 (5)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
       - shared
@@ -1106,7 +1106,7 @@ satisfies:
   - control_key: CM-9
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -1124,7 +1124,7 @@ satisfies:
   - control_key: IA-3
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
@@ -1138,7 +1138,7 @@ satisfies:
   - control_key: SA-10 (1)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -1156,13 +1156,13 @@ satisfies:
   - control_key: SC-7 (20)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
       - text: |
           'Docker Enterprise Edition is designed to run application containers
-          whose content can be completely isolated/segregated from other
+          whose content can be nonely isolated/segregated from other
           application containers within the same node/cluster. This is
           accomplished by way of Linux kernel primitives and various security
           profiles that can be applied to the underlying host OS. Additional
@@ -1180,7 +1180,7 @@ satisfies:
   - control_key: SC-12 (2)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -1199,7 +1199,7 @@ satisfies:
   - control_key: SC-13
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -1218,7 +1218,7 @@ satisfies:
   - control_key: SC-23
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
@@ -1232,7 +1232,7 @@ satisfies:
   - control_key: SC-28
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
@@ -1256,7 +1256,7 @@ satisfies:
   - control_key: SC-28 (1)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
@@ -1277,7 +1277,7 @@ satisfies:
   - control_key: SI-3 (2)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
@@ -1292,7 +1292,7 @@ satisfies:
   - control_key: SI-11
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - Docker EE system
     narrative:
@@ -1310,7 +1310,7 @@ satisfies:
   - control_key: SI-16
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:

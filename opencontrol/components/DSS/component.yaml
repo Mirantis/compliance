@@ -9,7 +9,7 @@ satisfies:
   - control_key: RA-5 (1)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -25,7 +25,7 @@ satisfies:
   - control_key: RA-5 (2)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -50,7 +50,7 @@ satisfies:
   - control_key: RA-5 (3)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -65,7 +65,7 @@ satisfies:
   - control_key: RA-5 (5)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -85,7 +85,7 @@ satisfies:
   - control_key: RA-5 (6)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
@@ -100,7 +100,7 @@ satisfies:
   - control_key: RA-5 (8)
     covered_by: []
     implementation_statuses:
-      - complete
+      - none
     control_origins:
       - service provider hybrid
     narrative:
