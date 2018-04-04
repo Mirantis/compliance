@@ -46,7 +46,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/>shared<br/></td>
 </tr>
 </table>
@@ -54,11 +54,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2u0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek2g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2u0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek2g" class="tab-pane fade in active">
 Docker Enterprise Edition can be configured to identify and
 authenticate users via it&#39;s integrated support for LDAP. Users and
 groups managed within the organization&#39;s LDAP directory service (e.g.
@@ -136,17 +136,17 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -154,27 +154,27 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2ug">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2v0">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2vg">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek30">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caek3g">UCP</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caek40">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2ug" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek30" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, Docker Trusted
 Registry requires individual users to be authenticated in order to
 gain access to the system. Any permissions granted to the team(s) that
 which the user is a member are subsequently applied.
 </div>
-<div id="b70lu89idlmg00bko2v0" class="tab-pane fade">
+<div id="bb2j0d9ludq000caek3g" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, Universal Control
 Plane requires individual users to be authenticated in order to gain
 access to the system. Any permissions granted to the team(s) that
 which the user is a member are subsequently applied.
 </div>
-<div id="b70lu89idlmg00bko2vg" class="tab-pane fade">
+<div id="bb2j0d9ludq000caek40" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, Docker Enterprise
 Edition requires individual users to be authenticated in order to gain
@@ -221,7 +221,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 </table>
@@ -229,11 +229,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko300">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek4g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko300" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek4g" class="tab-pane fade in active">
 Docker Enterprise Edition integrates with LDAP for authenticating
 users to an external directory service. You should configure your
 external directory service for ensuring that you are protected against
@@ -259,7 +259,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 </table>
@@ -267,11 +267,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko30g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek50">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko30g" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek50" class="tab-pane fade in active">
 Docker Enterprise Edition integrates with LDAP for authenticating
 users to an external directory service. You should configure your
 external directory service for ensuring that you are protected against
@@ -337,17 +337,17 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 </table>
@@ -355,13 +355,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko310">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko31g">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko320">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek5g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caek60">Engine</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caek6g">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko310" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek5g" class="tab-pane fade in active">
 Docker Trusted Registry replicas reside on Universal Control Plane
 worker nodes. In order for UCP worker nodes to join a Universal
 Control Plane cluster, they must be identified and authenticated via a
@@ -376,13 +376,13 @@ manager nodes has been established. Additional information can be found at the f
 </ul>
 
 </div>
-<div id="b70lu89idlmg00bko31g" class="tab-pane fade">
+<div id="bb2j0d9ludq000caek60" class="tab-pane fade">
 In order for other Docker EE engine nodes to be able to join a
 cluster managed by Universal Control Plane, they must be identified
 and authenticated via either a manager or worker token. Use of the
 token includes trust on first use mutual TLS.
 </div>
-<div id="b70lu89idlmg00bko320" class="tab-pane fade">
+<div id="bb2j0d9ludq000caek6g" class="tab-pane fade">
 In order for nodes to join a Universal Control Plane cluster, they
 must be identified and authenticated via either a manager or worker
 token. Additional information can be found at the following resources:
@@ -454,7 +454,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -462,11 +462,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko32g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek70">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko32g" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek70" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP
@@ -534,7 +534,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -542,11 +542,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko330">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek7g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko330" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek7g" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP
@@ -616,7 +616,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -624,11 +624,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko33g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek80">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko33g" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek80" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP
@@ -707,7 +707,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -715,11 +715,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko340">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek8g">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko340" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek8g" class="tab-pane fade in active">
 An external directory service integrated with Docker Enterprise
 Edition via LDAP can be configured to enforce minimum password
 complexity requirements. Refer to your directory service&#39;s
@@ -771,17 +771,17 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 </table>
@@ -789,13 +789,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko34g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko350">UCP</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko35g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek90">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caek9g">UCP</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caeka0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko34g" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek90" class="tab-pane fade in active">
 Docker Trusted Registry includes a Docker volume which holds the root
 key material for the DTR root CA that issues certificats. In addition
 Universal Control Plane contains two, built-in root certificate
@@ -830,7 +830,7 @@ Additional information can be found at the following resources:
 </ul>
 
 </div>
-<div id="b70lu89idlmg00bko350" class="tab-pane fade">
+<div id="bb2j0d9ludq000caek9g" class="tab-pane fade">
 Universal Control Plane contains two, built-in root certificate
 authorities. One CA is used for signing client bundles generated by
 users. The other CA is used for TLS communication between UCP cluster
@@ -857,7 +857,7 @@ can be found at the following resources:
 </ul>
 
 </div>
-<div id="b70lu89idlmg00bko35g" class="tab-pane fade">
+<div id="bb2j0d9ludq000caeka0" class="tab-pane fade">
 All users within a Docker Enterprise Edition cluster can create a
 client certificate bundle for authenticating in to the cluster from
 the Docker client tooling. When a user attempts to authenticate in to
@@ -908,7 +908,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -916,11 +916,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko360">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caekag">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko360" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caekag" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP can be
@@ -958,7 +958,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -966,11 +966,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko36g">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caekb0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko36g" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caekb0" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP
@@ -1088,12 +1088,12 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 </table>
@@ -1101,17 +1101,17 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko370">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko37g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caekbg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caekc0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko370" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caekbg" class="tab-pane fade in active">
 Docker Trusted Registry obscures all feedback of authentication
 information during the authentication process. This includes both
 authentication via the web UI and the CLI.
 </div>
-<div id="b70lu89idlmg00bko37g" class="tab-pane fade">
+<div id="bb2j0d9ludq000caekc0" class="tab-pane fade">
 Universal Control Plane obscures all feedback of authentication
 information during the authentication process. This includes both
 authentication via the web UI and the CLI.
@@ -1136,12 +1136,12 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 </table>
@@ -1149,18 +1149,18 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko380">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko38g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caekcg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caekd0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko380" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caekcg" class="tab-pane fade in active">
 All access to Docker Trusted Registry is protected with Transport
 Layer Security (TLS) 1.2 with the AES-GCM cipher. This includes both
 SSH access to the individual UCP nodes and CLI-/web-based access to
 the UCP management functions with mutual TLS and HTTPS respectively.
 </div>
-<div id="b70lu89idlmg00bko38g" class="tab-pane fade">
+<div id="bb2j0d9ludq000caekd0" class="tab-pane fade">
 All access to Universal Control Plane is protected with Transport
 Layer Security (TLS) 1.2 with the AES GCM cipher. This includes both
 SSH access to the individual UCP nodes and CLI-/web-based access to
@@ -1186,12 +1186,12 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 </table>
@@ -1199,17 +1199,17 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko390">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko39g">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caekdg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caeke0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko390" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caekdg" class="tab-pane fade in active">
 Users managed by Docker Trusted Registry can be grouped per the
 requirements of the organization and as defined by this control. This
 can include groupings for non-organizational users.
 </div>
-<div id="b70lu89idlmg00bko39g" class="tab-pane fade">
+<div id="bb2j0d9ludq000caeke0" class="tab-pane fade">
 Users managed by Universal Control Plane can be grouped per the
 requirements of the organization and as defined by this control. This
 can include groupings for non-organizational users.
@@ -1244,7 +1244,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -1252,11 +1252,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko3a0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caekeg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko3a0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caekeg" class="tab-pane fade in active">
 An external directory service integrated with Docker Enterprise
 Edition via LDAP can be configured to meet the FICAM requirements as
 indicated by this control. Refer to your directory service&#39;s
@@ -1282,7 +1282,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -1290,11 +1290,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko3ag">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caekf0">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko3ag" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caekf0" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP
@@ -1322,7 +1322,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Authentication and Authorization Service (eNZi)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -1330,11 +1330,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko3b0">eNZi</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caekfg">eNZi</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko3b0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caekfg" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with meeting these requirements, an external
 directory service integrated with Docker Enterprise Edition via LDAP

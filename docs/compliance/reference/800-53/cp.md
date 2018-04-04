@@ -512,12 +512,12 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 </table>
@@ -525,12 +525,12 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2t0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2tg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek1g">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caek20">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2t0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek1g" class="tab-pane fade in active">
 Docker Trusted Registry maintains its cluster state via an internal
 key-value store. This, and other DTR transactions can be backed up and
 recovered. Additional information can be found at the following
@@ -543,7 +543,7 @@ resources:
 </ul>
 
 </div>
-<div id="b70lu89idlmg00bko2tg" class="tab-pane fade">
+<div id="bb2j0d9ludq000caek20" class="tab-pane fade">
 Universal Control Plane maintains its cluster state via an internal
 key-value store. This, and other UCP transactions can be backed up and
 recovered. Additional information can be found at the following

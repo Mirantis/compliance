@@ -36,7 +36,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/>shared<br/></td>
 </tr>
 </table>
@@ -44,11 +44,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2eg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejj0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2eg" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejj0" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configuration management requirements of this control. Additional
@@ -82,7 +82,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/>shared<br/></td>
 </tr>
 </table>
@@ -90,11 +90,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2f0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejjg">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2f0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejjg" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing Docker
 Enterprise Edition and for helping the organization meet the
 configuration management requirements of this control. Additional
@@ -133,7 +133,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/>shared<br/></td>
 </tr>
 </table>
@@ -141,11 +141,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2fg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejk0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2fg" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejk0" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configurmation management requirements of this control. Additional
@@ -179,7 +179,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -187,11 +187,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2g0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejkg">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2g0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejkg" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configurmation management requirements of this control. CIS regularly
@@ -230,7 +230,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -238,11 +238,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2gg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejl0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2gg" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejl0" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configurmation management requirements of this control. CIS regularly
@@ -315,7 +315,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -323,11 +323,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2h0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejlg">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2h0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejlg" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configurmation management change control requirements of this control.
@@ -369,7 +369,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -377,11 +377,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2hg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejm0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2hg" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejm0" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configurmation management change control requirements of this control.
@@ -419,7 +419,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -427,11 +427,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2i0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejmg">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2i0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejmg" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configurmation management change control requirements of this control.
@@ -499,7 +499,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -507,11 +507,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2ig">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejn0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2ig" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejn0" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 cryptography management requirements of this control. Additional
@@ -585,12 +585,12 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 </table>
@@ -598,12 +598,12 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2j0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2jg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejng">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caejo0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2j0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejng" class="tab-pane fade in active">
 Role-based access control can be configured within Docker Trusted
 Registry to meet the requirements of this control. Additional
 information can be found at the following resources:
@@ -616,7 +616,7 @@ information can be found at the following resources:
 </ul>
 
 </div>
-<div id="b70lu89idlmg00bko2jg" class="tab-pane fade">
+<div id="bb2j0d9ludq000caejo0" class="tab-pane fade">
 Role-based access control can be configured within Universal Control
 Plane to meet the requirements of this control. Additional information
 can be found at the following resources:
@@ -649,7 +649,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 </table>
@@ -657,11 +657,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2k0">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejog">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2k0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejog" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 system change requirements of this control. Additional information can
@@ -695,17 +695,17 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provide hybrid<br/>shared<br/></td>
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provide hybrid<br/>shared<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provide hybrid<br/>shared<br/></td>
 </tr>
 </table>
@@ -713,13 +713,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2kg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2l0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2lg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejp0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caejpg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caejq0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2kg" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejp0" class="tab-pane fade in active">
 Docker Content Trust is a capability provided by Docker Enterprise
 Edition that enforces client-side signing and verification of Docker
 image tags. It provides the ability to use digital signatures for data
@@ -741,7 +741,7 @@ Additional information can be found at teh following resources:
 </ul>
 
 </div>
-<div id="b70lu89idlmg00bko2l0" class="tab-pane fade">
+<div id="bb2j0d9ludq000caejpg" class="tab-pane fade">
 Before installing Docker Enterprise Edition, ensure that your
 supporting Linux operating system&#39;s packager manager supports package
 signature verification and that it is enabled. It is also required
@@ -766,7 +766,7 @@ following resources:
 </ul>
 
 </div>
-<div id="b70lu89idlmg00bko2lg" class="tab-pane fade">
+<div id="bb2j0d9ludq000caejq0" class="tab-pane fade">
 Docker Content Trust is a capability provided by Docker Enterprise
 Edition that enforces client-side signing and verification of Docker
 image tags. It provides the ability to use digital signatures for data
@@ -856,17 +856,17 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -874,13 +874,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2m0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2mg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2n0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejqg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caejr0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caejrg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2m0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejqg" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements, the organization can
 incorporate the use of an external configuration management system to
@@ -895,11 +895,11 @@ found at the following resources:
 </ul>
 
 </div>
-<div id="b70lu89idlmg00bko2mg" class="tab-pane fade">
+<div id="bb2j0d9ludq000caejr0" class="tab-pane fade">
 The organization can incorporate the use of an external configuration
 management system to meet the requirements of this control.
 </div>
-<div id="b70lu89idlmg00bko2n0" class="tab-pane fade">
+<div id="bb2j0d9ludq000caejrg" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements, the organization can
 incorporate the use of an external configuration management system to
@@ -949,7 +949,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -957,11 +957,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2ng">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejs0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2ng" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejs0" class="tab-pane fade in active">
 To help the organization meet the requirements of this control, the
 latest CIS Docker Benchmark can be used as a secure configuration
 baseline. Additional information can be found at the following
@@ -997,7 +997,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/>service provider corporate<br/>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -1005,11 +1005,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2o0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejsg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2o0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejsg" class="tab-pane fade in active">
 To help the organization meet the requirements of this control,
 Universal Control Plane includes a robust access control model to
 disable any functionality as mandated by this control.
@@ -1034,17 +1034,17 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>Docker EE system<br/></td>
 </tr>
 </table>
@@ -1052,26 +1052,26 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2og">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2p0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2pg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejt0">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caejtg">Engine</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caeju0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2og" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejt0" class="tab-pane fade in active">
 The organization can define a list of allowed base Docker images and
 make them available via Docker Trusted Registry. The organization can
 also prevent users from being able to pull Docker images from
 untrusted sources.
 </div>
-<div id="b70lu89idlmg00bko2p0" class="tab-pane fade">
+<div id="bb2j0d9ludq000caejtg" class="tab-pane fade">
 In order to restrict which Docker images can be used to deploy
 applications to Docker Enterprise Edition, the organization can define
 a list of allowed base Docker images and make them available via
 Docker Trusted Registry. The organization can also prevent users from
 being able to pull Docker images from untrusted sources.
 </div>
-<div id="b70lu89idlmg00bko2pg" class="tab-pane fade">
+<div id="bb2j0d9ludq000caeju0" class="tab-pane fade">
 In order to restrict which Docker images can be used to deploy
 applications to Universal Control Plane, the organization can define a
 list of allowed base Docker images and make them available via Docker
@@ -1128,17 +1128,17 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/>shared<br/></td>
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/>shared<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/>shared<br/></td>
 </tr>
 </table>
@@ -1146,13 +1146,13 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2q0">DTR</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2qg">Engine</a></li>
-<li><a data-toggle="tab" data-target="#b70lu89idlmg00bko2r0">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caejug">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caejv0">Engine</a></li>
+<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caejvg">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2q0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caejug" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements, the organization can
 define a list of allowed base Docker images and make them available
@@ -1164,7 +1164,7 @@ stored in Docker Trusted Registry. This can be accomplished by using
 Docker Content Trust to sign Docker images which can subsequently be
 stored in Docker Trusted Registry.
 </div>
-<div id="b70lu89idlmg00bko2qg" class="tab-pane fade">
+<div id="bb2j0d9ludq000caejv0" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements and in order to restrict
 which Docker images can be used to deploy applications to Docker EE
@@ -1173,7 +1173,7 @@ images and make them available via Docker Trusted Registry. The
 organization must also prevent users from being able to pull Docker
 images from untrusted sources.
 </div>
-<div id="b70lu89idlmg00bko2r0" class="tab-pane fade">
+<div id="bb2j0d9ludq000caejvg" class="tab-pane fade">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements and in order to restrict
 which Docker images can be used to deploy applications to Universal
@@ -1340,7 +1340,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Enterprise Edition Engine</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
 </table>
@@ -1348,11 +1348,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2rg">Engine</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek00">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2rg" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek00" class="tab-pane fade in active">
 The CIS Docker Benchmark can be used as a baseline for securing
 Docker Enterprise Edition and for helping the organization meet the
 configuration management plan requirements of this control. Additional
@@ -1426,7 +1426,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/>shared<br/></td>
 </tr>
 </table>
@@ -1434,11 +1434,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2s0">DTR</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek0g">DTR</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2s0" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek0g" class="tab-pane fade in active">
 The organization is responsible for meeting the requirements of this
 control. To assist with these requirements, the organization can
 define a list of allowed base Docker images and make them available
@@ -1465,7 +1465,7 @@ Responsible role(s) - Docker system
 </tr>
 <tr>
 <td>Docker Trusted Registry (DTR)</td>
-<td>complete<br/></td>
+<td>none<br/></td>
 <td>service provider hybrid<br/>shared<br/></td>
 </tr>
 </table>
@@ -1473,11 +1473,11 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#b70lu89idlmg00bko2sg">DTR</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek10">DTR</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="b70lu89idlmg00bko2sg" class="tab-pane fade in active">
+<div id="bb2j0d9ludq000caek10" class="tab-pane fade in active">
 The organization can define a list of allowed base Docker images and
 make them available via Docker Trusted Registry to meet the
 requirements of this contorl. The organization can also prevent users

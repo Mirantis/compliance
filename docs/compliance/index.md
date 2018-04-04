@@ -5,20 +5,24 @@ title: Docker standards and compliance
 ---
 
 Docker Enterprise Edition can be configured and used in accordance with various
-security and compliance standards. Use this document to validate your deployment
-against applicable security controls and configuration baselines. The catalogs,
-frameworks, publications, and benchmarks that we've highlighted thus far are as
-follows:
+security and compliance laws, regulations, and standards. Use the guidance in
+this section to verify and validate your Docker EE deployment against applicable
+security controls and configuration baselines. The catalogs, frameworks,
+publications, and benchmarks that we've highlighted thus far are as follows:
 
-Catalogs:
+**Laws:**
+
+- [Federal Information Security Management Act (FISMA)](fisma.md)
+
+**Catalogs:**
 
 - [NIST Special Publication (SP) 800-53 Revision 4](nist/800_53.md)
 
-Frameworks:
+**Frameworks:**
 
 - [Federal Risk and Authorization Management Program (FedRAMP)](fedramp.md)
 
-Publications:
+**Container-Specific Publications:**
 
 - [NIST Special Publication (SP) 800-190](nist/800_190.md) - Application
   Container Security Guide
@@ -28,8 +32,9 @@ Publications:
   2017](nist/itl_october2017.md) - NIST Guidance on Application Container
   Security
 
-Benchmarks:
+**Benchmarks:**
 
+- [CIS Docker EE Benchmark (In Development)](cis/docker_ee.md)
 - [CIS Docker CE Benchmark](cis/docker_ce.md)
 - [CIS Kubernetes Benchmark](cis/k8s.md)
 
