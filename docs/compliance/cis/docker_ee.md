@@ -11,7 +11,7 @@ This includes Docker EE Engine, Docker Trusted Registry (DTR), and Universal
 Control Plane (UCP). These updates will also include configuration items for
 Docker EE Engine on Windows Server, Windows Server host items, and Windows-based
 Docker image recommendations. We anticipate completion of the draft and final
-update of the Benchmark in the February timeframe.
+update of the Benchmark in 2018.
 
 You can follow along and contribute to the development of this updated Benchmark
 by joining the [CIS Docker Benchmarks

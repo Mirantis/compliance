@@ -9,9 +9,9 @@ The [Federal Risk and Authorization Management Program
 that enables a standardized approach to security assessment and authorization.
 Federal agencies that choose to leverage cloud services must ensure that they're
 utilizing FedRAMP-authorized providers. The security controls required by
-FedRAMP and to which cloud provides must adhere are a subset of the controls
+FedRAMP and to which cloud providers must adhere are a subset of the controls
 documented by NIST Special Publication 800-53. FedRAMP incorporates the NIST
-800-53 low, moderate, and high baselines in its authorization process. When
+800-53 LOW, MODERATE, and HIGH baselines in its authorization process. When
 Federal agencies deploy Docker Enterprise Edition (EE) on top of
 FedRAMP-authorized providers like Azure and AWS, per the Federal Information
 Security Management Act (FISMA) and agency-specific policies, they must acquire
@@ -32,8 +32,9 @@ site](/compliance/nist/800_53) to streamline their ability to get an authority
 to operate (ATO) for a complete Docker Enterprise Edition deployment.
 
 To date, multiple Federal agencies have acquired ATOs for Docker EE at both the
-moderate and high baselines.
+MODERATE and HIGH baselines.
 
-Refer to the [NIST 800-53](/compliance/nist/800_53/) section for more
-information on the NIST 800-53 controls that are applicable to Docker Enterprise
-Edition.
+Refer to the [FISMA](fisma.md) section for general FISMA guidance as it pertains
+to Docker Enterprise Edition. You can also reference the [NIST
+800-53](/compliance/nist/800_53/) section for more information on the NIST
+800-53 controls that are applicable to Docker Enterprise Edition.
