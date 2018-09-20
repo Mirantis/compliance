@@ -8,7 +8,7 @@ The Federal Information Security Management Act (FISMA) is federal law that
 requires the U.S. Federal government to adhere to stringent information security
 requirements for all information systems that it operates. FISMA is implemented
 through a combination of publications and guidance documents developed by the
-National Institute of Standrds and Technology (NIST), mandatory Federal
+National Institute of Standards and Technology (NIST), mandatory Federal
 Information Processing Standards (FIPS), memorandums and circulars published by
 the Office of Management and Budget (OMB), and various other agencies and
 regulatory authorities that are tasked with coordinating information

@@ -21,6 +21,11 @@ publications, and benchmarks that we've highlighted thus far are as follows:
 **Frameworks:**
 
 - [Federal Risk and Authorization Management Program (FedRAMP)](fedramp.md)
+- [Risk Management Framework (NIST SP 800-37)](nist/800_37.md)
+
+**Standards:**
+
+- [Federal Information Processing Standards (FIPS) 140-2](nist/fips140_2.md)
 
 **Container-Specific Publications:**
 
