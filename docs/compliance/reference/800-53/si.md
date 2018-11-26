@@ -146,25 +146,24 @@ Responsible role(s) - Docker system
 <th>Control Origin(s)</th>
 </tr>
 <tr>
-<td>Docker Enterprise Edition Engine</td>
+<td>Docker Engine - Enterprise</td>
 <td>none<br/></td>
-<td>Docker EE system<br/></td>
+<td>Docker Enterprise system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#bb2j0dpludq000caeks0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="bb2j0dpludq000caeks0" class="tab-pane fade in active">
-Docker Enterprise Edition packages for supported underlying operating
-systems can only be obtained from Docker, Inc. The Docker EE
-repositories from which Docker EE packages are obtained are protected
-with official GPG keys. Each Docker package is also validated with a
-signature definition.
+<div id="bfu5ahdp1o2g00atlmn0" class="tab-pane fade in active">
+Docker Engine - Enterprise packages for supported underlying
+operating systems can only be obtained from Docker, Inc. The Docker
+repositories from which Docker Engine - Enterprise packages are
+obtained are protected with official GPG keys. Each Docker package is
+also validated with a signature definition.
 </div>
 </div>
 
@@ -851,39 +850,39 @@ Responsible role(s) - Docker system
 <td>Docker EE system<br/></td>
 </tr>
 <tr>
-<td>Docker Enterprise Edition Engine</td>
+<td>Docker Engine - Enterprise</td>
 <td>none<br/></td>
-<td>Docker EE system<br/></td>
+<td>Docker Enterprise system<br/></td>
 </tr>
 <tr>
 <td>Universal Control Plane (UCP)</td>
 <td>none<br/></td>
-<td>Docker EE system<br/></td>
+<td>Docker Enterprise system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#bb2j0dpludq000caeksg">DTR</a></li>
-<li><a data-toggle="tab" data-target="#bb2j0dpludq000caekt0">Engine</a></li>
-<li><a data-toggle="tab" data-target="#bb2j0dpludq000caektg">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bfu5ahdp1o2g00atlmng">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bfu5ahdp1o2g00atlmog">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="bb2j0dpludq000caeksg" class="tab-pane fade in active">
+<div id="bfu5ahdp1o2g00atlmng" class="tab-pane fade in active">
 All error messages generated via the configured logging mechanism of
 Docker Trusted Registry are displayed such that they meet the
 requirements of this control. Only users that are authorized the
 appropriate level of access can view these error messages.
 </div>
-<div id="bb2j0dpludq000caekt0" class="tab-pane fade">
-All error messages generated via the logging mechanisms of the Docker
-Enterprise Edition engine are displayed such that they meet the
-requirements of this control. Only users that are authorized the
-appropriate level of access can view these error messages.
+<div id="bfu5ahdp1o2g00atlmo0" class="tab-pane fade">
+All error messages generated via the logging mechanisms of Docker
+Engine - Enterprise are displayed such that they meet the requirements
+of this control. Only users that are authorized the appropriate level
+of access on the underlying host operating system can view these error
+messages.
 </div>
-<div id="bb2j0dpludq000caektg" class="tab-pane fade">
+<div id="bfu5ahdp1o2g00atlmog" class="tab-pane fade">
 All error messages generated via the configured logging mechanism of
 Universal Control Plane are displayed such that they meet the
 requirements of this control. Only users that are authorized the
@@ -1006,7 +1005,7 @@ Responsible role(s) - Docker system
 <th>Control Origin(s)</th>
 </tr>
 <tr>
-<td>Docker Enterprise Edition Engine</td>
+<td>Docker Engine - Enterprise</td>
 <td>none<br/></td>
 <td>service provider hybrid<br/></td>
 </tr>
@@ -1015,17 +1014,15 @@ Responsible role(s) - Docker system
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#bb2j0dpludq000caeku0">Engine</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="bb2j0dpludq000caeku0" class="tab-pane fade in active">
-Docker Enterprise Edition can be installed on the following operating
-systems: CentOS 7.1&#43;, Red Hat Enterprise Linux 7.0&#43;, Ubuntu 14.04
-LTS&#43;, SUSE Linux Enterprise 12&#43; and Windows Server 2016&#43;. In order to
-meet the requirements of this control, reference the chosen operating
-system&#39;s security documentation for information regarding the
-protection of memory from unauthorized code execution.
+<div id="bfu5ahdp1o2g00atlmp0" class="tab-pane fade in active">
+In order to meet the requirements of this control, refer to the
+Docker Enterprise 2.1 compatibility matrix at
+https://success.docker.com/article/compatibility-matrix and ensure the
+chosen operating system is configured to protect memory from
+unauthorized code execution.
 </div>
 </div>
 

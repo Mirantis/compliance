@@ -518,19 +518,19 @@ Responsible role(s) - Docker system
 <tr>
 <td>Universal Control Plane (UCP)</td>
 <td>none<br/></td>
-<td>Docker EE system<br/></td>
+<td>Docker Enterprise system<br/></td>
 </tr>
 </table>
 
 #### Implementation Details
 
 <ul class="nav nav-tabs">
-<li class="active"><a data-toggle="tab" data-target="#bb2j0d9ludq000caek1g">DTR</a></li>
-<li><a data-toggle="tab" data-target="#bb2j0d9ludq000caek20">UCP</a></li>
+<li class="active"><a data-toggle="tab" data-target="#bfu5agtp1o2g00atlltg">DTR</a></li>
+<li><a data-toggle="tab" data-target="#bfu5agtp1o2g00atllu0">UCP</a></li>
 </ul>
 
 <div class="tab-content">
-<div id="bb2j0d9ludq000caek1g" class="tab-pane fade in active">
+<div id="bfu5agtp1o2g00atlltg" class="tab-pane fade in active">
 Docker Trusted Registry maintains its cluster state via an internal
 key-value store. This, and other DTR transactions can be backed up and
 recovered. Additional information can be found at the following
@@ -538,12 +538,11 @@ resources:
 
 
 <ul>
-<li><a href="https://docs.docker.com/datacenter/dtr/2.3/guides/admin/backups-and-disaster-recovery/">https://docs.docker.com/datacenter/dtr/2.3/guides/admin/backups-and-disaster-recovery/</a></li>
-<li><a href="https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#DTR_Backup">https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#DTR_Backup</a></li>
+<li><a href="https://docs.docker.com/ee/dtr/admin/disaster-recovery/">https://docs.docker.com/ee/dtr/admin/disaster-recovery/</a></li>
 </ul>
 
 </div>
-<div id="bb2j0d9ludq000caek20" class="tab-pane fade">
+<div id="bfu5agtp1o2g00atllu0" class="tab-pane fade">
 Universal Control Plane maintains its cluster state via an internal
 key-value store. This, and other UCP transactions can be backed up and
 recovered. Additional information can be found at the following
@@ -551,8 +550,7 @@ resources:
 
 
 <ul>
-<li><a href="https://docs.docker.com/datacenter/ucp/2.2/guides/admin/backups-and-disaster-recovery/">https://docs.docker.com/datacenter/ucp/2.2/guides/admin/backups-and-disaster-recovery/</a></li>
-<li><a href="https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#UCP_Backup">https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#UCP_Backup</a></li>
+<li><a href="https://docs.docker.com/ee/ucp/admin/backups-and-disaster-recovery/">https://docs.docker.com/ee/ucp/admin/backups-and-disaster-recovery/</a></li>
 </ul>
 
 </div>
