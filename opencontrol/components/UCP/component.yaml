@@ -3,7 +3,7 @@ schema_version: 3.1.0
 name: Universal Control Plane (UCP)
 references:
   - name: UCP Documentation
-    path: https://docs.docker.com/datacenter/ucp/2.2/guides/
+    path: https://docs.docker.com/ee/ucp/
     type: URL
 satisfies:  
   - control_key: AC-2 (1)
@@ -18,8 +18,7 @@ satisfies:
           control, supporting documentation for managing users and teams can
           found at the following resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-teams/'
+          - https://docs.docker.com/ee/ucp/authorization/'
     standard_key: NIST-800-53
   
   - control_key: AC-2 (7)
@@ -35,7 +34,7 @@ satisfies:
           control, supporting documentation can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/'
+          - https://docs.docker.com/ee/ucp/authorization/'
     standard_key: NIST-800-53
   
   - control_key: AC-2 (12)
@@ -52,13 +51,9 @@ satisfies:
           Logstash and Kibana (ELK) stack. Supporting documentation can be found
           at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-node-messages/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-configurations/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/monitor-and-troubleshoot/troubleshoot-task-state/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/
-          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_Logging_Design_and_Best_Practices'
+          - https://docs.docker.com/ee/ucp/admin/monitor-and-troubleshoot/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/
+          - https://success.docker.com/article/logging-best-practices'
     parameters:
       - key: "AC-2(12)(a)"
         text: |
@@ -73,7 +68,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'One can control which users and teams can create and manipulate
@@ -82,16 +77,8 @@ satisfies:
           fine-grained access control. Supporting documentation can be found at
           the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/deploy-view-only-service/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/grant-permissions/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/isolate-nodes-between-teams/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/isolate-volumes-between-teams/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/manage-access-with-collections/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/access-control-node/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+          - https://docs.docker.com/ee/ucp/authorization/
+          - https://success.docker.com/article/security-best-practices'
     standard_key: NIST-800-53
 
   - control_key: AC-4
@@ -99,20 +86,18 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'Supporting documentation to configure Universal Control Plane to meet
           the requirements of this control can be found at the following
           resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/install/system-requirements/#ports-used
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-domain-names-to-access-services/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/restrict-services-to-worker-nodes/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking'
+          - https://docs.docker.com/ee/ucp/ucp-architecture/
+          - https://docs.docker.com/ee/ucp/admin/install/system-requirements/
+          - https://docs.docker.com/ee/ucp/interlock/
+          - https://docs.docker.com/ee/ucp/admin/configure/restrict-services-to-worker-nodes/
+          - https://docs.docker.com/ee/ucp/swarm/deploy-to-collection/'
     parameters:
       - key: "AC-4"
         text: |
@@ -124,7 +109,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
       - shared
     narrative:
       - text: |
@@ -132,13 +117,11 @@ satisfies:
           the requirements of this control can be found at the following
           resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/install/system-requirements/#/ports-used
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-domain-names-to-access-services/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/restrict-services-to-worker-nodes/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking'
+          - https://docs.docker.com/ee/ucp/ucp-architecture/
+          - https://docs.docker.com/ee/ucp/admin/install/system-requirements/
+          - https://docs.docker.com/ee/ucp/interlock/
+          - https://docs.docker.com/ee/ucp/admin/configure/restrict-services-to-worker-nodes/
+          - https://docs.docker.com/ee/ucp/swarm/deploy-to-collection/'
     parameters:
       - key: "AC-4(8)(a)"
         text: |
@@ -156,7 +139,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
       - shared
     narrative:
       - text: |
@@ -164,13 +147,11 @@ satisfies:
           the requirements of this control can be found at the following
           resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/install/system-requirements/#/ports-used
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-domain-names-to-access-services/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/restrict-services-to-worker-nodes/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Universal_Control_Plane_2.0_Service_Discovery_and_Load_Balancing
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Networking'
+          - https://docs.docker.com/ee/ucp/ucp-architecture/
+          - https://docs.docker.com/ee/ucp/admin/install/system-requirements/
+          - https://docs.docker.com/ee/ucp/interlock/
+          - https://docs.docker.com/ee/ucp/admin/configure/restrict-services-to-worker-nodes/
+          - https://docs.docker.com/ee/ucp/swarm/deploy-to-collection/'
     parameters:
       - key: "AC-4(21)-1"
         text: |
@@ -195,10 +176,7 @@ satisfies:
           enforce fine-grained access control. Supporting documentation can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+          - https://docs.docker.com/ee/ucp/authorization/'
     parameters:
       - key: "AC-5(a)"
         text: |
@@ -221,10 +199,7 @@ satisfies:
           control. Supporting documentation can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+          - https://docs.docker.com/ee/ucp/authorization/'
     standard_key: NIST-800-53
 
   - control_key: AC-6 (1)
@@ -243,10 +218,7 @@ satisfies:
           fine-grained access control. Supporting documentation can be found at
           the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+          - https://docs.docker.com/ee/ucp/authorization/'
     parameters:
       - key: "AC-6(1)"
         text: |
@@ -269,10 +241,7 @@ satisfies:
           enforce fine-grained access control. Supporting documentation can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+          - https://docs.docker.com/ee/ucp/authorization/'
     parameters:
       - key: "AC-6(2)"
         text: |
@@ -295,11 +264,7 @@ satisfies:
           fine-grained access control. Supporting documentation can be found at
           the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+          - https://docs.docker.com/ee/ucp/authorization/'
     parameters:
       - key: "AC-6(3)-1"
         text: |
@@ -324,11 +289,7 @@ satisfies:
           fine-grained access control. Supporting documentation can be found at
           the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+          - https://docs.docker.com/ee/ucp/authorization/'
     parameters:
       - key: "AC-6(5)"
         text: |
@@ -349,11 +310,7 @@ satisfies:
           necessary. Supporting documentation can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+          - https://docs.docker.com/ee/ucp/authorization/'
     parameters:
       - key: "AC-6(7)(a)-1"
         text: |
@@ -368,7 +325,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'Universal Control Plane users can be assigned to one of a number of
@@ -385,11 +342,7 @@ satisfies:
           functionality. Additional documentation regarding the various
           permission levels within UCP can be found at the following resource:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/create-and-manage-users/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/permission-levels/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#RBAC'
+          - https://docs.docker.com/ee/ucp/authorization/'
     parameters:
       - key: "AC-6(8)"
         text: |
@@ -402,7 +355,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'One can control which users and teams can create and manipulate
@@ -413,7 +366,7 @@ satisfies:
           control. Supporting documentation for the configuration of this
           functionality can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/'
+          - https://docs.docker.com/ee/ucp/authorization/'
     standard_key: NIST-800-53
   
   - control_key: AC-12 (1)
@@ -421,7 +374,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'Universal Control Plane includes a logout capability that allows a
@@ -437,7 +390,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'To help the organization meet the requirements of this control, a
@@ -467,7 +420,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'Universal Control Plane logs and controls all local and remote
@@ -480,7 +433,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'All remote access sessions to Universal Control Plane are protected
@@ -611,7 +564,8 @@ satisfies:
           logs event data. Supporting documentation for configuring UCP logging
           can be referenced at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-2(a)"
         text: |
@@ -633,18 +587,15 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
       - shared
     narrative:
       - text: |
           'Universal Control Plane generates all of the audit record information
-          indicated by this control. A sample audit event has been provided
-          below:
-
-          {"level":"info","license_key":"123456789123456789123456789","msg":"eNZi:Password
-          based auth
-          suceeded","remote_addr":"192.168.33.1:55905","time":"2016-11-09T22:41:01Z","type":"auth
-          ok","username":"dockeruser"}'
+          indicated by this control. Additional information can be found at the
+          following resources:
+          
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/'
     standard_key: NIST-800-53
 
   - control_key: AU-3 (1)
@@ -652,7 +603,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
       - shared
     narrative:
       - text: |
@@ -662,7 +613,8 @@ satisfies:
           audit records. Additional documentation can be found at the following
           resource:
           
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-3(1)"
         text: |
@@ -678,7 +630,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
       - shared
     narrative:
       - text: |
@@ -688,7 +640,8 @@ satisfies:
           audit records. Additional documentation can be found at the following
           resource:
           
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-3(2)"
         text: |
@@ -706,7 +659,8 @@ satisfies:
           alert individuals in the event of log processing failures. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-5(a)"
         text: |
@@ -722,7 +676,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
       - shared
     narrative:
       - text: |
@@ -731,7 +685,8 @@ satisfies:
           warn the organization when the allocated log storage is full.
           Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-5(1)-1"
         text: |
@@ -749,7 +704,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
       - shared
     narrative:
       - text: |
@@ -758,7 +713,8 @@ satisfies:
           warn the organization when audit log failures occur. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-5(2)-1"
         text: |
@@ -777,16 +733,17 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
       - shared
     narrative:
       - text: |
           'Universal Control Plane can be configured to log data to a remote
           logging stack. The organization can subsequently centrally review and
-          analyze all of the Docker EE audit records. Additional information can
-          be found at the following resources:
+          analyze all of the Docker Enterprise audit records. Additional
+          information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     standard_key: NIST-800-53
 
   - control_key: AU-7
@@ -794,7 +751,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
       - shared
     narrative:
       - key: a
@@ -805,7 +762,8 @@ satisfies:
           this control. Additional information can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
       - key: b
         text: |
           'The underlying operating system chosen to support Universal Control
@@ -818,7 +776,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
       - shared
     narrative:
       - text: |
@@ -827,7 +785,8 @@ satisfies:
           parse information by organization-defined audit fields. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-7(1)"
         text: |
@@ -902,15 +861,14 @@ satisfies:
     narrative:
       - text: |
           'By default, Universal Control Plane is configured to use the
-          underlying logging capabilities of Docker Enterprise Edition. As such,
-          on the underlying Linux operating system, only root and sudo users and
-          users that have been added to the 'docker' group have the ability to
-          access the logs generated by UCP backend service containers. In
-          addition, only UCP Administrator users can change the logging endpoint
-          of the system should it be decided that logs be sent to a remote
-          logging stack. In this case, the organization is responsible for
-          configuring the remote logging stack per the provisions of this
-          control.'
+          underlying logging capabilities of Docker Enterprise. As such, on the
+          underlying Linux operating system, only root and sudo users and users
+          that have been added to the 'docker' group have the ability to access
+          the logs generated by UCP backend service containers. In addition,
+          only UCP Administrator users can change the logging endpoint of the
+          system should it be decided that logs be sent to a remote logging
+          stack. In this case, the organization is responsible for configuring
+          the remote logging stack per the provisions of this control.'
     standard_key: NIST-800-53
 
   - control_key: AU-9 (2)
@@ -926,7 +884,8 @@ satisfies:
           back up audit records per the schedule defined by this control.
           Additional information can be found at the following resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-9(2)"
         text: |
@@ -946,7 +905,8 @@ satisfies:
           meet the encryption mechanisms required by this control. Additional
           information can be found at the following resources:
           
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     standard_key: NIST-800-53
 
   - control_key: AU-11
@@ -965,7 +925,8 @@ satisfies:
           duration required by this control. Additional information can be found
           at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-11"
         text: |
@@ -977,7 +938,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
       - shared
     narrative:
       - key: a
@@ -991,7 +952,8 @@ satisfies:
           configuring this service. Additional information can be found at the
           following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
       - key: b
         text: |
           'Using auditd on the Linux operating system supporting UCP, the
@@ -1012,7 +974,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
       - shared
     narrative:
       - text: |
@@ -1022,7 +984,8 @@ satisfies:
           per the requirements of this control. Additional information can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-12(1)-1"
         text: |
@@ -1046,7 +1009,8 @@ satisfies:
           requirements of this control. Additional information can be found at
           the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-12(3)-1"
         text: |
@@ -1062,22 +1026,36 @@ satisfies:
         text: |
           "risk-based assessment, organization-defined time thresholds"
     standard_key: NIST-800-53
+
+  - control_key: AU-14 (1)
+    covered_by: []
+    implementation_statuses:
+      - none
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'When audit logging is enabled in UCP, it is configured to initiate
+          session auditing whenever UCP is started (or restarted). Additional
+          information can be found at the following resources:
+
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
+    standard_key: NIST-800-53  
   
   - control_key: CM-5 (1)
     covered_by: []
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'Role-based access control can be configured within Universal Control
           Plane to meet the requirements of this control. Additional information
           can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/access-control/
-          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#RBAC_and_Managing_Team_Level_Access_to_Resources
-          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#RBAC'
+          - https://docs.docker.com/ee/ucp/authorization/'
     standard_key: NIST-800-53
   
   - control_key: CM-5 (3)
@@ -1102,7 +1080,7 @@ satisfies:
           within your organization. Additional information can be found at the
           following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/run-only-the-images-you-trust/'
+          - https://docs.docker.com/ee/ucp/admin/configure/run-only-the-images-you-trust/'
     parameters:
       - key: "CM-5(3)"
         text: |
@@ -1125,8 +1103,8 @@ satisfies:
          location per the requirements of this control. Additional documentation
          can be found at the following resources:
          
-         - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/ucp-configuration-file/
-         - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/backups-and-disaster-recovery/'
+         - https://docs.docker.com/ee/ucp/admin/configure/ucp-configuration-file/
+         - https://docs.docker.com/ee/ucp/admin/backups-and-disaster-recovery/'
     parameters:
       - key: "CM-6(1)"
         text: |
@@ -1139,7 +1117,7 @@ satisfies:
       - none
     control_origins:
       - service provider corporate
-      - Docker EE system
+      - Docker Enterprise system
       - service provider hybrid
     narrative:
       - key: b
@@ -1159,7 +1137,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
          'In order to restrict which Docker images can be used to deploy
@@ -1202,7 +1180,7 @@ satisfies:
           specific Teams at runtime. Additional information can be found at the
           following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/run-only-the-images-you-trust/'
+          - https://docs.docker.com/ee/ucp/admin/configure/run-only-the-images-you-trust/'
     parameters:
       - key: "CM-7(5)(a)"
         text: |
@@ -1215,7 +1193,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
          'Universal Control Plane maintains its cluster state via an internal
@@ -1223,8 +1201,7 @@ satisfies:
          recovered. Additional information can be found at the following
          resources:
 
-         - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/backups-and-disaster-recovery/
-         - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#UCP_Backup'
+         - https://docs.docker.com/ee/ucp/admin/backups-and-disaster-recovery/'
     standard_key: NIST-800-53
 
   - control_key: IA-2 (5)
@@ -1247,14 +1224,15 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'In order for nodes to join a Universal Control Plane cluster, they
           must be identified and authenticated via either a manager or worker
           token. Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/scale-your-cluster/'
+          - https://docs.docker.com/ee/ucp/admin/configure/join-nodes/join-linux-nodes-to-cluster/
+          - https://docs.docker.com/engine/swarm/how-swarm-mode-works/pki/'
     standard_key: NIST-800-53
 
   - control_key: IA-5 (2)
@@ -1262,7 +1240,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - key: a
         text: |
@@ -1295,7 +1273,7 @@ satisfies:
           certificates can also be revoked and updated. Additional information
           can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-your-own-tls-certificates/'
+          - https://docs.docker.com/ee/ucp/admin/configure/use-your-own-tls-certificates/'
     standard_key: NIST-800-53
 
   - control_key: IA-6
@@ -1303,7 +1281,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'Universal Control Plane obscures all feedback of authentication
@@ -1316,7 +1294,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'All access to Universal Control Plane is protected with Transport
@@ -1330,7 +1308,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'Users managed by Universal Control Plane can be grouped per the
@@ -1358,7 +1336,7 @@ satisfies:
           Plane can be configured to only run trusted and signed images.
           Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/run-only-the-images-you-trust/'
+          - https://docs.docker.com/ee/ucp/admin/configure/run-only-the-images-you-trust/'
     standard_key: NIST-800-53
 
   - control_key: SC-2
@@ -1366,7 +1344,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'Universal Control Plane is made up of a number of backend services
@@ -1375,8 +1353,7 @@ satisfies:
           operates independently of one another. Additional information can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/
-          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Universal_Control_Plane'
+          - https://docs.docker.com/ee/ucp/ucp-architecture/'
     standard_key: NIST-800-53
 
   - control_key: SC-23
@@ -1384,7 +1361,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'All remote access sessions to Universal Control Plane are protected
@@ -1400,7 +1377,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'All remote access sessions to Universal Control Plane are protected
@@ -1423,7 +1400,7 @@ satisfies:
     implementation_statuses:
       - none
     control_origins:
-      - Docker EE system
+      - Docker Enterprise system
     narrative:
       - text: |
           'All error messages generated via the configured logging mechanism of
