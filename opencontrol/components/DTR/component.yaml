@@ -3,7 +3,7 @@ schema_version: 3.1.0
 name: Docker Trusted Registry (DTR)
 references:
   - name: Docker Trusted Registry Documentation
-    path: https://docs.docker.com/datacenter/dtr/2.3/guides/
+    path: https://docs.docker.com/ee/dtr/
     type: URL
 satisfies: 
   - control_key: AC-2 (1)
@@ -18,8 +18,8 @@ satisfies:
           control, supporting documentation for managing users and teams can
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/create-and-manage-users/
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/create-and-manage-teams/'
+          - https://docs.docker.com/ee/dtr/admin/manage-users/create-and-manage-users/
+          - https://docs.docker.com/ee/dtr/admin/manage-users/create-and-manage-teams/'
     standard_key: NIST-800-53
 
   - control_key: AC-2 (7)
@@ -35,7 +35,7 @@ satisfies:
           control, supporting documentation can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/permission-levels/'
+          - https://docs.docker.com/ee/dtr/admin/manage-users/permission-levels/'
     standard_key: NIST-800-53
 
   - control_key: AC-2 (12)
@@ -50,8 +50,8 @@ satisfies:
           control, supporting documentation can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/monitor-and-troubleshoot/
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/monitor-and-troubleshoot/troubleshoot-with-logs/'
+          - https://docs.docker.com/ee/dtr/admin/monitor-and-troubleshoot/
+          - https://docs.docker.com/ee/dtr/admin/monitor-and-troubleshoot/troubleshoot-with-logs/'
     parameters:
       - key: "AC-2(12)(a)"
         text: |
@@ -75,9 +75,9 @@ satisfies:
           fine-grained access control. Supporting documentation can be found at
           the following resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/permission-levels/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC'
+          - https://docs.docker.com/ee/dtr/admin/manage-users/create-and-manage-users/
+          - https://docs.docker.com/ee/dtr/admin/manage-users/permission-levels/
+          - https://success.docker.com/article/security-best-practices#dtrsecurity'
     standard_key: NIST-800-53
 
   - control_key: AC-4
@@ -92,9 +92,8 @@ satisfies:
           the requirements of this control can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/architecture/
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/install/system-requirements/#/ports-used
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations'
+          - https://docs.docker.com/ee/dtr/architecture/
+          - https://docs.docker.com/ee/dtr/admin/install/system-requirements/'
     parameters:
       - key: "AC-4"
         text: |
@@ -113,9 +112,8 @@ satisfies:
           the requirements of this control can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/architecture/
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/install/system-requirements/#/ports-used
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations'
+          - https://docs.docker.com/ee/dtr/architecture/
+          - https://docs.docker.com/ee/dtr/admin/install/system-requirements/'
     parameters:
       - key: "AC-4(8)(a)"
         text: |
@@ -140,9 +138,8 @@ satisfies:
           the requirements of this control can be found at the following
           resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/architecture/
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/install/system-requirements/#/ports-used
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Docker_Datacenter_Best_Practices_and_Design_Considerations#Infrastructure_Considerations'
+          - https://docs.docker.com/ee/dtr/architecture/
+          - https://docs.docker.com/ee/dtr/admin/install/system-requirements/'
     parameters:
       - key: "AC-4(21)-1"
         text: |
@@ -167,9 +164,8 @@ satisfies:
           enforce fine-grained access control. Supporting documentation can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/permission-levels/
-          - https://success.docker.com/KBase/Docker_Reference_Architecture%3A_Securing_Docker_Datacenter_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC'
+          - https://docs.docker.com/ee/dtr/admin/manage-users/create-and-manage-users/
+          - https://docs.docker.com/ee/dtr/admin/manage-users/permission-levels/'
     parameters:
       - key: "AC-5(a)"
         text: |
@@ -192,8 +188,8 @@ satisfies:
           control. Supporting documentation for the configuration of this
           functionality can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/permission-levels/'
+          - https://docs.docker.com/ee/dtr/admin/manage-users/create-and-manage-users/
+          - https://docs.docker.com/ee/dtr/admin/manage-users/permission-levels/'
     standard_key: NIST-800-53
 
   - control_key: AC-14
@@ -356,9 +352,10 @@ satisfies:
           Registry. Additional documentation can be found at the following
           resource:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/monitor-and-troubleshoot/
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/architecture/#dtr-internal-components
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/architecture/#ucp-internal-components'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/dtr/admin/monitor-and-troubleshoot/
+          - https://docs.docker.com/ee/dtr/architecture/#dtr-internal-components
+          - https://docs.docker.com/ee/ucp/ucp-architecture/'
     parameters:
       - key: "AU-2(a)"
         text: |
@@ -385,13 +382,10 @@ satisfies:
     narrative:
       - text: |
           'Docker Trusted Registry generates all of the audit record information
-          indicated by this control. A sample audit event has been provided
-          below:
+          indicated by this control. Additional information can be found at the
+          following resources:
 
-          {"level":"info","license_key":"123456789123456789123456789","msg":"eNZi:Password
-          based auth
-          suceeded","remote_addr":"192.168.33.1:55905","time":"2016-11-09T22:41:01Z","type":"auth
-          ok","username":"dockeruser"}'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/'
     standard_key: NIST-800-53
   
   - control_key: AU-3 (1)
@@ -410,7 +404,9 @@ satisfies:
           defined by this control from the logged audit records. Additional
           information can be found at the following resource:
           
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-3(1)"
         text: |
@@ -437,7 +433,9 @@ satisfies:
           defined by this control from the logged audit records. Additional
           information can be found at the following resource:
           
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-3(2)"
         text: |
@@ -460,7 +458,9 @@ satisfies:
           the event of log processing failures. Additional information can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-5(a)"
         text: |
@@ -487,7 +487,9 @@ satisfies:
           when the allocated log storage is full. Additional information can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-5(1)-1"
         text: |
@@ -516,7 +518,9 @@ satisfies:
           when audit log failures occur. Additional information can be found at
           the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-5(2)-1"
         text: |
@@ -546,7 +550,9 @@ satisfies:
           Docker EE audit records. Additional information can be found at the
           following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     standard_key: NIST-800-53
 
   - control_key: AU-7
@@ -566,7 +572,9 @@ satisfies:
           reduction and report generation requirements of this control.
           Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
       - key: b
         text: |
           'The underlying operating system chosen to support Docker Trusted
@@ -590,7 +598,9 @@ satisfies:
           organization-defined audit fields. Additional information can be found
           at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-7(1)"
         text: |
@@ -665,15 +675,15 @@ satisfies:
     narrative:
       - text: |
           'By default, Docker Trusted Registry is configured to use the
-          underlying logging capabilities of Docker Enterprise Edition. As such,
-          on the underlying Linux operating system, only root and sudo users and
-          users that have been added to the ''docker'' group have the ability to
-          access the logs generated by UCP backend service containers. In
-          addition, only UCP Administrator users can change the logging endpoint
-          of the system should it be decided that logs be sent to a remote
-          logging stack. In this case, the organization is responsible for
-          configuring the remote logging stack per the provisions of this
-          control.'
+          underlying logging capabilities of Docker Engine - Enterprise. As
+          such, on the underlying Linux operating system, only root and sudo
+          users and users that have been added to the "docker" group have the
+          ability to access the logs generated by UCP backend service
+          containers. In addition, only UCP Administrator users can change the
+          logging endpoint of the system should it be decided that logs be sent
+          to a remote logging stack. In this case, the organization is
+          responsible for configuring the remote logging stack per the
+          provisions of this control.'
     standard_key: NIST-800-53
 
   - control_key: AU-9 (2)
@@ -690,7 +700,9 @@ satisfies:
           back up audit records per the schedule defined by this control.
           Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-9(2)"
         text: |
@@ -711,7 +723,9 @@ satisfies:
           meet the encryption mechanisms required by this control. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     standard_key: NIST-800-53
 
   - control_key: AU-11
@@ -733,7 +747,9 @@ satisfies:
           retain logs for the duration required by this control. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-11"
         text: |
@@ -758,7 +774,7 @@ satisfies:
           instructions on configuring this service. Additional information can
           be found at the following resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/monitor-and-troubleshoot/'
+          - https://docs.docker.com/ee/dtr/admin/monitor-and-troubleshoot/'
       - key: b
         text: |
           'Using auditd on the Linux operating system supporting DTR, the
@@ -790,7 +806,9 @@ satisfies:
           time-correlated per the requirements of this control. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-12(1)-1"
         text: |
@@ -815,7 +833,9 @@ satisfies:
           meet the requirements of this control. Additional information can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/store-logs-in-an-external-system/'
+          - https://docs.docker.com/ee/dtr/user/audit-repository-events/
+          - https://docs.docker.com/ee/ucp/admin/configure/create-audit-logs/
+          - https://docs.docker.com/ee/ucp/admin/configure/store-logs-in-an-external-system/'
     parameters:
       - key: "AU-12(3)-1"
         text: |
@@ -844,9 +864,9 @@ satisfies:
           Registry to meet the requirements of this control. Additional
           information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/manage-users/permission-levels/
-          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Securing_Docker_EE_and_Security_Best_Practices#Organizations_.E2.80.94_RBAC'
+          - https://docs.docker.com/ee/dtr/admin/manage-users/create-and-manage-users/
+          - https://docs.docker.com/ee/dtr/admin/manage-users/permission-levels/
+          - https://success.docker.com/article/security-best-practices#dtrsecurity'
     standard_key: NIST-800-53
 
   - control_key: CM-5 (3)
@@ -859,10 +879,10 @@ satisfies:
     narrative:
       - text: |
           'Docker Content Trust is a capability provided by Docker Enterprise
-          Edition that enforces client-side signing and verification of Docker
-          image tags. It provides the ability to use digital signatures for data
-          sent to and received from Docker Trusted Registry and the public
-          Docker Store. These signatures allow client-side verification of the
+          that enforces client-side signing and verification of Docker image
+          tags. It provides the ability to use digital signatures for data sent
+          to and received from Docker Trusted Registry and the public Docker
+          Store. These signatures allow client-side verification of the
           integrity and publisher of specific image tags. All Docker Trusted
           Registry Docker images are officially signed and verified by Docker,
           Inc.
@@ -872,8 +892,8 @@ satisfies:
           Additional information can be found at teh following resources:
 
           - https://docs.docker.com/engine/security/trust/content_trust/
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/run-only-the-images-you-trust/
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/user/manage-images/sign-images/manage-trusted-repositories/'
+          - https://docs.docker.com/ee/ucp/admin/configure/run-only-the-images-you-trust/
+          - https://docs.docker.com/ee/dtr/user/manage-images/sign-images/manage-trusted-repositories/'
     parameters:
       - key: "CM-5(3)"
         text: |
@@ -896,7 +916,7 @@ satisfies:
           per the requirements of this control. Additional documenation can be
           found at the following resources:
           
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/backups-and-disaster-recovery/'
+          - https://docs.docker.com/ee/dtr/admin/disaster-recovery/'
     parameters:
       - key: "CM-6(1)"
         text: |
@@ -1007,8 +1027,7 @@ satisfies:
          recovered. Additional information can be found at the following
          resources:
 
-         - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/backups-and-disaster-recovery/
-         - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#DTR_Backup'
+         - https://docs.docker.com/ee/dtr/admin/disaster-recovery/'
     standard_key: NIST-800-53
 
   - control_key: IA-2 (5)
@@ -1040,9 +1059,10 @@ satisfies:
           worker token. Additional Docker Trusted Registry replicas can only be
           added after a UCP administrator user has authenticated in to the UCP
           cluster and when mutual TLS authentication between the UCP worker and
-          manager nodes has been established. Additional information can be found at the following resources:
+          manager nodes has been established. Additional information can be
+          found at the following resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/install/#step-7-join-replicas-to-the-cluster'
+          - https://docs.docker.com/ee/dtr/admin/install/#step-7-join-replicas-to-the-cluster'
     standard_key: NIST-800-53
 
   - control_key: IA-5 (2)
@@ -1090,8 +1110,8 @@ satisfies:
           cluster''s internal certificates can also be revoked and updated.
           Additional information can be found at the following resources:
 
-          - https://docs.docker.com/datacenter/ucp/2.2/guides/admin/configure/use-your-own-tls-certificates/
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/admin/configure/use-your-own-tls-certificates/'
+          - https://docs.docker.com/ee/dtr/admin/configure/use-your-own-tls-certificates/
+          - https://docs.docker.com/ee/ucp/admin/configure/use-your-own-tls-certificates/'
     standard_key: NIST-800-53
 
   - control_key: IA-6
@@ -1142,9 +1162,38 @@ satisfies:
       - service provider hybrid
     narrative:
       - text: |
-          'The Docker Security Scanning tool allows for the scanning of Docker
-          images in Docker Trusted Registry against the Common Vulnerabilities
-          and Exposures (CVE) dictionary.'
+          'To assist the orgnization in meeting the requirements of this
+          control, vulnerability scanning can be enabled in Docker Trusted
+          Registry (DTR) which can be used to scan Docker images for
+          vulnerabilities against the NIST NVD and MITRE CVE vulnerability
+          databases. Scans can be triggered either manually or when Docker
+          images are pushed to DTR. Additional information can be found at the
+          following resources:
+          
+          - https://docs.docker.com/ee/dtr/admin/configure/set-up-vulnerability-scans/'
+    standard_key: NIST-800-53
+
+  - control_key: RA-5 (2)
+    covered_by: []
+    implementation_statuses:
+      - none
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'To assist the orgnization in meeting the requirements of this
+          control, the vulnerability scanning capability included with Docker Trusted
+          Registry (DTR) compiles a bill of materials (BOM) for each Docker image
+          that it is configured to scan. DTR is also synchronized to an aggregate listing of
+          known vulnerabilities that is compiled from both the MITRE and NVD CVE
+          databases. Additional information can be found at the following
+          resources:
+          
+          - https://docs.docker.com/ee/dtr/admin/configure/set-up-vulnerability-scans/'
+    parameters:
+      - key: "RA-5(2)"
+        text: |
+          "FedRAMP requirement: prior to a new scan"
     standard_key: NIST-800-53
 
   - control_key: RA-5 (3)
@@ -1155,9 +1204,61 @@ satisfies:
       - service provider hybrid
     narrative:
       - text: |
-          'The Docker Security Scanning tool allows for the scanning of Docker
-          images in Docker Trusted Registry against the Common Vulnerabilities
-          and Exposures (CVE).' dictionary.
+          'To assist the orgnization in meeting the requirements of this
+          control, the vulnerability scanning capability included with Docker
+          Trusted Registry (DTR) identifies vulnerabilities in a Docker image
+          and marks them against the following predefined criticality levels:
+          critical major and minor.'
+    standard_key: NIST-800-53
+  
+  - control_key: RA-5 (5)
+    covered_by: []
+    implementation_statuses:
+      - none
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'Only the appropriate users that the organization has provided Docker
+          Trusted Registry access to are able to view and interpret
+          vulnerability scan results.'
+    parameters:
+      - key: "RA-5(5)-1"
+        text: |
+          "FedRAMP requirement: operating systems, databases, web applications"
+      - key: "RA-5(5)-2"
+        text: |
+          "FedRAMP requirement: all scans"
+    standard_key: NIST-800-53
+
+  - control_key: RA-5 (6)
+    covered_by: []
+    implementation_statuses:
+      - none
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'For each Docker image pushed to Docker Trusted Registry at a given
+          time, the vulnerability scanning component retains a list of
+          vulnerabilities detected. The DTR API can be queried to retrieve the
+          vulnerability scan results over a period of time for a given Docker
+          image such that the results can be compared per the requirements of
+          this control.'
+    standard_key: NIST-800-53
+
+  - control_key: RA-5 (8)
+    covered_by: []
+    implementation_statuses:
+      - none
+    control_origins:
+      - service provider hybrid
+    narrative:
+      - text: |
+          'The vulnerability scanning component of DTR maintains a historical
+          bill-of-materials (BOM) for all Docker images that are scanned.
+          Results of previous vulnerability scans can be reviewed and audited
+          per the requirements of this control.'
     standard_key: NIST-800-53
 
   - control_key: SA-10 (1)
@@ -1193,8 +1294,7 @@ satisfies:
           operates independently of one another. Additional information can be
           found at the following resources:
 
-          - https://docs.docker.com/datacenter/dtr/2.3/guides/architecture/
-          - https://success.docker.com/Architecture/Docker_Reference_Architecture%3A_Docker_EE_Best_Practices_and_Design_Considerations#Docker_Trusted_Registry'
+          - https://docs.docker.com/ee/dtr/architecture/'
     standard_key: NIST-800-53
 
   - control_key: SC-23
