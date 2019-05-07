@@ -1,7 +1,7 @@
 ---
 description: OSCAL compliance guidance for Docker Enterprise
 keywords: standards, compliance, security, benchmark
-title: OSCAL
+title: OSCAL (Experimental)
 ---
 
 The Open Security Controls Assessment Language (OSCAL) is a set of standardized XML- and JSON-based formats developed 
@@ -18,9 +18,15 @@ These OSCAL auditing and reporting capabilities are exposed via OSCAL API endpoi
 enabled by default. Capabilities also include the majority of the recommendations in the CIS Kubernetes Benchmark, along with a 
 subset of the CIS Docker Benchmark checks that are currently performed by the external `docker-bench-security` tool. 
 
-> NOTE: Not all of the CIS Docker Benchmark checks have been incorporated into the OSCAL functions in UCP at the time of 
-this “tech preview” release. Continue to use the `docker-bench-security tool` in concert with the 
-UCP endpoints.
+> NOTE:
+
+     - Experimental features provide early access for future product functionality. These 
+     features are intended to be used for testing only to provide a view in to what is coming 
+     and also to gather user feedback. For more information about experimental features, refer 
+     to [Experimental features](https://success.docker.com/article/experimental-features).
+     - Not all of the CIS Docker Benchmark checks have been incorporated into the OSCAL functions 
+     in UCP at the time of this “tech preview” release. Continue to use the `docker-bench-security tool` 
+     in concert with the UCP endpoints.   
 
 In terms of the data they expose, the OSCAL API endpoints build upon one another as they traverse the Docker Enterprise 
 stack. At the highest stack layer, with the entire Docker Enterprise platform (Engine, UCP, DTR), 
