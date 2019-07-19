@@ -18,17 +18,11 @@ These OSCAL auditing and reporting capabilities are exposed via OSCAL API endpoi
 enabled by default. Capabilities also include the majority of the recommendations in the CIS Kubernetes Benchmark, along with a 
 subset of the CIS Docker Benchmark checks that are currently performed by the external `docker-bench-security` tool. 
 
-> **Note:** Docker App is an experimental feature.
-
-     - Experimental features provide early access to future product functionality. These 
-     features are only intended for testing and feedback only as they may change between 
-     releases without warning or can be removed entirely from a future release. Experimental 
-     features must not be used in production environments. Docker does not offer support 
-     for experimental features. For more information, see 
-     [Experimental features](https://success.docker.com/article/experimental-features).
-     - Not all of the CIS Docker Benchmark checks have been incorporated into the OSCAL functions 
-     in UCP at the time of this “tech preview” release. Continue to use the `docker-bench-security tool` 
-     in concert with the UCP endpoints.   
+> This is an experimental feature.
+>
+> Experimental features provide early access to future product functionality. These features are intended for testing and feedback only as they may change between releases without warning or can be removed entirely from a future release. Experimental features must not be used in production environments. Docker does not offer support for experimental features. For more information, see [Experimental features](https://success.docker.com/article/experimental-features).
+>
+> Not all of the CIS Docker Benchmark checks have been incorporated into the OSCAL functions in UCP at the time of this experimental release. Continue to use the `docker-bench-security tool` in concert with the UCP endpoints.   
 
 In terms of the data they expose, the OSCAL API endpoints build upon one another as they traverse the Docker Enterprise 
 stack. At the highest stack layer, with the entire Docker Enterprise platform (Engine, UCP, DTR), 
