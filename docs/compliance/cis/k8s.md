@@ -20,5 +20,6 @@ upcoming release of Docker Enterprise Edition (18.01).
 Below is a list of tools and resources that can be used to automate the
 validation of an instance of Kubernetes against the CIS Kubernetes Benchmark:
 
+- [kube-bench](https://github.com/aquasecurity/kube-bench/)
 - [CIS Kubernetes Benchmark InSpec
   Profile](https://github.com/dev-sec/cis-kubernetes-benchmark)
